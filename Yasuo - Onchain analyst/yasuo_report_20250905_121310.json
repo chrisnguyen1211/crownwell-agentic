@@ -1,0 +1,73 @@
+{
+  "timestamp": "2025-09-05T12:11:48.653302",
+  "data_sources": [
+    "farside_etf",
+    "deribit_options",
+    "binance_futures",
+    "etherscan_exchanges",
+    "etherscan_transactions"
+  ],
+  "status": "success",
+  "analysis": {
+    "etf_flows": {
+      "daily_flow": -167300000.0,
+      "weekly_flow": 0,
+      "monthly_flow": 0,
+      "aum": 0,
+      "timestamp": "2025-09-05T12:11:48.653313",
+      "etf_count": 10,
+      "data_source": "farside.co.uk_eth_daily_aggregated",
+      "flow_direction": "outflows",
+      "latest_day_only": true,
+      "noise_reduction": "daily_aggregation",
+      "cache_hit": false
+    },
+    "options_data": {
+      "options_instruments": 0,
+      "options_analysis": {
+        "total_instruments": 0,
+        "calls": 0,
+        "puts": 0,
+        "put_call_ratio": 0,
+        "sentiment": "unknown"
+      },
+      "open_interest": {
+        "symbol": "ETHUSDT",
+        "open_interest": 0,
+        "open_interest_value": 0,
+        "data_source": "fallback"
+      },
+      "data_source": "fallback",
+      "timestamp": "2025-09-05T12:11:50.229653"
+    },
+    "futures_data": {
+      "symbol": "ETHUSDT",
+      "funding_rate": -4.954e-05,
+      "funding_rate_percent": -0.004954,
+      "next_funding_time": 1757059200000,
+      "mark_price": 4333.33,
+      "index_price": 4335.61046512,
+      "contango_backwardation": "backwardation",
+      "data_source": "binance",
+      "timestamp": "2025-09-05T12:11:50.495882"
+    },
+    "exchange_flows": {},
+    "large_transactions": [],
+    "recommendation": {
+      "action": "SELL",
+      "confidence": 0.6,
+      "reason": "Moderate bearish bias",
+      "signals": {
+        "exchange": "neutral",
+        "etf": "bearish",
+        "transactions": "bearish",
+        "futures": "neutral"
+      },
+      "score": {
+        "bullish": 0,
+        "bearish": 2,
+        "neutral": 2
+      }
+    }
+  }
+}

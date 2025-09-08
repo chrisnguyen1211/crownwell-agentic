@@ -1,0 +1,29 @@
+[
+  {
+    "timestamp": "2025-09-03T17:33:26.518418",
+    "exchange_net_flow": 3762.828644916881,
+    "etf_daily_flow": -135300000.0,
+    "liveliness_score": 0.5,
+    "large_transfers_count": 4,
+    "total_exchanges": 22,
+    "total_volume": 5820.508314106418
+  },
+  {
+    "timestamp": "2025-09-03T17:52:35.754337",
+    "exchange_net_flow": 1288.1400218793692,
+    "etf_daily_flow": -135300000.0,
+    "liveliness_score": 0.5,
+    "large_transfers_count": 7,
+    "total_exchanges": 25,
+    "total_volume": 3686.3114541350888
+  },
+  {
+    "timestamp": "2025-09-03T22:44:42.866170",
+    "exchange_net_flow": 16106.391830337132,
+    "etf_daily_flow": -117657205,
+    "liveliness_score": 0.5,
+    "large_transfers_count": 8,
+    "total_exchanges": 31,
+    "total_volume": 18378.169337860407
+  }
+]

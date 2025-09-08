@@ -1,0 +1,96 @@
+{
+  "timestamp": "2025-09-08T15:08:10.355451",
+  "analysis_type": "complete_yasuo_analysis",
+  "whale_intelligence": {
+    "timestamp": "2025-09-08T15:08:08.358903",
+    "data_source": "dune_real",
+    "total_whales_tracked": 50,
+    "recent_transactions": 168,
+    "total_whale_balance_eth": 32436790.75,
+    "total_whale_balance_usd": "139899229777",
+    "activity_summary": {
+      "total_volume_eth": 69810839.71000001,
+      "total_volume_usd": 279243358840.00006,
+      "average_transaction_size_eth": 720.6761904761905,
+      "largest_transaction_eth": 1752.13,
+      "transaction_frequency": 3847.0416666666665,
+      "unique_senders": "44644",
+      "unique_receivers": "37590"
+    },
+    "risk_assessment": {
+      "mega_institutions": 50,
+      "large_institutions": 0,
+      "total_mega_balance_usd": "139899229777",
+      "total_large_balance_usd": "0",
+      "risk_distribution": {
+        "mega": 50,
+        "large": 0,
+        "other": 0
+      }
+    },
+    "market_impact": {
+      "total_tracked_portfolio_usd": "139899229777",
+      "average_whale_size_usd": 2797984595.54,
+      "concentration_risk": 0.38010350459229175,
+      "largest_whale_usd": "53176187528",
+      "top_5_concentration": 0.5882804944829686
+    },
+    "market_sentiment": {
+      "current_sentiment": "Heavy Institutional Buying",
+      "institutional_behavior": "Unknown",
+      "net_whale_selling": -33152.45,
+      "exchange_to_whale": 48358.4,
+      "whale_to_exchange": 15205.95
+    },
+    "institutional_behavior": {
+      "current_behavior": "Taking Profits",
+      "market_condition": "Strong Pump (+5%+)",
+      "price_change_pct": 8.83,
+      "whale_eth_volume": 177094.76,
+      "whale_transactions": "1215",
+      "unique_whale_senders": "515",
+      "unique_whale_receivers": "370"
+    }
+  },
+  "etf_flows": {
+    "daily_flow": -465100000.0,
+    "flow_value": -465100000.0,
+    "weekly_flow": 0,
+    "monthly_flow": 0,
+    "aum": 0,
+    "timestamp": "2025-09-08T15:08:08.367379",
+    "etf_count": 10,
+    "data_source": "farside.co.uk_eth_daily_aggregated",
+    "flow_direction": "outflows",
+    "latest_day_only": true,
+    "noise_reduction": "daily_aggregation",
+    "cache_hit": false
+  },
+  "exchange_flows": {
+    "exchange_addresses": {},
+    "total_exchanges": 0,
+    "inflow": 0.0,
+    "outflow": 0.0,
+    "net_flow": 0.0,
+    "timestamp": "2025-09-08T15:08:10.353417"
+  },
+  "large_transactions": {},
+  "summary": {
+    "overall_sentiment": "bullish",
+    "market_condition": "strong_uptrend",
+    "risk_level": "medium",
+    "trading_signals": {
+      "primary": "BUY",
+      "confidence": "high"
+    },
+    "key_insights": [
+      "Heavy institutional buying detected",
+      "Institutions taking profits",
+      "Strong market pump detected",
+      "Large ETF outflows: $-465,100,000"
+    ],
+    "recommendations": [
+      "Consider long positions with proper risk management"
+    ]
+  }
+}

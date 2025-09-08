@@ -1,0 +1,1688 @@
+{
+  "query_id": "5199720",
+  "query_name": "Query 4 - Exchange Flows",
+  "timestamp": "2025-09-06T15:35:06.683166",
+  "row_count": 168,
+  "data": [
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 431.07,
+      "day_name": "Monday",
+      "hour_of_day": 0,
+      "total_eth_volume": 140959.44,
+      "transaction_count": 327,
+      "unique_receivers": 156,
+      "unique_senders": 178
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 674.1,
+      "day_name": "Monday",
+      "hour_of_day": 1,
+      "total_eth_volume": 278401.64,
+      "transaction_count": 413,
+      "unique_receivers": 182,
+      "unique_senders": 193
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 593.25,
+      "day_name": "Monday",
+      "hour_of_day": 2,
+      "total_eth_volume": 366035.09,
+      "transaction_count": 617,
+      "unique_receivers": 232,
+      "unique_senders": 254
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 665.1,
+      "day_name": "Monday",
+      "hour_of_day": 3,
+      "total_eth_volume": 392406.67,
+      "transaction_count": 590,
+      "unique_receivers": 217,
+      "unique_senders": 239
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 862.6,
+      "day_name": "Monday",
+      "hour_of_day": 4,
+      "total_eth_volume": 493407.58,
+      "transaction_count": 572,
+      "unique_receivers": 221,
+      "unique_senders": 268
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 976.54,
+      "day_name": "Monday",
+      "hour_of_day": 5,
+      "total_eth_volume": 440418.57,
+      "transaction_count": 451,
+      "unique_receivers": 195,
+      "unique_senders": 224
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 509.39,
+      "day_name": "Monday",
+      "hour_of_day": 6,
+      "total_eth_volume": 290859.31,
+      "transaction_count": 571,
+      "unique_receivers": 259,
+      "unique_senders": 262
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 823.56,
+      "day_name": "Monday",
+      "hour_of_day": 7,
+      "total_eth_volume": 500722.99,
+      "transaction_count": 608,
+      "unique_receivers": 265,
+      "unique_senders": 330
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 595.04,
+      "day_name": "Monday",
+      "hour_of_day": 8,
+      "total_eth_volume": 337387.81,
+      "transaction_count": 567,
+      "unique_receivers": 269,
+      "unique_senders": 307
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 472.29,
+      "day_name": "Monday",
+      "hour_of_day": 9,
+      "total_eth_volume": 265429.72,
+      "transaction_count": 562,
+      "unique_receivers": 268,
+      "unique_senders": 301
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 969.59,
+      "day_name": "Monday",
+      "hour_of_day": 10,
+      "total_eth_volume": 580781.65,
+      "transaction_count": 599,
+      "unique_receivers": 277,
+      "unique_senders": 317
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 632.18,
+      "day_name": "Monday",
+      "hour_of_day": 11,
+      "total_eth_volume": 378674.75,
+      "transaction_count": 599,
+      "unique_receivers": 267,
+      "unique_senders": 331
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 1056.69,
+      "day_name": "Monday",
+      "hour_of_day": 12,
+      "total_eth_volume": 585408.83,
+      "transaction_count": 554,
+      "unique_receivers": 259,
+      "unique_senders": 312
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 1752.13,
+      "day_name": "Monday",
+      "hour_of_day": 13,
+      "total_eth_volume": 1107345.36,
+      "transaction_count": 632,
+      "unique_receivers": 278,
+      "unique_senders": 334
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 1157.36,
+      "day_name": "Monday",
+      "hour_of_day": 14,
+      "total_eth_volume": 857600.53,
+      "transaction_count": 741,
+      "unique_receivers": 327,
+      "unique_senders": 377
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 862.25,
+      "day_name": "Monday",
+      "hour_of_day": 15,
+      "total_eth_volume": 576841.99,
+      "transaction_count": 669,
+      "unique_receivers": 289,
+      "unique_senders": 361
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 936.11,
+      "day_name": "Monday",
+      "hour_of_day": 16,
+      "total_eth_volume": 591620.82,
+      "transaction_count": 632,
+      "unique_receivers": 263,
+      "unique_senders": 325
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 893.95,
+      "day_name": "Monday",
+      "hour_of_day": 17,
+      "total_eth_volume": 493458.77,
+      "transaction_count": 552,
+      "unique_receivers": 245,
+      "unique_senders": 292
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 1256.9,
+      "day_name": "Monday",
+      "hour_of_day": 18,
+      "total_eth_volume": 501501.31,
+      "transaction_count": 399,
+      "unique_receivers": 181,
+      "unique_senders": 229
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 1200.77,
+      "day_name": "Monday",
+      "hour_of_day": 19,
+      "total_eth_volume": 572766.72,
+      "transaction_count": 477,
+      "unique_receivers": 211,
+      "unique_senders": 236
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 1186.5,
+      "day_name": "Monday",
+      "hour_of_day": 20,
+      "total_eth_volume": 684612.02,
+      "transaction_count": 577,
+      "unique_receivers": 250,
+      "unique_senders": 268
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 830.86,
+      "day_name": "Monday",
+      "hour_of_day": 21,
+      "total_eth_volume": 432878.29,
+      "transaction_count": 521,
+      "unique_receivers": 246,
+      "unique_senders": 261
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 788.93,
+      "day_name": "Monday",
+      "hour_of_day": 22,
+      "total_eth_volume": 351072.87,
+      "transaction_count": 445,
+      "unique_receivers": 190,
+      "unique_senders": 199
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 528.13,
+      "day_name": "Monday",
+      "hour_of_day": 23,
+      "total_eth_volume": 181147.23,
+      "transaction_count": 343,
+      "unique_receivers": 144,
+      "unique_senders": 173
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 403.24,
+      "day_name": "Tuesday",
+      "hour_of_day": 0,
+      "total_eth_volume": 172588.33,
+      "transaction_count": 428,
+      "unique_receivers": 183,
+      "unique_senders": 219
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 522.27,
+      "day_name": "Tuesday",
+      "hour_of_day": 1,
+      "total_eth_volume": 194286.03,
+      "transaction_count": 372,
+      "unique_receivers": 178,
+      "unique_senders": 187
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 477.28,
+      "day_name": "Tuesday",
+      "hour_of_day": 2,
+      "total_eth_volume": 188050.11,
+      "transaction_count": 394,
+      "unique_receivers": 180,
+      "unique_senders": 200
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 573.34,
+      "day_name": "Tuesday",
+      "hour_of_day": 3,
+      "total_eth_volume": 223602.63,
+      "transaction_count": 390,
+      "unique_receivers": 192,
+      "unique_senders": 218
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 348.77,
+      "day_name": "Tuesday",
+      "hour_of_day": 4,
+      "total_eth_volume": 187985.05,
+      "transaction_count": 539,
+      "unique_receivers": 282,
+      "unique_senders": 222
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 400.86,
+      "day_name": "Tuesday",
+      "hour_of_day": 5,
+      "total_eth_volume": 127073.6,
+      "transaction_count": 317,
+      "unique_receivers": 158,
+      "unique_senders": 167
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 804.52,
+      "day_name": "Tuesday",
+      "hour_of_day": 6,
+      "total_eth_volume": 351576.87,
+      "transaction_count": 437,
+      "unique_receivers": 197,
+      "unique_senders": 215
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 973.73,
+      "day_name": "Tuesday",
+      "hour_of_day": 7,
+      "total_eth_volume": 446941.43,
+      "transaction_count": 459,
+      "unique_receivers": 233,
+      "unique_senders": 247
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 894.81,
+      "day_name": "Tuesday",
+      "hour_of_day": 8,
+      "total_eth_volume": 415193.39,
+      "transaction_count": 464,
+      "unique_receivers": 217,
+      "unique_senders": 248
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 669.29,
+      "day_name": "Tuesday",
+      "hour_of_day": 9,
+      "total_eth_volume": 321927.38,
+      "transaction_count": 481,
+      "unique_receivers": 237,
+      "unique_senders": 258
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 631.47,
+      "day_name": "Tuesday",
+      "hour_of_day": 10,
+      "total_eth_volume": 270900.46,
+      "transaction_count": 429,
+      "unique_receivers": 196,
+      "unique_senders": 255
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 449.39,
+      "day_name": "Tuesday",
+      "hour_of_day": 11,
+      "total_eth_volume": 154590.75,
+      "transaction_count": 344,
+      "unique_receivers": 183,
+      "unique_senders": 201
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 730.36,
+      "day_name": "Tuesday",
+      "hour_of_day": 12,
+      "total_eth_volume": 417764.77,
+      "transaction_count": 572,
+      "unique_receivers": 256,
+      "unique_senders": 299
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 1294.88,
+      "day_name": "Tuesday",
+      "hour_of_day": 13,
+      "total_eth_volume": 1010002.52,
+      "transaction_count": 780,
+      "unique_receivers": 289,
+      "unique_senders": 412
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 1332.48,
+      "day_name": "Tuesday",
+      "hour_of_day": 14,
+      "total_eth_volume": 1132604.6,
+      "transaction_count": 850,
+      "unique_receivers": 342,
+      "unique_senders": 392
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 1060.49,
+      "day_name": "Tuesday",
+      "hour_of_day": 15,
+      "total_eth_volume": 1043526.2,
+      "transaction_count": 984,
+      "unique_receivers": 440,
+      "unique_senders": 401
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 859.63,
+      "day_name": "Tuesday",
+      "hour_of_day": 16,
+      "total_eth_volume": 838999.14,
+      "transaction_count": 976,
+      "unique_receivers": 433,
+      "unique_senders": 413
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 656.07,
+      "day_name": "Tuesday",
+      "hour_of_day": 17,
+      "total_eth_volume": 586522.27,
+      "transaction_count": 894,
+      "unique_receivers": 315,
+      "unique_senders": 382
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 741.73,
+      "day_name": "Tuesday",
+      "hour_of_day": 18,
+      "total_eth_volume": 514021.38,
+      "transaction_count": 693,
+      "unique_receivers": 269,
+      "unique_senders": 333
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 1235.26,
+      "day_name": "Tuesday",
+      "hour_of_day": 19,
+      "total_eth_volume": 663337,
+      "transaction_count": 537,
+      "unique_receivers": 224,
+      "unique_senders": 271
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 684.95,
+      "day_name": "Tuesday",
+      "hour_of_day": 20,
+      "total_eth_volume": 563026.12,
+      "transaction_count": 822,
+      "unique_receivers": 292,
+      "unique_senders": 369
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 604.7,
+      "day_name": "Tuesday",
+      "hour_of_day": 21,
+      "total_eth_volume": 333796.83,
+      "transaction_count": 552,
+      "unique_receivers": 218,
+      "unique_senders": 280
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 693.96,
+      "day_name": "Tuesday",
+      "hour_of_day": 22,
+      "total_eth_volume": 293547.02,
+      "transaction_count": 423,
+      "unique_receivers": 172,
+      "unique_senders": 226
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 513.83,
+      "day_name": "Tuesday",
+      "hour_of_day": 23,
+      "total_eth_volume": 206561.02,
+      "transaction_count": 402,
+      "unique_receivers": 161,
+      "unique_senders": 230
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 433.1,
+      "day_name": "Wednesday",
+      "hour_of_day": 0,
+      "total_eth_volume": 205720.53,
+      "transaction_count": 475,
+      "unique_receivers": 204,
+      "unique_senders": 240
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 382.85,
+      "day_name": "Wednesday",
+      "hour_of_day": 1,
+      "total_eth_volume": 165010.04,
+      "transaction_count": 431,
+      "unique_receivers": 198,
+      "unique_senders": 236
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 500.48,
+      "day_name": "Wednesday",
+      "hour_of_day": 2,
+      "total_eth_volume": 201194.35,
+      "transaction_count": 402,
+      "unique_receivers": 196,
+      "unique_senders": 218
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 795.11,
+      "day_name": "Wednesday",
+      "hour_of_day": 3,
+      "total_eth_volume": 353824.79,
+      "transaction_count": 445,
+      "unique_receivers": 193,
+      "unique_senders": 242
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 678.44,
+      "day_name": "Wednesday",
+      "hour_of_day": 4,
+      "total_eth_volume": 329722.43,
+      "transaction_count": 486,
+      "unique_receivers": 205,
+      "unique_senders": 244
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 351.9,
+      "day_name": "Wednesday",
+      "hour_of_day": 5,
+      "total_eth_volume": 126685.03,
+      "transaction_count": 360,
+      "unique_receivers": 160,
+      "unique_senders": 206
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 838.23,
+      "day_name": "Wednesday",
+      "hour_of_day": 6,
+      "total_eth_volume": 372174.57,
+      "transaction_count": 444,
+      "unique_receivers": 208,
+      "unique_senders": 256
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 786.97,
+      "day_name": "Wednesday",
+      "hour_of_day": 7,
+      "total_eth_volume": 411582.82,
+      "transaction_count": 523,
+      "unique_receivers": 215,
+      "unique_senders": 279
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 1171.09,
+      "day_name": "Wednesday",
+      "hour_of_day": 8,
+      "total_eth_volume": 656980.71,
+      "transaction_count": 561,
+      "unique_receivers": 228,
+      "unique_senders": 278
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 1123.46,
+      "day_name": "Wednesday",
+      "hour_of_day": 9,
+      "total_eth_volume": 608915.07,
+      "transaction_count": 542,
+      "unique_receivers": 265,
+      "unique_senders": 287
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 656.25,
+      "day_name": "Wednesday",
+      "hour_of_day": 10,
+      "total_eth_volume": 351748.08,
+      "transaction_count": 536,
+      "unique_receivers": 219,
+      "unique_senders": 297
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 822.93,
+      "day_name": "Wednesday",
+      "hour_of_day": 11,
+      "total_eth_volume": 391714.08,
+      "transaction_count": 476,
+      "unique_receivers": 206,
+      "unique_senders": 264
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 1013.54,
+      "day_name": "Wednesday",
+      "hour_of_day": 12,
+      "total_eth_volume": 634473.27,
+      "transaction_count": 626,
+      "unique_receivers": 271,
+      "unique_senders": 331
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 1043.8,
+      "day_name": "Wednesday",
+      "hour_of_day": 13,
+      "total_eth_volume": 856963.4,
+      "transaction_count": 821,
+      "unique_receivers": 311,
+      "unique_senders": 399
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 971.92,
+      "day_name": "Wednesday",
+      "hour_of_day": 14,
+      "total_eth_volume": 771703.51,
+      "transaction_count": 794,
+      "unique_receivers": 316,
+      "unique_senders": 389
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 1291.16,
+      "day_name": "Wednesday",
+      "hour_of_day": 15,
+      "total_eth_volume": 970951.36,
+      "transaction_count": 752,
+      "unique_receivers": 295,
+      "unique_senders": 351
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 1173.47,
+      "day_name": "Wednesday",
+      "hour_of_day": 16,
+      "total_eth_volume": 810869.46,
+      "transaction_count": 691,
+      "unique_receivers": 297,
+      "unique_senders": 352
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 614.77,
+      "day_name": "Wednesday",
+      "hour_of_day": 17,
+      "total_eth_volume": 307383.52,
+      "transaction_count": 500,
+      "unique_receivers": 206,
+      "unique_senders": 265
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 671.41,
+      "day_name": "Wednesday",
+      "hour_of_day": 18,
+      "total_eth_volume": 332346.31,
+      "transaction_count": 495,
+      "unique_receivers": 217,
+      "unique_senders": 273
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 1055.81,
+      "day_name": "Wednesday",
+      "hour_of_day": 19,
+      "total_eth_volume": 511013.61,
+      "transaction_count": 484,
+      "unique_receivers": 211,
+      "unique_senders": 237
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 954.22,
+      "day_name": "Wednesday",
+      "hour_of_day": 20,
+      "total_eth_volume": 435123.19,
+      "transaction_count": 456,
+      "unique_receivers": 203,
+      "unique_senders": 249
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 743.68,
+      "day_name": "Wednesday",
+      "hour_of_day": 21,
+      "total_eth_volume": 290035.52,
+      "transaction_count": 390,
+      "unique_receivers": 183,
+      "unique_senders": 216
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 713.03,
+      "day_name": "Wednesday",
+      "hour_of_day": 22,
+      "total_eth_volume": 288779.16,
+      "transaction_count": 405,
+      "unique_receivers": 170,
+      "unique_senders": 203
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 922.49,
+      "day_name": "Wednesday",
+      "hour_of_day": 23,
+      "total_eth_volume": 356080.37,
+      "transaction_count": 386,
+      "unique_receivers": 146,
+      "unique_senders": 182
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 561.65,
+      "day_name": "Thursday",
+      "hour_of_day": 0,
+      "total_eth_volume": 275769.77,
+      "transaction_count": 491,
+      "unique_receivers": 190,
+      "unique_senders": 229
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 508.85,
+      "day_name": "Thursday",
+      "hour_of_day": 1,
+      "total_eth_volume": 223891.93,
+      "transaction_count": 440,
+      "unique_receivers": 207,
+      "unique_senders": 216
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 538.98,
+      "day_name": "Thursday",
+      "hour_of_day": 2,
+      "total_eth_volume": 214514.66,
+      "transaction_count": 398,
+      "unique_receivers": 187,
+      "unique_senders": 210
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 736,
+      "day_name": "Thursday",
+      "hour_of_day": 3,
+      "total_eth_volume": 302496.26,
+      "transaction_count": 411,
+      "unique_receivers": 177,
+      "unique_senders": 237
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 855.31,
+      "day_name": "Thursday",
+      "hour_of_day": 4,
+      "total_eth_volume": 414824.93,
+      "transaction_count": 485,
+      "unique_receivers": 201,
+      "unique_senders": 249
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 827.47,
+      "day_name": "Thursday",
+      "hour_of_day": 5,
+      "total_eth_volume": 352504.04,
+      "transaction_count": 426,
+      "unique_receivers": 187,
+      "unique_senders": 219
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 789.39,
+      "day_name": "Thursday",
+      "hour_of_day": 6,
+      "total_eth_volume": 435740.8,
+      "transaction_count": 552,
+      "unique_receivers": 224,
+      "unique_senders": 262
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 740.36,
+      "day_name": "Thursday",
+      "hour_of_day": 7,
+      "total_eth_volume": 383504.08,
+      "transaction_count": 518,
+      "unique_receivers": 227,
+      "unique_senders": 268
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 969.47,
+      "day_name": "Thursday",
+      "hour_of_day": 8,
+      "total_eth_volume": 602038.27,
+      "transaction_count": 621,
+      "unique_receivers": 260,
+      "unique_senders": 302
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 633.71,
+      "day_name": "Thursday",
+      "hour_of_day": 9,
+      "total_eth_volume": 387831.1,
+      "transaction_count": 612,
+      "unique_receivers": 282,
+      "unique_senders": 295
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 813.24,
+      "day_name": "Thursday",
+      "hour_of_day": 10,
+      "total_eth_volume": 540804.77,
+      "transaction_count": 665,
+      "unique_receivers": 248,
+      "unique_senders": 317
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 638.62,
+      "day_name": "Thursday",
+      "hour_of_day": 11,
+      "total_eth_volume": 358265.25,
+      "transaction_count": 561,
+      "unique_receivers": 244,
+      "unique_senders": 282
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 723.64,
+      "day_name": "Thursday",
+      "hour_of_day": 12,
+      "total_eth_volume": 504376.66,
+      "transaction_count": 697,
+      "unique_receivers": 274,
+      "unique_senders": 350
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 933.76,
+      "day_name": "Thursday",
+      "hour_of_day": 13,
+      "total_eth_volume": 934694.31,
+      "transaction_count": 1001,
+      "unique_receivers": 352,
+      "unique_senders": 491
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 842.96,
+      "day_name": "Thursday",
+      "hour_of_day": 14,
+      "total_eth_volume": 928101.05,
+      "transaction_count": 1101,
+      "unique_receivers": 456,
+      "unique_senders": 450
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 1465.31,
+      "day_name": "Thursday",
+      "hour_of_day": 15,
+      "total_eth_volume": 1178111.95,
+      "transaction_count": 804,
+      "unique_receivers": 300,
+      "unique_senders": 377
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 1241.83,
+      "day_name": "Thursday",
+      "hour_of_day": 16,
+      "total_eth_volume": 1008365.9,
+      "transaction_count": 812,
+      "unique_receivers": 295,
+      "unique_senders": 373
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 645.12,
+      "day_name": "Thursday",
+      "hour_of_day": 17,
+      "total_eth_volume": 461907.8,
+      "transaction_count": 716,
+      "unique_receivers": 261,
+      "unique_senders": 336
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 961.49,
+      "day_name": "Thursday",
+      "hour_of_day": 18,
+      "total_eth_volume": 527856.72,
+      "transaction_count": 549,
+      "unique_receivers": 236,
+      "unique_senders": 269
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 851.39,
+      "day_name": "Thursday",
+      "hour_of_day": 19,
+      "total_eth_volume": 526158.36,
+      "transaction_count": 618,
+      "unique_receivers": 239,
+      "unique_senders": 259
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 917.68,
+      "day_name": "Thursday",
+      "hour_of_day": 20,
+      "total_eth_volume": 581807.09,
+      "transaction_count": 634,
+      "unique_receivers": 242,
+      "unique_senders": 282
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 876.08,
+      "day_name": "Thursday",
+      "hour_of_day": 21,
+      "total_eth_volume": 479217.49,
+      "transaction_count": 547,
+      "unique_receivers": 205,
+      "unique_senders": 245
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 845.65,
+      "day_name": "Thursday",
+      "hour_of_day": 22,
+      "total_eth_volume": 548828.34,
+      "transaction_count": 649,
+      "unique_receivers": 192,
+      "unique_senders": 209
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 636.44,
+      "day_name": "Thursday",
+      "hour_of_day": 23,
+      "total_eth_volume": 269215,
+      "transaction_count": 423,
+      "unique_receivers": 176,
+      "unique_senders": 229
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 987.87,
+      "day_name": "Friday",
+      "hour_of_day": 0,
+      "total_eth_volume": 513692.97,
+      "transaction_count": 520,
+      "unique_receivers": 205,
+      "unique_senders": 243
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 408.76,
+      "day_name": "Friday",
+      "hour_of_day": 1,
+      "total_eth_volume": 217052.34,
+      "transaction_count": 531,
+      "unique_receivers": 211,
+      "unique_senders": 239
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 429.55,
+      "day_name": "Friday",
+      "hour_of_day": 2,
+      "total_eth_volume": 237113.52,
+      "transaction_count": 552,
+      "unique_receivers": 290,
+      "unique_senders": 241
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 735.89,
+      "day_name": "Friday",
+      "hour_of_day": 3,
+      "total_eth_volume": 384870.29,
+      "transaction_count": 523,
+      "unique_receivers": 198,
+      "unique_senders": 254
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 674.52,
+      "day_name": "Friday",
+      "hour_of_day": 4,
+      "total_eth_volume": 264411.02,
+      "transaction_count": 392,
+      "unique_receivers": 168,
+      "unique_senders": 208
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 462.85,
+      "day_name": "Friday",
+      "hour_of_day": 5,
+      "total_eth_volume": 167551.17,
+      "transaction_count": 362,
+      "unique_receivers": 167,
+      "unique_senders": 197
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 460.33,
+      "day_name": "Friday",
+      "hour_of_day": 6,
+      "total_eth_volume": 268833.6,
+      "transaction_count": 584,
+      "unique_receivers": 251,
+      "unique_senders": 278
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 528.73,
+      "day_name": "Friday",
+      "hour_of_day": 7,
+      "total_eth_volume": 357949.09,
+      "transaction_count": 677,
+      "unique_receivers": 257,
+      "unique_senders": 284
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 609.76,
+      "day_name": "Friday",
+      "hour_of_day": 8,
+      "total_eth_volume": 464638.92,
+      "transaction_count": 762,
+      "unique_receivers": 326,
+      "unique_senders": 361
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 509.1,
+      "day_name": "Friday",
+      "hour_of_day": 9,
+      "total_eth_volume": 391501.08,
+      "transaction_count": 769,
+      "unique_receivers": 333,
+      "unique_senders": 395
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 590.52,
+      "day_name": "Friday",
+      "hour_of_day": 10,
+      "total_eth_volume": 389154.32,
+      "transaction_count": 659,
+      "unique_receivers": 274,
+      "unique_senders": 308
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 470.68,
+      "day_name": "Friday",
+      "hour_of_day": 11,
+      "total_eth_volume": 227808.28,
+      "transaction_count": 484,
+      "unique_receivers": 213,
+      "unique_senders": 261
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 830.44,
+      "day_name": "Friday",
+      "hour_of_day": 12,
+      "total_eth_volume": 561377.35,
+      "transaction_count": 676,
+      "unique_receivers": 276,
+      "unique_senders": 335
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 1033,
+      "day_name": "Friday",
+      "hour_of_day": 13,
+      "total_eth_volume": 860485.79,
+      "transaction_count": 833,
+      "unique_receivers": 301,
+      "unique_senders": 389
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 705.43,
+      "day_name": "Friday",
+      "hour_of_day": 14,
+      "total_eth_volume": 948809.69,
+      "transaction_count": 1345,
+      "unique_receivers": 488,
+      "unique_senders": 577
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 1077.98,
+      "day_name": "Friday",
+      "hour_of_day": 15,
+      "total_eth_volume": 1750638.11,
+      "transaction_count": 1624,
+      "unique_receivers": 545,
+      "unique_senders": 682
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 1014.3,
+      "day_name": "Friday",
+      "hour_of_day": 16,
+      "total_eth_volume": 1170502.22,
+      "transaction_count": 1154,
+      "unique_receivers": 399,
+      "unique_senders": 526
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 733.91,
+      "day_name": "Friday",
+      "hour_of_day": 17,
+      "total_eth_volume": 927659.19,
+      "transaction_count": 1264,
+      "unique_receivers": 362,
+      "unique_senders": 487
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 746.95,
+      "day_name": "Friday",
+      "hour_of_day": 18,
+      "total_eth_volume": 714082.73,
+      "transaction_count": 956,
+      "unique_receivers": 311,
+      "unique_senders": 440
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 767.62,
+      "day_name": "Friday",
+      "hour_of_day": 19,
+      "total_eth_volume": 666291.36,
+      "transaction_count": 868,
+      "unique_receivers": 293,
+      "unique_senders": 380
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 827.69,
+      "day_name": "Friday",
+      "hour_of_day": 20,
+      "total_eth_volume": 640633.92,
+      "transaction_count": 774,
+      "unique_receivers": 279,
+      "unique_senders": 362
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 669.26,
+      "day_name": "Friday",
+      "hour_of_day": 21,
+      "total_eth_volume": 441041.88,
+      "transaction_count": 659,
+      "unique_receivers": 245,
+      "unique_senders": 295
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 686.8,
+      "day_name": "Friday",
+      "hour_of_day": 22,
+      "total_eth_volume": 364693.06,
+      "transaction_count": 531,
+      "unique_receivers": 222,
+      "unique_senders": 276
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 351.75,
+      "day_name": "Friday",
+      "hour_of_day": 23,
+      "total_eth_volume": 179042.38,
+      "transaction_count": 509,
+      "unique_receivers": 263,
+      "unique_senders": 229
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 410.41,
+      "day_name": "Saturday",
+      "hour_of_day": 0,
+      "total_eth_volume": 201098.9,
+      "transaction_count": 490,
+      "unique_receivers": 255,
+      "unique_senders": 212
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 406.53,
+      "day_name": "Saturday",
+      "hour_of_day": 1,
+      "total_eth_volume": 208143.13,
+      "transaction_count": 512,
+      "unique_receivers": 178,
+      "unique_senders": 255
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 327.05,
+      "day_name": "Saturday",
+      "hour_of_day": 2,
+      "total_eth_volume": 183473.01,
+      "transaction_count": 561,
+      "unique_receivers": 198,
+      "unique_senders": 272
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 534.8,
+      "day_name": "Saturday",
+      "hour_of_day": 3,
+      "total_eth_volume": 286117.5,
+      "transaction_count": 535,
+      "unique_receivers": 196,
+      "unique_senders": 284
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 606.54,
+      "day_name": "Saturday",
+      "hour_of_day": 4,
+      "total_eth_volume": 257174.17,
+      "transaction_count": 424,
+      "unique_receivers": 177,
+      "unique_senders": 209
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 369.75,
+      "day_name": "Saturday",
+      "hour_of_day": 5,
+      "total_eth_volume": 272138.56,
+      "transaction_count": 736,
+      "unique_receivers": 232,
+      "unique_senders": 291
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 638.19,
+      "day_name": "Saturday",
+      "hour_of_day": 6,
+      "total_eth_volume": 395676.95,
+      "transaction_count": 620,
+      "unique_receivers": 219,
+      "unique_senders": 270
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 946.85,
+      "day_name": "Saturday",
+      "hour_of_day": 7,
+      "total_eth_volume": 530233.67,
+      "transaction_count": 560,
+      "unique_receivers": 206,
+      "unique_senders": 249
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 570.22,
+      "day_name": "Saturday",
+      "hour_of_day": 8,
+      "total_eth_volume": 253745.73,
+      "transaction_count": 445,
+      "unique_receivers": 161,
+      "unique_senders": 242
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 690.6,
+      "day_name": "Saturday",
+      "hour_of_day": 9,
+      "total_eth_volume": 323890.16,
+      "transaction_count": 469,
+      "unique_receivers": 170,
+      "unique_senders": 243
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 1193.09,
+      "day_name": "Saturday",
+      "hour_of_day": 10,
+      "total_eth_volume": 524960.82,
+      "transaction_count": 440,
+      "unique_receivers": 178,
+      "unique_senders": 246
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 363.67,
+      "day_name": "Saturday",
+      "hour_of_day": 11,
+      "total_eth_volume": 130559.06,
+      "transaction_count": 359,
+      "unique_receivers": 161,
+      "unique_senders": 211
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 489.2,
+      "day_name": "Saturday",
+      "hour_of_day": 12,
+      "total_eth_volume": 206929.99,
+      "transaction_count": 423,
+      "unique_receivers": 165,
+      "unique_senders": 206
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 558.44,
+      "day_name": "Saturday",
+      "hour_of_day": 13,
+      "total_eth_volume": 289829.09,
+      "transaction_count": 519,
+      "unique_receivers": 206,
+      "unique_senders": 260
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 684.2,
+      "day_name": "Saturday",
+      "hour_of_day": 14,
+      "total_eth_volume": 252469.22,
+      "transaction_count": 369,
+      "unique_receivers": 165,
+      "unique_senders": 223
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 522.09,
+      "day_name": "Saturday",
+      "hour_of_day": 15,
+      "total_eth_volume": 227631.74,
+      "transaction_count": 436,
+      "unique_receivers": 187,
+      "unique_senders": 223
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 668,
+      "day_name": "Saturday",
+      "hour_of_day": 16,
+      "total_eth_volume": 238474.95,
+      "transaction_count": 357,
+      "unique_receivers": 162,
+      "unique_senders": 183
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 1266.87,
+      "day_name": "Saturday",
+      "hour_of_day": 17,
+      "total_eth_volume": 307848.32,
+      "transaction_count": 243,
+      "unique_receivers": 111,
+      "unique_senders": 162
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 662.8,
+      "day_name": "Saturday",
+      "hour_of_day": 18,
+      "total_eth_volume": 143165.38,
+      "transaction_count": 216,
+      "unique_receivers": 95,
+      "unique_senders": 127
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 428.97,
+      "day_name": "Saturday",
+      "hour_of_day": 19,
+      "total_eth_volume": 101237.26,
+      "transaction_count": 236,
+      "unique_receivers": 104,
+      "unique_senders": 143
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 460.22,
+      "day_name": "Saturday",
+      "hour_of_day": 20,
+      "total_eth_volume": 130243.03,
+      "transaction_count": 283,
+      "unique_receivers": 121,
+      "unique_senders": 157
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 443.22,
+      "day_name": "Saturday",
+      "hour_of_day": 21,
+      "total_eth_volume": 123216.07,
+      "transaction_count": 278,
+      "unique_receivers": 115,
+      "unique_senders": 150
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 619.6,
+      "day_name": "Saturday",
+      "hour_of_day": 22,
+      "total_eth_volume": 161716.88,
+      "transaction_count": 261,
+      "unique_receivers": 125,
+      "unique_senders": 149
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 354.62,
+      "day_name": "Saturday",
+      "hour_of_day": 23,
+      "total_eth_volume": 84044.22,
+      "transaction_count": 237,
+      "unique_receivers": 103,
+      "unique_senders": 146
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 989.36,
+      "day_name": null,
+      "hour_of_day": 0,
+      "total_eth_volume": 287904.16,
+      "transaction_count": 291,
+      "unique_receivers": 145,
+      "unique_senders": 164
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 457.51,
+      "day_name": null,
+      "hour_of_day": 1,
+      "total_eth_volume": 152809.18,
+      "transaction_count": 334,
+      "unique_receivers": 153,
+      "unique_senders": 198
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 364.87,
+      "day_name": null,
+      "hour_of_day": 2,
+      "total_eth_volume": 144122.43,
+      "transaction_count": 395,
+      "unique_receivers": 230,
+      "unique_senders": 190
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 479.86,
+      "day_name": null,
+      "hour_of_day": 3,
+      "total_eth_volume": 205861.87,
+      "transaction_count": 429,
+      "unique_receivers": 172,
+      "unique_senders": 221
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 495.39,
+      "day_name": null,
+      "hour_of_day": 4,
+      "total_eth_volume": 216981.7,
+      "transaction_count": 438,
+      "unique_receivers": 151,
+      "unique_senders": 168
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 415.26,
+      "day_name": null,
+      "hour_of_day": 5,
+      "total_eth_volume": 130391.18,
+      "transaction_count": 314,
+      "unique_receivers": 120,
+      "unique_senders": 139
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 429.32,
+      "day_name": null,
+      "hour_of_day": 6,
+      "total_eth_volume": 149833.38,
+      "transaction_count": 349,
+      "unique_receivers": 144,
+      "unique_senders": 166
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 545.01,
+      "day_name": null,
+      "hour_of_day": 7,
+      "total_eth_volume": 137342.49,
+      "transaction_count": 252,
+      "unique_receivers": 124,
+      "unique_senders": 137
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 351.15,
+      "day_name": null,
+      "hour_of_day": 8,
+      "total_eth_volume": 132733.46,
+      "transaction_count": 378,
+      "unique_receivers": 140,
+      "unique_senders": 178
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 453.19,
+      "day_name": null,
+      "hour_of_day": 9,
+      "total_eth_volume": 211185.12,
+      "transaction_count": 466,
+      "unique_receivers": 173,
+      "unique_senders": 195
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 594.37,
+      "day_name": null,
+      "hour_of_day": 10,
+      "total_eth_volume": 284109.15,
+      "transaction_count": 478,
+      "unique_receivers": 145,
+      "unique_senders": 181
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 615.59,
+      "day_name": null,
+      "hour_of_day": 11,
+      "total_eth_volume": 166824.11,
+      "transaction_count": 271,
+      "unique_receivers": 121,
+      "unique_senders": 147
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 1439,
+      "day_name": null,
+      "hour_of_day": 12,
+      "total_eth_volume": 646109.27,
+      "transaction_count": 449,
+      "unique_receivers": 161,
+      "unique_senders": 194
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 478.95,
+      "day_name": null,
+      "hour_of_day": 13,
+      "total_eth_volume": 296951.46,
+      "transaction_count": 620,
+      "unique_receivers": 172,
+      "unique_senders": 244
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 660.97,
+      "day_name": null,
+      "hour_of_day": 14,
+      "total_eth_volume": 389970.39,
+      "transaction_count": 590,
+      "unique_receivers": 185,
+      "unique_senders": 261
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 586.14,
+      "day_name": null,
+      "hour_of_day": 15,
+      "total_eth_volume": 261416.23,
+      "transaction_count": 446,
+      "unique_receivers": 159,
+      "unique_senders": 203
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 300.53,
+      "day_name": null,
+      "hour_of_day": 16,
+      "total_eth_volume": 221187.23,
+      "transaction_count": 736,
+      "unique_receivers": 291,
+      "unique_senders": 219
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 412.24,
+      "day_name": null,
+      "hour_of_day": 17,
+      "total_eth_volume": 261771.89,
+      "transaction_count": 635,
+      "unique_receivers": 273,
+      "unique_senders": 231
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 482.69,
+      "day_name": null,
+      "hour_of_day": 18,
+      "total_eth_volume": 278993.14,
+      "transaction_count": 578,
+      "unique_receivers": 187,
+      "unique_senders": 251
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 576.7,
+      "day_name": null,
+      "hour_of_day": 19,
+      "total_eth_volume": 290654.51,
+      "transaction_count": 504,
+      "unique_receivers": 183,
+      "unique_senders": 220
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 428.75,
+      "day_name": null,
+      "hour_of_day": 20,
+      "total_eth_volume": 241817.09,
+      "transaction_count": 564,
+      "unique_receivers": 181,
+      "unique_senders": 222
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 522.27,
+      "day_name": null,
+      "hour_of_day": 21,
+      "total_eth_volume": 214651.94,
+      "transaction_count": 411,
+      "unique_receivers": 151,
+      "unique_senders": 194
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 426.67,
+      "day_name": null,
+      "hour_of_day": 22,
+      "total_eth_volume": 138667.87,
+      "transaction_count": 325,
+      "unique_receivers": 114,
+      "unique_senders": 157
+    },
+    {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 561.08,
+      "day_name": null,
+      "hour_of_day": 23,
+      "total_eth_volume": 162711.8,
+      "transaction_count": 290,
+      "unique_receivers": 125,
+      "unique_senders": 138
+    }
+  ]
+}

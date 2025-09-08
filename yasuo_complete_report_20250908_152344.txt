@@ -1,0 +1,38 @@
+
+🛡️ YASUO COMPLETE ANALYSIS REPORT
+Generated: 2025-09-08 15:23:44
+============================================================
+
+📊 EXECUTIVE SUMMARY:
+• Overall Sentiment: BEARISH
+• Market Condition: STABLE
+• Risk Level: MEDIUM
+• Primary Signal: SELL
+• Confidence: high
+
+🐋 WHALE INTELLIGENCE:
+❌ Whale analysis failed: Whale analysis failed
+
+📈 ETF FLOW ANALYSIS:
+• Flow Value: $-465,100,000
+• Data Source: farside.co.uk_eth_daily_aggregated
+• Status: Unknown
+
+💱 EXCHANGE FLOW ANALYSIS:
+• Net Flow: 369,461.91 ETH
+• Inflow: 3,787,671.13 ETH
+• Outflow: 4,157,133.04 ETH
+
+🔍 KEY INSIGHTS:
+• Large ETF outflows: $-465,100,000
+
+🎯 RECOMMENDATIONS:
+• Consider short positions or reduce exposure
+
+📊 DATA SOURCES:
+• Whale Intelligence: Dune Analytics (Real-time)
+• ETF Flows: farside.co.uk
+• Exchange Flows: Yasuo On-chain Analysis
+• Large Transactions: Yasuo On-chain Analysis
+
+✅ Complete Yasuo analysis finished!

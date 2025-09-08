@@ -1,0 +1,57 @@
+{
+  "5199702": {
+    "name": "Query 1 - Top Whales",
+    "row_count": 31,
+    "success": true,
+    "sample_data": {
+      "avg_price": 4312.98,
+      "date": "2025-09-06 00:00:00.000 UTC",
+      "institutional_behavior": "Taking Profits",
+      "market_condition": "Strong Pump (+5%+)",
+      "price_change_pct": 8.83,
+      "unique_whale_receivers": 370,
+      "unique_whale_senders": 515,
+      "whale_eth_volume": 177094.76,
+      "whale_transactions": 1215
+    }
+  },
+  "5199685": {
+    "name": "Query 2 - Recent Transactions",
+    "row_count": 31,
+    "success": true,
+    "sample_data": {
+      "date": "2025-09-06 00:00:00.000 UTC",
+      "exchange_to_whale": 48358.4,
+      "market_sentiment": "Heavy Institutional Buying",
+      "net_whale_selling": -33152.45,
+      "whale_exchange_tx_count": 38,
+      "whale_to_exchange": 15205.95
+    }
+  },
+  "5199583": {
+    "name": "Query 3 - Portfolio Analysis",
+    "row_count": 50,
+    "success": true,
+    "sample_data": {
+      "address": "0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+      "eth_balance": 12329337.84,
+      "institution_size": "Mega Institution (50K+ ETH)",
+      "usd_value": 53176187528
+    }
+  },
+  "5199720": {
+    "name": "Query 4 - Exchange Flows",
+    "row_count": 168,
+    "success": true,
+    "sample_data": {
+      "activity_level": "Very High Activity",
+      "avg_eth_amount": 431.07,
+      "day_name": "Monday",
+      "hour_of_day": 0,
+      "total_eth_volume": 140959.44,
+      "transaction_count": 327,
+      "unique_receivers": 156,
+      "unique_senders": 178
+    }
+  }
+}

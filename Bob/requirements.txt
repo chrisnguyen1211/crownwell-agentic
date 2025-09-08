@@ -1,0 +1,25 @@
+# Bob - Technical Analysis Agent Requirements
+# Expert TA-Lib based technical analysis for ETH trading
+
+# Core Data Analysis
+numpy>=1.21.0
+pandas>=1.3.0
+yfinance>=0.1.70
+
+# Technical Analysis Library
+TA-Lib>=0.4.24
+
+# Optional: Enhanced charting and visualization
+matplotlib>=3.5.0
+plotly>=5.0.0
+seaborn>=0.11.0
+
+# Data handling
+scipy>=1.7.0
+scikit-learn>=1.0.0
+
+# Performance optimization
+numba>=0.56.0
+
+# Async support
+aiohttp>=3.8.0

@@ -1,0 +1,30 @@
+2025-08-13 11:46:21,125 - human_email_reporter - INFO - Human email reporter initialized for chris@thebees.group
+2025-08-13 11:46:21,126 - __main__ - INFO - Daily schedule set: Lily at 09:00, Bob at 09:30
+2025-08-13 11:46:21,126 - __main__ - INFO - Human Daily Automation System initialized
+2025-08-13 11:46:21,126 - __main__ - INFO - Starting Lily's daily report generation...
+2025-08-13 11:46:21,126 - __main__ - INFO - Starting Lily's data collection...
+2025-08-13 11:46:21,461 - telethon.crypto.aes - INFO - libssl detected, it will be used for encryption
+2025-08-13 11:46:21,771 - rate_limit_manager - INFO - 📊 Loaded rate limit history
+2025-08-13 11:46:21,840 - optimized_supabase_integration - INFO - ✅ Connected to Supabase
+2025-08-13 11:46:21,840 - Lily.lily_smart_crawler - INFO - ✅ Connected to Supabase
+2025-08-13 11:46:21,840 - Lily.lily_smart_crawler - INFO - 🌸 Lily Smart Crawler initialized
+2025-08-13 11:46:21,840 - Lily.lily_smart_crawler - INFO - 🤖 Starting Lily smart scheduler for 2 hours
+2025-08-13 11:46:21,840 - Lily.lily_smart_crawler - INFO - 🔄 Starting collection cycle...
+2025-08-13 11:46:21,841 - rate_limit_manager - INFO - 📊 twitter request recorded. Daily: 8
+2025-08-13 11:46:21,841 - Lily.lily_smart_crawler - INFO - 📱 Collecting Twitter ETH mentions...
+2025-08-13 11:46:23,852 - Lily.lily_smart_crawler - INFO - 📱 Twitter: collected 1 posts
+2025-08-13 11:46:23,854 - rate_limit_manager - INFO - 📊 reddit request recorded. Daily: 8
+2025-08-13 11:46:23,855 - Lily.lily_smart_crawler - INFO - 🔴 Collecting Reddit ETH mentions...
+2025-08-13 11:46:24,856 - Lily.lily_smart_crawler - INFO - 🔴 Reddit: collected 1 posts
+2025-08-13 11:46:24,856 - Lily.lily_smart_crawler - WARNING - 📞 Telegram analyzer not available
+2025-08-13 11:46:25,625 - httpx - INFO - HTTP Request: POST https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/twitter_posts?columns=%22sentiment_score%22%2C%22confidence%22%2C%22hashtags%22%2C%22keywords_detected%22%2C%22username%22%2C%22tweet_text%22%2C%22analysis_timestamp%22%2C%22engagement_weight%22%2C%22follower_count%22%2C%22mentions%22%2C%22tweet_url%22%2C%22tweet_timestamp%22%2C%22context_multipliers%22%2C%22final_weight%22%2C%22retweets%22%2C%22likes%22%2C%22verified_account%22%2C%22replies%22%2C%22is_retweet%22%2C%22tweet_id%22 "HTTP/2 400 Bad Request"
+2025-08-13 11:46:25,627 - optimized_supabase_integration - ERROR - ❌ twitter_posts insertion failed: {'message': 'null value in column "tweet_id" of relation "twitter_posts" violates not-null constraint', 'code': '23502', 'hint': None, 'details': 'Failing row contains (169, null, null, f, 0, ETH is looking bullish today! 🚀, 0, 0, 0, {}, {}, null, f, null, 0.800, 0.700, {bullish,ETH}, {}, null, 1.200, 2025-08-13 11:46:23.85164+00, 2025-08-13 04:46:24.856837+00, 2025-08-13 04:46:25.563237+00).'}
+2025-08-13 11:46:25,628 - Lily.lily_smart_crawler - INFO - 💾 Stored 1 Twitter posts
+2025-08-13 11:46:25,737 - httpx - INFO - HTTP Request: POST https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/reddit_posts?columns=%22sentiment_score%22%2C%22confidence%22%2C%22post_type%22%2C%22post_url%22%2C%22keywords_detected%22%2C%22flair_text%22%2C%22content%22%2C%22analysis_timestamp%22%2C%22engagement_weight%22%2C%22num_comments%22%2C%22author_karma%22%2C%22post_score%22%2C%22post_timestamp%22%2C%22context_multipliers%22%2C%22subreddit%22%2C%22final_weight%22%2C%22title%22%2C%22awards_count%22%2C%22upvote_ratio%22%2C%22author%22%2C%22post_id%22 "HTTP/2 400 Bad Request"
+2025-08-13 11:46:25,737 - optimized_supabase_integration - ERROR - ❌ reddit_posts insertion failed: {'message': 'null value in column "post_id" of relation "reddit_posts" violates not-null constraint', 'code': '23502', 'hint': None, 'details': 'Failing row contains (62, null, null, submission, null, ETH analysis shows strong support levels, null, 0, 45, null, 0, 0, f, null, null, 0.600, 0.800, {ETH,support}, {}, null, 1.000, 2025-08-13 11:46:24.856346+00, 2025-08-13 04:46:25.628111+00, 2025-08-13 04:46:25.718566+00).'}
+2025-08-13 11:46:25,737 - Lily.lily_smart_crawler - INFO - 💾 Stored 1 Reddit posts
+2025-08-13 11:46:25,737 - Lily.lily_smart_crawler - INFO - ✅ Collection cycle complete: 2 posts collected
+2025-08-13 11:46:25,737 - Lily.lily_smart_crawler - INFO - 📊 Cycle 1: 2 posts
+2025-08-13 11:46:25,738 - rate_limit_manager - INFO - ⏰ twitter rate limit: wait 236s
+2025-08-13 11:46:25,738 - rate_limit_manager - INFO - ⏰ reddit rate limit: wait 0s
+2025-08-13 11:46:25,738 - Lily.lily_smart_crawler - INFO - ⏰ Waiting 30s before next cycle...

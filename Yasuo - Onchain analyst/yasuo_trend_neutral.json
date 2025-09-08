@@ -1,0 +1,74 @@
+[
+  {
+    "timestamp": "2025-09-03T17:34:26.728811",
+    "exchange_net_flow": 682,
+    "etf_daily_flow": -2325781,
+    "liveliness_score": 0.482672249804661,
+    "large_transfers_count": 7,
+    "total_exchanges": 19,
+    "total_volume": 3672
+  },
+  {
+    "timestamp": "2025-09-03T17:34:26.729341",
+    "exchange_net_flow": 297,
+    "etf_daily_flow": -10937317,
+    "liveliness_score": 0.4395237051943435,
+    "large_transfers_count": 3,
+    "total_exchanges": 20,
+    "total_volume": 4656
+  },
+  {
+    "timestamp": "2025-09-03T17:34:26.729974",
+    "exchange_net_flow": 562,
+    "etf_daily_flow": -15614761,
+    "liveliness_score": 0.5357116090629985,
+    "large_transfers_count": 3,
+    "total_exchanges": 19,
+    "total_volume": 6285
+  },
+  {
+    "timestamp": "2025-09-03T17:34:26.730298",
+    "exchange_net_flow": 383,
+    "etf_daily_flow": -13846913,
+    "liveliness_score": 0.5612236176092157,
+    "large_transfers_count": 3,
+    "total_exchanges": 19,
+    "total_volume": 4404
+  },
+  {
+    "timestamp": "2025-09-03T17:34:26.730466",
+    "exchange_net_flow": 748,
+    "etf_daily_flow": -4916864,
+    "liveliness_score": 0.45202941499864624,
+    "large_transfers_count": 4,
+    "total_exchanges": 19,
+    "total_volume": 5022
+  },
+  {
+    "timestamp": "2025-09-03T17:34:26.730725",
+    "exchange_net_flow": 538,
+    "etf_daily_flow": -7959638,
+    "liveliness_score": 0.5189476351514566,
+    "large_transfers_count": 7,
+    "total_exchanges": 20,
+    "total_volume": 4510
+  },
+  {
+    "timestamp": "2025-09-03T17:34:26.731012",
+    "exchange_net_flow": 596,
+    "etf_daily_flow": -10379870,
+    "liveliness_score": 0.5452886785647517,
+    "large_transfers_count": 5,
+    "total_exchanges": 20,
+    "total_volume": 3870
+  },
+  {
+    "timestamp": "2025-09-03T17:34:26.731620",
+    "exchange_net_flow": 530,
+    "etf_daily_flow": -2356590,
+    "liveliness_score": 0.5118868373999943,
+    "large_transfers_count": 6,
+    "total_exchanges": 20,
+    "total_volume": 4756
+  }
+]

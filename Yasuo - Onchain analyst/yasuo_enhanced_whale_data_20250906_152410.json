@@ -1,0 +1,622 @@
+{
+  "whale_data": {
+    "timestamp": "2025-09-06T15:24:10.418441",
+    "data_source": "demo",
+    "whale_analysis": {
+      "timestamp": "2025-09-06T15:24:10.418426",
+      "total_whales_tracked": 5,
+      "recent_transactions": 47,
+      "total_whale_balance_eth": 1100000.0,
+      "total_whale_balance_usd": 4400000000.0,
+      "activity_summary": {
+        "total_volume_eth": 1271258.7969495114,
+        "total_volume_usd": 4487775880.014884,
+        "average_transaction_size_eth": 27048.05950956407,
+        "largest_transaction_eth": 49799.39933524164,
+        "transaction_frequency": 1.9583333333333333
+      },
+      "risk_assessment": {
+        "high_risk_whales": 2,
+        "total_high_risk_balance_usd": 1600000000.0,
+        "risk_distribution": {
+          "high": 2,
+          "medium": 2,
+          "low": 1
+        }
+      },
+      "market_impact": {
+        "total_tracked_portfolio_usd": 4400000000.0,
+        "average_whale_size_usd": 880000000.0,
+        "concentration_risk": 0.45454545454545453
+      }
+    },
+    "yasuo_additional_data": {},
+    "whale_wallets": [
+      {
+        "address": "0x28C6c06298d514Db089934071355E5743bf21d60",
+        "label": "Binance Hot Wallet",
+        "balance_eth": 250000.0,
+        "balance_usd": 1000000000.0,
+        "last_activity": "2025-09-06 13:24:10.418080",
+        "transaction_count": 1250,
+        "portfolio_value": 1000000000.0,
+        "risk_level": "high"
+      },
+      {
+        "address": "0x3f5CE5FBFe3E9af3971dD833D26bA9b5C936f0bE",
+        "label": "Binance Cold Wallet",
+        "balance_eth": 500000.0,
+        "balance_usd": 2000000000.0,
+        "last_activity": "2025-09-05 15:24:10.418084",
+        "transaction_count": 45,
+        "portfolio_value": 2000000000.0,
+        "risk_level": "medium"
+      },
+      {
+        "address": "0x47ac0Fb4F2D84898e4D9E7b4DaB3C24507a6D503",
+        "label": "Binance 14",
+        "balance_eth": 150000.0,
+        "balance_usd": 600000000.0,
+        "last_activity": "2025-09-06 09:24:10.418086",
+        "transaction_count": 890,
+        "portfolio_value": 600000000.0,
+        "risk_level": "high"
+      },
+      {
+        "address": "0x21a31Ee1afC51d94C2eFcCAa2092aD1028285549",
+        "label": "Binance 15",
+        "balance_eth": 120000.0,
+        "balance_usd": 480000000.0,
+        "last_activity": "2025-09-06 14:24:10.418087",
+        "transaction_count": 650,
+        "portfolio_value": 480000000.0,
+        "risk_level": "medium"
+      },
+      {
+        "address": "0x56Eddb7aa87536c09CCc2793473599fD21A8b17F",
+        "label": "Binance 16",
+        "balance_eth": 80000.0,
+        "balance_usd": 320000000.0,
+        "last_activity": "2025-09-06 14:54:10.418088",
+        "transaction_count": 420,
+        "portfolio_value": 320000000.0,
+        "risk_level": "low"
+      }
+    ],
+    "recent_transactions": [
+      {
+        "hash": "0xc8c15c23a5a4b3b40c52ea7ba3d9fb02aa41a38e03a82ed6e7e4f61824518a1f",
+        "from_address": "0x28C6c06298d514Db089934071355E5743bf21d60",
+        "to_address": "0x47ac0Fb4F2D84898e4D9E7b4DaB3C24507a6D503",
+        "value_eth": 4878.382482325142,
+        "value_usd": 54694117.283386104,
+        "timestamp": "2025-09-06 07:24:10.418105",
+        "gas_used": 48449,
+        "gas_price": 91.20286860478299,
+        "whale_type": "Binance Hot Wallet"
+      },
+      {
+        "hash": "0x7a9a5c86521fe8779282d4a4bee78bcc3fb0b32453adc400393709af20fb0b4a",
+        "from_address": "0x28C6c06298d514Db089934071355E5743bf21d60",
+        "to_address": "0x47ac0Fb4F2D84898e4D9E7b4DaB3C24507a6D503",
+        "value_eth": 15011.460076428762,
+        "value_usd": 124609448.82777852,
+        "timestamp": "2025-09-06 03:24:10.418117",
+        "gas_used": 49323,
+        "gas_price": 82.38838657894405,
+        "whale_type": "Binance Hot Wallet"
+      },
+      {
+        "hash": "0x4d3f23db1c013f4c5d54a9e220695ccc88328365d04d037f0a02e70e819738af",
+        "from_address": "0x28C6c06298d514Db089934071355E5743bf21d60",
+        "to_address": "0x21a31Ee1afC51d94C2eFcCAa2092aD1028285549",
+        "value_eth": 48620.64874039224,
+        "value_usd": 102672671.51375534,
+        "timestamp": "2025-09-06 12:24:10.418124",
+        "gas_used": 46164,
+        "gas_price": 25.38855832523388,
+        "whale_type": "Binance Hot Wallet"
+      },
+      {
+        "hash": "0xd58f613ab1d8b0a1511a898cecbbc287c801053db882f21c06b9c7b0f21ff691",
+        "from_address": "0x47ac0Fb4F2D84898e4D9E7b4DaB3C24507a6D503",
+        "to_address": "0x3f5CE5FBFe3E9af3971dD833D26bA9b5C936f0bE",
+        "value_eth": 4667.566551607475,
+        "value_usd": 155563510.44236347,
+        "timestamp": "2025-09-05 19:24:10.418130",
+        "gas_used": 48282,
+        "gas_price": 34.60684400038374,
+        "whale_type": "Binance 14"
+      },
+      {
+        "hash": "0x3e08cdd954b3ae6ea36b1d09e9b4e653fe89517ac72b283a748a31d69a652d7a",
+        "from_address": "0x28C6c06298d514Db089934071355E5743bf21d60",
+        "to_address": "0x47ac0Fb4F2D84898e4D9E7b4DaB3C24507a6D503",
+        "value_eth": 44407.762460523205,
+        "value_usd": 7325293.545922641,
+        "timestamp": "2025-09-06 02:24:10.418136",
+        "gas_used": 50623,
+        "gas_price": 31.739822942073985,
+        "whale_type": "Binance Hot Wallet"
+      },
+      {
+        "hash": "0x566fcd53185e8d08dc9f749c8e1bab2a9fa977899313482ae7ccaceb8c182c39",
+        "from_address": "0x3f5CE5FBFe3E9af3971dD833D26bA9b5C936f0bE",
+        "to_address": "0x28C6c06298d514Db089934071355E5743bf21d60",
+        "value_eth": 8430.480819119355,
+        "value_usd": 16833870.303569973,
+        "timestamp": "2025-09-05 18:24:10.418141",
+        "gas_used": 48645,
+        "gas_price": 84.774577601775,
+        "whale_type": "Binance Cold Wallet"
+      },
+      {
+        "hash": "0xbcb6850ed729ca41e928f2fdcbef4cc463b97eb8b755b308b408dff3a25c3dc1",
+        "from_address": "0x28C6c06298d514Db089934071355E5743bf21d60",
+        "to_address": "0x21a31Ee1afC51d94C2eFcCAa2092aD1028285549",
+        "value_eth": 36830.67646600764,
+        "value_usd": 119993949.83974443,
+        "timestamp": "2025-09-05 19:24:10.418147",
+        "gas_used": 95634,
+        "gas_price": 69.81752637879794,
+        "whale_type": "Binance Hot Wallet"
+      },
+      {
+        "hash": "0xf702417bc3e7e07693836711810b7a810b493d04a0e922ec0b9f34bab465190d",
+        "from_address": "0x3f5CE5FBFe3E9af3971dD833D26bA9b5C936f0bE",
+        "to_address": "0x56Eddb7aa87536c09CCc2793473599fD21A8b17F",
+        "value_eth": 17072.123548247837,
+        "value_usd": 18402382.643081963,
+        "timestamp": "2025-09-05 17:24:10.418152",
+        "gas_used": 82862,
+        "gas_price": 78.83594087681931,
+        "whale_type": "Binance Cold Wallet"
+      },
+      {
+        "hash": "0x549b14adc2f1ed1bd1cfece8b48f3849c5becc3d39d7e8bb517edaddeb931303",
+        "from_address": "0x28C6c06298d514Db089934071355E5743bf21d60",
+        "to_address": "0x47ac0Fb4F2D84898e4D9E7b4DaB3C24507a6D503",
+        "value_eth": 49546.74420218539,
+        "value_usd": 85717715.34093599,
+        "timestamp": "2025-09-05 17:24:10.418157",
+        "gas_used": 90017,
+        "gas_price": 95.25123190900631,
+        "whale_type": "Binance Hot Wallet"
+      },
+      {
+        "hash": "0x42809de633ca23f3c756b85775de50b6e21b389ca6a8816a3b40d9b577b5152a",
+        "from_address": "0x56Eddb7aa87536c09CCc2793473599fD21A8b17F",
+        "to_address": "0x56Eddb7aa87536c09CCc2793473599fD21A8b17F",
+        "value_eth": 47494.149835172044,
+        "value_usd": 186485246.4152411,
+        "timestamp": "2025-09-05 18:24:10.418163",
+        "gas_used": 58433,
+        "gas_price": 80.12678468425271,
+        "whale_type": "Binance 16"
+      },
+      {
+        "hash": "0x1b709448a34349e0a90548914028f5503b92d731f993f547b15b5806227730c2",
+        "from_address": "0x28C6c06298d514Db089934071355E5743bf21d60",
+        "to_address": "0x3f5CE5FBFe3E9af3971dD833D26bA9b5C936f0bE",
+        "value_eth": 7077.834237704712,
+        "value_usd": 47145539.519027315,
+        "timestamp": "2025-09-05 23:24:10.418168",
+        "gas_used": 99172,
+        "gas_price": 81.14103843484003,
+        "whale_type": "Binance Hot Wallet"
+      },
+      {
+        "hash": "0x3c0bff27a70a8847134df40b328b17aec22f4b24e57f53004a11ba95eb0be7e4",
+        "from_address": "0x21a31Ee1afC51d94C2eFcCAa2092aD1028285549",
+        "to_address": "0x21a31Ee1afC51d94C2eFcCAa2092aD1028285549",
+        "value_eth": 43107.379319795,
+        "value_usd": 29863660.753820714,
+        "timestamp": "2025-09-06 07:24:10.418173",
+        "gas_used": 37768,
+        "gas_price": 49.52196475806989,
+        "whale_type": "Binance 15"
+      },
+      {
+        "hash": "0xf4689eaaa14f5bfb0d06de71fa33e2944fe1827d9eaa72be80de26c48fbc49db",
+        "from_address": "0x47ac0Fb4F2D84898e4D9E7b4DaB3C24507a6D503",
+        "to_address": "0x21a31Ee1afC51d94C2eFcCAa2092aD1028285549",
+        "value_eth": 1953.3384001663678,
+        "value_usd": 119195338.43874756,
+        "timestamp": "2025-09-05 17:24:10.418178",
+        "gas_used": 80674,
+        "gas_price": 96.33960566518418,
+        "whale_type": "Binance 14"
+      },
+      {
+        "hash": "0x947ab557b06c6dd6aa964ac7267b386755370734406d3d9128641be1e3a20195",
+        "from_address": "0x47ac0Fb4F2D84898e4D9E7b4DaB3C24507a6D503",
+        "to_address": "0x47ac0Fb4F2D84898e4D9E7b4DaB3C24507a6D503",
+        "value_eth": 28835.887116961476,
+        "value_usd": 187006272.79698384,
+        "timestamp": "2025-09-06 09:24:10.418184",
+        "gas_used": 97544,
+        "gas_price": 35.80891561197582,
+        "whale_type": "Binance 14"
+      },
+      {
+        "hash": "0x25831f16b0f41c469bcd64fd38c78eb550023d4585677fe05ad6f8cc832f1f40",
+        "from_address": "0x3f5CE5FBFe3E9af3971dD833D26bA9b5C936f0bE",
+        "to_address": "0x47ac0Fb4F2D84898e4D9E7b4DaB3C24507a6D503",
+        "value_eth": 49032.0047859562,
+        "value_usd": 181905497.86368912,
+        "timestamp": "2025-09-06 03:24:10.418189",
+        "gas_used": 37362,
+        "gas_price": 91.25217098831253,
+        "whale_type": "Binance Cold Wallet"
+      },
+      {
+        "hash": "0x56e3cbfc85a1f2209f34468af1bd5088cabaadce98e084245d45d9b8eb2d27d9",
+        "from_address": "0x56Eddb7aa87536c09CCc2793473599fD21A8b17F",
+        "to_address": "0x47ac0Fb4F2D84898e4D9E7b4DaB3C24507a6D503",
+        "value_eth": 4747.361973244631,
+        "value_usd": 195928219.55532485,
+        "timestamp": "2025-09-05 23:24:10.418193",
+        "gas_used": 25021,
+        "gas_price": 32.015936507660896,
+        "whale_type": "Binance 16"
+      },
+      {
+        "hash": "0xbcc1eae21ee22022f4b41027e8165b6070c2115b91232286575ec4c784c9a62f",
+        "from_address": "0x47ac0Fb4F2D84898e4D9E7b4DaB3C24507a6D503",
+        "to_address": "0x28C6c06298d514Db089934071355E5743bf21d60",
+        "value_eth": 1353.9113688874559,
+        "value_usd": 27529022.930464018,
+        "timestamp": "2025-09-06 01:24:10.418198",
+        "gas_used": 65741,
+        "gas_price": 59.745469915182376,
+        "whale_type": "Binance 14"
+      },
+      {
+        "hash": "0x0a3eff1dae098a4f30e88e8fe858b973a129d1c920b02f6d338158cdf7d56750",
+        "from_address": "0x56Eddb7aa87536c09CCc2793473599fD21A8b17F",
+        "to_address": "0x47ac0Fb4F2D84898e4D9E7b4DaB3C24507a6D503",
+        "value_eth": 5572.178079366779,
+        "value_usd": 109257189.07519504,
+        "timestamp": "2025-09-05 19:24:10.418204",
+        "gas_used": 28655,
+        "gas_price": 26.63606355477164,
+        "whale_type": "Binance 16"
+      },
+      {
+        "hash": "0xb7473972860575f6331d8ecdc326ca49867827f1da12ccf2bc8ecc17171ff676",
+        "from_address": "0x3f5CE5FBFe3E9af3971dD833D26bA9b5C936f0bE",
+        "to_address": "0x28C6c06298d514Db089934071355E5743bf21d60",
+        "value_eth": 36097.47156150867,
+        "value_usd": 67658502.44816613,
+        "timestamp": "2025-09-05 20:24:10.418209",
+        "gas_used": 78903,
+        "gas_price": 23.127507362874216,
+        "whale_type": "Binance Cold Wallet"
+      },
+      {
+        "hash": "0xe3b0760f919d18b06bcef491de93e2f16a03734e0f3951e88f71ceb222b8632a",
+        "from_address": "0x47ac0Fb4F2D84898e4D9E7b4DaB3C24507a6D503",
+        "to_address": "0x3f5CE5FBFe3E9af3971dD833D26bA9b5C936f0bE",
+        "value_eth": 43757.37248099049,
+        "value_usd": 13736426.37239035,
+        "timestamp": "2025-09-06 02:24:10.418214",
+        "gas_used": 27816,
+        "gas_price": 29.88725214318326,
+        "whale_type": "Binance 14"
+      },
+      {
+        "hash": "0x2b1c8b2413e80cc04f194379856a2250b1c53e0194e05b9ef7d51c4c917907c5",
+        "from_address": "0x21a31Ee1afC51d94C2eFcCAa2092aD1028285549",
+        "to_address": "0x28C6c06298d514Db089934071355E5743bf21d60",
+        "value_eth": 15911.42416198436,
+        "value_usd": 167962673.50147387,
+        "timestamp": "2025-09-06 01:24:10.418219",
+        "gas_used": 25365,
+        "gas_price": 27.22840147880186,
+        "whale_type": "Binance 15"
+      },
+      {
+        "hash": "0x9499c87737e1c34a6c24c41329ab8fbc28dd5576e9511d18800baadfa40b5be3",
+        "from_address": "0x47ac0Fb4F2D84898e4D9E7b4DaB3C24507a6D503",
+        "to_address": "0x28C6c06298d514Db089934071355E5743bf21d60",
+        "value_eth": 34563.08054439062,
+        "value_usd": 93191426.25458077,
+        "timestamp": "2025-09-06 10:24:10.418224",
+        "gas_used": 34674,
+        "gas_price": 43.043251368705356,
+        "whale_type": "Binance 14"
+      },
+      {
+        "hash": "0xfe31425294ac7e8f6e519026de5b58705c5d22f7ccdb5cc7bdc122a1e840a69a",
+        "from_address": "0x56Eddb7aa87536c09CCc2793473599fD21A8b17F",
+        "to_address": "0x3f5CE5FBFe3E9af3971dD833D26bA9b5C936f0bE",
+        "value_eth": 3769.3575699621397,
+        "value_usd": 144851897.1625146,
+        "timestamp": "2025-09-05 23:24:10.418230",
+        "gas_used": 60211,
+        "gas_price": 89.01370303871848,
+        "whale_type": "Binance 16"
+      },
+      {
+        "hash": "0x13b8780cd9a5e8fb6c2f5cb6df151339f583f52e7eba75798a75985cd70173ca",
+        "from_address": "0x56Eddb7aa87536c09CCc2793473599fD21A8b17F",
+        "to_address": "0x21a31Ee1afC51d94C2eFcCAa2092aD1028285549",
+        "value_eth": 41073.038683102284,
+        "value_usd": 167694482.17184842,
+        "timestamp": "2025-09-05 16:24:10.418234",
+        "gas_used": 32968,
+        "gas_price": 91.41178954450469,
+        "whale_type": "Binance 16"
+      },
+      {
+        "hash": "0x261f856fed2b15fab6448f7cc679ff138ef9ed33a6740b60de20f72a7643d131",
+        "from_address": "0x56Eddb7aa87536c09CCc2793473599fD21A8b17F",
+        "to_address": "0x28C6c06298d514Db089934071355E5743bf21d60",
+        "value_eth": 24870.52923005641,
+        "value_usd": 161369662.9146826,
+        "timestamp": "2025-09-06 09:24:10.418239",
+        "gas_used": 45367,
+        "gas_price": 83.21833821714856,
+        "whale_type": "Binance 16"
+      },
+      {
+        "hash": "0x51dd289f06988525502be1723d2f948109a354e687edf05c0add6f37fd5b8723",
+        "from_address": "0x28C6c06298d514Db089934071355E5743bf21d60",
+        "to_address": "0x21a31Ee1afC51d94C2eFcCAa2092aD1028285549",
+        "value_eth": 43891.318862687905,
+        "value_usd": 26990837.74838658,
+        "timestamp": "2025-09-05 23:24:10.418244",
+        "gas_used": 40855,
+        "gas_price": 96.93266088375698,
+        "whale_type": "Binance Hot Wallet"
+      },
+      {
+        "hash": "0xf0ae261fb02cb787c9c4af59e488fc81b334676b64b1a5c765e286e8bc99564d",
+        "from_address": "0x3f5CE5FBFe3E9af3971dD833D26bA9b5C936f0bE",
+        "to_address": "0x56Eddb7aa87536c09CCc2793473599fD21A8b17F",
+        "value_eth": 41748.11264468492,
+        "value_usd": 65384923.67377855,
+        "timestamp": "2025-09-06 00:24:10.418250",
+        "gas_used": 81181,
+        "gas_price": 68.03488989393489,
+        "whale_type": "Binance Cold Wallet"
+      },
+      {
+        "hash": "0xfef6c497cddef52c38eee4f3012c241474e0d773110e576ad66a016abbb3a63a",
+        "from_address": "0x47ac0Fb4F2D84898e4D9E7b4DaB3C24507a6D503",
+        "to_address": "0x56Eddb7aa87536c09CCc2793473599fD21A8b17F",
+        "value_eth": 5979.557327365564,
+        "value_usd": 5746663.996858548,
+        "timestamp": "2025-09-06 01:24:10.418255",
+        "gas_used": 28154,
+        "gas_price": 33.04699964107462,
+        "whale_type": "Binance 14"
+      },
+      {
+        "hash": "0x67c851bd67ba16c1aef536babacd35beb8aa502739c19c38a5950ac3a2e0292f",
+        "from_address": "0x56Eddb7aa87536c09CCc2793473599fD21A8b17F",
+        "to_address": "0x21a31Ee1afC51d94C2eFcCAa2092aD1028285549",
+        "value_eth": 49799.39933524164,
+        "value_usd": 158025237.41873622,
+        "timestamp": "2025-09-06 09:24:10.418265",
+        "gas_used": 63384,
+        "gas_price": 28.341892055856796,
+        "whale_type": "Binance 16"
+      },
+      {
+        "hash": "0x7d1380f8b1dec059a6ddcee4a3e5ba5acc6afc785a9e739ee226d9cf1217ecef",
+        "from_address": "0x47ac0Fb4F2D84898e4D9E7b4DaB3C24507a6D503",
+        "to_address": "0x56Eddb7aa87536c09CCc2793473599fD21A8b17F",
+        "value_eth": 32041.087439015504,
+        "value_usd": 94870217.42728885,
+        "timestamp": "2025-09-06 03:24:10.418270",
+        "gas_used": 49959,
+        "gas_price": 56.98967861309099,
+        "whale_type": "Binance 14"
+      },
+      {
+        "hash": "0xf69a7b5e26e4b4fc4d164da28cfb0db854fb21acb549663d0eb6eb859135d401",
+        "from_address": "0x47ac0Fb4F2D84898e4D9E7b4DaB3C24507a6D503",
+        "to_address": "0x28C6c06298d514Db089934071355E5743bf21d60",
+        "value_eth": 44084.8797817931,
+        "value_usd": 146606639.7787662,
+        "timestamp": "2025-09-05 20:24:10.418275",
+        "gas_used": 48416,
+        "gas_price": 82.2446823677484,
+        "whale_type": "Binance 14"
+      },
+      {
+        "hash": "0x60474c386a67362965eb524b05355053454afb1074ea3c2ce1c6b12afc24acd8",
+        "from_address": "0x56Eddb7aa87536c09CCc2793473599fD21A8b17F",
+        "to_address": "0x3f5CE5FBFe3E9af3971dD833D26bA9b5C936f0bE",
+        "value_eth": 5852.3095382954225,
+        "value_usd": 80126500.7217263,
+        "timestamp": "2025-09-05 19:24:10.418280",
+        "gas_used": 30458,
+        "gas_price": 72.08886573298506,
+        "whale_type": "Binance 16"
+      },
+      {
+        "hash": "0x91fc994df3f81d7aa77377bed0280d17616ec47f36e07008823186884b1cb395",
+        "from_address": "0x28C6c06298d514Db089934071355E5743bf21d60",
+        "to_address": "0x21a31Ee1afC51d94C2eFcCAa2092aD1028285549",
+        "value_eth": 44844.431720914625,
+        "value_usd": 30510789.396396436,
+        "timestamp": "2025-09-05 20:24:10.418285",
+        "gas_used": 86266,
+        "gas_price": 29.19026835741142,
+        "whale_type": "Binance Hot Wallet"
+      },
+      {
+        "hash": "0x0c2a5de0ada8d768852d51cb190cf9abc16e5e6e89fce6f23c8c7c73a0b888a1",
+        "from_address": "0x47ac0Fb4F2D84898e4D9E7b4DaB3C24507a6D503",
+        "to_address": "0x21a31Ee1afC51d94C2eFcCAa2092aD1028285549",
+        "value_eth": 17636.990035688283,
+        "value_usd": 70886318.03071818,
+        "timestamp": "2025-09-05 18:24:10.418290",
+        "gas_used": 61967,
+        "gas_price": 73.1176541069897,
+        "whale_type": "Binance 14"
+      },
+      {
+        "hash": "0x7aba5ffa45fed12e6c44fd3de9610acd7875d09c2f06d3de5ba9f4667fa2ef21",
+        "from_address": "0x47ac0Fb4F2D84898e4D9E7b4DaB3C24507a6D503",
+        "to_address": "0x47ac0Fb4F2D84898e4D9E7b4DaB3C24507a6D503",
+        "value_eth": 14939.643061042429,
+        "value_usd": 85268910.21703166,
+        "timestamp": "2025-09-05 21:24:10.418295",
+        "gas_used": 44356,
+        "gas_price": 62.81746337131043,
+        "whale_type": "Binance 14"
+      },
+      {
+        "hash": "0xc20d6b804aaa2b0ed55a4443e77fcb8ff71ff573c4b2946a83cf7b6e410e1d00",
+        "from_address": "0x3f5CE5FBFe3E9af3971dD833D26bA9b5C936f0bE",
+        "to_address": "0x21a31Ee1afC51d94C2eFcCAa2092aD1028285549",
+        "value_eth": 36883.91766219491,
+        "value_usd": 6864437.393266964,
+        "timestamp": "2025-09-06 05:24:10.418300",
+        "gas_used": 74085,
+        "gas_price": 49.45136437645406,
+        "whale_type": "Binance Cold Wallet"
+      },
+      {
+        "hash": "0xeb584e9f6d87f69ceed9ba542f12215a799207832e08253bd35171d6c9da67fa",
+        "from_address": "0x47ac0Fb4F2D84898e4D9E7b4DaB3C24507a6D503",
+        "to_address": "0x56Eddb7aa87536c09CCc2793473599fD21A8b17F",
+        "value_eth": 47772.43902203769,
+        "value_usd": 154104182.28347296,
+        "timestamp": "2025-09-05 22:24:10.418310",
+        "gas_used": 27926,
+        "gas_price": 67.31868155475632,
+        "whale_type": "Binance 14"
+      },
+      {
+        "hash": "0x539292eade2680287d5efe769ddfb0f3797c94dc5ea13191c32d43848224f5ec",
+        "from_address": "0x56Eddb7aa87536c09CCc2793473599fD21A8b17F",
+        "to_address": "0x47ac0Fb4F2D84898e4D9E7b4DaB3C24507a6D503",
+        "value_eth": 44041.07608759419,
+        "value_usd": 43291788.87279932,
+        "timestamp": "2025-09-06 07:24:10.418315",
+        "gas_used": 64231,
+        "gas_price": 77.55123967676587,
+        "whale_type": "Binance 16"
+      },
+      {
+        "hash": "0xff1974740d38172d5f40b221d3dbcc91aad59a5752ed08fb8d7c98fc8f4006c7",
+        "from_address": "0x47ac0Fb4F2D84898e4D9E7b4DaB3C24507a6D503",
+        "to_address": "0x28C6c06298d514Db089934071355E5743bf21d60",
+        "value_eth": 29647.404278418573,
+        "value_usd": 154766731.94314465,
+        "timestamp": "2025-09-05 16:24:10.418320",
+        "gas_used": 99245,
+        "gas_price": 35.02701184025711,
+        "whale_type": "Binance 14"
+      },
+      {
+        "hash": "0x7d1f8425c00e49128978195a356fe77a239d241ca95efff7b97f61212567b4c1",
+        "from_address": "0x28C6c06298d514Db089934071355E5743bf21d60",
+        "to_address": "0x56Eddb7aa87536c09CCc2793473599fD21A8b17F",
+        "value_eth": 36076.30250199242,
+        "value_usd": 58302049.04518397,
+        "timestamp": "2025-09-06 04:24:10.418325",
+        "gas_used": 64750,
+        "gas_price": 78.33259790861449,
+        "whale_type": "Binance Hot Wallet"
+      },
+      {
+        "hash": "0x2fcf7055e431b7469355651c89bf4ec0d81bd74ed11a3e7990774d82fd54ef48",
+        "from_address": "0x21a31Ee1afC51d94C2eFcCAa2092aD1028285549",
+        "to_address": "0x28C6c06298d514Db089934071355E5743bf21d60",
+        "value_eth": 16553.162699004708,
+        "value_usd": 105252585.2093689,
+        "timestamp": "2025-09-06 01:24:10.418331",
+        "gas_used": 56772,
+        "gas_price": 63.27883192542163,
+        "whale_type": "Binance 15"
+      },
+      {
+        "hash": "0xe1be3504ff3e12a8ff43004162d6961aae36d693322b20d589231cc9b2823710",
+        "from_address": "0x56Eddb7aa87536c09CCc2793473599fD21A8b17F",
+        "to_address": "0x56Eddb7aa87536c09CCc2793473599fD21A8b17F",
+        "value_eth": 10140.453256107063,
+        "value_usd": 11551888.579937693,
+        "timestamp": "2025-09-05 21:24:10.418336",
+        "gas_used": 46479,
+        "gas_price": 34.59247764962371,
+        "whale_type": "Binance 16"
+      },
+      {
+        "hash": "0x55b4f1a74cca11e28614607f842fa9cad84847d2f1d37a8192851e49fec56134",
+        "from_address": "0x28C6c06298d514Db089934071355E5743bf21d60",
+        "to_address": "0x56Eddb7aa87536c09CCc2793473599fD21A8b17F",
+        "value_eth": 13838.059833692962,
+        "value_usd": 178910325.1798999,
+        "timestamp": "2025-09-06 04:24:10.418341",
+        "gas_used": 26390,
+        "gas_price": 76.92399886475845,
+        "whale_type": "Binance Hot Wallet"
+      },
+      {
+        "hash": "0xec5741e6c00ea0d113b5760a0c9f7e84839e9ea765ff418adab9629dd27674b0",
+        "from_address": "0x56Eddb7aa87536c09CCc2793473599fD21A8b17F",
+        "to_address": "0x3f5CE5FBFe3E9af3971dD833D26bA9b5C936f0bE",
+        "value_eth": 20645.209667941333,
+        "value_usd": 42678272.89343772,
+        "timestamp": "2025-09-06 12:24:10.418346",
+        "gas_used": 74683,
+        "gas_price": 39.49512203497427,
+        "whale_type": "Binance 16"
+      },
+      {
+        "hash": "0x8e98bedb8ac9e67a485253af2ed01fb6a1550aeb5d09f8f3a3894b1aa0c161d2",
+        "from_address": "0x21a31Ee1afC51d94C2eFcCAa2092aD1028285549",
+        "to_address": "0x21a31Ee1afC51d94C2eFcCAa2092aD1028285549",
+        "value_eth": 37517.79143724273,
+        "value_usd": 152749849.9205543,
+        "timestamp": "2025-09-06 05:24:10.418356",
+        "gas_used": 58925,
+        "gas_price": 30.829119447469367,
+        "whale_type": "Binance 15"
+      },
+      {
+        "hash": "0x7148ee2fa804ce76637af4f74bdc0edfba577a0c12994384b27020b4952b15a6",
+        "from_address": "0x56Eddb7aa87536c09CCc2793473599fD21A8b17F",
+        "to_address": "0x3f5CE5FBFe3E9af3971dD833D26bA9b5C936f0bE",
+        "value_eth": 30244.273709075133,
+        "value_usd": 155928720.9457431,
+        "timestamp": "2025-09-05 16:24:10.418360",
+        "gas_used": 72146,
+        "gas_price": 66.61984780131348,
+        "whale_type": "Binance 16"
+      },
+      {
+        "hash": "0xdc475deaab219abb353d62380ee92c1d44e588c9a454cb9f76e56e4e5bafc142",
+        "from_address": "0x47ac0Fb4F2D84898e4D9E7b4DaB3C24507a6D503",
+        "to_address": "0x47ac0Fb4F2D84898e4D9E7b4DaB3C24507a6D503",
+        "value_eth": 28398.81235139354,
+        "value_usd": 72363991.42369847,
+        "timestamp": "2025-09-05 16:24:10.418366",
+        "gas_used": 90063,
+        "gas_price": 20.53462106462004,
+        "whale_type": "Binance 14"
+      }
+    ]
+  },
+  "impact_analysis": {
+    "timestamp": "2025-09-06T15:24:10.418757",
+    "whale_activity_level": "low",
+    "market_impact_score": 0.3,
+    "risk_factors": [
+      "High whale balance concentration"
+    ],
+    "opportunities": [],
+    "recommendations": [
+      "Low whale activity - normal market conditions"
+    ],
+    "trading_signals": {
+      "overall_signal": "stable"
+    }
+  },
+  "generated_at": "2025-09-06T15:24:10.418760"
+}

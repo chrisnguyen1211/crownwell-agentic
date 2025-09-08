@@ -1,0 +1,70 @@
+
+🛡️ YASUO COMPLETE ANALYSIS REPORT
+Generated: 2025-09-08 15:10:06
+============================================================
+
+📊 EXECUTIVE SUMMARY:
+• Overall Sentiment: BULLISH
+• Market Condition: STRONG_UPTREND
+• Risk Level: MEDIUM
+• Primary Signal: BUY
+• Confidence: high
+
+🐋 WHALE INTELLIGENCE:
+• Data Source: DUNE_REAL
+• Whales Tracked: 50
+• Total Balance: 32,436,791 ETH ($139,899,229,777)
+• Recent Transactions: 168
+
+📈 MARKET SENTIMENT:
+• Current Sentiment: Heavy Institutional Buying
+• Institutional Behavior: Unknown
+• Net Whale Selling: -33,152.45 ETH
+• Exchange to Whale: 48,358.40 ETH
+• Whale to Exchange: 15,205.95 ETH
+
+🏛️ INSTITUTIONAL BEHAVIOR:
+• Current Behavior: Taking Profits
+• Market Condition: Strong Pump (+5%+)
+• Price Change: 8.83%
+• Whale Volume: 177,094.76 ETH
+• Whale Transactions: 1215
+
+⚠️ RISK ASSESSMENT:
+• Mega Institutions: 50
+• Large Institutions: 0
+• Mega Balance: $139,899,229,777
+• Large Balance: $0
+
+💼 MARKET IMPACT:
+• Total Portfolio: $139,899,229,777
+• Average Whale Size: $2,797,984,596
+• Concentration Risk: 38.01%
+• Largest Whale: $53,176,187,528
+
+📈 ETF FLOW ANALYSIS:
+• Flow Value: $-465,100,000
+• Data Source: farside.co.uk_eth_daily_aggregated
+• Status: Unknown
+
+💱 EXCHANGE FLOW ANALYSIS:
+• Net Flow: 0.00 ETH
+• Inflow: 0.00 ETH
+• Outflow: 0.00 ETH
+
+🔍 KEY INSIGHTS:
+• Heavy institutional buying detected
+• Institutions taking profits
+• Strong market pump detected
+• Large ETF outflows: $-465,100,000
+
+🎯 RECOMMENDATIONS:
+• Consider long positions with proper risk management
+
+📊 DATA SOURCES:
+• Whale Intelligence: Dune Analytics (Real-time)
+• ETF Flows: farside.co.uk
+• Exchange Flows: Yasuo On-chain Analysis
+• Large Transactions: Yasuo On-chain Analysis
+
+✅ Complete Yasuo analysis finished!

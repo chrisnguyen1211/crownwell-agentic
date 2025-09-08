@@ -1,0 +1,38 @@
+# Crypto Process Configuration (ETH)
+chain: ETH
+mode: live  # mock or live
+trade_date: auto
+
+stages:
+  - name: analyst_team
+    agents:
+      - token_fundamentals_analyst
+      - liquidity_analyst
+  - name: researcher_debate
+    agents:
+      - bull_researcher
+      - bear_researcher
+      - neutral_researcher
+  - name: trading_plan
+    agents:
+      - trader_agent
+  - name: risk_assessment
+    agents:
+      - aggressive_debator
+      - conservative_debator
+      - neutral_debator
+  - name: pm_approval
+    agents:
+      - portfolio_manager
+  - name: execution
+    agents:
+      - execution_engine
+  - name: monitoring
+    agents: []
+
+policies:
+  max_position_size: 0.10
+  stop_loss: 3600
+  take_profit: 3900
+  slippage_tolerance: 0.001
+  daily_trade_limit: 5

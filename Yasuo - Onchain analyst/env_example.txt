@@ -1,0 +1,31 @@
+# Yasuo On-Chain Analyst Environment Variables
+
+# Bitquery API (Primary data source)
+# Get your free API key from: https://graphql.bitquery.io/
+BITQUERY_API_KEY=your_bitquery_api_key_here
+
+# Etherscan API (Fallback data source)
+# Get your free API key from: https://etherscan.io/apis
+ETHERSCAN_API_KEY=your_etherscan_api_key_here
+
+# Moralis API (Optional fallback)
+# Get your API key from: https://moralis.io/
+MORALIS_API_KEY=your_moralis_api_key_here
+
+# Telegram Bot Configuration
+# Create a bot via @BotFather on Telegram
+TELEGRAM_BOT_TOKEN=your_telegram_bot_token_here
+TELEGRAM_CHAT_ID=your_telegram_chat_id_here
+
+# Optional: Web3 Provider for enhanced wallet analysis
+WEB3_PROVIDER_URL=https://mainnet.infura.io/v3/YOUR_INFURA_PROJECT_ID
+
+# Configuration Settings
+YASUO_MIN_TRANSACTION_THRESHOLD=1000  # ETH (minimum transaction size to monitor)
+YASUO_MONITORING_INTERVAL=300         # seconds (how often to check for new transactions)
+YASUO_ALERT_THRESHOLD_USD=4000000     # USD ($4M minimum alert threshold)
+YASUO_HOURS_BACK=24                   # hours (how far back to look for transactions)
+
+# Logging Configuration
+LOG_LEVEL=INFO
+LOG_FILE=yasuo_analysis.log

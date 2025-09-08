@@ -1,0 +1,74 @@
+[
+  {
+    "timestamp": "2025-09-03T17:34:25.721880",
+    "exchange_net_flow": 2108,
+    "etf_daily_flow": 22294126,
+    "liveliness_score": 0.3064880286082186,
+    "large_transfers_count": 8,
+    "total_exchanges": 17,
+    "total_volume": 9150
+  },
+  {
+    "timestamp": "2025-09-03T17:34:25.722248",
+    "exchange_net_flow": 1626,
+    "etf_daily_flow": 5385833,
+    "liveliness_score": 0.368239502880484,
+    "large_transfers_count": 12,
+    "total_exchanges": 17,
+    "total_volume": 4862
+  },
+  {
+    "timestamp": "2025-09-03T17:34:25.722439",
+    "exchange_net_flow": 1158,
+    "etf_daily_flow": -3005999,
+    "liveliness_score": 0.43108027650929714,
+    "large_transfers_count": 5,
+    "total_exchanges": 18,
+    "total_volume": 4016
+  },
+  {
+    "timestamp": "2025-09-03T17:34:25.722551",
+    "exchange_net_flow": 921,
+    "etf_daily_flow": -14142330,
+    "liveliness_score": 0.462744001653413,
+    "large_transfers_count": 5,
+    "total_exchanges": 19,
+    "total_volume": 7323
+  },
+  {
+    "timestamp": "2025-09-03T17:34:25.722655",
+    "exchange_net_flow": 499,
+    "etf_daily_flow": -27704373,
+    "liveliness_score": 0.5145504679888903,
+    "large_transfers_count": 8,
+    "total_exchanges": 19,
+    "total_volume": 4927
+  },
+  {
+    "timestamp": "2025-09-03T17:34:25.722944",
+    "exchange_net_flow": 176,
+    "etf_daily_flow": -37482903,
+    "liveliness_score": 0.6041219984744596,
+    "large_transfers_count": 11,
+    "total_exchanges": 19,
+    "total_volume": 8990
+  },
+  {
+    "timestamp": "2025-09-03T17:34:25.723185",
+    "exchange_net_flow": -566,
+    "etf_daily_flow": -49708701,
+    "liveliness_score": 0.6712178628717148,
+    "large_transfers_count": 5,
+    "total_exchanges": 16,
+    "total_volume": 4676
+  },
+  {
+    "timestamp": "2025-09-03T17:34:25.723387",
+    "exchange_net_flow": -935,
+    "etf_daily_flow": -66113726,
+    "liveliness_score": 0.7259704413408087,
+    "large_transfers_count": 7,
+    "total_exchanges": 17,
+    "total_volume": 9246
+  }
+]

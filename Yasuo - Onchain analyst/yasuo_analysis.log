@@ -1,0 +1,1063 @@
+2025-09-03 15:52:53,986 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-03 15:52:54,041 - yasuo_onchain_analyst - INFO - ✅ Telegram bot initialized
+2025-09-03 15:52:54,041 - yasuo_onchain_analyst - INFO - 🛡️ Running Yasuo quick analysis...
+2025-09-03 15:52:54,682 - yasuo_onchain_analyst - ERROR - Bitquery API error: 401 - Unauthorized. You have to use Authorization or X-API-KEY tokens as described in the documentation https://docs.bitquery.io/docs/category/authorization
+2025-09-03 15:52:54,684 - yasuo_onchain_analyst - INFO - ✅ Quick analysis complete. Processed 0 large transactions.
+2025-09-03 16:04:05,176 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-03 16:04:05,236 - yasuo_onchain_analyst - INFO - ✅ Telegram bot initialized
+2025-09-03 16:04:05,236 - yasuo_onchain_analyst - INFO - 🛡️ Running Yasuo quick analysis...
+2025-09-03 16:04:05,919 - yasuo_onchain_analyst - ERROR - Bitquery API error: 401 - Unauthorized. You have to use Authorization or X-API-KEY tokens as described in the documentation https://docs.bitquery.io/docs/category/authorization
+2025-09-03 16:04:05,921 - yasuo_onchain_analyst - INFO - ✅ Quick analysis complete. Processed 0 large transactions.
+2025-09-03 16:04:27,082 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-03 16:04:27,145 - yasuo_onchain_analyst - INFO - ✅ Telegram bot initialized
+2025-09-03 16:04:27,145 - yasuo_onchain_analyst - INFO - 🛡️ Running Yasuo quick analysis...
+2025-09-03 16:04:27,736 - yasuo_onchain_analyst - INFO - Found 0 large ETH transactions
+2025-09-03 16:04:27,738 - yasuo_onchain_analyst - INFO - ✅ Quick analysis complete. Processed 0 large transactions.
+2025-09-03 16:05:09,132 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-03 16:05:09,193 - yasuo_onchain_analyst - INFO - ✅ Telegram bot initialized
+2025-09-03 16:05:09,193 - yasuo_onchain_analyst - INFO - 🛡️ Starting Yasuo ETH transaction monitoring...
+2025-09-03 16:05:09,794 - yasuo_onchain_analyst - INFO - Found 0 large ETH transactions
+2025-09-03 16:05:09,796 - yasuo_onchain_analyst - INFO - No transactions from Bitquery, trying Etherscan...
+2025-09-03 16:05:09,796 - yasuo_onchain_analyst - INFO - Etherscan API fallback - simplified implementation
+2025-09-03 16:10:59,367 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-03 16:10:59,420 - yasuo_onchain_analyst - INFO - ✅ Telegram bot initialized
+2025-09-03 16:10:59,420 - yasuo_onchain_analyst - INFO - 🛡️ Running Yasuo quick analysis...
+2025-09-03 16:10:59,420 - yasuo_onchain_analyst - INFO - 📊 Fetching market context data...
+2025-09-03 16:10:59,420 - yasuo_onchain_analyst - INFO - 📈 Exchange flows: 3,909 ETH net flow
+2025-09-03 16:10:59,420 - yasuo_onchain_analyst - INFO - 📊 ETF flows: $93,095,294 daily
+2025-09-03 16:10:59,420 - yasuo_onchain_analyst - INFO - 🎯 Liveliness: 0.32 (low)
+2025-09-03 16:11:00,057 - yasuo_onchain_analyst - INFO - Found 0 large ETH transactions
+2025-09-03 16:11:00,060 - yasuo_onchain_analyst - INFO - ✅ Quick analysis complete. Processed 0 large transactions.
+2025-09-03 16:11:17,231 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-03 16:19:31,175 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-03 16:19:31,808 - yasuo_onchain_analyst - WARNING - Bitquery API error for exchange flows: 401
+2025-09-03 16:19:32,007 - yasuo_onchain_analyst - ERROR - Error scraping ETH ETF data from https://farside.co.uk/eth/: 403 Client Error: Forbidden for url: https://farside.co.uk/eth/
+2025-09-03 16:19:32,171 - yasuo_onchain_analyst - ERROR - Error scraping BTC ETF data from https://farside.co.uk/btc/: 403 Client Error: Forbidden for url: https://farside.co.uk/btc/
+2025-09-03 16:19:32,746 - yasuo_onchain_analyst - WARNING - Bitquery API error for liveliness: 401
+2025-09-03 16:19:59,038 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-03 16:19:59,607 - yasuo_onchain_analyst - WARNING - Bitquery API error for exchange flows: 401
+2025-09-03 16:19:59,783 - yasuo_onchain_analyst - ERROR - Error scraping ETH ETF data from https://farside.co.uk/eth/: 403 Client Error: Forbidden for url: https://farside.co.uk/eth/
+2025-09-03 16:19:59,943 - yasuo_onchain_analyst - ERROR - Error scraping BTC ETF data from https://farside.co.uk/btc/: 403 Client Error: Forbidden for url: https://farside.co.uk/btc/
+2025-09-03 16:20:00,515 - yasuo_onchain_analyst - WARNING - Bitquery API error for liveliness: 401
+2025-09-03 16:35:46,539 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-03 16:35:47,131 - yasuo_onchain_analyst - WARNING - Bitquery API error for exchange flows: 401
+2025-09-03 16:35:48,337 - yasuo_onchain_analyst - ERROR - Error scraping ETH ETF data from https://farside.co.uk/eth/: name 'BeautifulSoup' is not defined
+2025-09-03 16:35:49,443 - yasuo_onchain_analyst - ERROR - Error scraping BTC ETF data from https://farside.co.uk/btc/: name 'BeautifulSoup' is not defined
+2025-09-03 16:35:50,217 - yasuo_onchain_analyst - WARNING - Bitquery API error for liveliness: 401
+2025-09-03 16:45:56,495 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-03 16:45:57,078 - yasuo_onchain_analyst - WARNING - Bitquery API error for exchange flows: 401
+2025-09-03 16:46:02,209 - yasuo_onchain_analyst - WARNING - Bitquery API error for liveliness: 401
+2025-09-03 16:47:52,537 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-03 17:09:49,794 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-03 17:09:50,459 - yasuo_onchain_analyst - INFO - Bitquery exchange query response: 200
+2025-09-03 17:09:50,460 - yasuo_onchain_analyst - INFO - Bitquery response keys: ['errors']
+2025-09-03 17:09:50,460 - yasuo_onchain_analyst - WARNING - GraphQL errors: [{'message': 'Argument \'since\' on InputObject \'DateTimeSelector\' has an invalid value ("24 hours ago"). Expected type \'ISO8601DateTime\'.', 'locations': [{'line': 6, 'column': 25}], 'path': ['query', 'ethereum', 'transfers', 'time', 'since'], 'extensions': {'code': 'argumentLiteralsIncompatible', 'typeName': 'InputObject', 'argumentName': 'since'}}]
+2025-09-03 17:11:10,942 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-03 17:11:12,460 - yasuo_onchain_analyst - INFO - Bitquery exchange query response: 200
+2025-09-03 17:11:12,462 - yasuo_onchain_analyst - INFO - Bitquery response keys: ['data']
+2025-09-03 17:11:12,462 - yasuo_onchain_analyst - INFO - Found 200 transfers
+2025-09-03 17:11:12,463 - yasuo_onchain_analyst - INFO - Exchange analysis: 0.00 in, 0.00 out, 0.00 net
+2025-09-03 17:11:36,086 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-03 17:11:37,423 - yasuo_onchain_analyst - INFO - Bitquery exchange query response: 200
+2025-09-03 17:11:37,424 - yasuo_onchain_analyst - INFO - Bitquery response keys: ['data']
+2025-09-03 17:11:37,424 - yasuo_onchain_analyst - INFO - Found 200 transfers
+2025-09-03 17:11:37,425 - yasuo_onchain_analyst - INFO - Exchange analysis: 0.00 in, 0.00 out, 0.00 net
+2025-09-03 17:11:38,544 - yasuo_onchain_analyst - INFO - Found green highlighted row for ETH
+2025-09-03 17:11:38,545 - yasuo_onchain_analyst - INFO - Found latest ETH row: ['02 Sep 2025', '0.0', '(99.2)', '(24.2)', '(6.6)', '0.0', '0.0', '0.0', '(5.3)', '0.0', '(135.3)']
+2025-09-03 17:11:38,545 - yasuo_onchain_analyst - INFO - Extracted ETH daily flow: $-135,300,000
+2025-09-03 17:11:39,631 - yasuo_onchain_analyst - INFO - Found green highlighted row for BTC
+2025-09-03 17:11:39,631 - yasuo_onchain_analyst - INFO - Found latest BTC row: ['02 Sep 2025', '72.9', '132.7', '39.1', '71.9', '2.2', '0.0', '0.0', '4.7', '0.0', '0.0', '9.3', '332.8']
+2025-09-03 17:11:39,631 - yasuo_onchain_analyst - INFO - Extracted BTC daily flow: $332,800,000
+2025-09-03 17:15:37,722 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-03 17:15:40,311 - yasuo_onchain_analyst - INFO - Bitquery exchange query response: 200
+2025-09-03 17:15:40,312 - yasuo_onchain_analyst - INFO - Bitquery response keys: ['data']
+2025-09-03 17:15:40,312 - yasuo_onchain_analyst - INFO - Found 200 transfers
+2025-09-03 17:15:40,313 - yasuo_onchain_analyst - INFO - Detected 13 exchange-like addresses
+2025-09-03 17:15:40,313 - yasuo_onchain_analyst - INFO - Large transfers (100+ ETH): 4
+2025-09-03 17:15:40,313 - yasuo_onchain_analyst - INFO - Exchange analysis: 1103.46 in, 450.30 out, -653.16 net
+2025-09-03 17:15:41,407 - yasuo_onchain_analyst - INFO - Found green highlighted row for ETH
+2025-09-03 17:15:41,407 - yasuo_onchain_analyst - INFO - Found latest ETH row: ['02 Sep 2025', '0.0', '(99.2)', '(24.2)', '(6.6)', '0.0', '0.0', '0.0', '(5.3)', '0.0', '(135.3)']
+2025-09-03 17:15:41,407 - yasuo_onchain_analyst - INFO - Extracted ETH daily flow: $-135,300,000
+2025-09-03 17:21:19,007 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-03 17:21:20,303 - yasuo_onchain_analyst - INFO - Bitquery exchange query response: 200
+2025-09-03 17:21:20,305 - yasuo_onchain_analyst - INFO - Bitquery response keys: ['data']
+2025-09-03 17:21:20,305 - yasuo_onchain_analyst - INFO - Found 200 transfers
+2025-09-03 17:21:20,306 - yasuo_onchain_analyst - INFO - Detected 16 exchange-like addresses
+2025-09-03 17:21:20,306 - yasuo_onchain_analyst - INFO - Large transfers (100+ ETH): 13
+2025-09-03 17:21:20,306 - yasuo_onchain_analyst - INFO - Exchange analysis: 200.36 in, 3757.01 out, 3556.65 net
+2025-09-03 17:21:24,433 - yasuo_onchain_analyst - INFO - Found green highlighted row for ETH
+2025-09-03 17:21:24,433 - yasuo_onchain_analyst - INFO - Found latest ETH row: ['02 Sep 2025', '0.0', '(99.2)', '(24.2)', '(6.6)', '0.0', '0.0', '0.0', '(5.3)', '0.0', '(135.3)']
+2025-09-03 17:21:24,433 - yasuo_onchain_analyst - INFO - Extracted ETH daily flow: $-135,300,000
+2025-09-03 17:21:46,839 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-03 17:21:46,839 - yasuo_onchain_analyst - INFO - 🛡️ Running Yasuo quick analysis...
+2025-09-03 17:21:46,839 - yasuo_onchain_analyst - INFO - 📊 Fetching market context data...
+2025-09-03 17:21:47,977 - yasuo_onchain_analyst - INFO - Bitquery exchange query response: 200
+2025-09-03 17:21:47,980 - yasuo_onchain_analyst - INFO - Bitquery response keys: ['data']
+2025-09-03 17:21:47,980 - yasuo_onchain_analyst - INFO - Found 200 transfers
+2025-09-03 17:21:47,981 - yasuo_onchain_analyst - INFO - Detected 15 exchange-like addresses
+2025-09-03 17:21:47,981 - yasuo_onchain_analyst - INFO - Large transfers (100+ ETH): 14
+2025-09-03 17:21:47,981 - yasuo_onchain_analyst - INFO - Exchange analysis: 428.51 in, 6080.47 out, 5651.96 net
+2025-09-03 17:21:49,124 - yasuo_onchain_analyst - INFO - Found green highlighted row for ETH
+2025-09-03 17:21:49,124 - yasuo_onchain_analyst - INFO - Found latest ETH row: ['02 Sep 2025', '0.0', '(99.2)', '(24.2)', '(6.6)', '0.0', '0.0', '0.0', '(5.3)', '0.0', '(135.3)']
+2025-09-03 17:21:49,124 - yasuo_onchain_analyst - INFO - Extracted ETH daily flow: $-135,300,000
+2025-09-03 17:21:49,733 - yasuo_onchain_analyst - INFO - 📈 Exchange flows: 5,652 ETH net flow
+2025-09-03 17:21:49,733 - yasuo_onchain_analyst - INFO - 📊 ETF flows: $-135,300,000 daily
+2025-09-03 17:21:49,734 - yasuo_onchain_analyst - INFO - 🎯 Liveliness: 0.50 (moderate)
+2025-09-03 17:21:51,224 - yasuo_onchain_analyst - INFO - Found 0 large ETH transactions
+2025-09-03 17:21:51,228 - yasuo_onchain_analyst - INFO - ✅ Quick analysis complete. Processed 0 large transactions.
+2025-09-03 17:21:52,290 - yasuo_onchain_analyst - INFO - Bitquery exchange query response: 200
+2025-09-03 17:21:52,292 - yasuo_onchain_analyst - INFO - Bitquery response keys: ['data']
+2025-09-03 17:21:52,293 - yasuo_onchain_analyst - INFO - Found 200 transfers
+2025-09-03 17:21:52,294 - yasuo_onchain_analyst - INFO - Detected 15 exchange-like addresses
+2025-09-03 17:21:52,294 - yasuo_onchain_analyst - INFO - Large transfers (100+ ETH): 13
+2025-09-03 17:21:52,294 - yasuo_onchain_analyst - INFO - Exchange analysis: 428.51 in, 6080.47 out, 5651.96 net
+2025-09-03 17:21:53,450 - yasuo_onchain_analyst - INFO - Found green highlighted row for ETH
+2025-09-03 17:21:53,450 - yasuo_onchain_analyst - INFO - Found latest ETH row: ['02 Sep 2025', '0.0', '(99.2)', '(24.2)', '(6.6)', '0.0', '0.0', '0.0', '(5.3)', '0.0', '(135.3)']
+2025-09-03 17:21:53,450 - yasuo_onchain_analyst - INFO - Extracted ETH daily flow: $-135,300,000
+2025-09-03 17:22:18,100 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-03 17:22:19,285 - yasuo_onchain_analyst - INFO - Bitquery exchange query response: 200
+2025-09-03 17:22:19,289 - yasuo_onchain_analyst - INFO - Bitquery response keys: ['data']
+2025-09-03 17:22:19,289 - yasuo_onchain_analyst - INFO - Found 200 transfers
+2025-09-03 17:22:19,290 - yasuo_onchain_analyst - INFO - Detected 14 exchange-like addresses
+2025-09-03 17:22:19,290 - yasuo_onchain_analyst - INFO - Large transfers (100+ ETH): 13
+2025-09-03 17:22:19,290 - yasuo_onchain_analyst - INFO - Exchange analysis: 441.82 in, 6065.58 out, 5623.76 net
+2025-09-03 17:22:20,381 - yasuo_onchain_analyst - INFO - Found green highlighted row for ETH
+2025-09-03 17:22:20,382 - yasuo_onchain_analyst - INFO - Found latest ETH row: ['02 Sep 2025', '0.0', '(99.2)', '(24.2)', '(6.6)', '0.0', '0.0', '0.0', '(5.3)', '0.0', '(135.3)']
+2025-09-03 17:22:20,382 - yasuo_onchain_analyst - INFO - Extracted ETH daily flow: $-135,300,000
+2025-09-03 17:22:52,246 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-03 17:22:53,459 - yasuo_onchain_analyst - INFO - Bitquery exchange query response: 200
+2025-09-03 17:22:53,461 - yasuo_onchain_analyst - INFO - Bitquery response keys: ['data']
+2025-09-03 17:22:53,462 - yasuo_onchain_analyst - INFO - Found 200 transfers
+2025-09-03 17:22:53,463 - yasuo_onchain_analyst - INFO - Detected 15 exchange-like addresses
+2025-09-03 17:22:53,463 - yasuo_onchain_analyst - INFO - Large transfers (100+ ETH): 12
+2025-09-03 17:22:53,463 - yasuo_onchain_analyst - INFO - Exchange analysis: 431.04 in, 6056.23 out, 5625.19 net
+2025-09-03 17:22:54,573 - yasuo_onchain_analyst - INFO - Found green highlighted row for ETH
+2025-09-03 17:22:54,574 - yasuo_onchain_analyst - INFO - Found latest ETH row: ['02 Sep 2025', '0.0', '(99.2)', '(24.2)', '(6.6)', '0.0', '0.0', '0.0', '(5.3)', '0.0', '(135.3)']
+2025-09-03 17:22:54,574 - yasuo_onchain_analyst - INFO - Extracted ETH daily flow: $-135,300,000
+2025-09-03 17:23:55,531 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-03 17:23:56,636 - yasuo_onchain_analyst - INFO - Bitquery exchange query response: 200
+2025-09-03 17:23:56,637 - yasuo_onchain_analyst - INFO - Bitquery response keys: ['data']
+2025-09-03 17:23:56,637 - yasuo_onchain_analyst - INFO - Found 200 transfers
+2025-09-03 17:23:56,638 - yasuo_onchain_analyst - INFO - Detected 15 exchange-like addresses
+2025-09-03 17:23:56,638 - yasuo_onchain_analyst - INFO - Large transfers (100+ ETH): 4
+2025-09-03 17:23:56,638 - yasuo_onchain_analyst - INFO - Exchange analysis: 183.09 in, 6417.24 out, 6234.15 net
+2025-09-03 17:23:57,740 - yasuo_onchain_analyst - INFO - Found green highlighted row for ETH
+2025-09-03 17:23:57,740 - yasuo_onchain_analyst - INFO - Found latest ETH row: ['02 Sep 2025', '0.0', '(99.2)', '(24.2)', '(6.6)', '0.0', '0.0', '0.0', '(5.3)', '0.0', '(135.3)']
+2025-09-03 17:23:57,741 - yasuo_onchain_analyst - INFO - Extracted ETH daily flow: $-135,300,000
+2025-09-03 17:24:47,687 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-03 17:24:48,878 - yasuo_onchain_analyst - INFO - Bitquery exchange query response: 200
+2025-09-03 17:24:48,879 - yasuo_onchain_analyst - INFO - Bitquery response keys: ['data']
+2025-09-03 17:24:48,879 - yasuo_onchain_analyst - INFO - Found 200 transfers
+2025-09-03 17:24:48,880 - yasuo_onchain_analyst - INFO - Detected 14 exchange-like addresses
+2025-09-03 17:24:48,880 - yasuo_onchain_analyst - INFO - Large transfers (100+ ETH): 4
+2025-09-03 17:24:48,880 - yasuo_onchain_analyst - INFO - Exchange analysis: 910.93 in, 3707.22 out, 2796.29 net
+2025-09-03 17:24:50,476 - yasuo_onchain_analyst - INFO - Found green highlighted row for ETH
+2025-09-03 17:24:50,487 - yasuo_onchain_analyst - INFO - Found latest ETH row: ['02 Sep 2025', '0.0', '(99.2)', '(24.2)', '(6.6)', '0.0', '0.0', '0.0', '(5.3)', '0.0', '(135.3)']
+2025-09-03 17:24:50,487 - yasuo_onchain_analyst - INFO - Extracted ETH daily flow: $-135,300,000
+2025-09-03 17:25:11,141 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-03 17:25:13,510 - yasuo_onchain_analyst - INFO - Bitquery exchange query response: 200
+2025-09-03 17:25:13,511 - yasuo_onchain_analyst - INFO - Bitquery response keys: ['data']
+2025-09-03 17:25:13,511 - yasuo_onchain_analyst - INFO - Found 200 transfers
+2025-09-03 17:25:13,512 - yasuo_onchain_analyst - INFO - Detected 13 exchange-like addresses
+2025-09-03 17:25:13,512 - yasuo_onchain_analyst - INFO - Large transfers (100+ ETH): 4
+2025-09-03 17:25:13,512 - yasuo_onchain_analyst - INFO - Exchange analysis: 805.60 in, 3596.34 out, 2790.74 net
+2025-09-03 17:25:14,602 - yasuo_onchain_analyst - INFO - Found green highlighted row for ETH
+2025-09-03 17:25:14,602 - yasuo_onchain_analyst - INFO - Found latest ETH row: ['02 Sep 2025', '0.0', '(99.2)', '(24.2)', '(6.6)', '0.0', '0.0', '0.0', '(5.3)', '0.0', '(135.3)']
+2025-09-03 17:25:14,602 - yasuo_onchain_analyst - INFO - Extracted ETH daily flow: $-135,300,000
+2025-09-03 17:25:29,404 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-03 17:25:30,531 - yasuo_onchain_analyst - INFO - Bitquery exchange query response: 200
+2025-09-03 17:25:30,533 - yasuo_onchain_analyst - INFO - Bitquery response keys: ['data']
+2025-09-03 17:25:30,533 - yasuo_onchain_analyst - INFO - Found 200 transfers
+2025-09-03 17:25:30,534 - yasuo_onchain_analyst - INFO - Detected 15 exchange-like addresses
+2025-09-03 17:25:30,534 - yasuo_onchain_analyst - INFO - Large transfers (100+ ETH): 6
+2025-09-03 17:25:30,534 - yasuo_onchain_analyst - INFO - Exchange analysis: 788.26 in, 5196.08 out, 4407.82 net
+2025-09-03 17:25:31,603 - yasuo_onchain_analyst - INFO - Found green highlighted row for ETH
+2025-09-03 17:25:31,604 - yasuo_onchain_analyst - INFO - Found latest ETH row: ['02 Sep 2025', '0.0', '(99.2)', '(24.2)', '(6.6)', '0.0', '0.0', '0.0', '(5.3)', '0.0', '(135.3)']
+2025-09-03 17:25:31,604 - yasuo_onchain_analyst - INFO - Extracted ETH daily flow: $-135,300,000
+2025-09-03 17:25:49,222 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-03 17:25:50,453 - yasuo_onchain_analyst - INFO - Bitquery exchange query response: 200
+2025-09-03 17:25:50,454 - yasuo_onchain_analyst - INFO - Bitquery response keys: ['data']
+2025-09-03 17:25:50,454 - yasuo_onchain_analyst - INFO - Found 200 transfers
+2025-09-03 17:25:50,455 - yasuo_onchain_analyst - INFO - Detected 16 exchange-like addresses
+2025-09-03 17:25:50,455 - yasuo_onchain_analyst - INFO - Large transfers (100+ ETH): 6
+2025-09-03 17:25:50,455 - yasuo_onchain_analyst - INFO - Exchange analysis: 825.61 in, 5175.35 out, 4349.73 net
+2025-09-03 17:25:51,535 - yasuo_onchain_analyst - INFO - Found green highlighted row for ETH
+2025-09-03 17:25:51,535 - yasuo_onchain_analyst - INFO - Found latest ETH row: ['02 Sep 2025', '0.0', '(99.2)', '(24.2)', '(6.6)', '0.0', '0.0', '0.0', '(5.3)', '0.0', '(135.3)']
+2025-09-03 17:25:51,535 - yasuo_onchain_analyst - INFO - Extracted ETH daily flow: $-135,300,000
+2025-09-03 17:26:19,445 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-03 17:26:21,764 - yasuo_onchain_analyst - INFO - Bitquery exchange query response: 200
+2025-09-03 17:26:21,767 - yasuo_onchain_analyst - INFO - Bitquery response keys: ['data']
+2025-09-03 17:26:21,767 - yasuo_onchain_analyst - INFO - Found 200 transfers
+2025-09-03 17:26:21,767 - yasuo_onchain_analyst - INFO - Detected 14 exchange-like addresses
+2025-09-03 17:26:21,767 - yasuo_onchain_analyst - INFO - Large transfers (100+ ETH): 6
+2025-09-03 17:26:21,767 - yasuo_onchain_analyst - INFO - Exchange analysis: 837.49 in, 3827.27 out, 2989.78 net
+2025-09-03 17:26:22,903 - yasuo_onchain_analyst - INFO - Found green highlighted row for ETH
+2025-09-03 17:26:22,904 - yasuo_onchain_analyst - INFO - Found latest ETH row: ['02 Sep 2025', '0.0', '(99.2)', '(24.2)', '(6.6)', '0.0', '0.0', '0.0', '(5.3)', '0.0', '(135.3)']
+2025-09-03 17:26:22,904 - yasuo_onchain_analyst - INFO - Extracted ETH daily flow: $-135,300,000
+2025-09-03 17:26:36,685 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-03 17:26:37,928 - yasuo_onchain_analyst - INFO - Bitquery exchange query response: 200
+2025-09-03 17:26:37,930 - yasuo_onchain_analyst - INFO - Bitquery response keys: ['data']
+2025-09-03 17:26:37,930 - yasuo_onchain_analyst - INFO - Found 200 transfers
+2025-09-03 17:26:37,930 - yasuo_onchain_analyst - INFO - Detected 16 exchange-like addresses
+2025-09-03 17:26:37,930 - yasuo_onchain_analyst - INFO - Large transfers (100+ ETH): 9
+2025-09-03 17:26:37,930 - yasuo_onchain_analyst - INFO - Exchange analysis: 1076.67 in, 5874.76 out, 4798.09 net
+2025-09-03 17:26:39,052 - yasuo_onchain_analyst - INFO - Found green highlighted row for ETH
+2025-09-03 17:26:39,052 - yasuo_onchain_analyst - INFO - Found latest ETH row: ['02 Sep 2025', '0.0', '(99.2)', '(24.2)', '(6.6)', '0.0', '0.0', '0.0', '(5.3)', '0.0', '(135.3)']
+2025-09-03 17:26:39,053 - yasuo_onchain_analyst - INFO - Extracted ETH daily flow: $-135,300,000
+2025-09-03 17:32:45,068 - trend_tracker - INFO - No historical data file found - starting fresh
+2025-09-03 17:32:45,069 - yasuo_onchain_analyst - INFO - ✅ Trend tracker initialized
+2025-09-03 17:32:45,069 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-03 17:32:45,069 - trend_tracker - INFO - No historical data file found - starting fresh
+2025-09-03 17:32:49,097 - yasuo_onchain_analyst - INFO - Bitquery exchange query response: 200
+2025-09-03 17:32:49,102 - yasuo_onchain_analyst - INFO - Bitquery response keys: ['data']
+2025-09-03 17:32:49,102 - yasuo_onchain_analyst - INFO - Found 200 transfers
+2025-09-03 17:32:49,103 - yasuo_onchain_analyst - INFO - Detected 11 exchange-like addresses
+2025-09-03 17:32:49,103 - yasuo_onchain_analyst - INFO - Large transfers (100+ ETH): 5
+2025-09-03 17:32:49,103 - yasuo_onchain_analyst - INFO - Exchange analysis: 829.97 in, 4525.48 out, 3695.51 net
+2025-09-03 17:32:50,258 - yasuo_onchain_analyst - INFO - Found green highlighted row for ETH
+2025-09-03 17:32:50,258 - yasuo_onchain_analyst - INFO - Found latest ETH row: ['02 Sep 2025', '0.0', '(99.2)', '(24.2)', '(6.6)', '0.0', '0.0', '0.0', '(5.3)', '0.0', '(135.3)']
+2025-09-03 17:32:50,258 - yasuo_onchain_analyst - INFO - Extracted ETH daily flow: $-135,300,000
+2025-09-03 17:32:50,851 - trend_tracker - INFO - Saved 1 data points
+2025-09-03 17:32:50,851 - trend_tracker - INFO - Added data point. Total samples: 1
+2025-09-03 17:32:55,333 - yasuo_onchain_analyst - INFO - Bitquery exchange query response: 200
+2025-09-03 17:32:55,334 - yasuo_onchain_analyst - INFO - Bitquery response keys: ['data']
+2025-09-03 17:32:55,334 - yasuo_onchain_analyst - INFO - Found 200 transfers
+2025-09-03 17:32:55,335 - yasuo_onchain_analyst - INFO - Detected 10 exchange-like addresses
+2025-09-03 17:32:55,335 - yasuo_onchain_analyst - INFO - Large transfers (100+ ETH): 5
+2025-09-03 17:32:55,335 - yasuo_onchain_analyst - INFO - Exchange analysis: 736.29 in, 4499.75 out, 3763.47 net
+2025-09-03 17:32:56,463 - yasuo_onchain_analyst - INFO - Found green highlighted row for ETH
+2025-09-03 17:32:56,463 - yasuo_onchain_analyst - INFO - Found latest ETH row: ['02 Sep 2025', '0.0', '(99.2)', '(24.2)', '(6.6)', '0.0', '0.0', '0.0', '(5.3)', '0.0', '(135.3)']
+2025-09-03 17:32:56,463 - yasuo_onchain_analyst - INFO - Extracted ETH daily flow: $-135,300,000
+2025-09-03 17:32:57,076 - trend_tracker - INFO - Saved 2 data points
+2025-09-03 17:32:57,076 - trend_tracker - INFO - Added data point. Total samples: 2
+2025-09-03 17:33:04,448 - yasuo_onchain_analyst - INFO - Bitquery exchange query response: 200
+2025-09-03 17:33:04,451 - yasuo_onchain_analyst - INFO - Bitquery response keys: ['data']
+2025-09-03 17:33:04,451 - yasuo_onchain_analyst - INFO - Found 200 transfers
+2025-09-03 17:33:04,452 - yasuo_onchain_analyst - INFO - Detected 10 exchange-like addresses
+2025-09-03 17:33:04,452 - yasuo_onchain_analyst - INFO - Large transfers (100+ ETH): 5
+2025-09-03 17:33:04,452 - yasuo_onchain_analyst - INFO - Exchange analysis: 736.29 in, 4499.75 out, 3763.47 net
+2025-09-03 17:33:05,580 - yasuo_onchain_analyst - INFO - Found green highlighted row for ETH
+2025-09-03 17:33:05,580 - yasuo_onchain_analyst - INFO - Found latest ETH row: ['02 Sep 2025', '0.0', '(99.2)', '(24.2)', '(6.6)', '0.0', '0.0', '0.0', '(5.3)', '0.0', '(135.3)']
+2025-09-03 17:33:05,580 - yasuo_onchain_analyst - INFO - Extracted ETH daily flow: $-135,300,000
+2025-09-03 17:33:06,180 - trend_tracker - INFO - Saved 3 data points
+2025-09-03 17:33:06,180 - trend_tracker - INFO - Added data point. Total samples: 3
+2025-09-03 17:33:10,113 - yasuo_onchain_analyst - INFO - Bitquery exchange query response: 200
+2025-09-03 17:33:10,115 - yasuo_onchain_analyst - INFO - Bitquery response keys: ['data']
+2025-09-03 17:33:10,115 - yasuo_onchain_analyst - INFO - Found 200 transfers
+2025-09-03 17:33:10,116 - yasuo_onchain_analyst - INFO - Detected 10 exchange-like addresses
+2025-09-03 17:33:10,116 - yasuo_onchain_analyst - INFO - Large transfers (100+ ETH): 5
+2025-09-03 17:33:10,116 - yasuo_onchain_analyst - INFO - Exchange analysis: 736.29 in, 4499.75 out, 3763.47 net
+2025-09-03 17:33:12,364 - yasuo_onchain_analyst - INFO - Found green highlighted row for ETH
+2025-09-03 17:33:12,365 - yasuo_onchain_analyst - INFO - Found latest ETH row: ['02 Sep 2025', '0.0', '(99.2)', '(24.2)', '(6.6)', '0.0', '0.0', '0.0', '(5.3)', '0.0', '(135.3)']
+2025-09-03 17:33:12,365 - yasuo_onchain_analyst - INFO - Extracted ETH daily flow: $-135,300,000
+2025-09-03 17:33:12,957 - trend_tracker - INFO - Saved 4 data points
+2025-09-03 17:33:12,957 - trend_tracker - INFO - Added data point. Total samples: 4
+2025-09-03 17:33:16,223 - yasuo_onchain_analyst - INFO - Bitquery exchange query response: 200
+2025-09-03 17:33:16,224 - yasuo_onchain_analyst - INFO - Bitquery response keys: ['data']
+2025-09-03 17:33:16,224 - yasuo_onchain_analyst - INFO - Found 200 transfers
+2025-09-03 17:33:16,225 - yasuo_onchain_analyst - INFO - Detected 10 exchange-like addresses
+2025-09-03 17:33:16,225 - yasuo_onchain_analyst - INFO - Large transfers (100+ ETH): 5
+2025-09-03 17:33:16,225 - yasuo_onchain_analyst - INFO - Exchange analysis: 736.29 in, 4499.75 out, 3763.47 net
+2025-09-03 17:33:16,940 - yasuo_onchain_analyst - INFO - Found green highlighted row for ETH
+2025-09-03 17:33:16,941 - yasuo_onchain_analyst - INFO - Found latest ETH row: ['02 Sep 2025', '0.0', '(99.2)', '(24.2)', '(6.6)', '0.0', '0.0', '0.0', '(5.3)', '0.0', '(135.3)']
+2025-09-03 17:33:16,941 - yasuo_onchain_analyst - INFO - Extracted ETH daily flow: $-135,300,000
+2025-09-03 17:33:17,818 - trend_tracker - INFO - Saved 5 data points
+2025-09-03 17:33:17,818 - trend_tracker - INFO - Added data point. Total samples: 5
+2025-09-03 17:33:21,459 - yasuo_onchain_analyst - INFO - Bitquery exchange query response: 200
+2025-09-03 17:33:21,463 - yasuo_onchain_analyst - INFO - Bitquery response keys: ['data']
+2025-09-03 17:33:21,463 - yasuo_onchain_analyst - INFO - Found 200 transfers
+2025-09-03 17:33:21,463 - yasuo_onchain_analyst - INFO - Detected 10 exchange-like addresses
+2025-09-03 17:33:21,464 - yasuo_onchain_analyst - INFO - Large transfers (100+ ETH): 4
+2025-09-03 17:33:21,464 - yasuo_onchain_analyst - INFO - Exchange analysis: 733.01 in, 4495.84 out, 3762.83 net
+2025-09-03 17:33:22,690 - yasuo_onchain_analyst - INFO - Found green highlighted row for ETH
+2025-09-03 17:33:22,693 - yasuo_onchain_analyst - INFO - Found latest ETH row: ['02 Sep 2025', '0.0', '(99.2)', '(24.2)', '(6.6)', '0.0', '0.0', '0.0', '(5.3)', '0.0', '(135.3)']
+2025-09-03 17:33:22,693 - yasuo_onchain_analyst - INFO - Extracted ETH daily flow: $-135,300,000
+2025-09-03 17:33:23,285 - trend_tracker - INFO - Saved 6 data points
+2025-09-03 17:33:23,285 - trend_tracker - INFO - Added data point. Total samples: 6
+2025-09-03 17:33:23,286 - yasuo_onchain_analyst - INFO - 🛡️ Running Yasuo quick analysis...
+2025-09-03 17:33:23,286 - yasuo_onchain_analyst - INFO - 📊 Fetching market context data...
+2025-09-03 17:33:24,815 - yasuo_onchain_analyst - INFO - Bitquery exchange query response: 200
+2025-09-03 17:33:24,817 - yasuo_onchain_analyst - INFO - Bitquery response keys: ['data']
+2025-09-03 17:33:24,817 - yasuo_onchain_analyst - INFO - Found 200 transfers
+2025-09-03 17:33:24,817 - yasuo_onchain_analyst - INFO - Detected 10 exchange-like addresses
+2025-09-03 17:33:24,818 - yasuo_onchain_analyst - INFO - Large transfers (100+ ETH): 4
+2025-09-03 17:33:24,818 - yasuo_onchain_analyst - INFO - Exchange analysis: 733.01 in, 4495.84 out, 3762.83 net
+2025-09-03 17:33:25,929 - yasuo_onchain_analyst - INFO - Found green highlighted row for ETH
+2025-09-03 17:33:25,929 - yasuo_onchain_analyst - INFO - Found latest ETH row: ['02 Sep 2025', '0.0', '(99.2)', '(24.2)', '(6.6)', '0.0', '0.0', '0.0', '(5.3)', '0.0', '(135.3)']
+2025-09-03 17:33:25,929 - yasuo_onchain_analyst - INFO - Extracted ETH daily flow: $-135,300,000
+2025-09-03 17:33:26,517 - yasuo_onchain_analyst - INFO - 📈 Exchange flows: 3,763 ETH net flow
+2025-09-03 17:33:26,518 - yasuo_onchain_analyst - INFO - 📊 ETF flows: $-135,300,000 daily
+2025-09-03 17:33:26,518 - yasuo_onchain_analyst - INFO - 🎯 Liveliness: 0.50 (moderate)
+2025-09-03 17:33:26,519 - trend_tracker - INFO - Saved 1 data points
+2025-09-03 17:33:26,519 - trend_tracker - INFO - Added data point. Total samples: 1
+2025-09-03 17:33:26,519 - trend_tracker - WARNING - Insufficient data for trend analysis. Need 5, have 1
+2025-09-03 17:33:26,519 - yasuo_onchain_analyst - INFO - 📊 Trend: Need 4 more samples for analysis
+2025-09-03 17:33:27,181 - yasuo_onchain_analyst - INFO - Found 0 large ETH transactions
+2025-09-03 17:33:27,183 - yasuo_onchain_analyst - INFO - ✅ Quick analysis complete. Processed 0 large transactions.
+2025-09-03 17:37:19,697 - trend_tracker - INFO - Loaded 1 historical data points
+2025-09-03 17:37:19,698 - yasuo_onchain_analyst - INFO - ✅ Trend tracker initialized
+2025-09-03 17:37:19,698 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-03 17:37:21,059 - yasuo_onchain_analyst - INFO - Bitquery exchange query response: 200
+2025-09-03 17:37:21,061 - yasuo_onchain_analyst - INFO - Bitquery response keys: ['data']
+2025-09-03 17:37:21,061 - yasuo_onchain_analyst - INFO - Found 200 transfers
+2025-09-03 17:37:21,061 - yasuo_onchain_analyst - INFO - Detected 10 exchange-like addresses
+2025-09-03 17:37:21,062 - yasuo_onchain_analyst - INFO - Large transfers (100+ ETH): 4
+2025-09-03 17:37:21,062 - yasuo_onchain_analyst - INFO - Exchange analysis: 38.01 in, 484.05 out, 446.04 net
+2025-09-03 17:37:22,136 - yasuo_onchain_analyst - INFO - Found green highlighted row for ETH
+2025-09-03 17:37:22,137 - yasuo_onchain_analyst - INFO - Found latest ETH row: ['02 Sep 2025', '0.0', '(99.2)', '(24.2)', '(6.6)', '0.0', '0.0', '0.0', '(5.3)', '0.0', '(135.3)']
+2025-09-03 17:37:22,137 - yasuo_onchain_analyst - INFO - Extracted ETH daily flow: $-135,300,000
+2025-09-03 17:52:32,309 - trend_tracker - INFO - Loaded 1 historical data points
+2025-09-03 17:52:32,309 - __main__ - INFO - ✅ Trend tracker initialized
+2025-09-03 17:52:32,309 - __main__ - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-03 17:52:32,365 - __main__ - INFO - ✅ Telegram bot initialized
+2025-09-03 17:52:32,365 - __main__ - INFO - 🛡️ Running Yasuo quick analysis...
+2025-09-03 17:52:32,365 - __main__ - INFO - 📊 Fetching market context data...
+2025-09-03 17:52:33,974 - __main__ - INFO - Bitquery exchange query response: 200
+2025-09-03 17:52:33,975 - __main__ - INFO - Bitquery response keys: ['data']
+2025-09-03 17:52:33,975 - __main__ - INFO - Found 200 transfers
+2025-09-03 17:52:33,976 - __main__ - INFO - Detected 13 exchange-like addresses
+2025-09-03 17:52:33,976 - __main__ - INFO - Large transfers (100+ ETH): 7
+2025-09-03 17:52:33,976 - __main__ - INFO - Exchange analysis: 637.05 in, 1925.19 out, 1288.14 net
+2025-09-03 17:52:35,153 - __main__ - INFO - Found green highlighted row for ETH
+2025-09-03 17:52:35,153 - __main__ - INFO - Found latest ETH row: ['02 Sep 2025', '0.0', '(99.2)', '(24.2)', '(6.6)', '0.0', '0.0', '0.0', '(5.3)', '0.0', '(135.3)']
+2025-09-03 17:52:35,153 - __main__ - INFO - Extracted ETH daily flow: $-135,300,000
+2025-09-03 17:52:35,754 - __main__ - INFO - 📈 Exchange flows: 1,288 ETH net flow
+2025-09-03 17:52:35,754 - __main__ - INFO - 📊 ETF flows: $-135,300,000 daily
+2025-09-03 17:52:35,754 - __main__ - INFO - 🎯 Liveliness: 0.50 (moderate)
+2025-09-03 17:52:35,754 - trend_tracker - INFO - Saved 2 data points
+2025-09-03 17:52:35,754 - trend_tracker - INFO - Added data point. Total samples: 2
+2025-09-03 17:52:35,754 - trend_tracker - WARNING - Insufficient data for trend analysis. Need 5, have 2
+2025-09-03 17:52:35,754 - __main__ - INFO - 📊 Trend: Need 3 more samples for analysis
+2025-09-03 17:52:36,399 - __main__ - INFO - Found 0 large ETH transactions
+2025-09-03 17:52:36,401 - __main__ - INFO - ✅ Quick analysis complete. Processed 0 large transactions.
+2025-09-03 17:52:36,401 - __main__ - INFO - 🛡️ Starting Yasuo ETH transaction monitoring...
+2025-09-03 17:52:36,401 - __main__ - INFO - 📊 Fetching initial market context...
+2025-09-03 17:52:37,459 - __main__ - INFO - Bitquery exchange query response: 200
+2025-09-03 17:52:37,459 - __main__ - INFO - Bitquery response keys: ['data']
+2025-09-03 17:52:37,459 - __main__ - INFO - Found 200 transfers
+2025-09-03 17:52:37,460 - __main__ - INFO - Detected 13 exchange-like addresses
+2025-09-03 17:52:37,460 - __main__ - INFO - Large transfers (100+ ETH): 7
+2025-09-03 17:52:37,460 - __main__ - INFO - Exchange analysis: 637.41 in, 1925.19 out, 1287.78 net
+2025-09-03 17:52:38,713 - __main__ - INFO - Found green highlighted row for ETH
+2025-09-03 17:52:38,713 - __main__ - INFO - Found latest ETH row: ['02 Sep 2025', '0.0', '(99.2)', '(24.2)', '(6.6)', '0.0', '0.0', '0.0', '(5.3)', '0.0', '(135.3)']
+2025-09-03 17:52:38,713 - __main__ - INFO - Extracted ETH daily flow: $-135,300,000
+2025-09-03 17:52:39,308 - __main__ - INFO - 📈 Initial exchange flows: 1,288 ETH
+2025-09-03 17:52:39,308 - __main__ - INFO - 📊 Initial ETF flows: $-135,300,000
+2025-09-03 17:52:39,308 - __main__ - INFO - 🎯 Initial liveliness: 0.50
+2025-09-03 17:52:39,948 - __main__ - INFO - Found 0 large ETH transactions
+2025-09-03 17:52:39,949 - __main__ - INFO - No transactions from Bitquery, trying Etherscan...
+2025-09-03 17:52:39,950 - __main__ - INFO - Etherscan API fallback - simplified implementation
+2025-09-03 17:57:40,716 - __main__ - INFO - Found 0 large ETH transactions
+2025-09-03 17:57:40,730 - __main__ - INFO - No transactions from Bitquery, trying Etherscan...
+2025-09-03 17:57:40,731 - __main__ - INFO - Etherscan API fallback - simplified implementation
+2025-09-03 18:02:46,259 - __main__ - INFO - Found 0 large ETH transactions
+2025-09-03 18:02:46,265 - __main__ - INFO - No transactions from Bitquery, trying Etherscan...
+2025-09-03 18:02:46,265 - __main__ - INFO - Etherscan API fallback - simplified implementation
+2025-09-03 18:07:46,962 - __main__ - INFO - Found 0 large ETH transactions
+2025-09-03 18:07:46,964 - __main__ - INFO - No transactions from Bitquery, trying Etherscan...
+2025-09-03 18:07:46,964 - __main__ - INFO - Etherscan API fallback - simplified implementation
+2025-09-03 18:31:47,252 - trend_tracker - INFO - Loaded 2 historical data points
+2025-09-03 18:31:47,252 - yasuo_onchain_analyst - INFO - ✅ Trend tracker initialized
+2025-09-03 18:31:47,254 - bitquery_rate_limiter - INFO - 📊 BITQUERY API USAGE SUMMARY:
+2025-09-03 18:31:47,254 - bitquery_rate_limiter - INFO - 📅 Daily: 0/100 (0.0%)
+2025-09-03 18:31:47,254 - bitquery_rate_limiter - INFO - 🕐 Hourly: 0/10 (0.0%)
+2025-09-03 18:31:47,254 - bitquery_rate_limiter - INFO - ✅ Can Query: True
+2025-09-03 18:31:47,254 - yasuo_onchain_analyst - INFO - ✅ Rate limiter initialized with adaptive intervals
+2025-09-03 18:31:47,254 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-03 18:31:48,509 - yasuo_onchain_analyst - INFO - Bitquery exchange query response: 200
+2025-09-03 18:31:48,510 - yasuo_onchain_analyst - INFO - Bitquery response keys: ['data']
+2025-09-03 18:31:48,510 - yasuo_onchain_analyst - INFO - Found 200 transfers
+2025-09-03 18:31:48,510 - yasuo_onchain_analyst - INFO - Detected 12 exchange-like addresses
+2025-09-03 18:31:48,510 - yasuo_onchain_analyst - INFO - Large transfers (100+ ETH): 4
+2025-09-03 18:31:48,510 - yasuo_onchain_analyst - INFO - Exchange analysis: 449.64 in, 3299.43 out, 2849.79 net
+2025-09-03 18:31:49,688 - yasuo_onchain_analyst - INFO - Found green highlighted row for ETH
+2025-09-03 18:31:49,689 - yasuo_onchain_analyst - INFO - Found latest ETH row: ['02 Sep 2025', '0.0', '(99.2)', '(24.2)', '(6.6)', '0.0', '0.0', '0.0', '(5.3)', '0.0', '(135.3)']
+2025-09-03 18:31:49,689 - yasuo_onchain_analyst - INFO - Extracted ETH daily flow: $-135,300,000
+2025-09-03 18:53:19,969 - trend_tracker - INFO - Loaded 2 historical data points
+2025-09-03 18:53:19,969 - yasuo_onchain_analyst - INFO - ✅ Trend tracker initialized
+2025-09-03 18:53:19,970 - bitquery_rate_limiter - INFO - 📊 BITQUERY API USAGE SUMMARY:
+2025-09-03 18:53:19,970 - bitquery_rate_limiter - INFO - 📅 Daily: 0/100 (0.0%)
+2025-09-03 18:53:19,970 - bitquery_rate_limiter - INFO - 🕐 Hourly: 0/10 (0.0%)
+2025-09-03 18:53:19,970 - bitquery_rate_limiter - INFO - ✅ Can Query: True
+2025-09-03 18:53:19,970 - yasuo_onchain_analyst - INFO - ✅ Rate limiter initialized with adaptive intervals
+2025-09-03 18:53:19,970 - yasuo_onchain_analyst - INFO - ✅ Advanced metrics tracker available
+2025-09-03 18:53:19,970 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-03 19:03:47,398 - trend_tracker - INFO - Loaded 2 historical data points
+2025-09-03 19:03:47,398 - yasuo_onchain_analyst - INFO - ✅ Trend tracker initialized
+2025-09-03 19:03:47,398 - bitquery_rate_limiter - INFO - 📊 BITQUERY API USAGE SUMMARY:
+2025-09-03 19:03:47,398 - bitquery_rate_limiter - INFO - 📅 Daily: 0/100 (0.0%)
+2025-09-03 19:03:47,398 - bitquery_rate_limiter - INFO - 🕐 Hourly: 0/10 (0.0%)
+2025-09-03 19:03:47,399 - bitquery_rate_limiter - INFO - ✅ Can Query: True
+2025-09-03 19:03:47,399 - yasuo_onchain_analyst - INFO - ✅ Rate limiter initialized with adaptive intervals
+2025-09-03 19:03:47,477 - yasuo_onchain_analyst - INFO - ✅ Advanced metrics tracker available
+2025-09-03 19:03:47,477 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-03 19:08:02,399 - trend_tracker - INFO - Loaded 2 historical data points
+2025-09-03 19:08:02,399 - yasuo_onchain_analyst - INFO - ✅ Trend tracker initialized
+2025-09-03 19:08:02,399 - bitquery_rate_limiter - INFO - 📊 BITQUERY API USAGE SUMMARY:
+2025-09-03 19:08:02,399 - bitquery_rate_limiter - INFO - 📅 Daily: 0/100 (0.0%)
+2025-09-03 19:08:02,399 - bitquery_rate_limiter - INFO - 🕐 Hourly: 0/10 (0.0%)
+2025-09-03 19:08:02,399 - bitquery_rate_limiter - INFO - ✅ Can Query: True
+2025-09-03 19:08:02,400 - yasuo_onchain_analyst - INFO - ✅ Rate limiter initialized with adaptive intervals
+2025-09-03 19:08:02,400 - yasuo_onchain_analyst - INFO - ✅ Advanced metrics tracker available
+2025-09-03 19:08:02,400 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-03 19:08:05,602 - free_data_sources - INFO - No Whale Alert API key - skipping
+2025-09-03 20:48:50,046 - trend_tracker - INFO - Loaded 2 historical data points
+2025-09-03 20:48:50,046 - yasuo_onchain_analyst - INFO - ✅ Trend tracker initialized
+2025-09-03 20:48:50,048 - bitquery_rate_limiter - INFO - 📊 BITQUERY API USAGE SUMMARY:
+2025-09-03 20:48:50,048 - bitquery_rate_limiter - INFO - 📅 Daily: 0/100 (0.0%)
+2025-09-03 20:48:50,048 - bitquery_rate_limiter - INFO - 🕐 Hourly: 0/10 (0.0%)
+2025-09-03 20:48:50,048 - bitquery_rate_limiter - INFO - ✅ Can Query: True
+2025-09-03 20:48:50,048 - yasuo_onchain_analyst - INFO - ✅ Rate limiter initialized with adaptive intervals
+2025-09-03 20:48:50,048 - yasuo_onchain_analyst - INFO - ✅ Advanced metrics tracker available
+2025-09-03 20:48:50,048 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-03 20:48:53,363 - free_data_sources - WARNING - Etherscan large transactions error: 'str' object has no attribute 'get'
+2025-09-03 20:49:02,694 - trend_tracker - INFO - Loaded 2 historical data points
+2025-09-03 20:49:02,694 - yasuo_onchain_analyst - INFO - ✅ Trend tracker initialized
+2025-09-03 20:49:02,694 - bitquery_rate_limiter - INFO - 📊 BITQUERY API USAGE SUMMARY:
+2025-09-03 20:49:02,694 - bitquery_rate_limiter - INFO - 📅 Daily: 0/100 (0.0%)
+2025-09-03 20:49:02,694 - bitquery_rate_limiter - INFO - 🕐 Hourly: 0/10 (0.0%)
+2025-09-03 20:49:02,694 - bitquery_rate_limiter - INFO - ✅ Can Query: True
+2025-09-03 20:49:02,694 - yasuo_onchain_analyst - INFO - ✅ Rate limiter initialized with adaptive intervals
+2025-09-03 20:49:02,753 - yasuo_onchain_analyst - INFO - ✅ Advanced metrics tracker available
+2025-09-03 20:49:02,753 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-03 20:49:04,002 - yasuo_onchain_analyst - INFO - Bitquery exchange query response: 200
+2025-09-03 20:49:04,003 - yasuo_onchain_analyst - INFO - Bitquery response keys: ['data']
+2025-09-03 20:49:04,003 - yasuo_onchain_analyst - INFO - Found 200 transfers
+2025-09-03 20:49:04,004 - yasuo_onchain_analyst - INFO - Detected 21 exchange-like addresses
+2025-09-03 20:49:04,004 - yasuo_onchain_analyst - INFO - Large transfers (100+ ETH): 5
+2025-09-03 20:49:04,004 - yasuo_onchain_analyst - INFO - Exchange analysis: 223.92 in, 10847.90 out, 10623.99 net
+2025-09-03 20:49:05,116 - yasuo_onchain_analyst - INFO - Found green highlighted row for ETH
+2025-09-03 20:49:05,116 - yasuo_onchain_analyst - INFO - Found latest ETH row: ['03 Sep 2025', '-', '-', '-', '-', '-', '-', '-', '-', '-', '0.0']
+2025-09-03 20:49:05,116 - yasuo_onchain_analyst - INFO - Extracted ETH daily flow: $0
+2025-09-03 20:49:05,116 - yasuo_onchain_analyst - INFO - Using simulated data for ETH (couldn't extract from https://farside.co.uk/eth/)
+2025-09-03 20:53:21,075 - trend_tracker - INFO - Loaded 2 historical data points
+2025-09-03 20:53:21,075 - yasuo_onchain_analyst - INFO - ✅ Trend tracker initialized
+2025-09-03 20:53:21,075 - bitquery_rate_limiter - INFO - 📊 BITQUERY API USAGE SUMMARY:
+2025-09-03 20:53:21,075 - bitquery_rate_limiter - INFO - 📅 Daily: 0/100 (0.0%)
+2025-09-03 20:53:21,075 - bitquery_rate_limiter - INFO - 🕐 Hourly: 0/10 (0.0%)
+2025-09-03 20:53:21,075 - bitquery_rate_limiter - INFO - ✅ Can Query: True
+2025-09-03 20:53:21,076 - yasuo_onchain_analyst - INFO - ✅ Rate limiter initialized with adaptive intervals
+2025-09-03 20:53:21,146 - yasuo_onchain_analyst - INFO - ✅ Advanced metrics tracker available
+2025-09-03 20:53:21,146 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-03 20:53:38,239 - trend_tracker - INFO - Loaded 2 historical data points
+2025-09-03 20:53:38,240 - yasuo_onchain_analyst - INFO - ✅ Trend tracker initialized
+2025-09-03 20:53:38,240 - bitquery_rate_limiter - INFO - 📊 BITQUERY API USAGE SUMMARY:
+2025-09-03 20:53:38,240 - bitquery_rate_limiter - INFO - 📅 Daily: 0/100 (0.0%)
+2025-09-03 20:53:38,240 - bitquery_rate_limiter - INFO - 🕐 Hourly: 0/10 (0.0%)
+2025-09-03 20:53:38,240 - bitquery_rate_limiter - INFO - ✅ Can Query: True
+2025-09-03 20:53:38,240 - yasuo_onchain_analyst - INFO - ✅ Rate limiter initialized with adaptive intervals
+2025-09-03 20:53:38,306 - yasuo_onchain_analyst - INFO - ✅ Advanced metrics tracker available
+2025-09-03 20:53:38,306 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-03 20:53:56,884 - trend_tracker - INFO - Loaded 2 historical data points
+2025-09-03 20:53:56,885 - yasuo_onchain_analyst - INFO - ✅ Trend tracker initialized
+2025-09-03 20:53:56,885 - bitquery_rate_limiter - INFO - 📊 BITQUERY API USAGE SUMMARY:
+2025-09-03 20:53:56,885 - bitquery_rate_limiter - INFO - 📅 Daily: 0/100 (0.0%)
+2025-09-03 20:53:56,885 - bitquery_rate_limiter - INFO - 🕐 Hourly: 0/10 (0.0%)
+2025-09-03 20:53:56,885 - bitquery_rate_limiter - INFO - ✅ Can Query: True
+2025-09-03 20:53:56,885 - yasuo_onchain_analyst - INFO - ✅ Rate limiter initialized with adaptive intervals
+2025-09-03 20:53:56,955 - yasuo_onchain_analyst - INFO - ✅ Advanced metrics tracker available
+2025-09-03 20:53:56,955 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-03 20:54:17,516 - trend_tracker - INFO - Loaded 2 historical data points
+2025-09-03 20:54:17,516 - yasuo_onchain_analyst - INFO - ✅ Trend tracker initialized
+2025-09-03 20:54:17,516 - bitquery_rate_limiter - INFO - 📊 BITQUERY API USAGE SUMMARY:
+2025-09-03 20:54:17,516 - bitquery_rate_limiter - INFO - 📅 Daily: 0/100 (0.0%)
+2025-09-03 20:54:17,516 - bitquery_rate_limiter - INFO - 🕐 Hourly: 0/10 (0.0%)
+2025-09-03 20:54:17,516 - bitquery_rate_limiter - INFO - ✅ Can Query: True
+2025-09-03 20:54:17,516 - yasuo_onchain_analyst - INFO - ✅ Rate limiter initialized with adaptive intervals
+2025-09-03 20:54:17,573 - yasuo_onchain_analyst - INFO - ✅ Advanced metrics tracker available
+2025-09-03 20:54:17,573 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-03 20:54:18,852 - yasuo_onchain_analyst - INFO - Bitquery exchange query response: 200
+2025-09-03 20:54:18,853 - yasuo_onchain_analyst - INFO - Bitquery response keys: ['data']
+2025-09-03 20:54:18,853 - yasuo_onchain_analyst - INFO - Found 200 transfers
+2025-09-03 20:54:18,854 - yasuo_onchain_analyst - INFO - Detected 12 exchange-like addresses
+2025-09-03 20:54:18,854 - yasuo_onchain_analyst - INFO - Large transfers (100+ ETH): 20
+2025-09-03 20:54:18,854 - yasuo_onchain_analyst - INFO - Exchange analysis: 334.15 in, 3783.93 out, 3449.78 net
+2025-09-03 20:54:19,995 - yasuo_onchain_analyst - INFO - Found green highlighted row for ETH
+2025-09-03 20:54:19,995 - yasuo_onchain_analyst - INFO - Found latest ETH row: ['03 Sep 2025', '-', '-', '-', '-', '-', '-', '-', '-', '-', '0.0']
+2025-09-03 20:54:19,995 - yasuo_onchain_analyst - INFO - Extracted ETH daily flow: $0
+2025-09-03 20:54:19,995 - yasuo_onchain_analyst - INFO - Using simulated data for ETH (couldn't extract from https://farside.co.uk/eth/)
+2025-09-03 20:54:25,521 - free_data_sources - WARNING - Etherscan large transactions error: 'str' object has no attribute 'get'
+2025-09-03 20:54:40,103 - trend_tracker - INFO - Loaded 2 historical data points
+2025-09-03 20:54:40,103 - yasuo_onchain_analyst - INFO - ✅ Trend tracker initialized
+2025-09-03 20:54:40,104 - bitquery_rate_limiter - INFO - 📊 BITQUERY API USAGE SUMMARY:
+2025-09-03 20:54:40,104 - bitquery_rate_limiter - INFO - 📅 Daily: 0/100 (0.0%)
+2025-09-03 20:54:40,104 - bitquery_rate_limiter - INFO - 🕐 Hourly: 0/10 (0.0%)
+2025-09-03 20:54:40,104 - bitquery_rate_limiter - INFO - ✅ Can Query: True
+2025-09-03 20:54:40,104 - yasuo_onchain_analyst - INFO - ✅ Rate limiter initialized with adaptive intervals
+2025-09-03 20:54:40,175 - yasuo_onchain_analyst - INFO - ✅ Advanced metrics tracker available
+2025-09-03 20:54:40,175 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-03 20:54:42,447 - yasuo_onchain_analyst - INFO - Bitquery exchange query response: 200
+2025-09-03 20:54:42,448 - yasuo_onchain_analyst - INFO - Bitquery response keys: ['data']
+2025-09-03 20:54:42,449 - yasuo_onchain_analyst - INFO - Found 200 transfers
+2025-09-03 20:54:42,450 - yasuo_onchain_analyst - INFO - Detected 19 exchange-like addresses
+2025-09-03 20:54:42,450 - yasuo_onchain_analyst - INFO - Large transfers (100+ ETH): 26
+2025-09-03 20:54:42,450 - yasuo_onchain_analyst - INFO - Exchange analysis: 1490.79 in, 11984.53 out, 10493.74 net
+2025-09-03 20:54:43,577 - yasuo_onchain_analyst - INFO - Found green highlighted row for ETH
+2025-09-03 20:54:43,577 - yasuo_onchain_analyst - INFO - Found latest ETH row: ['03 Sep 2025', '-', '-', '-', '-', '-', '-', '-', '-', '-', '0.0']
+2025-09-03 20:54:43,577 - yasuo_onchain_analyst - INFO - Extracted ETH daily flow: $0
+2025-09-03 20:54:43,577 - yasuo_onchain_analyst - INFO - Using simulated data for ETH (couldn't extract from https://farside.co.uk/eth/)
+2025-09-03 20:54:48,368 - free_data_sources - WARNING - Etherscan large transactions error: 'str' object has no attribute 'get'
+2025-09-03 20:55:07,425 - trend_tracker - INFO - Loaded 2 historical data points
+2025-09-03 20:55:07,425 - yasuo_onchain_analyst - INFO - ✅ Trend tracker initialized
+2025-09-03 20:55:07,425 - bitquery_rate_limiter - INFO - 📊 BITQUERY API USAGE SUMMARY:
+2025-09-03 20:55:07,425 - bitquery_rate_limiter - INFO - 📅 Daily: 0/100 (0.0%)
+2025-09-03 20:55:07,426 - bitquery_rate_limiter - INFO - 🕐 Hourly: 0/10 (0.0%)
+2025-09-03 20:55:07,426 - bitquery_rate_limiter - INFO - ✅ Can Query: True
+2025-09-03 20:55:07,426 - yasuo_onchain_analyst - INFO - ✅ Rate limiter initialized with adaptive intervals
+2025-09-03 20:55:07,490 - yasuo_onchain_analyst - INFO - ✅ Advanced metrics tracker available
+2025-09-03 20:55:07,490 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-03 20:55:08,614 - yasuo_onchain_analyst - INFO - Bitquery exchange query response: 200
+2025-09-03 20:55:08,615 - yasuo_onchain_analyst - INFO - Bitquery response keys: ['data']
+2025-09-03 20:55:08,615 - yasuo_onchain_analyst - INFO - Found 200 transfers
+2025-09-03 20:55:08,616 - yasuo_onchain_analyst - INFO - Detected 17 exchange-like addresses
+2025-09-03 20:55:08,617 - yasuo_onchain_analyst - INFO - Large transfers (100+ ETH): 25
+2025-09-03 20:55:08,617 - yasuo_onchain_analyst - INFO - Exchange analysis: 1789.03 in, 17536.14 out, 15747.11 net
+2025-09-03 20:55:09,731 - yasuo_onchain_analyst - INFO - Found green highlighted row for ETH
+2025-09-03 20:55:09,731 - yasuo_onchain_analyst - INFO - Found latest ETH row: ['03 Sep 2025', '-', '-', '-', '-', '-', '-', '-', '-', '-', '0.0']
+2025-09-03 20:55:09,731 - yasuo_onchain_analyst - INFO - Extracted ETH daily flow: $0
+2025-09-03 20:55:09,731 - yasuo_onchain_analyst - INFO - Using simulated data for ETH (couldn't extract from https://farside.co.uk/eth/)
+2025-09-03 20:55:13,799 - free_data_sources - WARNING - Etherscan large transactions error: invalid literal for int() with base 16: 'Max calls per sec rate limit reached (2/sec). Please switch to API V2, for more info https://docs.etherscan.io/etherscan-v2/v2-quickstart'
+2025-09-03 20:55:31,742 - trend_tracker - INFO - Loaded 2 historical data points
+2025-09-03 20:55:31,742 - yasuo_onchain_analyst - INFO - ✅ Trend tracker initialized
+2025-09-03 20:55:31,743 - bitquery_rate_limiter - INFO - 📊 BITQUERY API USAGE SUMMARY:
+2025-09-03 20:55:31,743 - bitquery_rate_limiter - INFO - 📅 Daily: 0/100 (0.0%)
+2025-09-03 20:55:31,743 - bitquery_rate_limiter - INFO - 🕐 Hourly: 0/10 (0.0%)
+2025-09-03 20:55:31,743 - bitquery_rate_limiter - INFO - ✅ Can Query: True
+2025-09-03 20:55:31,743 - yasuo_onchain_analyst - INFO - ✅ Rate limiter initialized with adaptive intervals
+2025-09-03 20:55:32,060 - yasuo_onchain_analyst - INFO - ✅ Advanced metrics tracker available
+2025-09-03 20:55:32,060 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-03 20:55:48,922 - trend_tracker - INFO - Loaded 2 historical data points
+2025-09-03 20:55:48,923 - yasuo_onchain_analyst - INFO - ✅ Trend tracker initialized
+2025-09-03 20:55:48,923 - bitquery_rate_limiter - INFO - 📊 BITQUERY API USAGE SUMMARY:
+2025-09-03 20:55:48,923 - bitquery_rate_limiter - INFO - 📅 Daily: 0/100 (0.0%)
+2025-09-03 20:55:48,923 - bitquery_rate_limiter - INFO - 🕐 Hourly: 0/10 (0.0%)
+2025-09-03 20:55:48,923 - bitquery_rate_limiter - INFO - ✅ Can Query: True
+2025-09-03 20:55:48,923 - yasuo_onchain_analyst - INFO - ✅ Rate limiter initialized with adaptive intervals
+2025-09-03 20:55:48,988 - yasuo_onchain_analyst - INFO - ✅ Advanced metrics tracker available
+2025-09-03 20:55:48,988 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-03 20:55:50,218 - yasuo_onchain_analyst - INFO - Bitquery exchange query response: 200
+2025-09-03 20:55:50,220 - yasuo_onchain_analyst - INFO - Bitquery response keys: ['data']
+2025-09-03 20:55:50,220 - yasuo_onchain_analyst - INFO - Found 200 transfers
+2025-09-03 20:55:50,222 - yasuo_onchain_analyst - INFO - Detected 23 exchange-like addresses
+2025-09-03 20:55:50,223 - yasuo_onchain_analyst - INFO - Large transfers (100+ ETH): 29
+2025-09-03 20:55:50,223 - yasuo_onchain_analyst - INFO - Exchange analysis: 1951.50 in, 21795.24 out, 19843.74 net
+2025-09-03 20:55:51,356 - yasuo_onchain_analyst - INFO - Found green highlighted row for ETH
+2025-09-03 20:55:51,356 - yasuo_onchain_analyst - INFO - Found latest ETH row: ['03 Sep 2025', '-', '-', '-', '-', '-', '-', '-', '-', '-', '0.0']
+2025-09-03 20:55:51,356 - yasuo_onchain_analyst - INFO - Extracted ETH daily flow: $0
+2025-09-03 20:55:51,356 - yasuo_onchain_analyst - INFO - Using simulated data for ETH (couldn't extract from https://farside.co.uk/eth/)
+2025-09-03 20:55:57,259 - free_data_sources - WARNING - Etherscan large transactions error: 'str' object has no attribute 'get'
+2025-09-03 21:06:56,296 - trend_tracker - INFO - Loaded 2 historical data points
+2025-09-03 21:06:56,296 - yasuo_onchain_analyst - INFO - ✅ Trend tracker initialized
+2025-09-03 21:06:56,298 - bitquery_rate_limiter - INFO - 📊 BITQUERY API USAGE SUMMARY:
+2025-09-03 21:06:56,298 - bitquery_rate_limiter - INFO - 📅 Daily: 0/100 (0.0%)
+2025-09-03 21:06:56,298 - bitquery_rate_limiter - INFO - 🕐 Hourly: 0/10 (0.0%)
+2025-09-03 21:06:56,298 - bitquery_rate_limiter - INFO - ✅ Can Query: True
+2025-09-03 21:06:56,298 - yasuo_onchain_analyst - INFO - ✅ Rate limiter initialized with adaptive intervals
+2025-09-03 21:06:56,390 - yasuo_onchain_analyst - INFO - ✅ Advanced metrics tracker available
+2025-09-03 21:06:56,390 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-03 21:06:57,945 - yasuo_onchain_analyst - INFO - Bitquery exchange query response: 200
+2025-09-03 21:06:57,950 - yasuo_onchain_analyst - INFO - Bitquery response keys: ['data']
+2025-09-03 21:06:57,950 - yasuo_onchain_analyst - INFO - Found 200 transfers
+2025-09-03 21:06:57,952 - yasuo_onchain_analyst - INFO - Detected 11 exchange-like addresses
+2025-09-03 21:06:57,952 - yasuo_onchain_analyst - INFO - Large transfers (100+ ETH): 4
+2025-09-03 21:06:57,953 - yasuo_onchain_analyst - INFO - Exchange analysis: 387.51 in, 1455.52 out, 1068.01 net
+2025-09-03 21:06:59,177 - yasuo_onchain_analyst - INFO - Found green highlighted row for ETH
+2025-09-03 21:06:59,178 - yasuo_onchain_analyst - INFO - Found latest ETH row: ['03 Sep 2025', '-', '-', '-', '-', '-', '-', '-', '-', '-', '0.0']
+2025-09-03 21:06:59,178 - yasuo_onchain_analyst - INFO - Extracted ETH daily flow: $0
+2025-09-03 21:06:59,178 - yasuo_onchain_analyst - INFO - Using simulated data for ETH (couldn't extract from https://farside.co.uk/eth/)
+2025-09-03 21:07:05,524 - free_data_sources - WARNING - Etherscan large transactions error: 'str' object has no attribute 'get'
+2025-09-03 21:07:27,456 - trend_tracker - INFO - Loaded 2 historical data points
+2025-09-03 21:07:27,456 - yasuo_onchain_analyst - INFO - ✅ Trend tracker initialized
+2025-09-03 21:07:27,456 - bitquery_rate_limiter - INFO - 📊 BITQUERY API USAGE SUMMARY:
+2025-09-03 21:07:27,456 - bitquery_rate_limiter - INFO - 📅 Daily: 0/100 (0.0%)
+2025-09-03 21:07:27,457 - bitquery_rate_limiter - INFO - 🕐 Hourly: 0/10 (0.0%)
+2025-09-03 21:07:27,457 - bitquery_rate_limiter - INFO - ✅ Can Query: True
+2025-09-03 21:07:27,457 - yasuo_onchain_analyst - INFO - ✅ Rate limiter initialized with adaptive intervals
+2025-09-03 21:07:27,540 - yasuo_onchain_analyst - INFO - ✅ Advanced metrics tracker available
+2025-09-03 21:07:27,540 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-03 21:07:30,229 - yasuo_onchain_analyst - INFO - Bitquery exchange query response: 200
+2025-09-03 21:07:30,231 - yasuo_onchain_analyst - INFO - Bitquery response keys: ['data']
+2025-09-03 21:07:30,231 - yasuo_onchain_analyst - INFO - Found 200 transfers
+2025-09-03 21:07:30,234 - yasuo_onchain_analyst - INFO - Detected 13 exchange-like addresses
+2025-09-03 21:07:30,234 - yasuo_onchain_analyst - INFO - Large transfers (100+ ETH): 7
+2025-09-03 21:07:30,234 - yasuo_onchain_analyst - INFO - Exchange analysis: 693.44 in, 3652.79 out, 2959.35 net
+2025-09-03 21:07:31,388 - yasuo_onchain_analyst - INFO - Found green highlighted row for ETH
+2025-09-03 21:07:31,389 - yasuo_onchain_analyst - INFO - Found latest ETH row: ['03 Sep 2025', '-', '-', '-', '-', '-', '-', '-', '-', '-', '0.0']
+2025-09-03 21:07:31,389 - yasuo_onchain_analyst - INFO - Extracted ETH daily flow: $0
+2025-09-03 21:07:31,389 - yasuo_onchain_analyst - INFO - Using simulated data for ETH (couldn't extract from https://farside.co.uk/eth/)
+2025-09-03 21:07:35,157 - free_data_sources - WARNING - Etherscan large transactions error: 'str' object has no attribute 'get'
+2025-09-03 21:07:36,884 - yasuo_onchain_analyst - WARNING - Telegram bot not configured
+2025-09-03 21:09:01,694 - trend_tracker - INFO - Loaded 2 historical data points
+2025-09-03 21:09:01,694 - yasuo_onchain_analyst - INFO - ✅ Trend tracker initialized
+2025-09-03 21:09:01,694 - bitquery_rate_limiter - INFO - 📊 BITQUERY API USAGE SUMMARY:
+2025-09-03 21:09:01,694 - bitquery_rate_limiter - INFO - 📅 Daily: 0/100 (0.0%)
+2025-09-03 21:09:01,694 - bitquery_rate_limiter - INFO - 🕐 Hourly: 0/10 (0.0%)
+2025-09-03 21:09:01,694 - bitquery_rate_limiter - INFO - ✅ Can Query: True
+2025-09-03 21:09:01,694 - yasuo_onchain_analyst - INFO - ✅ Rate limiter initialized with adaptive intervals
+2025-09-03 21:09:01,785 - yasuo_onchain_analyst - INFO - ✅ Advanced metrics tracker available
+2025-09-03 21:09:01,785 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-03 21:09:02,949 - yasuo_onchain_analyst - INFO - Bitquery exchange query response: 200
+2025-09-03 21:09:02,950 - yasuo_onchain_analyst - INFO - Bitquery response keys: ['data']
+2025-09-03 21:09:02,951 - yasuo_onchain_analyst - INFO - Found 200 transfers
+2025-09-03 21:09:02,952 - yasuo_onchain_analyst - INFO - Detected 19 exchange-like addresses
+2025-09-03 21:09:02,953 - yasuo_onchain_analyst - INFO - Large transfers (100+ ETH): 9
+2025-09-03 21:09:02,953 - yasuo_onchain_analyst - INFO - Exchange analysis: 1208.07 in, 4190.76 out, 2982.69 net
+2025-09-03 21:09:04,078 - yasuo_onchain_analyst - INFO - Found green highlighted row for ETH
+2025-09-03 21:09:04,078 - yasuo_onchain_analyst - INFO - Found latest ETH row: ['03 Sep 2025', '-', '-', '-', '-', '-', '-', '-', '-', '-', '0.0']
+2025-09-03 21:09:04,078 - yasuo_onchain_analyst - INFO - Extracted ETH daily flow: $0
+2025-09-03 21:09:04,078 - yasuo_onchain_analyst - INFO - Using simulated data for ETH (couldn't extract from https://farside.co.uk/eth/)
+2025-09-03 21:09:41,216 - free_data_sources - WARNING - Etherscan large transactions error: 'str' object has no attribute 'get'
+2025-09-03 21:09:43,020 - yasuo_onchain_analyst - WARNING - Telegram bot not configured
+2025-09-03 21:11:25,136 - trend_tracker - INFO - Loaded 2 historical data points
+2025-09-03 21:11:25,137 - yasuo_onchain_analyst - INFO - ✅ Trend tracker initialized
+2025-09-03 21:11:25,137 - bitquery_rate_limiter - INFO - 📊 BITQUERY API USAGE SUMMARY:
+2025-09-03 21:11:25,137 - bitquery_rate_limiter - INFO - 📅 Daily: 0/100 (0.0%)
+2025-09-03 21:11:25,137 - bitquery_rate_limiter - INFO - 🕐 Hourly: 0/10 (0.0%)
+2025-09-03 21:11:25,137 - bitquery_rate_limiter - INFO - ✅ Can Query: True
+2025-09-03 21:11:25,137 - yasuo_onchain_analyst - INFO - ✅ Rate limiter initialized with adaptive intervals
+2025-09-03 21:11:25,211 - yasuo_onchain_analyst - INFO - ✅ Advanced metrics tracker available
+2025-09-03 21:11:25,211 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-03 21:11:26,457 - yasuo_onchain_analyst - INFO - Bitquery exchange query response: 200
+2025-09-03 21:11:26,458 - yasuo_onchain_analyst - INFO - Bitquery response keys: ['data']
+2025-09-03 21:11:26,458 - yasuo_onchain_analyst - INFO - Found 200 transfers
+2025-09-03 21:11:26,459 - yasuo_onchain_analyst - INFO - Detected 19 exchange-like addresses
+2025-09-03 21:11:26,460 - yasuo_onchain_analyst - INFO - Large transfers (100+ ETH): 11
+2025-09-03 21:11:26,460 - yasuo_onchain_analyst - INFO - Exchange analysis: 514.00 in, 2827.50 out, 2313.49 net
+2025-09-03 21:11:27,608 - yasuo_onchain_analyst - INFO - Found green highlighted row for ETH
+2025-09-03 21:11:27,608 - yasuo_onchain_analyst - INFO - Found latest ETH row: ['03 Sep 2025', '-', '-', '-', '-', '-', '-', '-', '-', '-', '0.0']
+2025-09-03 21:11:27,608 - yasuo_onchain_analyst - INFO - Extracted ETH daily flow: $0
+2025-09-03 21:11:27,608 - yasuo_onchain_analyst - INFO - Using simulated data for ETH (couldn't extract from https://farside.co.uk/eth/)
+2025-09-03 21:11:33,317 - free_data_sources - WARNING - Etherscan large transactions error: 'str' object has no attribute 'get'
+2025-09-03 21:11:43,931 - yasuo_onchain_analyst - WARNING - Telegram bot not configured
+2025-09-03 21:12:06,944 - trend_tracker - INFO - Loaded 2 historical data points
+2025-09-03 21:12:06,944 - yasuo_onchain_analyst - INFO - ✅ Trend tracker initialized
+2025-09-03 21:12:06,944 - bitquery_rate_limiter - INFO - 📊 BITQUERY API USAGE SUMMARY:
+2025-09-03 21:12:06,944 - bitquery_rate_limiter - INFO - 📅 Daily: 0/100 (0.0%)
+2025-09-03 21:12:06,945 - bitquery_rate_limiter - INFO - 🕐 Hourly: 0/10 (0.0%)
+2025-09-03 21:12:06,945 - bitquery_rate_limiter - INFO - ✅ Can Query: True
+2025-09-03 21:12:06,945 - yasuo_onchain_analyst - INFO - ✅ Rate limiter initialized with adaptive intervals
+2025-09-03 21:12:07,012 - yasuo_onchain_analyst - INFO - ✅ Advanced metrics tracker available
+2025-09-03 21:12:07,012 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-03 21:12:07,057 - yasuo_onchain_analyst - INFO - ✅ Telegram bot initialized
+2025-09-03 21:12:08,231 - yasuo_onchain_analyst - INFO - Bitquery exchange query response: 200
+2025-09-03 21:12:08,232 - yasuo_onchain_analyst - INFO - Bitquery response keys: ['data']
+2025-09-03 21:12:08,233 - yasuo_onchain_analyst - INFO - Found 200 transfers
+2025-09-03 21:12:08,233 - yasuo_onchain_analyst - INFO - Detected 17 exchange-like addresses
+2025-09-03 21:12:08,233 - yasuo_onchain_analyst - INFO - Large transfers (100+ ETH): 9
+2025-09-03 21:12:08,233 - yasuo_onchain_analyst - INFO - Exchange analysis: 364.04 in, 3088.14 out, 2724.11 net
+2025-09-03 21:12:09,379 - yasuo_onchain_analyst - INFO - Found green highlighted row for ETH
+2025-09-03 21:12:09,379 - yasuo_onchain_analyst - INFO - Found latest ETH row: ['03 Sep 2025', '-', '-', '-', '-', '-', '-', '-', '-', '-', '0.0']
+2025-09-03 21:12:09,379 - yasuo_onchain_analyst - INFO - Extracted ETH daily flow: $0
+2025-09-03 21:12:09,379 - yasuo_onchain_analyst - INFO - Using simulated data for ETH (couldn't extract from https://farside.co.uk/eth/)
+2025-09-03 21:12:13,382 - free_data_sources - WARNING - Etherscan large transactions error: 'str' object has no attribute 'get'
+2025-09-03 21:12:15,096 - yasuo_onchain_analyst - INFO - ✅ Telegram alert sent
+2025-09-03 21:14:41,687 - trend_tracker - INFO - Loaded 2 historical data points
+2025-09-03 21:14:41,688 - yasuo_onchain_analyst - INFO - ✅ Trend tracker initialized
+2025-09-03 21:14:41,688 - bitquery_rate_limiter - INFO - 📊 BITQUERY API USAGE SUMMARY:
+2025-09-03 21:14:41,688 - bitquery_rate_limiter - INFO - 📅 Daily: 0/100 (0.0%)
+2025-09-03 21:14:41,688 - bitquery_rate_limiter - INFO - 🕐 Hourly: 0/10 (0.0%)
+2025-09-03 21:14:41,688 - bitquery_rate_limiter - INFO - ✅ Can Query: True
+2025-09-03 21:14:41,688 - yasuo_onchain_analyst - INFO - ✅ Rate limiter initialized with adaptive intervals
+2025-09-03 21:14:41,767 - yasuo_onchain_analyst - INFO - ✅ Advanced metrics tracker available
+2025-09-03 21:14:41,767 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-03 21:14:41,817 - yasuo_onchain_analyst - INFO - ✅ Telegram bot initialized
+2025-09-03 21:14:43,003 - yasuo_onchain_analyst - INFO - Bitquery exchange query response: 200
+2025-09-03 21:14:43,004 - yasuo_onchain_analyst - INFO - Bitquery response keys: ['data']
+2025-09-03 21:14:43,005 - yasuo_onchain_analyst - INFO - Found 200 transfers
+2025-09-03 21:14:43,006 - yasuo_onchain_analyst - INFO - Detected 26 exchange-like addresses
+2025-09-03 21:14:43,006 - yasuo_onchain_analyst - INFO - Large transfers (100+ ETH): 18
+2025-09-03 21:14:43,006 - yasuo_onchain_analyst - INFO - Exchange analysis: 714.78 in, 16736.58 out, 16021.79 net
+2025-09-03 21:14:44,181 - yasuo_onchain_analyst - INFO - Found green highlighted row for ETH
+2025-09-03 21:14:44,182 - yasuo_onchain_analyst - INFO - Found latest ETH row: ['03 Sep 2025', '-', '-', '-', '-', '-', '-', '-', '-', '-', '0.0']
+2025-09-03 21:14:44,182 - yasuo_onchain_analyst - INFO - Extracted ETH daily flow: $0
+2025-09-03 21:14:44,182 - yasuo_onchain_analyst - INFO - Using simulated data for ETH (couldn't extract from https://farside.co.uk/eth/)
+2025-09-03 21:14:49,812 - free_data_sources - WARNING - Etherscan large transactions error: 'str' object has no attribute 'get'
+2025-09-03 21:14:51,539 - yasuo_onchain_analyst - INFO - ✅ Telegram alert sent
+2025-09-03 21:39:45,776 - trend_tracker - INFO - Loaded 2 historical data points
+2025-09-03 21:39:45,776 - yasuo_onchain_analyst - INFO - ✅ Trend tracker initialized
+2025-09-03 21:39:45,778 - bitquery_rate_limiter - INFO - 📊 BITQUERY API USAGE SUMMARY:
+2025-09-03 21:39:45,778 - bitquery_rate_limiter - INFO - 📅 Daily: 0/100 (0.0%)
+2025-09-03 21:39:45,778 - bitquery_rate_limiter - INFO - 🕐 Hourly: 0/10 (0.0%)
+2025-09-03 21:39:45,778 - bitquery_rate_limiter - INFO - ✅ Can Query: True
+2025-09-03 21:39:45,778 - yasuo_onchain_analyst - INFO - ✅ Rate limiter initialized with adaptive intervals
+2025-09-03 21:39:45,858 - yasuo_onchain_analyst - INFO - ✅ Advanced metrics tracker available
+2025-09-03 21:39:45,858 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-03 21:39:45,909 - yasuo_onchain_analyst - INFO - ✅ Telegram bot initialized
+2025-09-03 21:39:47,174 - yasuo_onchain_analyst - INFO - Bitquery exchange query response: 200
+2025-09-03 21:39:47,174 - yasuo_onchain_analyst - INFO - Bitquery response keys: ['data']
+2025-09-03 21:39:47,174 - yasuo_onchain_analyst - INFO - Found 200 transfers
+2025-09-03 21:39:47,175 - yasuo_onchain_analyst - INFO - Detected 11 exchange-like addresses
+2025-09-03 21:39:47,175 - yasuo_onchain_analyst - INFO - Large transfers (100+ ETH): 12
+2025-09-03 21:39:47,175 - yasuo_onchain_analyst - INFO - Exchange analysis: 677.62 in, 1904.39 out, 1226.77 net
+2025-09-03 21:39:48,405 - yasuo_onchain_analyst - INFO - Found green highlighted row for ETH
+2025-09-03 21:39:48,405 - yasuo_onchain_analyst - INFO - Found latest ETH row: ['03 Sep 2025', '-', '-', '-', '-', '-', '-', '-', '-', '-', '0.0']
+2025-09-03 21:39:48,405 - yasuo_onchain_analyst - INFO - Extracted ETH daily flow: $0
+2025-09-03 21:39:48,405 - yasuo_onchain_analyst - INFO - Using simulated data for ETH (couldn't extract from https://farside.co.uk/eth/)
+2025-09-03 21:39:56,562 - free_data_sources - WARNING - Etherscan large transactions error: 'str' object has no attribute 'get'
+2025-09-03 21:40:12,478 - yasuo_onchain_analyst - INFO - ✅ Telegram alert sent
+2025-09-03 21:46:36,211 - trend_tracker - INFO - Loaded 2 historical data points
+2025-09-03 21:46:36,212 - yasuo_onchain_analyst - INFO - ✅ Trend tracker initialized
+2025-09-03 21:46:36,212 - bitquery_rate_limiter - INFO - 📊 BITQUERY API USAGE SUMMARY:
+2025-09-03 21:46:36,212 - bitquery_rate_limiter - INFO - 📅 Daily: 0/100 (0.0%)
+2025-09-03 21:46:36,212 - bitquery_rate_limiter - INFO - 🕐 Hourly: 0/10 (0.0%)
+2025-09-03 21:46:36,212 - bitquery_rate_limiter - INFO - ✅ Can Query: True
+2025-09-03 21:46:36,212 - yasuo_onchain_analyst - INFO - ✅ Rate limiter initialized with adaptive intervals
+2025-09-03 21:46:36,285 - yasuo_onchain_analyst - INFO - ✅ Advanced metrics tracker available
+2025-09-03 21:46:36,285 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-03 21:46:36,335 - yasuo_onchain_analyst - INFO - ✅ Telegram bot initialized
+2025-09-03 21:46:37,654 - yasuo_onchain_analyst - INFO - Bitquery exchange query response: 200
+2025-09-03 21:46:37,658 - yasuo_onchain_analyst - INFO - Bitquery response keys: ['data']
+2025-09-03 21:46:37,659 - yasuo_onchain_analyst - INFO - Found 200 transfers
+2025-09-03 21:46:37,660 - yasuo_onchain_analyst - INFO - Detected 18 exchange-like addresses
+2025-09-03 21:46:37,660 - yasuo_onchain_analyst - INFO - Large transfers (100+ ETH): 25
+2025-09-03 21:46:37,660 - yasuo_onchain_analyst - INFO - Exchange analysis: 1994.74 in, 168716.99 out, 166722.25 net
+2025-09-03 21:46:38,836 - yasuo_onchain_analyst - INFO - Found green highlighted row for ETH
+2025-09-03 21:46:38,836 - yasuo_onchain_analyst - INFO - Found latest ETH row: ['03 Sep 2025', '-', '-', '-', '-', '-', '-', '-', '-', '-', '0.0']
+2025-09-03 21:46:38,836 - yasuo_onchain_analyst - INFO - Extracted ETH daily flow: $0
+2025-09-03 21:46:38,836 - yasuo_onchain_analyst - INFO - Using simulated data for ETH (couldn't extract from https://farside.co.uk/eth/)
+2025-09-03 21:46:44,865 - free_data_sources - WARNING - Etherscan large transactions error: 'str' object has no attribute 'get'
+2025-09-03 21:46:46,687 - yasuo_onchain_analyst - INFO - ✅ Telegram alert sent
+2025-09-03 21:48:12,220 - trend_tracker - INFO - Loaded 2 historical data points
+2025-09-03 21:48:12,220 - yasuo_onchain_analyst - INFO - ✅ Trend tracker initialized
+2025-09-03 21:48:12,221 - bitquery_rate_limiter - INFO - 📊 BITQUERY API USAGE SUMMARY:
+2025-09-03 21:48:12,221 - bitquery_rate_limiter - INFO - 📅 Daily: 0/100 (0.0%)
+2025-09-03 21:48:12,221 - bitquery_rate_limiter - INFO - 🕐 Hourly: 0/10 (0.0%)
+2025-09-03 21:48:12,221 - bitquery_rate_limiter - INFO - ✅ Can Query: True
+2025-09-03 21:48:12,221 - yasuo_onchain_analyst - INFO - ✅ Rate limiter initialized with adaptive intervals
+2025-09-03 21:48:12,296 - yasuo_onchain_analyst - INFO - ✅ Advanced metrics tracker available
+2025-09-03 21:48:12,297 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-03 21:48:12,346 - yasuo_onchain_analyst - INFO - ✅ Telegram bot initialized
+2025-09-03 21:48:13,754 - yasuo_onchain_analyst - INFO - Bitquery exchange query response: 200
+2025-09-03 21:48:13,755 - yasuo_onchain_analyst - INFO - Bitquery response keys: ['data']
+2025-09-03 21:48:13,755 - yasuo_onchain_analyst - INFO - Found 200 transfers
+2025-09-03 21:48:13,756 - yasuo_onchain_analyst - INFO - Detected 11 exchange-like addresses
+2025-09-03 21:48:13,756 - yasuo_onchain_analyst - INFO - Large transfers (100+ ETH): 8
+2025-09-03 21:48:13,756 - yasuo_onchain_analyst - INFO - Exchange analysis: 103.76 in, 968.82 out, 865.06 net
+2025-09-03 21:48:14,895 - yasuo_onchain_analyst - INFO - Found green highlighted row for ETH
+2025-09-03 21:48:14,895 - yasuo_onchain_analyst - INFO - Found latest ETH row: ['03 Sep 2025', '-', '-', '-', '-', '-', '-', '-', '-', '-', '0.0']
+2025-09-03 21:48:14,895 - yasuo_onchain_analyst - INFO - Extracted ETH daily flow: $0
+2025-09-03 21:48:14,895 - yasuo_onchain_analyst - INFO - Using simulated data for ETH (couldn't extract from https://farside.co.uk/eth/)
+2025-09-03 21:48:19,696 - free_data_sources - WARNING - Etherscan large transactions error: 'str' object has no attribute 'get'
+2025-09-03 21:48:21,684 - yasuo_onchain_analyst - INFO - ✅ Telegram alert sent
+2025-09-03 21:51:13,073 - trend_tracker - INFO - Loaded 2 historical data points
+2025-09-03 21:51:13,073 - yasuo_onchain_analyst - INFO - ✅ Trend tracker initialized
+2025-09-03 21:51:13,073 - bitquery_rate_limiter - INFO - 📊 BITQUERY API USAGE SUMMARY:
+2025-09-03 21:51:13,073 - bitquery_rate_limiter - INFO - 📅 Daily: 0/100 (0.0%)
+2025-09-03 21:51:13,073 - bitquery_rate_limiter - INFO - 🕐 Hourly: 0/10 (0.0%)
+2025-09-03 21:51:13,073 - bitquery_rate_limiter - INFO - ✅ Can Query: True
+2025-09-03 21:51:13,073 - yasuo_onchain_analyst - INFO - ✅ Rate limiter initialized with adaptive intervals
+2025-09-03 21:51:13,146 - yasuo_onchain_analyst - INFO - ✅ Advanced metrics tracker available
+2025-09-03 21:51:13,146 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-03 21:51:13,195 - yasuo_onchain_analyst - INFO - ✅ Telegram bot initialized
+2025-09-03 21:51:14,423 - yasuo_onchain_analyst - INFO - Bitquery exchange query response: 200
+2025-09-03 21:51:14,423 - yasuo_onchain_analyst - INFO - Bitquery response keys: ['data']
+2025-09-03 21:51:14,423 - yasuo_onchain_analyst - INFO - Found 200 transfers
+2025-09-03 21:51:14,424 - yasuo_onchain_analyst - INFO - Detected 15 exchange-like addresses
+2025-09-03 21:51:14,424 - yasuo_onchain_analyst - INFO - Large transfers (100+ ETH): 11
+2025-09-03 21:51:14,424 - yasuo_onchain_analyst - INFO - Exchange analysis: 649.16 in, 6848.67 out, 6199.51 net
+2025-09-03 21:51:15,650 - yasuo_onchain_analyst - INFO - Found green highlighted row for ETH
+2025-09-03 21:51:15,650 - yasuo_onchain_analyst - INFO - Found latest ETH row: ['03 Sep 2025', '-', '-', '-', '-', '-', '-', '-', '-', '-', '0.0']
+2025-09-03 21:51:15,650 - yasuo_onchain_analyst - INFO - Extracted ETH daily flow: $0
+2025-09-03 21:51:15,650 - yasuo_onchain_analyst - INFO - Using simulated data for ETH (couldn't extract from https://farside.co.uk/eth/)
+2025-09-03 21:51:22,219 - free_data_sources - WARNING - Etherscan large transactions error: 'str' object has no attribute 'get'
+2025-09-03 21:51:23,941 - yasuo_onchain_analyst - INFO - ✅ Telegram alert sent
+2025-09-03 22:42:11,615 - trend_tracker - INFO - Loaded 2 historical data points
+2025-09-03 22:42:11,616 - yasuo_onchain_analyst - INFO - ✅ Trend tracker initialized
+2025-09-03 22:42:11,617 - bitquery_rate_limiter - INFO - 📊 BITQUERY API USAGE SUMMARY:
+2025-09-03 22:42:11,617 - bitquery_rate_limiter - INFO - 📅 Daily: 0/100 (0.0%)
+2025-09-03 22:42:11,617 - bitquery_rate_limiter - INFO - 🕐 Hourly: 0/10 (0.0%)
+2025-09-03 22:42:11,617 - bitquery_rate_limiter - INFO - ✅ Can Query: True
+2025-09-03 22:42:11,617 - yasuo_onchain_analyst - INFO - ✅ Rate limiter initialized with adaptive intervals
+2025-09-03 22:42:11,775 - yasuo_onchain_analyst - INFO - ✅ Advanced metrics tracker available
+2025-09-03 22:42:11,775 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-03 22:42:11,833 - yasuo_onchain_analyst - INFO - ✅ Telegram bot initialized
+2025-09-03 22:42:13,144 - yasuo_onchain_analyst - INFO - Bitquery exchange query response: 200
+2025-09-03 22:42:13,145 - yasuo_onchain_analyst - INFO - Bitquery response keys: ['data']
+2025-09-03 22:42:13,145 - yasuo_onchain_analyst - INFO - Found 200 transfers
+2025-09-03 22:42:13,146 - yasuo_onchain_analyst - INFO - Detected 14 exchange-like addresses
+2025-09-03 22:42:13,146 - yasuo_onchain_analyst - INFO - Large transfers (100+ ETH): 6
+2025-09-03 22:42:13,146 - yasuo_onchain_analyst - INFO - Exchange analysis: 162.50 in, 10563.90 out, 10401.40 net
+2025-09-03 22:42:14,532 - yasuo_onchain_analyst - INFO - Found green highlighted row for ETH
+2025-09-03 22:42:14,532 - yasuo_onchain_analyst - INFO - Found latest ETH row: ['03 Sep 2025', '-', '-', '-', '-', '-', '-', '-', '-', '-', '0.0']
+2025-09-03 22:42:14,532 - yasuo_onchain_analyst - INFO - Extracted ETH daily flow: $0
+2025-09-03 22:42:14,532 - yasuo_onchain_analyst - INFO - Using simulated data for ETH (couldn't extract from https://farside.co.uk/eth/)
+2025-09-03 22:42:21,426 - free_data_sources - WARNING - Etherscan large transactions error: 'str' object has no attribute 'get'
+2025-09-03 22:42:23,251 - yasuo_onchain_analyst - INFO - ✅ Telegram alert sent
+2025-09-03 22:44:39,811 - trend_tracker - INFO - Loaded 2 historical data points
+2025-09-03 22:44:39,811 - yasuo_onchain_analyst - INFO - ✅ Trend tracker initialized
+2025-09-03 22:44:39,812 - bitquery_rate_limiter - INFO - 📊 BITQUERY API USAGE SUMMARY:
+2025-09-03 22:44:39,812 - bitquery_rate_limiter - INFO - 📅 Daily: 0/100 (0.0%)
+2025-09-03 22:44:39,812 - bitquery_rate_limiter - INFO - 🕐 Hourly: 0/10 (0.0%)
+2025-09-03 22:44:39,812 - bitquery_rate_limiter - INFO - ✅ Can Query: True
+2025-09-03 22:44:39,812 - yasuo_onchain_analyst - INFO - ✅ Rate limiter initialized with adaptive intervals
+2025-09-03 22:44:39,899 - yasuo_onchain_analyst - INFO - ✅ Advanced metrics tracker available
+2025-09-03 22:44:39,899 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-03 22:44:39,971 - yasuo_onchain_analyst - INFO - ✅ Telegram bot initialized
+2025-09-03 22:44:39,971 - yasuo_onchain_analyst - INFO - 🛡️ Running Yasuo quick analysis...
+2025-09-03 22:44:39,971 - yasuo_onchain_analyst - INFO - 📊 Fetching market context data...
+2025-09-03 22:44:41,153 - yasuo_onchain_analyst - INFO - Bitquery exchange query response: 200
+2025-09-03 22:44:41,154 - yasuo_onchain_analyst - INFO - Bitquery response keys: ['data']
+2025-09-03 22:44:41,155 - yasuo_onchain_analyst - INFO - Found 200 transfers
+2025-09-03 22:44:41,155 - yasuo_onchain_analyst - INFO - Detected 19 exchange-like addresses
+2025-09-03 22:44:41,155 - yasuo_onchain_analyst - INFO - Large transfers (100+ ETH): 8
+2025-09-03 22:44:41,155 - yasuo_onchain_analyst - INFO - Exchange analysis: 321.88 in, 16428.27 out, 16106.39 net
+2025-09-03 22:44:42,279 - yasuo_onchain_analyst - INFO - Found green highlighted row for ETH
+2025-09-03 22:44:42,279 - yasuo_onchain_analyst - INFO - Found latest ETH row: ['03 Sep 2025', '-', '-', '-', '-', '-', '-', '-', '-', '-', '0.0']
+2025-09-03 22:44:42,279 - yasuo_onchain_analyst - INFO - Extracted ETH daily flow: $0
+2025-09-03 22:44:42,279 - yasuo_onchain_analyst - INFO - Using simulated data for ETH (couldn't extract from https://farside.co.uk/eth/)
+2025-09-03 22:44:42,865 - yasuo_onchain_analyst - INFO - 📈 Exchange flows: 16,106 ETH net flow
+2025-09-03 22:44:42,866 - yasuo_onchain_analyst - INFO - 📊 ETF flows: $-117,657,205 daily
+2025-09-03 22:44:42,866 - yasuo_onchain_analyst - INFO - 🎯 Liveliness: 0.50 (moderate)
+2025-09-03 22:44:42,867 - trend_tracker - INFO - Saved 3 data points
+2025-09-03 22:44:42,867 - trend_tracker - INFO - Added data point. Total samples: 3
+2025-09-03 22:44:42,868 - yasuo_onchain_analyst - INFO - 📊 Trend Analysis: neutral (50.0% strength)
+2025-09-03 22:44:42,868 - yasuo_onchain_analyst - INFO - 🎯 Trend Recommendation: HOLD - No clear trend
+2025-09-03 22:44:43,454 - yasuo_onchain_analyst - INFO - Found 0 large ETH transactions
+2025-09-03 22:44:43,456 - yasuo_onchain_analyst - INFO - ✅ Quick analysis complete. Processed 0 large transactions.
+2025-09-04 12:32:00,640 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-04 12:32:00,702 - yasuo_onchain_analyst - INFO - ✅ Telegram bot initialized
+2025-09-04 12:32:00,703 - yasuo_onchain_analyst - INFO - 🛡️ Running Yasuo quick analysis...
+2025-09-04 12:32:01,325 - yasuo_onchain_analyst - ERROR - Bitquery API error: 401 - Unauthorized. You have to use Authorization or X-API-KEY tokens as described in the documentation https://docs.bitquery.io/docs/category/authorization
+2025-09-04 12:32:01,328 - yasuo_onchain_analyst - INFO - ✅ Quick analysis complete. Processed 0 large transactions.
+2025-09-04 12:38:10,250 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-04 12:38:10,300 - yasuo_onchain_analyst - INFO - ✅ Telegram bot initialized
+2025-09-04 12:38:10,300 - yasuo_onchain_analyst - INFO - 🛡️ Running Yasuo quick analysis...
+2025-09-04 12:38:11,108 - yasuo_onchain_analyst - ERROR - Error querying Bitquery API: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-09-04 12:38:11,108 - yasuo_onchain_analyst - INFO - ✅ Quick analysis complete. Processed 0 large transactions.
+2025-09-05 10:37:19,700 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-05 10:37:19,779 - yasuo_onchain_analyst - INFO - ✅ Telegram bot initialized
+2025-09-05 10:37:19,780 - yasuo_onchain_analyst - INFO - 🛡️ Running Yasuo quick analysis...
+2025-09-05 10:37:20,421 - yasuo_onchain_analyst - ERROR - Bitquery API error: 401 - Unauthorized. You have to use Authorization or X-API-KEY tokens as described in the documentation https://docs.bitquery.io/docs/category/authorization
+2025-09-05 10:37:20,423 - yasuo_onchain_analyst - INFO - ✅ Quick analysis complete. Processed 0 large transactions.
+2025-09-05 10:37:47,104 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-05 10:40:34,102 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-05 10:40:34,150 - yasuo_onchain_analyst - INFO - ✅ Telegram bot initialized
+2025-09-05 10:40:34,150 - yasuo_onchain_analyst - INFO - 🛡️ Running Yasuo quick analysis...
+2025-09-05 10:40:34,761 - yasuo_onchain_analyst - INFO - Found 0 large ETH transactions
+2025-09-05 10:40:34,762 - yasuo_onchain_analyst - INFO - ✅ Quick analysis complete. Processed 0 large transactions.
+2025-09-05 10:49:50,944 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-05 10:49:50,944 - __main__ - INFO - 🛡️ Hybrid Yasuo initialized
+2025-09-05 10:49:50,944 - __main__ - INFO - 🛡️ Starting Hybrid Yasuo Analysis...
+2025-09-05 10:49:50,944 - __main__ - INFO - 📊 Fetching large transactions from Etherscan...
+2025-09-05 10:49:51,925 - etherscan_tracker - INFO - Scanning blocks 23287126 to 23294326 for large transactions
+2025-09-05 10:51:24,148 - etherscan_tracker - INFO - Found 1 large transactions
+2025-09-05 10:51:24,152 - __main__ - INFO - 💰 Fetching ETF flows...
+2025-09-05 10:51:25,320 - yasuo_onchain_analyst - INFO - Found green highlighted row for ETH
+2025-09-05 10:51:25,321 - yasuo_onchain_analyst - INFO - Processing ETH row: ['04 Sep 2025', '148.8', '(216.7)', '(45.7)', '0.0', '(17.2)', '(2.1)', '(1.6)', '(26.4)', '(6.4)', '(167.3)']
+2025-09-05 10:51:25,321 - yasuo_onchain_analyst - INFO - Extracted ETH daily flow: $-167,300,000
+2025-09-05 10:51:25,321 - yasuo_onchain_analyst - INFO - Primary daily flow: $-167,300,000
+2025-09-05 10:51:25,322 - __main__ - INFO - ✅ Analysis complete: 1 transactions, ETF: $-167,300,000
+2025-09-05 10:51:25,322 - email_notifier - WARNING - Email credentials not configured
+2025-09-05 10:51:25,322 - __main__ - WARNING - ❌ Email failed, report not sent
+2025-09-05 10:53:08,740 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-05 10:53:08,740 - hybrid_yasuo - INFO - 🛡️ Hybrid Yasuo initialized
+2025-09-05 10:53:08,740 - hybrid_yasuo - INFO - 🛡️ Starting Hybrid Yasuo Analysis...
+2025-09-05 10:53:08,740 - hybrid_yasuo - INFO - 📊 Fetching large transactions from Etherscan...
+2025-09-05 10:53:09,824 - etherscan_tracker - INFO - Scanning blocks 23287143 to 23294343 for large transactions
+2025-09-05 10:54:47,032 - etherscan_tracker - INFO - Found 4 large transactions
+2025-09-05 10:54:47,036 - hybrid_yasuo - INFO - 💰 Fetching ETF flows...
+2025-09-05 10:54:48,127 - yasuo_onchain_analyst - INFO - Found green highlighted row for ETH
+2025-09-05 10:54:48,127 - yasuo_onchain_analyst - INFO - Processing ETH row: ['04 Sep 2025', '148.8', '(216.7)', '(45.7)', '0.0', '(17.2)', '(2.1)', '(1.6)', '(26.4)', '(6.4)', '(167.3)']
+2025-09-05 10:54:48,128 - yasuo_onchain_analyst - INFO - Extracted ETH daily flow: $-167,300,000
+2025-09-05 10:54:48,128 - yasuo_onchain_analyst - INFO - Primary daily flow: $-167,300,000
+2025-09-05 10:54:48,129 - hybrid_yasuo - INFO - ✅ Analysis complete: 4 transactions, ETF: $-167,300,000
+2025-09-06 15:24:10,417 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-06 15:24:10,418 - __main__ - INFO - Using demo whale data
+2025-09-06 15:24:10,418 - __main__ - INFO - Using cached whale data
+2025-09-06 15:24:10,418 - __main__ - INFO - Using cached whale data
+2025-09-06 15:24:10,418 - __main__ - INFO - Using cached whale data
+2025-09-06 15:28:48,378 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-06 15:28:48,378 - __main__ - INFO - Using demo whale data
+2025-09-06 15:28:48,378 - __main__ - INFO - Using cached whale data
+2025-09-06 15:28:48,379 - __main__ - INFO - Using cached whale data
+2025-09-06 15:28:48,379 - __main__ - INFO - Using cached whale data
+2025-09-06 15:40:36,757 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-06 15:40:38,544 - dune_whale_tracker - INFO - Successfully retrieved 31 rows from query 5199702
+2025-09-06 15:40:39,376 - dune_whale_tracker - INFO - Successfully retrieved 31 rows from query 5199685
+2025-09-06 15:40:40,170 - dune_whale_tracker - INFO - Successfully retrieved 50 rows from query 5199583
+2025-09-06 15:40:40,906 - dune_whale_tracker - INFO - Successfully retrieved 168 rows from query 5199720
+2025-09-06 15:47:21,614 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-06 15:47:22,768 - dune_whale_tracker - INFO - Successfully retrieved 31 rows from query 5199702
+2025-09-06 15:47:23,664 - dune_whale_tracker - INFO - Successfully retrieved 31 rows from query 5199685
+2025-09-06 15:47:24,443 - dune_whale_tracker - INFO - Successfully retrieved 50 rows from query 5199583
+2025-09-06 15:47:25,156 - dune_whale_tracker - INFO - Successfully retrieved 168 rows from query 5199720
+2025-09-06 15:47:26,412 - etf_tracker_fixed - INFO - Found green highlighted row for ETH
+2025-09-06 15:47:26,412 - etf_tracker_fixed - INFO - Processing ETH row: ['05 Sep 2025', '(309.9)', '(37.8)', '0.0', '(14.7)', '0.0', '0.0', '0.0', '(51.8)', '(32.6)', '(446.8)']
+2025-09-06 15:47:26,412 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $-446,800,000
+2025-09-06 15:47:26,412 - etf_tracker_fixed - INFO - Primary daily flow: $-446,800,000
+2025-09-06 15:49:26,412 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-06 15:49:27,259 - dune_whale_tracker - INFO - Successfully retrieved 31 rows from query 5199702
+2025-09-06 15:49:28,057 - dune_whale_tracker - INFO - Successfully retrieved 31 rows from query 5199685
+2025-09-06 15:49:28,824 - dune_whale_tracker - INFO - Successfully retrieved 50 rows from query 5199583
+2025-09-06 15:49:29,642 - dune_whale_tracker - INFO - Successfully retrieved 168 rows from query 5199720
+2025-09-06 15:49:30,829 - etf_tracker_fixed - INFO - Found green highlighted row for ETH
+2025-09-06 15:49:30,829 - etf_tracker_fixed - INFO - Processing ETH row: ['05 Sep 2025', '(309.9)', '(37.8)', '0.0', '(14.7)', '0.0', '0.0', '0.0', '(51.8)', '(32.6)', '(446.8)']
+2025-09-06 15:49:30,829 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $-446,800,000
+2025-09-06 15:49:30,829 - etf_tracker_fixed - INFO - Primary daily flow: $-446,800,000
+2025-09-06 15:49:30,831 - fixed_bitquery_api - WARNING - No Bitquery API key available
+2025-09-06 15:55:51,554 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-06 15:55:52,421 - dune_whale_tracker - INFO - Successfully retrieved 31 rows from query 5199702
+2025-09-06 15:55:53,373 - dune_whale_tracker - INFO - Successfully retrieved 31 rows from query 5199685
+2025-09-06 15:55:54,079 - dune_whale_tracker - INFO - Successfully retrieved 50 rows from query 5199583
+2025-09-06 15:55:54,823 - dune_whale_tracker - INFO - Successfully retrieved 168 rows from query 5199720
+2025-09-06 15:56:08,612 - etf_tracker_fixed - INFO - Found green highlighted row for ETH
+2025-09-06 15:56:08,613 - etf_tracker_fixed - INFO - Processing ETH row: ['05 Sep 2025', '(309.9)', '(37.8)', '0.0', '(14.7)', '0.0', '0.0', '0.0', '(51.8)', '(32.6)', '(446.8)']
+2025-09-06 15:56:08,613 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $-446,800,000
+2025-09-06 15:56:08,613 - etf_tracker_fixed - INFO - Primary daily flow: $-446,800,000
+2025-09-06 15:56:08,614 - fixed_bitquery_api - WARNING - No Bitquery API key available
+2025-09-08 15:45:24,381 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-08 15:45:25,096 - dune_whale_tracker - INFO - Successfully retrieved 31 rows from query 5199702
+2025-09-08 15:45:25,737 - dune_whale_tracker - INFO - Successfully retrieved 31 rows from query 5199685
+2025-09-08 15:45:26,381 - dune_whale_tracker - INFO - Successfully retrieved 50 rows from query 5199583
+2025-09-08 15:45:27,019 - dune_whale_tracker - INFO - Successfully retrieved 168 rows from query 5199720
+2025-09-08 15:45:28,005 - etf_tracker_fixed - INFO - Processing ETH row: ['20 Aug 2025', '(257.8)', '8.6', '0.0', '0.0', '0.0', '0.0', '0.0', '0.0', '9.0', '(240.2)', '21 Aug 2025', '233.6', '28.5', '7.0', '0.0', '6.2', '0.0', '0.0', '5.9', '6.4', '287.6', '22 Aug 2025', '109.4', '117.9', '36.3', '0.0', '3.5', '0.0', '5.5', '45.9', '22.7', '341.2', '25 Aug 2025', '314.9', '87.4', '9.7', '5.6', '0.0', '2.2', '0.0', '(29.2)', '53.3', '443.9', '26 Aug 2025', '323.1', '85.5', '0.0', '0.0', '0.0', '0.0', '0.0', '5.3', '41.1', '455.0', '27 Aug 2025', '262.6', '20.5', '0.0', '2.3', '3.3', '0.0', '0.0', '5.7', '15.1', '309.5', '28 Aug 2025', '67.6', '(33.5)', '(1.3)', '0.0', '0.0', '0.0', '0.0', '0.0', '6.3', '39.1', '29 Aug 2025', '0.0', '(51.0)', '(23.7)', '0.0', '0.0', '0.0', '0.0', '(28.6)', '(61.3)', '(164.6)', '02 Sep 2025', '0.0', '(99.2)', '(24.2)', '(6.6)', '0.0', '0.0', '0.0', '(5.3)', '0.0', '(135.3)', '03 Sep 2025', '(151.4)', '65.8', '20.8', '0.0', '0.0', '0.0', '0.0', '0.0', '26.6', '(38.2)', '04 Sep 2025', '148.8', '(216.7)', '(45.7)', '0.0', '(17.2)', '(2.1)', '(1.6)', '(26.4)', '(6.4)', '(167.3)', '05 Sep 2025', '(309.9)', '(37.8)', '0.0', '(14.7)', '0.0', '0.0', '0.0', '(51.8)', '(32.6)', '(446.8)', 'Total', '12,812', '2,491', '386', '13', '179', '18', '61', '(4,605)', '1,387', '12,744', 'Average', '45.4', '8.8', '1.4', '0.0', '0.6', '0.1', '0.2', '(16.3)', '4.9', '45.2', 'Maximum', '639.8', '276.9', '204.0', '7.5', '19.8', '6.2', '13.2', '45.9', '73.2', '1,018.8', 'Minimum', '(375.0)', '(272.2)', '(56.1)', '(14.7)', '(17.2)', '(8.4)', '(6.6)', '(484.1)', '(88.5)', '(465.1)']
+2025-09-08 15:45:28,005 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $-465,100,000
+2025-09-08 15:45:28,006 - etf_tracker_fixed - INFO - Processing ETH row: ['20 Aug 2025', '(257.8)', '8.6', '0.0', '0.0', '0.0', '0.0', '0.0', '0.0', '9.0', '(240.2)']
+2025-09-08 15:45:28,006 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $-240,200,000
+2025-09-08 15:45:28,006 - etf_tracker_fixed - INFO - Processing ETH row: ['21 Aug 2025', '233.6', '28.5', '7.0', '0.0', '6.2', '0.0', '0.0', '5.9', '6.4', '287.6']
+2025-09-08 15:45:28,006 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $287,600,000
+2025-09-08 15:45:28,006 - etf_tracker_fixed - INFO - Processing ETH row: ['22 Aug 2025', '109.4', '117.9', '36.3', '0.0', '3.5', '0.0', '5.5', '45.9', '22.7', '341.2']
+2025-09-08 15:45:28,006 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $341,200,000
+2025-09-08 15:45:28,006 - etf_tracker_fixed - INFO - Processing ETH row: ['25 Aug 2025', '314.9', '87.4', '9.7', '5.6', '0.0', '2.2', '0.0', '(29.2)', '53.3', '443.9']
+2025-09-08 15:45:28,006 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $443,900,000
+2025-09-08 15:45:28,006 - etf_tracker_fixed - INFO - Processing ETH row: ['26 Aug 2025', '323.1', '85.5', '0.0', '0.0', '0.0', '0.0', '0.0', '5.3', '41.1', '455.0']
+2025-09-08 15:45:28,006 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $455,000,000
+2025-09-08 15:45:28,006 - etf_tracker_fixed - INFO - Processing ETH row: ['27 Aug 2025', '262.6', '20.5', '0.0', '2.3', '3.3', '0.0', '0.0', '5.7', '15.1', '309.5']
+2025-09-08 15:45:28,006 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $309,500,000
+2025-09-08 15:45:28,006 - etf_tracker_fixed - INFO - Processing ETH row: ['28 Aug 2025', '67.6', '(33.5)', '(1.3)', '0.0', '0.0', '0.0', '0.0', '0.0', '6.3', '39.1']
+2025-09-08 15:45:28,006 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $39,100,000
+2025-09-08 15:45:28,006 - etf_tracker_fixed - INFO - Processing ETH row: ['29 Aug 2025', '0.0', '(51.0)', '(23.7)', '0.0', '0.0', '0.0', '0.0', '(28.6)', '(61.3)', '(164.6)']
+2025-09-08 15:45:28,006 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $-164,600,000
+2025-09-08 15:45:28,006 - etf_tracker_fixed - INFO - Processing ETH row: ['02 Sep 2025', '0.0', '(99.2)', '(24.2)', '(6.6)', '0.0', '0.0', '0.0', '(5.3)', '0.0', '(135.3)']
+2025-09-08 15:45:28,006 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $-135,300,000
+2025-09-08 15:45:28,007 - etf_tracker_fixed - INFO - Processing ETH row: ['03 Sep 2025', '(151.4)', '65.8', '20.8', '0.0', '0.0', '0.0', '0.0', '0.0', '26.6', '(38.2)']
+2025-09-08 15:45:28,007 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $-38,200,000
+2025-09-08 15:45:28,007 - etf_tracker_fixed - INFO - Processing ETH row: ['04 Sep 2025', '148.8', '(216.7)', '(45.7)', '0.0', '(17.2)', '(2.1)', '(1.6)', '(26.4)', '(6.4)', '(167.3)']
+2025-09-08 15:45:28,007 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $-167,300,000
+2025-09-08 15:45:28,007 - etf_tracker_fixed - INFO - Processing ETH row: ['05 Sep 2025', '(309.9)', '(37.8)', '0.0', '(14.7)', '0.0', '0.0', '0.0', '(51.8)', '(32.6)', '(446.8)']
+2025-09-08 15:45:28,007 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $-446,800,000
+2025-09-08 15:45:28,007 - etf_tracker_fixed - INFO - Primary daily flow: $-465,100,000
+2025-09-08 15:45:28,007 - etf_tracker_fixed - INFO - Additional flows for aggregation: 12
+2025-09-08 15:45:28,008 - etf_tracker_fixed - INFO - Real-time daily flow (latest): $-465,100,000
+2025-09-08 16:05:20,906 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-08 16:05:21,650 - dune_whale_tracker - INFO - Successfully retrieved 31 rows from query 5199702
+2025-09-08 16:05:22,300 - dune_whale_tracker - INFO - Successfully retrieved 31 rows from query 5199685
+2025-09-08 16:05:22,960 - dune_whale_tracker - INFO - Successfully retrieved 50 rows from query 5199583
+2025-09-08 16:05:23,638 - dune_whale_tracker - INFO - Successfully retrieved 168 rows from query 5199720
+2025-09-08 16:05:24,820 - etf_tracker_fixed - INFO - Processing ETH row: ['20 Aug 2025', '(257.8)', '8.6', '0.0', '0.0', '0.0', '0.0', '0.0', '0.0', '9.0', '(240.2)', '21 Aug 2025', '233.6', '28.5', '7.0', '0.0', '6.2', '0.0', '0.0', '5.9', '6.4', '287.6', '22 Aug 2025', '109.4', '117.9', '36.3', '0.0', '3.5', '0.0', '5.5', '45.9', '22.7', '341.2', '25 Aug 2025', '314.9', '87.4', '9.7', '5.6', '0.0', '2.2', '0.0', '(29.2)', '53.3', '443.9', '26 Aug 2025', '323.1', '85.5', '0.0', '0.0', '0.0', '0.0', '0.0', '5.3', '41.1', '455.0', '27 Aug 2025', '262.6', '20.5', '0.0', '2.3', '3.3', '0.0', '0.0', '5.7', '15.1', '309.5', '28 Aug 2025', '67.6', '(33.5)', '(1.3)', '0.0', '0.0', '0.0', '0.0', '0.0', '6.3', '39.1', '29 Aug 2025', '0.0', '(51.0)', '(23.7)', '0.0', '0.0', '0.0', '0.0', '(28.6)', '(61.3)', '(164.6)', '02 Sep 2025', '0.0', '(99.2)', '(24.2)', '(6.6)', '0.0', '0.0', '0.0', '(5.3)', '0.0', '(135.3)', '03 Sep 2025', '(151.4)', '65.8', '20.8', '0.0', '0.0', '0.0', '0.0', '0.0', '26.6', '(38.2)', '04 Sep 2025', '148.8', '(216.7)', '(45.7)', '0.0', '(17.2)', '(2.1)', '(1.6)', '(26.4)', '(6.4)', '(167.3)', '05 Sep 2025', '(309.9)', '(37.8)', '0.0', '(14.7)', '0.0', '0.0', '0.0', '(51.8)', '(32.6)', '(446.8)', 'Total', '12,812', '2,491', '386', '13', '179', '18', '61', '(4,605)', '1,387', '12,744', 'Average', '45.4', '8.8', '1.4', '0.0', '0.6', '0.1', '0.2', '(16.3)', '4.9', '45.2', 'Maximum', '639.8', '276.9', '204.0', '7.5', '19.8', '6.2', '13.2', '45.9', '73.2', '1,018.8', 'Minimum', '(375.0)', '(272.2)', '(56.1)', '(14.7)', '(17.2)', '(8.4)', '(6.6)', '(484.1)', '(88.5)', '(465.1)']
+2025-09-08 16:05:24,820 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $-465,100,000
+2025-09-08 16:05:24,820 - etf_tracker_fixed - INFO - Processing ETH row: ['20 Aug 2025', '(257.8)', '8.6', '0.0', '0.0', '0.0', '0.0', '0.0', '0.0', '9.0', '(240.2)']
+2025-09-08 16:05:24,820 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $-240,200,000
+2025-09-08 16:05:24,820 - etf_tracker_fixed - INFO - Processing ETH row: ['21 Aug 2025', '233.6', '28.5', '7.0', '0.0', '6.2', '0.0', '0.0', '5.9', '6.4', '287.6']
+2025-09-08 16:05:24,820 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $287,600,000
+2025-09-08 16:05:24,820 - etf_tracker_fixed - INFO - Processing ETH row: ['22 Aug 2025', '109.4', '117.9', '36.3', '0.0', '3.5', '0.0', '5.5', '45.9', '22.7', '341.2']
+2025-09-08 16:05:24,820 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $341,200,000
+2025-09-08 16:05:24,820 - etf_tracker_fixed - INFO - Processing ETH row: ['25 Aug 2025', '314.9', '87.4', '9.7', '5.6', '0.0', '2.2', '0.0', '(29.2)', '53.3', '443.9']
+2025-09-08 16:05:24,821 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $443,900,000
+2025-09-08 16:05:24,821 - etf_tracker_fixed - INFO - Processing ETH row: ['26 Aug 2025', '323.1', '85.5', '0.0', '0.0', '0.0', '0.0', '0.0', '5.3', '41.1', '455.0']
+2025-09-08 16:05:24,821 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $455,000,000
+2025-09-08 16:05:24,821 - etf_tracker_fixed - INFO - Processing ETH row: ['27 Aug 2025', '262.6', '20.5', '0.0', '2.3', '3.3', '0.0', '0.0', '5.7', '15.1', '309.5']
+2025-09-08 16:05:24,821 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $309,500,000
+2025-09-08 16:05:24,821 - etf_tracker_fixed - INFO - Processing ETH row: ['28 Aug 2025', '67.6', '(33.5)', '(1.3)', '0.0', '0.0', '0.0', '0.0', '0.0', '6.3', '39.1']
+2025-09-08 16:05:24,821 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $39,100,000
+2025-09-08 16:05:24,821 - etf_tracker_fixed - INFO - Processing ETH row: ['29 Aug 2025', '0.0', '(51.0)', '(23.7)', '0.0', '0.0', '0.0', '0.0', '(28.6)', '(61.3)', '(164.6)']
+2025-09-08 16:05:24,821 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $-164,600,000
+2025-09-08 16:05:24,821 - etf_tracker_fixed - INFO - Processing ETH row: ['02 Sep 2025', '0.0', '(99.2)', '(24.2)', '(6.6)', '0.0', '0.0', '0.0', '(5.3)', '0.0', '(135.3)']
+2025-09-08 16:05:24,821 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $-135,300,000
+2025-09-08 16:05:24,821 - etf_tracker_fixed - INFO - Processing ETH row: ['03 Sep 2025', '(151.4)', '65.8', '20.8', '0.0', '0.0', '0.0', '0.0', '0.0', '26.6', '(38.2)']
+2025-09-08 16:05:24,821 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $-38,200,000
+2025-09-08 16:05:24,821 - etf_tracker_fixed - INFO - Processing ETH row: ['04 Sep 2025', '148.8', '(216.7)', '(45.7)', '0.0', '(17.2)', '(2.1)', '(1.6)', '(26.4)', '(6.4)', '(167.3)']
+2025-09-08 16:05:24,821 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $-167,300,000
+2025-09-08 16:05:24,821 - etf_tracker_fixed - INFO - Processing ETH row: ['05 Sep 2025', '(309.9)', '(37.8)', '0.0', '(14.7)', '0.0', '0.0', '0.0', '(51.8)', '(32.6)', '(446.8)']
+2025-09-08 16:05:24,822 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $-446,800,000
+2025-09-08 16:05:24,822 - etf_tracker_fixed - INFO - Primary daily flow: $-465,100,000
+2025-09-08 16:05:24,822 - etf_tracker_fixed - INFO - Additional flows for aggregation: 12
+2025-09-08 16:05:24,823 - etf_tracker_fixed - INFO - Real-time daily flow (latest): $-465,100,000
+2025-09-08 18:55:02,908 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-08 18:55:03,630 - dune_whale_tracker - INFO - Successfully retrieved 31 rows from query 5199702
+2025-09-08 18:55:04,330 - dune_whale_tracker - INFO - Successfully retrieved 31 rows from query 5199685
+2025-09-08 18:55:05,010 - dune_whale_tracker - INFO - Successfully retrieved 50 rows from query 5199583
+2025-09-08 18:55:05,843 - dune_whale_tracker - INFO - Successfully retrieved 168 rows from query 5199720
+2025-09-08 18:55:07,035 - etf_tracker_fixed - INFO - Processing ETH row: ['20 Aug 2025', '(257.8)', '8.6', '0.0', '0.0', '0.0', '0.0', '0.0', '0.0', '9.0', '(240.2)', '21 Aug 2025', '233.6', '28.5', '7.0', '0.0', '6.2', '0.0', '0.0', '5.9', '6.4', '287.6', '22 Aug 2025', '109.4', '117.9', '36.3', '0.0', '3.5', '0.0', '5.5', '45.9', '22.7', '341.2', '25 Aug 2025', '314.9', '87.4', '9.7', '5.6', '0.0', '2.2', '0.0', '(29.2)', '53.3', '443.9', '26 Aug 2025', '323.1', '85.5', '0.0', '0.0', '0.0', '0.0', '0.0', '5.3', '41.1', '455.0', '27 Aug 2025', '262.6', '20.5', '0.0', '2.3', '3.3', '0.0', '0.0', '5.7', '15.1', '309.5', '28 Aug 2025', '67.6', '(33.5)', '(1.3)', '0.0', '0.0', '0.0', '0.0', '0.0', '6.3', '39.1', '29 Aug 2025', '0.0', '(51.0)', '(23.7)', '0.0', '0.0', '0.0', '0.0', '(28.6)', '(61.3)', '(164.6)', '02 Sep 2025', '0.0', '(99.2)', '(24.2)', '(6.6)', '0.0', '0.0', '0.0', '(5.3)', '0.0', '(135.3)', '03 Sep 2025', '(151.4)', '65.8', '20.8', '0.0', '0.0', '0.0', '0.0', '0.0', '26.6', '(38.2)', '04 Sep 2025', '148.8', '(216.7)', '(45.7)', '0.0', '(17.2)', '(2.1)', '(1.6)', '(26.4)', '(6.4)', '(167.3)', '05 Sep 2025', '(309.9)', '(37.8)', '0.0', '(14.7)', '0.0', '0.0', '0.0', '(51.8)', '(32.6)', '(446.8)', 'Total', '12,812', '2,491', '386', '13', '179', '18', '61', '(4,605)', '1,387', '12,744', 'Average', '45.4', '8.8', '1.4', '0.0', '0.6', '0.1', '0.2', '(16.3)', '4.9', '45.2', 'Maximum', '639.8', '276.9', '204.0', '7.5', '19.8', '6.2', '13.2', '45.9', '73.2', '1,018.8', 'Minimum', '(375.0)', '(272.2)', '(56.1)', '(14.7)', '(17.2)', '(8.4)', '(6.6)', '(484.1)', '(88.5)', '(465.1)']
+2025-09-08 18:55:07,036 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $-465,100,000
+2025-09-08 18:55:07,036 - etf_tracker_fixed - INFO - Processing ETH row: ['20 Aug 2025', '(257.8)', '8.6', '0.0', '0.0', '0.0', '0.0', '0.0', '0.0', '9.0', '(240.2)']
+2025-09-08 18:55:07,036 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $-240,200,000
+2025-09-08 18:55:07,036 - etf_tracker_fixed - INFO - Processing ETH row: ['21 Aug 2025', '233.6', '28.5', '7.0', '0.0', '6.2', '0.0', '0.0', '5.9', '6.4', '287.6']
+2025-09-08 18:55:07,036 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $287,600,000
+2025-09-08 18:55:07,036 - etf_tracker_fixed - INFO - Processing ETH row: ['22 Aug 2025', '109.4', '117.9', '36.3', '0.0', '3.5', '0.0', '5.5', '45.9', '22.7', '341.2']
+2025-09-08 18:55:07,036 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $341,200,000
+2025-09-08 18:55:07,036 - etf_tracker_fixed - INFO - Processing ETH row: ['25 Aug 2025', '314.9', '87.4', '9.7', '5.6', '0.0', '2.2', '0.0', '(29.2)', '53.3', '443.9']
+2025-09-08 18:55:07,036 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $443,900,000
+2025-09-08 18:55:07,036 - etf_tracker_fixed - INFO - Processing ETH row: ['26 Aug 2025', '323.1', '85.5', '0.0', '0.0', '0.0', '0.0', '0.0', '5.3', '41.1', '455.0']
+2025-09-08 18:55:07,036 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $455,000,000
+2025-09-08 18:55:07,037 - etf_tracker_fixed - INFO - Processing ETH row: ['27 Aug 2025', '262.6', '20.5', '0.0', '2.3', '3.3', '0.0', '0.0', '5.7', '15.1', '309.5']
+2025-09-08 18:55:07,037 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $309,500,000
+2025-09-08 18:55:07,037 - etf_tracker_fixed - INFO - Processing ETH row: ['28 Aug 2025', '67.6', '(33.5)', '(1.3)', '0.0', '0.0', '0.0', '0.0', '0.0', '6.3', '39.1']
+2025-09-08 18:55:07,037 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $39,100,000
+2025-09-08 18:55:07,037 - etf_tracker_fixed - INFO - Processing ETH row: ['29 Aug 2025', '0.0', '(51.0)', '(23.7)', '0.0', '0.0', '0.0', '0.0', '(28.6)', '(61.3)', '(164.6)']
+2025-09-08 18:55:07,037 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $-164,600,000
+2025-09-08 18:55:07,037 - etf_tracker_fixed - INFO - Processing ETH row: ['02 Sep 2025', '0.0', '(99.2)', '(24.2)', '(6.6)', '0.0', '0.0', '0.0', '(5.3)', '0.0', '(135.3)']
+2025-09-08 18:55:07,037 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $-135,300,000
+2025-09-08 18:55:07,037 - etf_tracker_fixed - INFO - Processing ETH row: ['03 Sep 2025', '(151.4)', '65.8', '20.8', '0.0', '0.0', '0.0', '0.0', '0.0', '26.6', '(38.2)']
+2025-09-08 18:55:07,037 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $-38,200,000
+2025-09-08 18:55:07,037 - etf_tracker_fixed - INFO - Processing ETH row: ['04 Sep 2025', '148.8', '(216.7)', '(45.7)', '0.0', '(17.2)', '(2.1)', '(1.6)', '(26.4)', '(6.4)', '(167.3)']
+2025-09-08 18:55:07,037 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $-167,300,000
+2025-09-08 18:55:07,037 - etf_tracker_fixed - INFO - Processing ETH row: ['05 Sep 2025', '(309.9)', '(37.8)', '0.0', '(14.7)', '0.0', '0.0', '0.0', '(51.8)', '(32.6)', '(446.8)']
+2025-09-08 18:55:07,037 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $-446,800,000
+2025-09-08 18:55:07,037 - etf_tracker_fixed - INFO - Primary daily flow: $-465,100,000
+2025-09-08 18:55:07,037 - etf_tracker_fixed - INFO - Additional flows for aggregation: 12
+2025-09-08 18:55:07,038 - etf_tracker_fixed - INFO - Real-time daily flow (latest): $-465,100,000
+2025-09-08 18:56:02,106 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-08 18:56:02,759 - dune_whale_tracker - INFO - Successfully retrieved 31 rows from query 5199702
+2025-09-08 18:56:03,407 - dune_whale_tracker - INFO - Successfully retrieved 31 rows from query 5199685
+2025-09-08 18:56:04,056 - dune_whale_tracker - INFO - Successfully retrieved 50 rows from query 5199583
+2025-09-08 18:56:04,698 - dune_whale_tracker - INFO - Successfully retrieved 168 rows from query 5199720
+2025-09-08 18:56:07,314 - etf_tracker_fixed - INFO - Processing ETH row: ['20 Aug 2025', '(257.8)', '8.6', '0.0', '0.0', '0.0', '0.0', '0.0', '0.0', '9.0', '(240.2)', '21 Aug 2025', '233.6', '28.5', '7.0', '0.0', '6.2', '0.0', '0.0', '5.9', '6.4', '287.6', '22 Aug 2025', '109.4', '117.9', '36.3', '0.0', '3.5', '0.0', '5.5', '45.9', '22.7', '341.2', '25 Aug 2025', '314.9', '87.4', '9.7', '5.6', '0.0', '2.2', '0.0', '(29.2)', '53.3', '443.9', '26 Aug 2025', '323.1', '85.5', '0.0', '0.0', '0.0', '0.0', '0.0', '5.3', '41.1', '455.0', '27 Aug 2025', '262.6', '20.5', '0.0', '2.3', '3.3', '0.0', '0.0', '5.7', '15.1', '309.5', '28 Aug 2025', '67.6', '(33.5)', '(1.3)', '0.0', '0.0', '0.0', '0.0', '0.0', '6.3', '39.1', '29 Aug 2025', '0.0', '(51.0)', '(23.7)', '0.0', '0.0', '0.0', '0.0', '(28.6)', '(61.3)', '(164.6)', '02 Sep 2025', '0.0', '(99.2)', '(24.2)', '(6.6)', '0.0', '0.0', '0.0', '(5.3)', '0.0', '(135.3)', '03 Sep 2025', '(151.4)', '65.8', '20.8', '0.0', '0.0', '0.0', '0.0', '0.0', '26.6', '(38.2)', '04 Sep 2025', '148.8', '(216.7)', '(45.7)', '0.0', '(17.2)', '(2.1)', '(1.6)', '(26.4)', '(6.4)', '(167.3)', '05 Sep 2025', '(309.9)', '(37.8)', '0.0', '(14.7)', '0.0', '0.0', '0.0', '(51.8)', '(32.6)', '(446.8)', 'Total', '12,812', '2,491', '386', '13', '179', '18', '61', '(4,605)', '1,387', '12,744', 'Average', '45.4', '8.8', '1.4', '0.0', '0.6', '0.1', '0.2', '(16.3)', '4.9', '45.2', 'Maximum', '639.8', '276.9', '204.0', '7.5', '19.8', '6.2', '13.2', '45.9', '73.2', '1,018.8', 'Minimum', '(375.0)', '(272.2)', '(56.1)', '(14.7)', '(17.2)', '(8.4)', '(6.6)', '(484.1)', '(88.5)', '(465.1)']
+2025-09-08 18:56:07,315 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $-465,100,000
+2025-09-08 18:56:07,315 - etf_tracker_fixed - INFO - Processing ETH row: ['20 Aug 2025', '(257.8)', '8.6', '0.0', '0.0', '0.0', '0.0', '0.0', '0.0', '9.0', '(240.2)']
+2025-09-08 18:56:07,315 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $-240,200,000
+2025-09-08 18:56:07,315 - etf_tracker_fixed - INFO - Processing ETH row: ['21 Aug 2025', '233.6', '28.5', '7.0', '0.0', '6.2', '0.0', '0.0', '5.9', '6.4', '287.6']
+2025-09-08 18:56:07,315 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $287,600,000
+2025-09-08 18:56:07,315 - etf_tracker_fixed - INFO - Processing ETH row: ['22 Aug 2025', '109.4', '117.9', '36.3', '0.0', '3.5', '0.0', '5.5', '45.9', '22.7', '341.2']
+2025-09-08 18:56:07,315 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $341,200,000
+2025-09-08 18:56:07,315 - etf_tracker_fixed - INFO - Processing ETH row: ['25 Aug 2025', '314.9', '87.4', '9.7', '5.6', '0.0', '2.2', '0.0', '(29.2)', '53.3', '443.9']
+2025-09-08 18:56:07,315 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $443,900,000
+2025-09-08 18:56:07,315 - etf_tracker_fixed - INFO - Processing ETH row: ['26 Aug 2025', '323.1', '85.5', '0.0', '0.0', '0.0', '0.0', '0.0', '5.3', '41.1', '455.0']
+2025-09-08 18:56:07,315 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $455,000,000
+2025-09-08 18:56:07,315 - etf_tracker_fixed - INFO - Processing ETH row: ['27 Aug 2025', '262.6', '20.5', '0.0', '2.3', '3.3', '0.0', '0.0', '5.7', '15.1', '309.5']
+2025-09-08 18:56:07,315 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $309,500,000
+2025-09-08 18:56:07,315 - etf_tracker_fixed - INFO - Processing ETH row: ['28 Aug 2025', '67.6', '(33.5)', '(1.3)', '0.0', '0.0', '0.0', '0.0', '0.0', '6.3', '39.1']
+2025-09-08 18:56:07,315 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $39,100,000
+2025-09-08 18:56:07,316 - etf_tracker_fixed - INFO - Processing ETH row: ['29 Aug 2025', '0.0', '(51.0)', '(23.7)', '0.0', '0.0', '0.0', '0.0', '(28.6)', '(61.3)', '(164.6)']
+2025-09-08 18:56:07,316 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $-164,600,000
+2025-09-08 18:56:07,316 - etf_tracker_fixed - INFO - Processing ETH row: ['02 Sep 2025', '0.0', '(99.2)', '(24.2)', '(6.6)', '0.0', '0.0', '0.0', '(5.3)', '0.0', '(135.3)']
+2025-09-08 18:56:07,316 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $-135,300,000
+2025-09-08 18:56:07,316 - etf_tracker_fixed - INFO - Processing ETH row: ['03 Sep 2025', '(151.4)', '65.8', '20.8', '0.0', '0.0', '0.0', '0.0', '0.0', '26.6', '(38.2)']
+2025-09-08 18:56:07,316 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $-38,200,000
+2025-09-08 18:56:07,316 - etf_tracker_fixed - INFO - Processing ETH row: ['04 Sep 2025', '148.8', '(216.7)', '(45.7)', '0.0', '(17.2)', '(2.1)', '(1.6)', '(26.4)', '(6.4)', '(167.3)']
+2025-09-08 18:56:07,316 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $-167,300,000
+2025-09-08 18:56:07,316 - etf_tracker_fixed - INFO - Processing ETH row: ['05 Sep 2025', '(309.9)', '(37.8)', '0.0', '(14.7)', '0.0', '0.0', '0.0', '(51.8)', '(32.6)', '(446.8)']
+2025-09-08 18:56:07,316 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $-446,800,000
+2025-09-08 18:56:07,316 - etf_tracker_fixed - INFO - Primary daily flow: $-465,100,000
+2025-09-08 18:56:07,316 - etf_tracker_fixed - INFO - Additional flows for aggregation: 12
+2025-09-08 18:56:07,317 - etf_tracker_fixed - INFO - Real-time daily flow (latest): $-465,100,000
+2025-09-08 19:04:04,252 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-08 19:04:04,961 - dune_whale_tracker - INFO - Successfully retrieved 31 rows from query 5199702
+2025-09-08 19:04:05,604 - dune_whale_tracker - INFO - Successfully retrieved 31 rows from query 5199685
+2025-09-08 19:04:06,243 - dune_whale_tracker - INFO - Successfully retrieved 50 rows from query 5199583
+2025-09-08 19:04:06,885 - dune_whale_tracker - INFO - Successfully retrieved 168 rows from query 5199720
+2025-09-08 19:04:08,474 - etf_tracker_fixed - INFO - Found green highlighted row for ETH
+2025-09-08 19:04:08,474 - etf_tracker_fixed - INFO - Processing ETH row: ['08 Sep 2025', '-', '-', '-', '-', '-', '-', '-', '-', '-', '0.0']
+2025-09-08 19:04:08,474 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $0
+2025-09-08 19:04:08,474 - etf_tracker_fixed - INFO - Primary daily flow: $0
+2025-09-08 19:04:08,475 - etf_tracker_fixed - INFO - Real-time daily flow (latest): $0
+2025-09-08 19:11:50,638 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-08 19:11:51,339 - dune_whale_tracker - INFO - Successfully retrieved 31 rows from query 5199702
+2025-09-08 19:11:51,959 - dune_whale_tracker - INFO - Successfully retrieved 31 rows from query 5199685
+2025-09-08 19:11:52,599 - dune_whale_tracker - INFO - Successfully retrieved 50 rows from query 5199583
+2025-09-08 19:11:53,238 - dune_whale_tracker - INFO - Successfully retrieved 168 rows from query 5199720
+2025-09-08 19:11:54,389 - etf_tracker_fixed - INFO - Found green highlighted row for ETH
+2025-09-08 19:11:54,389 - etf_tracker_fixed - INFO - Processing ETH row: ['08 Sep 2025', '-', '-', '-', '-', '-', '-', '-', '-', '-', '0.0']
+2025-09-08 19:11:54,389 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $0
+2025-09-08 19:11:54,390 - etf_tracker_fixed - INFO - Primary daily flow: $0
+2025-09-08 19:11:54,391 - etf_tracker_fixed - INFO - Real-time daily flow (latest): $0

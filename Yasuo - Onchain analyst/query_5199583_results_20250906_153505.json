@@ -1,0 +1,308 @@
+{
+  "query_id": "5199583",
+  "query_name": "Query 3 - Portfolio Analysis",
+  "timestamp": "2025-09-06T15:35:05.880110",
+  "row_count": 50,
+  "data": [
+    {
+      "address": "0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+      "eth_balance": 12329337.84,
+      "institution_size": "Mega Institution (50K+ ETH)",
+      "usd_value": 53176187528
+    },
+    {
+      "address": "0xd01607c3c5ecaba394d8be377a08590149325722",
+      "eth_balance": 3484219.07,
+      "institution_size": "Mega Institution (50K+ ETH)",
+      "usd_value": 15027367180
+    },
+    {
+      "address": "0x00000000219ab540356cbb839cbe05303d7705fa",
+      "eth_balance": 1614058.65,
+      "institution_size": "Mega Institution (50K+ ETH)",
+      "usd_value": 6961402662
+    },
+    {
+      "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "eth_balance": 1019696.17,
+      "institution_size": "Mega Institution (50K+ ETH)",
+      "usd_value": 4397929180
+    },
+    {
+      "address": "0x111111125421ca6dc452d289314280a0f8842a65",
+      "eth_balance": 634619.57,
+      "institution_size": "Mega Institution (50K+ ETH)",
+      "usd_value": 2737101521
+    },
+    {
+      "address": "0xba3cb449bd2b4adddbc894d8697f5170800eadec",
+      "eth_balance": 612224.59,
+      "institution_size": "Mega Institution (50K+ ETH)",
+      "usd_value": 2640512391
+    },
+    {
+      "address": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+      "eth_balance": 568479.75,
+      "institution_size": "Mega Institution (50K+ ETH)",
+      "usd_value": 2451841776
+    },
+    {
+      "address": "0x66a9893cc07d91d95644aedd05d03f95e1dba8af",
+      "eth_balance": 559868.48,
+      "institution_size": "Mega Institution (50K+ ETH)",
+      "usd_value": 2414701545
+    },
+    {
+      "address": "0x2f44f404d835c3820059d216b957284a064e024b",
+      "eth_balance": 545012,
+      "institution_size": "Mega Institution (50K+ ETH)",
+      "usd_value": 2350625856
+    },
+    {
+      "address": "0xefe9a82d56cd965d7b332c7ac1feb15c53cd4340",
+      "eth_balance": 517248,
+      "institution_size": "Mega Institution (50K+ ETH)",
+      "usd_value": 2230880279
+    },
+    {
+      "address": "0xc36442b4a4522e871399cd717abdd847ab11fe88",
+      "eth_balance": 514056.98,
+      "institution_size": "Mega Institution (50K+ ETH)",
+      "usd_value": 2217117484
+    },
+    {
+      "address": "0xae7ab96520de3a18e5e111b5eaab095312d7fe84",
+      "eth_balance": 512197.16,
+      "institution_size": "Mega Institution (50K+ ETH)",
+      "usd_value": 2209096110
+    },
+    {
+      "address": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+      "eth_balance": 464755.57,
+      "institution_size": "Mega Institution (50K+ ETH)",
+      "usd_value": 2004481465
+    },
+    {
+      "address": "0xd152f549545093347a162dce210e7293f1452150",
+      "eth_balance": 453131.02,
+      "institution_size": "Mega Institution (50K+ ETH)",
+      "usd_value": 1954345047
+    },
+    {
+      "address": "0x4bbe9b84aac9804557e8a90b7186324f20357e5c",
+      "eth_balance": 448867.19,
+      "institution_size": "Mega Institution (50K+ ETH)",
+      "usd_value": 1935955217
+    },
+    {
+      "address": "0xbd216513d74c8cf14cf4747e6aaa6420ff64ee9e",
+      "eth_balance": 448773.82,
+      "institution_size": "Mega Institution (50K+ ETH)",
+      "usd_value": 1935552530
+    },
+    {
+      "address": "0xf977814e90da44bfa03b6295a0616a897441acec",
+      "eth_balance": 436521.58,
+      "institution_size": "Mega Institution (50K+ ETH)",
+      "usd_value": 1882708855
+    },
+    {
+      "address": "0x4dbd4fc535ac27206064b68ffcf827b0a60bab3f",
+      "eth_balance": 365067.48,
+      "institution_size": "Mega Institution (50K+ ETH)",
+      "usd_value": 1574528760
+    },
+    {
+      "address": "0x03f34be1bf910116595db1b11e9d1b2ca5d59659",
+      "eth_balance": 364337.32,
+      "institution_size": "Mega Institution (50K+ ETH)",
+      "usd_value": 1571379556
+    },
+    {
+      "address": "0xf0075b3cf8953d3e23b0ef65960913fd97eb5227",
+      "eth_balance": 350336,
+      "institution_size": "Mega Institution (50K+ ETH)",
+      "usd_value": 1510992161
+    },
+    {
+      "address": "0xe00cccfd3e9320fef6e96bf05fcefd652e520130",
+      "eth_balance": 341392,
+      "institution_size": "Mega Institution (50K+ ETH)",
+      "usd_value": 1472416868
+    },
+    {
+      "address": "0x8d05d9924fe935bd533a844271a1b2078eae6fcf",
+      "eth_balance": 329444.02,
+      "institution_size": "Mega Institution (50K+ ETH)",
+      "usd_value": 1420885460
+    },
+    {
+      "address": "0xf2be95116845252a28bd43661651917dc183dab1",
+      "eth_balance": 318432,
+      "institution_size": "Mega Institution (50K+ ETH)",
+      "usd_value": 1373390847
+    },
+    {
+      "address": "0xd37bbe5744d730a1d98d8dc97c42f0ca46ad7146",
+      "eth_balance": 297410.51,
+      "institution_size": "Mega Institution (50K+ ETH)",
+      "usd_value": 1282725592
+    },
+    {
+      "address": "0x9f1799fb47b1514f453bcebbc37ecfe883756e83",
+      "eth_balance": 292784.46,
+      "institution_size": "Mega Institution (50K+ ETH)",
+      "usd_value": 1262773515
+    },
+    {
+      "address": "0x0000000000001ff3684f28c67538d4d072c22734",
+      "eth_balance": 280119.2,
+      "institution_size": "Mega Institution (50K+ ETH)",
+      "usd_value": 1208148512
+    },
+    {
+      "address": "0x0ee1af240e39bbb34780907e85d56c0fe3b18bd3",
+      "eth_balance": 279396.51,
+      "institution_size": "Mega Institution (50K+ ETH)",
+      "usd_value": 1205031554
+    },
+    {
+      "address": "0xd4039ecc40aeda0582036437cf3ec02845da4c13",
+      "eth_balance": 274336,
+      "institution_size": "Mega Institution (50K+ ETH)",
+      "usd_value": 1183205681
+    },
+    {
+      "address": "0xa397a8c2086c554b531c02e29f3291c9704b00c7",
+      "eth_balance": 254870.91,
+      "institution_size": "Mega Institution (50K+ ETH)",
+      "usd_value": 1099253147
+    },
+    {
+      "address": "0x51b4096d4bde1b883f6d6ca3b1b7eb54dc20b913",
+      "eth_balance": 245559.13,
+      "institution_size": "Mega Institution (50K+ ETH)",
+      "usd_value": 1059091628
+    },
+    {
+      "address": "0xb115fe9a340eca8251b038d0b2deae482f18c8b2",
+      "eth_balance": 223504.87,
+      "institution_size": "Mega Institution (50K+ ETH)",
+      "usd_value": 963972043
+    },
+    {
+      "address": "0x4fb312915b779b1339388e14b6d079741ca83128",
+      "eth_balance": 220810,
+      "institution_size": "Mega Institution (50K+ ETH)",
+      "usd_value": 952349114
+    },
+    {
+      "address": "0xfa103c21ea2df71dfb92b0652f8b1d795e51cdef",
+      "eth_balance": 219975.67,
+      "institution_size": "Mega Institution (50K+ ETH)",
+      "usd_value": 948750675
+    },
+    {
+      "address": "0x77b2043768d28e9c9ab44e1abfc95944bce57931",
+      "eth_balance": 206408.99,
+      "institution_size": "Mega Institution (50K+ ETH)",
+      "usd_value": 890237837
+    },
+    {
+      "address": "0xcfc6d9bd7411962bfe7145451a7ef71a24b6a7a2",
+      "eth_balance": 192964.6,
+      "institution_size": "Mega Institution (50K+ ETH)",
+      "usd_value": 832252471
+    },
+    {
+      "address": "0xaa2aa15d77b41e151e17f3a61cbc68db4da72a90",
+      "eth_balance": 192893.93,
+      "institution_size": "Mega Institution (50K+ ETH)",
+      "usd_value": 831947665
+    },
+    {
+      "address": "0xd59d7a9698eff3e68e0af7e803d4ed35e7ed12d2",
+      "eth_balance": 184768.88,
+      "institution_size": "Mega Institution (50K+ ETH)",
+      "usd_value": 796904494
+    },
+    {
+      "address": "0x6131b5fae19ea4f9d964eac0408e4408b66337b5",
+      "eth_balance": 181390.26,
+      "institution_size": "Mega Institution (50K+ ETH)",
+      "usd_value": 782332545
+    },
+    {
+      "address": "0x3154cf16ccdb4c6d922629664174b904d80f2c35",
+      "eth_balance": 168869.64,
+      "institution_size": "Mega Institution (50K+ ETH)",
+      "usd_value": 728331371
+    },
+    {
+      "address": "0xd19d4b5d358258f05d7b411e21a1460d11b0876f",
+      "eth_balance": 164261.69,
+      "institution_size": "Mega Institution (50K+ ETH)",
+      "usd_value": 708457376
+    },
+    {
+      "address": "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae",
+      "eth_balance": 154991.22,
+      "institution_size": "Mega Institution (50K+ ETH)",
+      "usd_value": 668474048
+    },
+    {
+      "address": "0x81014f44b0a345033bb2b3b21c7a1a308b35feea",
+      "eth_balance": 154879.25,
+      "institution_size": "Mega Institution (50K+ ETH)",
+      "usd_value": 667991110
+    },
+    {
+      "address": "0xd90e2f925da726b50c4ed8d0fb90ad053324f31b",
+      "eth_balance": 144716.22,
+      "institution_size": "Mega Institution (50K+ ETH)",
+      "usd_value": 624158167
+    },
+    {
+      "address": "0x6a000f20005980200259b80c5102003040001068",
+      "eth_balance": 137369.7,
+      "institution_size": "Mega Institution (50K+ ETH)",
+      "usd_value": 592472782
+    },
+    {
+      "address": "0xafcd96e580138cfa2332c632e66308eacd45c5da",
+      "eth_balance": 133001.35,
+      "institution_size": "Mega Institution (50K+ ETH)",
+      "usd_value": 573632146
+    },
+    {
+      "address": "0xbd7d6a9ad7865463de44b05f04559f65e3b11704",
+      "eth_balance": 132043.3,
+      "institution_size": "Mega Institution (50K+ ETH)",
+      "usd_value": 569500130
+    },
+    {
+      "address": "0x881d40237659c251811cec9c364ef91dc08d300c",
+      "eth_balance": 126700.41,
+      "institution_size": "Mega Institution (50K+ ETH)",
+      "usd_value": 546456320
+    },
+    {
+      "address": "0x109be9d7d5f64c8c391ced3a8f69bdef20fcaea9",
+      "eth_balance": 125932.59,
+      "institution_size": "Mega Institution (50K+ ETH)",
+      "usd_value": 543144721
+    },
+    {
+      "address": "0xb685760ebd368a891f27ae547391f4e2a289895b",
+      "eth_balance": 111984.8,
+      "institution_size": "Mega Institution (50K+ ETH)",
+      "usd_value": 482988190
+    },
+    {
+      "address": "0x6566194141eefa99af43bb5aa71460ca2dc90245",
+      "eth_balance": 102770.4,
+      "institution_size": "Mega Institution (50K+ ETH)",
+      "usd_value": 443246665
+    }
+  ]
+}

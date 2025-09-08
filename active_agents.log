@@ -1,0 +1,539 @@
+2025-08-18 17:22:56,700 - human_email_reporter - INFO - Human email reporter initialized for chris@thebees.group
+2025-08-18 17:22:56,700 - __main__ - INFO - 🤖 Active Agents System initialized
+2025-08-18 17:22:56,700 - __main__ - INFO - 🚀 Running agents immediately...
+2025-08-18 17:22:56,700 - __main__ - INFO - 🔄 Starting daily cycle...
+2025-08-18 17:22:56,700 - __main__ - INFO - 🌸 Starting Lily's active analysis...
+2025-08-18 17:22:56,700 - __main__ - ERROR - Lily active run error: Supabase package not installed
+2025-08-18 17:23:26,703 - __main__ - INFO - 🤖 Starting Bob's active analysis...
+2025-08-18 17:23:26,708 - Bob.technical_analysis_engine - INFO - 📈 Bob Technical Analysis Engine initialized
+2025-08-18 17:23:26,709 - Bob.technical_analysis_engine - INFO - 📈 Bob starting multi-timeframe analysis...
+2025-08-18 17:23:26,709 - Bob.technical_analysis_engine - INFO - 🔍 Analyzing 1h timeframe...
+2025-08-18 17:23:26,709 - Bob.technical_analysis_engine - INFO - 📊 Bob fetching ETH-USD data - 1h interval
+2025-08-18 17:23:27,739 - Bob.technical_analysis_engine - INFO - ✅ Data fetched: 155 candles
+2025-08-18 17:23:27,740 - Bob.technical_analysis_engine - INFO - 🔍 Analyzing 4h timeframe...
+2025-08-18 17:23:27,740 - Bob.technical_analysis_engine - INFO - 📊 Bob fetching ETH-USD data - 1h interval
+2025-08-18 17:23:27,829 - Bob.technical_analysis_engine - INFO - ✅ Data fetched: 707 candles
+2025-08-18 17:23:27,831 - Bob.technical_analysis_engine - INFO - 🔍 Analyzing 1d timeframe...
+2025-08-18 17:23:27,831 - Bob.technical_analysis_engine - INFO - 📊 Bob fetching ETH-USD data - 1d interval
+2025-08-18 17:23:27,911 - Bob.technical_analysis_engine - INFO - ✅ Data fetched: 366 candles
+2025-08-18 17:23:27,935 - __main__ - ERROR - Bob active run error: No module named 'matplotlib'
+2025-08-18 17:23:27,935 - __main__ - INFO - 📊 Daily cycle completed - Lily: ❌, Bob: ❌
+2025-08-18 17:23:53,031 - human_email_reporter - INFO - Human email reporter initialized for chris@thebees.group
+2025-08-18 17:23:53,032 - __main__ - INFO - 🤖 Active Agents System initialized
+2025-08-18 17:23:53,032 - __main__ - INFO - 🚀 Running agents immediately...
+2025-08-18 17:23:53,032 - __main__ - INFO - 🔄 Starting daily cycle...
+2025-08-18 17:23:53,032 - __main__ - INFO - 🌸 Starting Lily's active analysis...
+2025-08-18 17:23:53,032 - __main__ - ERROR - Lily active run error: Supabase URL and Key required
+2025-08-18 17:24:23,035 - __main__ - INFO - 🤖 Starting Bob's active analysis...
+2025-08-18 17:24:23,037 - options_analysis_engine - INFO - 📊 Bob Options Analysis Engine initialized
+2025-08-18 17:24:23,037 - Bob.technical_analysis_engine - INFO - 📈 Bob Technical Analysis Engine initialized
+2025-08-18 17:24:23,037 - Bob.technical_analysis_engine - INFO - 📈 Bob starting multi-timeframe analysis...
+2025-08-18 17:24:23,037 - Bob.technical_analysis_engine - INFO - 🔍 Analyzing 1h timeframe...
+2025-08-18 17:24:23,037 - Bob.technical_analysis_engine - INFO - 📊 Bob fetching ETH-USD data - 1h interval
+2025-08-18 17:24:23,654 - Bob.technical_analysis_engine - INFO - ✅ Data fetched: 155 candles
+2025-08-18 17:24:23,654 - Bob.technical_analysis_engine - INFO - 🔍 Analyzing 4h timeframe...
+2025-08-18 17:24:23,654 - Bob.technical_analysis_engine - INFO - 📊 Bob fetching ETH-USD data - 1h interval
+2025-08-18 17:24:23,735 - Bob.technical_analysis_engine - INFO - ✅ Data fetched: 707 candles
+2025-08-18 17:24:23,740 - Bob.technical_analysis_engine - INFO - 🔍 Analyzing 1d timeframe...
+2025-08-18 17:24:23,740 - Bob.technical_analysis_engine - INFO - 📊 Bob fetching ETH-USD data - 1d interval
+2025-08-18 17:24:23,808 - Bob.technical_analysis_engine - INFO - ✅ Data fetched: 366 candles
+2025-08-18 17:24:23,809 - Bob.technical_analysis_engine - INFO - 📊 Adding options analysis...
+2025-08-18 17:24:23,809 - options_analysis_engine - INFO - 📊 Starting comprehensive options analysis...
+2025-08-18 17:24:23,809 - options_analysis_engine - INFO - 📊 Fetching Deribit ETH options data...
+2025-08-18 17:24:24,813 - options_analysis_engine - INFO - ✅ Found 856 ETH options instruments
+2025-08-18 17:24:44,444 - Bob.technical_analysis_engine - INFO - ✅ Options analysis integrated
+2025-08-18 17:24:46,773 - __main__ - ERROR - Bob active run error: cannot import name 'generate_bob_report' from 'Bob.generate_report' (/Users/nguyenhuycuong/Crownwell agentic/TradingAgents/Bob/generate_report.py)
+2025-08-18 17:24:46,773 - __main__ - INFO - 📊 Daily cycle completed - Lily: ❌, Bob: ❌
+2025-08-18 17:26:03,550 - human_email_reporter - INFO - Human email reporter initialized for chris@thebees.group
+2025-08-18 17:26:03,550 - __main__ - INFO - 🤖 Active Agents System initialized
+2025-08-18 17:26:03,550 - __main__ - INFO - 🚀 Running agents immediately...
+2025-08-18 17:26:03,551 - __main__ - INFO - 🔄 Starting daily cycle...
+2025-08-18 17:26:03,551 - __main__ - INFO - 🌸 Starting Lily's active analysis...
+2025-08-18 17:26:03,635 - optimized_supabase_integration - INFO - ✅ Connected to Supabase
+2025-08-18 17:26:03,641 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.152:443/TcpFull...
+2025-08-18 17:26:03,676 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.152:443/TcpFull complete!
+2025-08-18 17:26:04,156 - telegram_eth_mention_analyzer - INFO - ✅ Telegram client initialized
+2025-08-18 17:26:04,311 - telegram_eth_mention_analyzer - INFO - 🔍 Searching ETH mentions in @cryptocurrency (last 1 days, max 5 messages)
+2025-08-18 17:26:04,384 - telegram_eth_mention_analyzer - INFO - ✅ Found 0 ETH mentions in 5 messages from @cryptocurrency
+2025-08-18 17:26:06,436 - telegram_eth_mention_analyzer - INFO - 🔍 Searching ETH mentions in @bitcoinnews (last 1 days, max 5 messages)
+2025-08-18 17:26:06,509 - telegram_eth_mention_analyzer - INFO - ✅ Found 1 ETH mentions in 5 messages from @bitcoinnews
+2025-08-18 17:26:08,510 - telethon.network.mtprotosender - INFO - Disconnecting from 91.108.56.152:443/TcpFull...
+2025-08-18 17:26:08,511 - telethon.network.mtprotosender - INFO - Disconnection from 91.108.56.152:443/TcpFull complete!
+2025-08-18 17:26:08,515 - __main__ - ERROR - ❌ Lily's analysis failed
+2025-08-18 17:26:38,517 - __main__ - INFO - 🤖 Starting Bob's active analysis...
+2025-08-18 17:26:38,518 - options_analysis_engine - INFO - 📊 Bob Options Analysis Engine initialized
+2025-08-18 17:26:38,518 - Bob.technical_analysis_engine - INFO - 📈 Bob Technical Analysis Engine initialized
+2025-08-18 17:26:38,518 - Bob.technical_analysis_engine - INFO - 📈 Bob starting multi-timeframe analysis...
+2025-08-18 17:26:38,518 - Bob.technical_analysis_engine - INFO - 🔍 Analyzing 1h timeframe...
+2025-08-18 17:26:38,518 - Bob.technical_analysis_engine - INFO - 📊 Bob fetching ETH-USD data - 1h interval
+2025-08-18 17:26:39,103 - Bob.technical_analysis_engine - INFO - ✅ Data fetched: 155 candles
+2025-08-18 17:26:39,104 - Bob.technical_analysis_engine - INFO - 🔍 Analyzing 4h timeframe...
+2025-08-18 17:26:39,104 - Bob.technical_analysis_engine - INFO - 📊 Bob fetching ETH-USD data - 1h interval
+2025-08-18 17:26:39,217 - Bob.technical_analysis_engine - INFO - ✅ Data fetched: 707 candles
+2025-08-18 17:26:39,222 - Bob.technical_analysis_engine - INFO - 🔍 Analyzing 1d timeframe...
+2025-08-18 17:26:39,222 - Bob.technical_analysis_engine - INFO - 📊 Bob fetching ETH-USD data - 1d interval
+2025-08-18 17:26:39,308 - Bob.technical_analysis_engine - INFO - ✅ Data fetched: 366 candles
+2025-08-18 17:26:39,308 - Bob.technical_analysis_engine - INFO - 📊 Adding options analysis...
+2025-08-18 17:26:39,309 - options_analysis_engine - INFO - 📊 Starting comprehensive options analysis...
+2025-08-18 17:26:39,309 - options_analysis_engine - INFO - 📊 Fetching Deribit ETH options data...
+2025-08-18 17:26:40,258 - options_analysis_engine - INFO - ✅ Found 856 ETH options instruments
+2025-08-18 17:26:59,405 - Bob.technical_analysis_engine - INFO - ✅ Options analysis integrated
+2025-08-18 17:27:00,885 - human_email_reporter - INFO - Attached Bob report: Bob/Bob_Professional_Report_20250818_172659.pdf
+2025-08-18 17:27:07,383 - human_email_reporter - INFO - Email sent successfully to chris@thebees.group
+2025-08-18 17:27:07,384 - __main__ - INFO - ✅ Bob's active run completed successfully
+2025-08-18 17:27:07,384 - __main__ - INFO - 📊 Daily cycle completed - Lily: ❌, Bob: ✅
+2025-08-18 17:32:06,497 - human_email_reporter - INFO - Human email reporter initialized for chris@thebees.group
+2025-08-18 17:32:06,497 - __main__ - INFO - 🤖 Active Agents System initialized
+2025-08-18 17:32:06,497 - __main__ - INFO - 🚀 Running agents immediately...
+2025-08-18 17:32:06,497 - __main__ - INFO - 🔄 Starting daily cycle...
+2025-08-18 17:32:06,497 - __main__ - INFO - 🌸 Starting Lily's active analysis...
+2025-08-18 17:32:06,589 - optimized_supabase_integration - INFO - ✅ Connected to Supabase
+2025-08-18 17:32:06,590 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.152:443/TcpFull...
+2025-08-18 17:32:06,639 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.152:443/TcpFull complete!
+2025-08-18 17:32:07,025 - telegram_eth_mention_analyzer - INFO - ✅ Telegram client initialized
+2025-08-18 17:32:07,344 - httpx - INFO - HTTP Request: GET https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/twitter_posts?select=id "HTTP/2 200 OK"
+2025-08-18 17:32:07,539 - httpx - INFO - HTTP Request: GET https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/reddit_posts?select=id "HTTP/2 200 OK"
+2025-08-18 17:32:07,752 - httpx - INFO - HTTP Request: GET https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/telegram_posts?select=id "HTTP/2 200 OK"
+2025-08-18 17:32:07,950 - httpx - INFO - HTTP Request: GET https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/aggregated_sentiment_reports?select=id "HTTP/2 200 OK"
+2025-08-18 17:32:08,208 - httpx - INFO - HTTP Request: POST https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/telegram_posts?columns=%22message_views%22%2C%22analysis_timestamp%22%2C%22replies%22%2C%22sender_username%22%2C%22reactions%22%2C%22channel_subscribers%22%2C%22context_multipliers%22%2C%22forwards%22%2C%22channel_title%22%2C%22channel_username%22%2C%22message_text%22%2C%22channel_id%22%2C%22final_weight%22%2C%22engagement_weight%22%2C%22message_url%22%2C%22message_id%22%2C%22sentiment_score%22%2C%22keywords_detected%22%2C%22confidence%22%2C%22message_timestamp%22 "HTTP/2 201 Created"
+2025-08-18 17:32:08,208 - optimized_supabase_integration - INFO - ✅ Processed 2/2 posts for telegram_posts
+2025-08-18 17:32:08,271 - telegram_eth_mention_analyzer - INFO - 🔍 Searching ETH mentions in @cryptocurrency (last 1 days, max 5 messages)
+2025-08-18 17:32:08,345 - telegram_eth_mention_analyzer - INFO - ✅ Found 0 ETH mentions in 5 messages from @cryptocurrency
+2025-08-18 17:32:10,408 - telegram_eth_mention_analyzer - INFO - 🔍 Searching ETH mentions in @bitcoinnews (last 1 days, max 5 messages)
+2025-08-18 17:32:10,492 - telegram_eth_mention_analyzer - INFO - ✅ Found 1 ETH mentions in 5 messages from @bitcoinnews
+2025-08-18 17:32:12,494 - telethon.network.mtprotosender - INFO - Disconnecting from 91.108.56.152:443/TcpFull...
+2025-08-18 17:32:12,494 - telethon.network.mtprotosender - INFO - Disconnection from 91.108.56.152:443/TcpFull complete!
+2025-08-18 17:32:12,822 - __main__ - ERROR - Lily active run error: No module named 'dotenv'
+2025-08-18 17:32:42,825 - __main__ - INFO - 🤖 Starting Bob's active analysis...
+2025-08-18 17:32:42,827 - options_analysis_engine - INFO - 📊 Bob Options Analysis Engine initialized
+2025-08-18 17:32:42,827 - Bob.technical_analysis_engine - INFO - 📈 Bob Technical Analysis Engine initialized
+2025-08-18 17:32:42,828 - Bob.technical_analysis_engine - INFO - 📈 Bob starting multi-timeframe analysis...
+2025-08-18 17:32:42,828 - Bob.technical_analysis_engine - INFO - 🔍 Analyzing 1h timeframe...
+2025-08-18 17:32:42,828 - Bob.technical_analysis_engine - INFO - 📊 Bob fetching ETH-USD data - 1h interval
+2025-08-18 17:32:43,501 - Bob.technical_analysis_engine - INFO - ✅ Data fetched: 155 candles
+2025-08-18 17:32:43,501 - Bob.technical_analysis_engine - INFO - 🔍 Analyzing 4h timeframe...
+2025-08-18 17:32:43,501 - Bob.technical_analysis_engine - INFO - 📊 Bob fetching ETH-USD data - 1h interval
+2025-08-18 17:32:43,661 - Bob.technical_analysis_engine - INFO - ✅ Data fetched: 707 candles
+2025-08-18 17:32:43,666 - Bob.technical_analysis_engine - INFO - 🔍 Analyzing 1d timeframe...
+2025-08-18 17:32:43,666 - Bob.technical_analysis_engine - INFO - 📊 Bob fetching ETH-USD data - 1d interval
+2025-08-18 17:32:43,756 - Bob.technical_analysis_engine - INFO - ✅ Data fetched: 366 candles
+2025-08-18 17:32:43,756 - Bob.technical_analysis_engine - INFO - 📊 Adding options analysis...
+2025-08-18 17:32:43,756 - options_analysis_engine - INFO - 📊 Starting comprehensive options analysis...
+2025-08-18 17:32:43,756 - options_analysis_engine - INFO - 📊 Fetching Deribit ETH options data...
+2025-08-18 17:32:44,726 - options_analysis_engine - INFO - ✅ Found 856 ETH options instruments
+2025-08-18 17:33:04,994 - Bob.technical_analysis_engine - INFO - ✅ Options analysis integrated
+2025-08-18 17:33:05,970 - human_email_reporter - INFO - Attached Bob report: Bob/Bob_Professional_Report_20250818_173304.pdf
+2025-08-18 17:33:11,563 - human_email_reporter - INFO - Email sent successfully to chris@thebees.group
+2025-08-18 17:33:11,564 - __main__ - INFO - ✅ Bob's active run completed successfully
+2025-08-18 17:33:11,564 - __main__ - INFO - 📊 Daily cycle completed - Lily: ❌, Bob: ✅
+2025-08-18 17:34:35,438 - human_email_reporter - INFO - Human email reporter initialized for chris@thebees.group
+2025-08-18 17:34:35,439 - __main__ - INFO - 🤖 Active Agents System initialized
+2025-08-18 17:34:35,439 - __main__ - INFO - 🚀 Running agents immediately...
+2025-08-18 17:34:35,439 - __main__ - INFO - 🔄 Starting daily cycle...
+2025-08-18 17:34:35,439 - __main__ - INFO - 🌸 Starting Lily's active analysis...
+2025-08-18 17:34:35,584 - optimized_supabase_integration - INFO - ✅ Connected to Supabase
+2025-08-18 17:34:35,593 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.152:443/TcpFull...
+2025-08-18 17:34:35,627 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.152:443/TcpFull complete!
+2025-08-18 17:34:35,902 - telegram_eth_mention_analyzer - INFO - ✅ Telegram client initialized
+2025-08-18 17:34:36,807 - httpx - INFO - HTTP Request: GET https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/twitter_posts?select=id "HTTP/2 200 OK"
+2025-08-18 17:34:36,957 - httpx - INFO - HTTP Request: GET https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/reddit_posts?select=id "HTTP/2 200 OK"
+2025-08-18 17:34:37,077 - httpx - INFO - HTTP Request: GET https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/telegram_posts?select=id "HTTP/2 200 OK"
+2025-08-18 17:34:37,310 - httpx - INFO - HTTP Request: GET https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/aggregated_sentiment_reports?select=id "HTTP/2 200 OK"
+2025-08-18 17:34:37,530 - httpx - INFO - HTTP Request: POST https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/telegram_posts?columns=%22message_id%22%2C%22message_timestamp%22%2C%22analysis_timestamp%22%2C%22engagement_weight%22%2C%22replies%22%2C%22final_weight%22%2C%22channel_username%22%2C%22channel_title%22%2C%22message_views%22%2C%22context_multipliers%22%2C%22confidence%22%2C%22keywords_detected%22%2C%22sender_username%22%2C%22forwards%22%2C%22sentiment_score%22%2C%22channel_subscribers%22%2C%22channel_id%22%2C%22reactions%22%2C%22message_url%22%2C%22message_text%22 "HTTP/2 201 Created"
+2025-08-18 17:34:37,531 - optimized_supabase_integration - INFO - ✅ Processed 2/2 posts for telegram_posts
+2025-08-18 17:34:37,590 - telegram_eth_mention_analyzer - INFO - 🔍 Searching ETH mentions in @cryptocurrency (last 1 days, max 5 messages)
+2025-08-18 17:34:37,658 - telegram_eth_mention_analyzer - INFO - ✅ Found 0 ETH mentions in 5 messages from @cryptocurrency
+2025-08-18 17:34:39,708 - telegram_eth_mention_analyzer - INFO - 🔍 Searching ETH mentions in @bitcoinnews (last 1 days, max 5 messages)
+2025-08-18 17:34:39,782 - telegram_eth_mention_analyzer - INFO - ✅ Found 1 ETH mentions in 5 messages from @bitcoinnews
+2025-08-18 17:34:41,785 - telethon.network.mtprotosender - INFO - Disconnecting from 91.108.56.152:443/TcpFull...
+2025-08-18 17:34:41,788 - telethon.network.mtprotosender - INFO - Disconnection from 91.108.56.152:443/TcpFull complete!
+2025-08-18 17:34:42,128 - __main__ - ERROR - Lily active run error: cannot import name 'generate_lily_live_report' from 'Lily.generate_live_report' (/Users/nguyenhuycuong/Crownwell agentic/TradingAgents/Lily/generate_live_report.py)
+2025-08-18 17:35:12,131 - __main__ - INFO - 🤖 Starting Bob's active analysis...
+2025-08-18 17:35:12,135 - options_analysis_engine - INFO - 📊 Bob Options Analysis Engine initialized
+2025-08-18 17:35:12,136 - Bob.technical_analysis_engine - INFO - 📈 Bob Technical Analysis Engine initialized
+2025-08-18 17:35:12,136 - Bob.technical_analysis_engine - INFO - 📈 Bob starting multi-timeframe analysis...
+2025-08-18 17:35:12,137 - Bob.technical_analysis_engine - INFO - 🔍 Analyzing 1h timeframe...
+2025-08-18 17:35:12,137 - Bob.technical_analysis_engine - INFO - 📊 Bob fetching ETH-USD data - 1h interval
+2025-08-18 17:35:12,770 - Bob.technical_analysis_engine - INFO - ✅ Data fetched: 155 candles
+2025-08-18 17:35:12,770 - Bob.technical_analysis_engine - INFO - 🔍 Analyzing 4h timeframe...
+2025-08-18 17:35:12,770 - Bob.technical_analysis_engine - INFO - 📊 Bob fetching ETH-USD data - 1h interval
+2025-08-18 17:35:12,858 - Bob.technical_analysis_engine - INFO - ✅ Data fetched: 707 candles
+2025-08-18 17:35:12,864 - Bob.technical_analysis_engine - INFO - 🔍 Analyzing 1d timeframe...
+2025-08-18 17:35:12,864 - Bob.technical_analysis_engine - INFO - 📊 Bob fetching ETH-USD data - 1d interval
+2025-08-18 17:35:12,933 - Bob.technical_analysis_engine - INFO - ✅ Data fetched: 366 candles
+2025-08-18 17:35:12,933 - Bob.technical_analysis_engine - INFO - 📊 Adding options analysis...
+2025-08-18 17:35:12,934 - options_analysis_engine - INFO - 📊 Starting comprehensive options analysis...
+2025-08-18 17:35:12,934 - options_analysis_engine - INFO - 📊 Fetching Deribit ETH options data...
+2025-08-18 17:35:13,883 - options_analysis_engine - INFO - ✅ Found 856 ETH options instruments
+2025-08-18 17:35:33,801 - Bob.technical_analysis_engine - INFO - ✅ Options analysis integrated
+2025-08-18 17:35:34,529 - human_email_reporter - INFO - Attached Bob report: Bob/Bob_Professional_Report_20250818_173533.pdf
+2025-08-18 17:35:39,856 - human_email_reporter - INFO - Email sent successfully to chris@thebees.group
+2025-08-18 17:35:39,856 - __main__ - INFO - ✅ Bob's active run completed successfully
+2025-08-18 17:35:39,856 - __main__ - INFO - 📊 Daily cycle completed - Lily: ❌, Bob: ✅
+2025-08-18 17:37:47,507 - human_email_reporter - INFO - Human email reporter initialized for chris@thebees.group
+2025-08-18 17:37:47,507 - __main__ - INFO - 🤖 Active Agents System initialized
+2025-08-18 17:37:47,507 - __main__ - INFO - 🚀 Running agents immediately...
+2025-08-18 17:37:47,507 - __main__ - INFO - 🔄 Starting daily cycle...
+2025-08-18 17:37:47,507 - __main__ - INFO - 🌸 Starting Lily's active analysis...
+2025-08-18 17:37:47,583 - optimized_supabase_integration - INFO - ✅ Connected to Supabase
+2025-08-18 17:37:47,587 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.152:443/TcpFull...
+2025-08-18 17:37:47,640 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.152:443/TcpFull complete!
+2025-08-18 17:37:48,040 - telegram_eth_mention_analyzer - INFO - ✅ Telegram client initialized
+2025-08-18 17:37:48,671 - httpx - INFO - HTTP Request: GET https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/twitter_posts?select=id "HTTP/2 200 OK"
+2025-08-18 17:37:48,800 - httpx - INFO - HTTP Request: GET https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/reddit_posts?select=id "HTTP/2 200 OK"
+2025-08-18 17:37:48,988 - httpx - INFO - HTTP Request: GET https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/telegram_posts?select=id "HTTP/2 200 OK"
+2025-08-18 17:37:49,186 - httpx - INFO - HTTP Request: GET https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/aggregated_sentiment_reports?select=id "HTTP/2 200 OK"
+2025-08-18 17:37:49,390 - httpx - INFO - HTTP Request: POST https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/telegram_posts?columns=%22sentiment_score%22%2C%22replies%22%2C%22final_weight%22%2C%22message_text%22%2C%22message_views%22%2C%22message_timestamp%22%2C%22channel_subscribers%22%2C%22confidence%22%2C%22analysis_timestamp%22%2C%22forwards%22%2C%22channel_id%22%2C%22reactions%22%2C%22channel_username%22%2C%22channel_title%22%2C%22message_url%22%2C%22keywords_detected%22%2C%22engagement_weight%22%2C%22context_multipliers%22%2C%22sender_username%22%2C%22message_id%22 "HTTP/2 201 Created"
+2025-08-18 17:37:49,391 - optimized_supabase_integration - INFO - ✅ Processed 2/2 posts for telegram_posts
+2025-08-18 17:37:49,456 - telegram_eth_mention_analyzer - INFO - 🔍 Searching ETH mentions in @cryptocurrency (last 1 days, max 5 messages)
+2025-08-18 17:37:49,537 - telegram_eth_mention_analyzer - INFO - ✅ Found 0 ETH mentions in 5 messages from @cryptocurrency
+2025-08-18 17:37:51,598 - telegram_eth_mention_analyzer - INFO - 🔍 Searching ETH mentions in @bitcoinnews (last 1 days, max 5 messages)
+2025-08-18 17:37:51,692 - telegram_eth_mention_analyzer - INFO - ✅ Found 1 ETH mentions in 5 messages from @bitcoinnews
+2025-08-18 17:37:53,693 - telethon.network.mtprotosender - INFO - Disconnecting from 91.108.56.152:443/TcpFull...
+2025-08-18 17:37:53,695 - telethon.network.mtprotosender - INFO - Disconnection from 91.108.56.152:443/TcpFull complete!
+2025-08-18 17:37:54,021 - optimized_supabase_integration - INFO - ✅ Connected to Supabase
+2025-08-18 17:37:54,021 - Lily.lily_live_report_generator - INFO - ✅ Database connection established
+2025-08-18 17:37:54,363 - httpx - INFO - HTTP Request: GET https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/twitter_posts?select=%2A&timestamp=gte.2025-08-18T00%3A00%3A00%2B00%3A00 "HTTP/2 400 Bad Request"
+2025-08-18 17:37:54,364 - Lily.lily_live_report_generator - WARNING - ⚠️ Twitter data fetch failed: {'message': 'column twitter_posts.timestamp does not exist', 'code': '42703', 'hint': None, 'details': None}
+2025-08-18 17:37:54,559 - httpx - INFO - HTTP Request: GET https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/reddit_posts?select=%2A&timestamp=gte.2025-08-18T00%3A00%3A00%2B00%3A00 "HTTP/2 400 Bad Request"
+2025-08-18 17:37:54,565 - Lily.lily_live_report_generator - WARNING - ⚠️ Reddit data fetch failed: {'message': 'column reddit_posts.timestamp does not exist', 'code': '42703', 'hint': None, 'details': None}
+2025-08-18 17:37:54,705 - httpx - INFO - HTTP Request: GET https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/telegram_posts?select=%2A&message_timestamp=gte.2025-08-18T00%3A00%3A00%2B00%3A00 "HTTP/2 200 OK"
+2025-08-18 17:37:54,710 - Lily.lily_live_report_generator - INFO - 📊 Found 11 Telegram posts from today
+2025-08-18 17:37:54,910 - httpx - INFO - HTTP Request: GET https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/aggregated_sentiment_reports?select=%2A&timestamp=gte.2025-08-18T00%3A00%3A00%2B00%3A00 "HTTP/2 400 Bad Request"
+2025-08-18 17:37:54,910 - Lily.lily_live_report_generator - WARNING - ⚠️ Reports data fetch failed: {'message': 'column aggregated_sentiment_reports.timestamp does not exist', 'code': '42703', 'hint': None, 'details': None}
+2025-08-18 17:37:54,910 - __main__ - ERROR - ❌ Failed to generate Lily's PDF report
+2025-08-18 17:38:24,914 - __main__ - INFO - 🤖 Starting Bob's active analysis...
+2025-08-18 17:38:24,916 - options_analysis_engine - INFO - 📊 Bob Options Analysis Engine initialized
+2025-08-18 17:38:24,916 - Bob.technical_analysis_engine - INFO - 📈 Bob Technical Analysis Engine initialized
+2025-08-18 17:38:24,916 - Bob.technical_analysis_engine - INFO - 📈 Bob starting multi-timeframe analysis...
+2025-08-18 17:38:24,917 - Bob.technical_analysis_engine - INFO - 🔍 Analyzing 1h timeframe...
+2025-08-18 17:38:24,917 - Bob.technical_analysis_engine - INFO - 📊 Bob fetching ETH-USD data - 1h interval
+2025-08-18 17:38:25,894 - Bob.technical_analysis_engine - INFO - ✅ Data fetched: 155 candles
+2025-08-18 17:38:25,894 - Bob.technical_analysis_engine - INFO - 🔍 Analyzing 4h timeframe...
+2025-08-18 17:38:25,894 - Bob.technical_analysis_engine - INFO - 📊 Bob fetching ETH-USD data - 1h interval
+2025-08-18 17:38:25,988 - Bob.technical_analysis_engine - INFO - ✅ Data fetched: 707 candles
+2025-08-18 17:38:25,994 - Bob.technical_analysis_engine - INFO - 🔍 Analyzing 1d timeframe...
+2025-08-18 17:38:25,994 - Bob.technical_analysis_engine - INFO - 📊 Bob fetching ETH-USD data - 1d interval
+2025-08-18 17:38:26,070 - Bob.technical_analysis_engine - INFO - ✅ Data fetched: 366 candles
+2025-08-18 17:38:26,071 - Bob.technical_analysis_engine - INFO - 📊 Adding options analysis...
+2025-08-18 17:38:26,071 - options_analysis_engine - INFO - 📊 Starting comprehensive options analysis...
+2025-08-18 17:38:26,071 - options_analysis_engine - INFO - 📊 Fetching Deribit ETH options data...
+2025-08-18 17:38:27,048 - options_analysis_engine - INFO - ✅ Found 856 ETH options instruments
+2025-08-18 17:38:46,937 - Bob.technical_analysis_engine - INFO - ✅ Options analysis integrated
+2025-08-18 17:38:47,671 - human_email_reporter - INFO - Attached Bob report: Bob/Bob_Professional_Report_20250818_173846.pdf
+2025-08-18 17:38:53,942 - human_email_reporter - INFO - Email sent successfully to chris@thebees.group
+2025-08-18 17:38:53,943 - __main__ - INFO - ✅ Bob's active run completed successfully
+2025-08-18 17:38:53,944 - __main__ - INFO - 📊 Daily cycle completed - Lily: ❌, Bob: ✅
+2025-08-18 17:46:48,698 - human_email_reporter - INFO - Human email reporter initialized for chris@thebees.group
+2025-08-18 17:46:48,698 - __main__ - INFO - 🤖 Active Agents System initialized
+2025-08-18 17:46:48,698 - __main__ - INFO - 🚀 Running agents immediately...
+2025-08-18 17:46:48,699 - __main__ - INFO - 🔄 Starting daily cycle...
+2025-08-18 17:46:48,699 - __main__ - INFO - 🌸 Starting Lily's active analysis...
+2025-08-18 17:46:48,751 - optimized_supabase_integration - INFO - ✅ Connected to Supabase
+2025-08-18 17:46:48,758 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-08-18 17:46:50,942 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2025-08-18 17:49:25,472 - telethon.client.users - INFO - Phone migrated to 5
+2025-08-18 17:49:25,867 - telethon.client.telegrambaseclient - INFO - Reconnecting to new data center 5
+2025-08-18 17:49:26,164 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2025-08-18 17:49:26,164 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2025-08-18 17:49:26,165 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.152:443/TcpFull...
+2025-08-18 17:49:27,404 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.152:443/TcpFull complete!
+2025-08-18 17:49:40,060 - telegram_eth_mention_analyzer - INFO - ✅ Telegram client initialized
+2025-08-18 17:51:50,909 - httpx - INFO - HTTP Request: POST https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/twitter_posts?columns=%22hashtags%22%2C%22engagement_weight%22%2C%22is_retweet%22%2C%22context_multipliers%22%2C%22confidence%22%2C%22tweet_url%22%2C%22tweet_timestamp%22%2C%22tweet_id%22%2C%22likes%22%2C%22sentiment_score%22%2C%22mentions%22%2C%22follower_count%22%2C%22tweet_text%22%2C%22replies%22%2C%22verified_account%22%2C%22retweets%22%2C%22keywords_detected%22%2C%22analysis_timestamp%22%2C%22username%22%2C%22final_weight%22 "HTTP/2 409 Conflict"
+2025-08-18 17:51:50,917 - optimized_supabase_integration - INFO - Duplicate keys ignored for 12 posts in twitter_posts
+2025-08-18 17:51:50,917 - optimized_supabase_integration - INFO - ✅ Processed 12/12 posts for twitter_posts
+2025-08-18 17:51:51,206 - httpx - INFO - HTTP Request: POST https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/reddit_posts?columns=%22content%22%2C%22author%22%2C%22num_comments%22%2C%22engagement_weight%22%2C%22upvote_ratio%22%2C%22post_score%22%2C%22context_multipliers%22%2C%22confidence%22%2C%22post_url%22%2C%22awards_count%22%2C%22author_karma%22%2C%22title%22%2C%22sentiment_score%22%2C%22post_id%22%2C%22subreddit%22%2C%22flair_text%22%2C%22post_timestamp%22%2C%22post_type%22%2C%22keywords_detected%22%2C%22analysis_timestamp%22%2C%22final_weight%22 "HTTP/2 409 Conflict"
+2025-08-18 17:51:51,207 - optimized_supabase_integration - INFO - Duplicate keys ignored for 12 posts in reddit_posts
+2025-08-18 17:51:51,208 - optimized_supabase_integration - INFO - ✅ Processed 12/12 posts for reddit_posts
+2025-08-18 17:51:51,210 - telethon.network.mtprotosender - INFO - Disconnecting from 91.108.56.152:443/TcpFull...
+2025-08-18 17:51:51,214 - telethon.network.mtprotosender - INFO - Disconnection from 91.108.56.152:443/TcpFull complete!
+2025-08-18 17:51:51,621 - optimized_supabase_integration - INFO - ✅ Connected to Supabase
+2025-08-18 17:51:51,622 - Lily.lily_live_report_generator - INFO - ✅ Database connection established
+2025-08-18 17:51:51,949 - httpx - INFO - HTTP Request: GET https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/twitter_posts?select=%2A&timestamp=gte.2025-08-18T00%3A00%3A00%2B00%3A00 "HTTP/2 400 Bad Request"
+2025-08-18 17:51:51,949 - Lily.lily_live_report_generator - WARNING - ⚠️ Twitter data fetch failed: {'message': 'column twitter_posts.timestamp does not exist', 'code': '42703', 'hint': None, 'details': None}
+2025-08-18 17:51:52,201 - httpx - INFO - HTTP Request: GET https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/reddit_posts?select=%2A&timestamp=gte.2025-08-18T00%3A00%3A00%2B00%3A00 "HTTP/2 400 Bad Request"
+2025-08-18 17:51:52,203 - Lily.lily_live_report_generator - WARNING - ⚠️ Reddit data fetch failed: {'message': 'column reddit_posts.timestamp does not exist', 'code': '42703', 'hint': None, 'details': None}
+2025-08-18 17:51:52,364 - httpx - INFO - HTTP Request: GET https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/telegram_posts?select=%2A&message_timestamp=gte.2025-08-18T00%3A00%3A00%2B00%3A00 "HTTP/2 200 OK"
+2025-08-18 17:51:52,372 - Lily.lily_live_report_generator - INFO - 📊 Found 11 Telegram posts from today
+2025-08-18 17:51:52,619 - httpx - INFO - HTTP Request: GET https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/aggregated_sentiment_reports?select=%2A&timestamp=gte.2025-08-18T00%3A00%3A00%2B00%3A00 "HTTP/2 400 Bad Request"
+2025-08-18 17:51:52,620 - Lily.lily_live_report_generator - WARNING - ⚠️ Reports data fetch failed: {'message': 'column aggregated_sentiment_reports.timestamp does not exist', 'code': '42703', 'hint': None, 'details': None}
+2025-08-18 17:51:52,620 - __main__ - ERROR - ❌ Failed to generate Lily's PDF report
+2025-08-18 17:52:22,623 - __main__ - INFO - 🤖 Starting Bob's active analysis...
+2025-08-18 17:52:22,627 - options_analysis_engine - INFO - 📊 Bob Options Analysis Engine initialized
+2025-08-18 17:52:22,627 - Bob.technical_analysis_engine - INFO - 📈 Bob Technical Analysis Engine initialized
+2025-08-18 17:52:22,628 - Bob.technical_analysis_engine - INFO - 📈 Bob starting multi-timeframe analysis...
+2025-08-18 17:52:22,628 - Bob.technical_analysis_engine - INFO - 🔍 Analyzing 1h timeframe...
+2025-08-18 17:52:22,628 - Bob.technical_analysis_engine - INFO - 📊 Bob fetching ETH-USD data - 1h interval
+2025-08-18 17:52:23,347 - Bob.technical_analysis_engine - INFO - ✅ Data fetched: 155 candles
+2025-08-18 17:52:23,347 - Bob.technical_analysis_engine - INFO - 🔍 Analyzing 4h timeframe...
+2025-08-18 17:52:23,347 - Bob.technical_analysis_engine - INFO - 📊 Bob fetching ETH-USD data - 1h interval
+2025-08-18 17:52:23,445 - Bob.technical_analysis_engine - INFO - ✅ Data fetched: 707 candles
+2025-08-18 17:52:23,452 - Bob.technical_analysis_engine - INFO - 🔍 Analyzing 1d timeframe...
+2025-08-18 17:52:23,452 - Bob.technical_analysis_engine - INFO - 📊 Bob fetching ETH-USD data - 1d interval
+2025-08-18 17:52:23,549 - Bob.technical_analysis_engine - INFO - ✅ Data fetched: 366 candles
+2025-08-18 17:52:23,557 - Bob.technical_analysis_engine - INFO - 📊 Adding options analysis...
+2025-08-18 17:52:23,557 - options_analysis_engine - INFO - 📊 Starting comprehensive options analysis...
+2025-08-18 17:52:23,557 - options_analysis_engine - INFO - 📊 Fetching Deribit ETH options data...
+2025-08-18 17:52:24,561 - options_analysis_engine - INFO - ✅ Found 856 ETH options instruments
+2025-08-18 17:52:43,991 - Bob.technical_analysis_engine - INFO - ✅ Options analysis integrated
+2025-08-18 17:52:44,972 - human_email_reporter - INFO - Attached Bob report: Bob/Bob_Professional_Report_20250818_175243.pdf
+2025-08-18 17:52:50,503 - human_email_reporter - INFO - Email sent successfully to chris@thebees.group
+2025-08-18 17:52:50,504 - __main__ - INFO - ✅ Bob's active run completed successfully
+2025-08-18 17:52:50,505 - __main__ - INFO - 📊 Daily cycle completed - Lily: ❌, Bob: ✅
+2025-08-18 18:10:33,880 - human_email_reporter - INFO - Human email reporter initialized for chris@thebees.group
+2025-08-18 18:10:33,880 - __main__ - INFO - 🤖 Active Agents System initialized
+2025-08-18 18:10:33,880 - __main__ - INFO - 🚀 Running agents immediately...
+2025-08-18 18:10:33,880 - __main__ - INFO - 🔄 Starting daily cycle...
+2025-08-18 18:10:33,880 - __main__ - INFO - 🌸 Starting Lily's active analysis...
+2025-08-18 18:10:33,932 - optimized_supabase_integration - INFO - ✅ Connected to Supabase
+2025-08-18 18:10:33,936 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.152:443/TcpFull...
+2025-08-18 18:10:33,975 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.152:443/TcpFull complete!
+2025-08-18 18:10:34,325 - telegram_eth_mention_analyzer - INFO - ✅ Telegram client initialized
+2025-08-18 18:12:42,396 - telegram_eth_mention_analyzer - INFO - 🔍 Searching ETH mentions in @cryptocurrency (last 1 days, max 5 messages)
+2025-08-18 18:12:42,505 - telegram_eth_mention_analyzer - INFO - ✅ Found 0 ETH mentions in 5 messages from @cryptocurrency
+2025-08-18 18:12:44,639 - telegram_eth_mention_analyzer - INFO - 🔍 Searching ETH mentions in @bitcoinnews (last 1 days, max 5 messages)
+2025-08-18 18:12:44,784 - telegram_eth_mention_analyzer - INFO - ✅ Found 1 ETH mentions in 5 messages from @bitcoinnews
+2025-08-18 18:12:46,879 - telegram_eth_mention_analyzer - INFO - 🔍 Searching ETH mentions in @ethtrader (last 1 days, max 5 messages)
+2025-08-18 18:12:46,961 - telegram_eth_mention_analyzer - INFO - ✅ Found 0 ETH mentions in 5 messages from @ethtrader
+2025-08-18 18:12:49,911 - httpx - INFO - HTTP Request: POST https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/twitter_posts?columns=%22keywords_detected%22%2C%22sentiment_score%22%2C%22hashtags%22%2C%22tweet_text%22%2C%22likes%22%2C%22tweet_id%22%2C%22verified_account%22%2C%22analysis_timestamp%22%2C%22retweets%22%2C%22follower_count%22%2C%22mentions%22%2C%22final_weight%22%2C%22tweet_url%22%2C%22engagement_weight%22%2C%22replies%22%2C%22tweet_timestamp%22%2C%22is_retweet%22%2C%22username%22%2C%22context_multipliers%22%2C%22confidence%22 "HTTP/2 409 Conflict"
+2025-08-18 18:12:49,920 - optimized_supabase_integration - INFO - Duplicate keys ignored for 12 posts in twitter_posts
+2025-08-18 18:12:49,921 - optimized_supabase_integration - INFO - ✅ Processed 12/12 posts for twitter_posts
+2025-08-18 18:12:50,126 - httpx - INFO - HTTP Request: POST https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/reddit_posts?columns=%22subreddit%22%2C%22author%22%2C%22keywords_detected%22%2C%22sentiment_score%22%2C%22awards_count%22%2C%22upvote_ratio%22%2C%22title%22%2C%22flair_text%22%2C%22post_url%22%2C%22analysis_timestamp%22%2C%22final_weight%22%2C%22engagement_weight%22%2C%22num_comments%22%2C%22post_id%22%2C%22post_type%22%2C%22post_score%22%2C%22context_multipliers%22%2C%22confidence%22%2C%22content%22%2C%22post_timestamp%22%2C%22author_karma%22 "HTTP/2 409 Conflict"
+2025-08-18 18:12:50,127 - optimized_supabase_integration - INFO - Duplicate keys ignored for 12 posts in reddit_posts
+2025-08-18 18:12:50,127 - optimized_supabase_integration - INFO - ✅ Processed 12/12 posts for reddit_posts
+2025-08-18 18:12:50,128 - telethon.network.mtprotosender - INFO - Disconnecting from 91.108.56.152:443/TcpFull...
+2025-08-18 18:12:50,129 - telethon.network.mtprotosender - INFO - Disconnection from 91.108.56.152:443/TcpFull complete!
+2025-08-18 18:12:50,494 - optimized_supabase_integration - INFO - ✅ Connected to Supabase
+2025-08-18 18:12:50,494 - Lily.lily_live_report_generator - INFO - ✅ Database connection established
+2025-08-18 18:12:50,885 - httpx - INFO - HTTP Request: GET https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/twitter_posts?select=%2A&tweet_timestamp=gte.2025-08-18T00%3A00%3A00%2B00%3A00 "HTTP/2 200 OK"
+2025-08-18 18:12:50,906 - Lily.lily_live_report_generator - INFO - 📊 Found 12 Twitter posts from today
+2025-08-18 18:12:51,116 - httpx - INFO - HTTP Request: GET https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/reddit_posts?select=%2A&post_timestamp=gte.2025-08-18T00%3A00%3A00%2B00%3A00 "HTTP/2 200 OK"
+2025-08-18 18:12:51,117 - Lily.lily_live_report_generator - INFO - 📊 Found 12 Reddit posts from today
+2025-08-18 18:12:51,406 - httpx - INFO - HTTP Request: GET https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/telegram_posts?select=%2A&message_timestamp=gte.2025-08-18T00%3A00%3A00%2B00%3A00 "HTTP/2 200 OK"
+2025-08-18 18:12:51,409 - Lily.lily_live_report_generator - INFO - 📊 Found 11 Telegram posts from today
+2025-08-18 18:12:51,629 - httpx - INFO - HTTP Request: GET https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/aggregated_sentiment_reports?select=%2A&analysis_timestamp=gte.2025-08-18T00%3A00%3A00%2B00%3A00 "HTTP/2 400 Bad Request"
+2025-08-18 18:12:51,630 - Lily.lily_live_report_generator - WARNING - ⚠️ Reports data fetch failed: {'message': 'column aggregated_sentiment_reports.analysis_timestamp does not exist', 'code': '42703', 'hint': None, 'details': None}
+2025-08-18 18:12:51,630 - __main__ - ERROR - ❌ Failed to generate Lily's PDF report
+2025-08-18 18:13:21,633 - __main__ - INFO - 🤖 Starting Bob's active analysis...
+2025-08-18 18:13:21,636 - options_analysis_engine - INFO - 📊 Bob Options Analysis Engine initialized
+2025-08-18 18:13:21,636 - Bob.technical_analysis_engine - INFO - 📈 Bob Technical Analysis Engine initialized
+2025-08-18 18:13:21,636 - Bob.technical_analysis_engine - INFO - 📈 Bob starting multi-timeframe analysis...
+2025-08-18 18:13:21,636 - Bob.technical_analysis_engine - INFO - 🔍 Analyzing 1h timeframe...
+2025-08-18 18:13:21,637 - Bob.technical_analysis_engine - INFO - 📊 Bob fetching ETH-USD data - 1h interval
+2025-08-18 18:13:22,330 - Bob.technical_analysis_engine - INFO - ✅ Data fetched: 156 candles
+2025-08-18 18:13:22,330 - Bob.technical_analysis_engine - INFO - 🔍 Analyzing 4h timeframe...
+2025-08-18 18:13:22,330 - Bob.technical_analysis_engine - INFO - 📊 Bob fetching ETH-USD data - 1h interval
+2025-08-18 18:13:22,420 - Bob.technical_analysis_engine - INFO - ✅ Data fetched: 708 candles
+2025-08-18 18:13:22,428 - Bob.technical_analysis_engine - INFO - 🔍 Analyzing 1d timeframe...
+2025-08-18 18:13:22,428 - Bob.technical_analysis_engine - INFO - 📊 Bob fetching ETH-USD data - 1d interval
+2025-08-18 18:13:22,503 - Bob.technical_analysis_engine - INFO - ✅ Data fetched: 366 candles
+2025-08-18 18:13:22,503 - Bob.technical_analysis_engine - INFO - 📊 Adding options analysis...
+2025-08-18 18:13:22,503 - options_analysis_engine - INFO - 📊 Starting comprehensive options analysis...
+2025-08-18 18:13:22,503 - options_analysis_engine - INFO - 📊 Fetching Deribit ETH options data...
+2025-08-18 18:13:23,482 - options_analysis_engine - INFO - ✅ Found 856 ETH options instruments
+2025-08-18 18:13:43,028 - Bob.technical_analysis_engine - INFO - ✅ Options analysis integrated
+2025-08-18 18:13:43,890 - human_email_reporter - INFO - Attached Bob report: Bob/Bob_Professional_Report_20250818_181343.pdf
+2025-08-18 18:13:49,328 - human_email_reporter - INFO - Email sent successfully to chris@thebees.group
+2025-08-18 18:13:49,329 - __main__ - INFO - ✅ Bob's active run completed successfully
+2025-08-18 18:13:49,329 - __main__ - INFO - 📊 Daily cycle completed - Lily: ❌, Bob: ✅
+2025-08-18 18:20:14,118 - human_email_reporter - INFO - Human email reporter initialized for chris@thebees.group
+2025-08-18 18:20:14,119 - __main__ - INFO - 🤖 Active Agents System initialized
+2025-08-18 18:20:14,119 - __main__ - INFO - 🚀 Running agents immediately...
+2025-08-18 18:20:14,119 - __main__ - INFO - 🔄 Starting daily cycle...
+2025-08-18 18:20:14,119 - __main__ - INFO - 🌸 Starting Lily's active analysis...
+2025-08-18 18:20:14,167 - optimized_supabase_integration - INFO - ✅ Connected to Supabase
+2025-08-18 18:20:14,171 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.152:443/TcpFull...
+2025-08-18 18:20:14,201 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.152:443/TcpFull complete!
+2025-08-18 18:20:14,532 - telegram_eth_mention_analyzer - INFO - ✅ Telegram client initialized
+2025-08-18 18:22:22,594 - telegram_eth_mention_analyzer - INFO - 🔍 Searching ETH mentions in @cryptocurrency (last 1 days, max 5 messages)
+2025-08-18 18:22:22,687 - telegram_eth_mention_analyzer - INFO - ✅ Found 0 ETH mentions in 5 messages from @cryptocurrency
+2025-08-18 18:22:24,783 - telegram_eth_mention_analyzer - INFO - 🔍 Searching ETH mentions in @bitcoinnews (last 1 days, max 5 messages)
+2025-08-18 18:22:24,887 - telegram_eth_mention_analyzer - INFO - ✅ Found 1 ETH mentions in 5 messages from @bitcoinnews
+2025-08-18 18:22:26,940 - telegram_eth_mention_analyzer - INFO - 🔍 Searching ETH mentions in @ethtrader (last 1 days, max 5 messages)
+2025-08-18 18:22:26,999 - telegram_eth_mention_analyzer - INFO - ✅ Found 0 ETH mentions in 5 messages from @ethtrader
+2025-08-18 18:22:30,098 - httpx - INFO - HTTP Request: POST https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/twitter_posts?columns=%22retweets%22%2C%22tweet_timestamp%22%2C%22verified_account%22%2C%22engagement_weight%22%2C%22replies%22%2C%22likes%22%2C%22analysis_timestamp%22%2C%22confidence%22%2C%22tweet_text%22%2C%22username%22%2C%22tweet_id%22%2C%22sentiment_score%22%2C%22follower_count%22%2C%22is_retweet%22%2C%22mentions%22%2C%22context_multipliers%22%2C%22keywords_detected%22%2C%22final_weight%22%2C%22tweet_url%22%2C%22hashtags%22 "HTTP/2 409 Conflict"
+2025-08-18 18:22:30,104 - optimized_supabase_integration - INFO - Duplicate keys ignored for 12 posts in twitter_posts
+2025-08-18 18:22:30,104 - optimized_supabase_integration - INFO - ✅ Processed 12/12 posts for twitter_posts
+2025-08-18 18:22:30,405 - httpx - INFO - HTTP Request: POST https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/reddit_posts?columns=%22post_timestamp%22%2C%22post_url%22%2C%22content%22%2C%22engagement_weight%22%2C%22author_karma%22%2C%22upvote_ratio%22%2C%22analysis_timestamp%22%2C%22confidence%22%2C%22title%22%2C%22subreddit%22%2C%22post_id%22%2C%22author%22%2C%22awards_count%22%2C%22sentiment_score%22%2C%22num_comments%22%2C%22post_type%22%2C%22context_multipliers%22%2C%22keywords_detected%22%2C%22final_weight%22%2C%22post_score%22%2C%22flair_text%22 "HTTP/2 409 Conflict"
+2025-08-18 18:22:30,406 - optimized_supabase_integration - INFO - Duplicate keys ignored for 12 posts in reddit_posts
+2025-08-18 18:22:30,406 - optimized_supabase_integration - INFO - ✅ Processed 12/12 posts for reddit_posts
+2025-08-18 18:22:30,407 - telethon.network.mtprotosender - INFO - Disconnecting from 91.108.56.152:443/TcpFull...
+2025-08-18 18:22:30,408 - telethon.network.mtprotosender - INFO - Disconnection from 91.108.56.152:443/TcpFull complete!
+2025-08-18 18:22:30,745 - optimized_supabase_integration - INFO - ✅ Connected to Supabase
+2025-08-18 18:22:30,745 - Lily.lily_live_report_generator - INFO - ✅ Database connection established
+2025-08-18 18:22:31,115 - httpx - INFO - HTTP Request: GET https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/twitter_posts?select=%2A&tweet_timestamp=gte.2025-08-18T00%3A00%3A00%2B00%3A00 "HTTP/2 200 OK"
+2025-08-18 18:22:31,117 - Lily.lily_live_report_generator - INFO - 📊 Found 12 Twitter posts from today
+2025-08-18 18:22:31,400 - httpx - INFO - HTTP Request: GET https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/reddit_posts?select=%2A&post_timestamp=gte.2025-08-18T00%3A00%3A00%2B00%3A00 "HTTP/2 200 OK"
+2025-08-18 18:22:31,401 - Lily.lily_live_report_generator - INFO - 📊 Found 12 Reddit posts from today
+2025-08-18 18:22:31,621 - httpx - INFO - HTTP Request: GET https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/telegram_posts?select=%2A&message_timestamp=gte.2025-08-18T00%3A00%3A00%2B00%3A00 "HTTP/2 200 OK"
+2025-08-18 18:22:31,621 - Lily.lily_live_report_generator - INFO - 📊 Found 11 Telegram posts from today
+2025-08-18 18:22:31,757 - httpx - INFO - HTTP Request: GET https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/aggregated_sentiment_reports?select=%2A&analysis_timestamp=gte.2025-08-18T00%3A00%3A00%2B00%3A00 "HTTP/2 400 Bad Request"
+2025-08-18 18:22:31,757 - Lily.lily_live_report_generator - WARNING - ⚠️ Reports data fetch failed: {'message': 'column aggregated_sentiment_reports.analysis_timestamp does not exist', 'code': '42703', 'hint': None, 'details': None}
+2025-08-18 18:22:32,464 - human_email_reporter - INFO - Attached Lily report: Lily/Lily_Live_Report_20250818_182231.pdf
+2025-08-18 18:22:37,876 - human_email_reporter - INFO - Email sent successfully to chris@thebees.group
+2025-08-18 18:22:37,879 - __main__ - INFO - ✅ Lily's active run completed successfully
+2025-08-18 18:23:07,883 - __main__ - INFO - 🤖 Starting Bob's active analysis...
+2025-08-18 18:23:07,889 - options_analysis_engine - INFO - 📊 Bob Options Analysis Engine initialized
+2025-08-18 18:23:07,892 - Bob.technical_analysis_engine - INFO - 📈 Bob Technical Analysis Engine initialized
+2025-08-18 18:23:07,893 - Bob.technical_analysis_engine - INFO - 📈 Bob starting multi-timeframe analysis...
+2025-08-18 18:23:07,893 - Bob.technical_analysis_engine - INFO - 🔍 Analyzing 1h timeframe...
+2025-08-18 18:23:07,893 - Bob.technical_analysis_engine - INFO - 📊 Bob fetching ETH-USD data - 1h interval
+2025-08-18 18:23:08,587 - Bob.technical_analysis_engine - INFO - ✅ Data fetched: 156 candles
+2025-08-18 18:23:08,587 - Bob.technical_analysis_engine - INFO - 🔍 Analyzing 4h timeframe...
+2025-08-18 18:23:08,587 - Bob.technical_analysis_engine - INFO - 📊 Bob fetching ETH-USD data - 1h interval
+2025-08-18 18:23:08,682 - Bob.technical_analysis_engine - INFO - ✅ Data fetched: 708 candles
+2025-08-18 18:23:08,690 - Bob.technical_analysis_engine - INFO - 🔍 Analyzing 1d timeframe...
+2025-08-18 18:23:08,690 - Bob.technical_analysis_engine - INFO - 📊 Bob fetching ETH-USD data - 1d interval
+2025-08-18 18:23:08,777 - Bob.technical_analysis_engine - INFO - ✅ Data fetched: 366 candles
+2025-08-18 18:23:08,777 - Bob.technical_analysis_engine - INFO - 📊 Adding options analysis...
+2025-08-18 18:23:08,778 - options_analysis_engine - INFO - 📊 Starting comprehensive options analysis...
+2025-08-18 18:23:08,778 - options_analysis_engine - INFO - 📊 Fetching Deribit ETH options data...
+2025-08-18 18:23:09,807 - options_analysis_engine - INFO - ✅ Found 856 ETH options instruments
+2025-08-18 18:23:29,350 - Bob.technical_analysis_engine - INFO - ✅ Options analysis integrated
+2025-08-18 18:23:29,940 - human_email_reporter - INFO - Attached Bob report: Bob/Bob_Professional_Report_20250818_182329.pdf
+2025-08-18 18:23:35,980 - human_email_reporter - INFO - Email sent successfully to chris@thebees.group
+2025-08-18 18:23:35,980 - __main__ - INFO - ✅ Bob's active run completed successfully
+2025-08-18 18:23:35,981 - __main__ - INFO - 📊 Daily cycle completed - Lily: ✅, Bob: ✅
+2025-08-18 18:37:32,104 - human_email_reporter - INFO - Human email reporter initialized for chris@thebees.group
+2025-08-18 18:37:32,104 - __main__ - INFO - 🤖 Active Agents System initialized
+2025-08-18 18:37:32,104 - __main__ - INFO - 🚀 Running agents immediately...
+2025-08-18 18:37:32,105 - __main__ - INFO - 🔄 Starting daily cycle...
+2025-08-18 18:37:32,105 - __main__ - INFO - 🌸 Starting Lily's active analysis...
+2025-08-18 18:37:32,158 - optimized_supabase_integration - INFO - ✅ Connected to Supabase
+2025-08-18 18:37:32,161 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.152:443/TcpFull...
+2025-08-18 18:37:32,197 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.152:443/TcpFull complete!
+2025-08-18 18:37:32,509 - telegram_eth_mention_analyzer - INFO - ✅ Telegram client initialized
+2025-08-18 18:39:40,595 - telegram_eth_mention_analyzer - INFO - 🔍 Searching ETH mentions in @cryptocurrency (last 1 days, max 5 messages)
+2025-08-18 18:39:40,684 - telegram_eth_mention_analyzer - INFO - ✅ Found 0 ETH mentions in 5 messages from @cryptocurrency
+2025-08-18 18:39:42,739 - telegram_eth_mention_analyzer - INFO - 🔍 Searching ETH mentions in @bitcoinnews (last 1 days, max 5 messages)
+2025-08-18 18:39:42,819 - telegram_eth_mention_analyzer - INFO - ✅ Found 1 ETH mentions in 5 messages from @bitcoinnews
+2025-08-18 18:39:44,926 - telegram_eth_mention_analyzer - INFO - 🔍 Searching ETH mentions in @ethtrader (last 1 days, max 5 messages)
+2025-08-18 18:39:44,985 - telegram_eth_mention_analyzer - INFO - ✅ Found 0 ETH mentions in 5 messages from @ethtrader
+2025-08-18 18:39:47,686 - httpx - INFO - HTTP Request: POST https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/twitter_posts?columns=%22likes%22%2C%22context_multipliers%22%2C%22confidence%22%2C%22username%22%2C%22tweet_timestamp%22%2C%22analysis_timestamp%22%2C%22final_weight%22%2C%22tweet_url%22%2C%22tweet_text%22%2C%22retweets%22%2C%22verified_account%22%2C%22follower_count%22%2C%22hashtags%22%2C%22replies%22%2C%22engagement_weight%22%2C%22is_retweet%22%2C%22mentions%22%2C%22keywords_detected%22%2C%22sentiment_score%22%2C%22tweet_id%22 "HTTP/2 409 Conflict"
+2025-08-18 18:39:47,689 - optimized_supabase_integration - INFO - Duplicate keys ignored for 12 posts in twitter_posts
+2025-08-18 18:39:47,689 - optimized_supabase_integration - INFO - ✅ Processed 12/12 posts for twitter_posts
+2025-08-18 18:39:47,894 - httpx - INFO - HTTP Request: POST https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/reddit_posts?columns=%22flair_text%22%2C%22context_multipliers%22%2C%22confidence%22%2C%22awards_count%22%2C%22analysis_timestamp%22%2C%22final_weight%22%2C%22upvote_ratio%22%2C%22num_comments%22%2C%22author_karma%22%2C%22post_id%22%2C%22post_url%22%2C%22subreddit%22%2C%22post_type%22%2C%22content%22%2C%22engagement_weight%22%2C%22author%22%2C%22keywords_detected%22%2C%22sentiment_score%22%2C%22post_score%22%2C%22post_timestamp%22%2C%22title%22 "HTTP/2 409 Conflict"
+2025-08-18 18:39:47,895 - optimized_supabase_integration - INFO - Duplicate keys ignored for 12 posts in reddit_posts
+2025-08-18 18:39:47,895 - optimized_supabase_integration - INFO - ✅ Processed 12/12 posts for reddit_posts
+2025-08-18 18:39:47,895 - telethon.network.mtprotosender - INFO - Disconnecting from 91.108.56.152:443/TcpFull...
+2025-08-18 18:39:47,896 - telethon.network.mtprotosender - INFO - Disconnection from 91.108.56.152:443/TcpFull complete!
+2025-08-18 18:39:48,254 - optimized_supabase_integration - INFO - ✅ Connected to Supabase
+2025-08-18 18:39:48,254 - Lily.lily_live_report_generator - INFO - ✅ Database connection established
+2025-08-18 18:39:48,579 - httpx - INFO - HTTP Request: GET https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/twitter_posts?select=%2A&tweet_timestamp=gte.2025-08-18T00%3A00%3A00%2B00%3A00 "HTTP/2 200 OK"
+2025-08-18 18:39:48,581 - Lily.lily_live_report_generator - INFO - 📊 Found 12 Twitter posts from today
+2025-08-18 18:39:48,788 - httpx - INFO - HTTP Request: GET https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/reddit_posts?select=%2A&post_timestamp=gte.2025-08-18T00%3A00%3A00%2B00%3A00 "HTTP/2 200 OK"
+2025-08-18 18:39:48,789 - Lily.lily_live_report_generator - INFO - 📊 Found 12 Reddit posts from today
+2025-08-18 18:39:48,988 - httpx - INFO - HTTP Request: GET https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/telegram_posts?select=%2A&message_timestamp=gte.2025-08-18T00%3A00%3A00%2B00%3A00 "HTTP/2 200 OK"
+2025-08-18 18:39:48,989 - Lily.lily_live_report_generator - INFO - 📊 Found 11 Telegram posts from today
+2025-08-18 18:39:49,193 - httpx - INFO - HTTP Request: GET https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/aggregated_sentiment_reports?select=%2A&analysis_timestamp=gte.2025-08-18T00%3A00%3A00%2B00%3A00 "HTTP/2 400 Bad Request"
+2025-08-18 18:39:49,194 - Lily.lily_live_report_generator - WARNING - ⚠️ Reports data fetch failed: {'message': 'column aggregated_sentiment_reports.analysis_timestamp does not exist', 'code': '42703', 'hint': None, 'details': None}
+2025-08-18 18:39:50,093 - human_email_reporter - INFO - Attached Lily report: Lily/Lily_Live_Report_20250818_183949.pdf
+2025-08-18 18:39:55,815 - human_email_reporter - INFO - Email sent successfully to chris@thebees.group
+2025-08-18 18:39:55,816 - __main__ - INFO - ✅ Lily's active run completed successfully
+2025-08-18 18:40:25,818 - __main__ - INFO - 🤖 Starting Bob's active analysis...
+2025-08-18 18:40:25,826 - options_analysis_engine - INFO - 📊 Bob Options Analysis Engine initialized
+2025-08-18 18:40:25,826 - Bob.technical_analysis_engine - INFO - 📈 Bob Technical Analysis Engine initialized
+2025-08-18 18:40:25,826 - Bob.technical_analysis_engine - INFO - 📈 Bob starting multi-timeframe analysis...
+2025-08-18 18:40:25,826 - Bob.technical_analysis_engine - INFO - 🔍 Analyzing 1h timeframe...
+2025-08-18 18:40:25,826 - Bob.technical_analysis_engine - INFO - 📊 Bob fetching ETH-USD data - 1h interval
+2025-08-18 18:40:26,730 - Bob.technical_analysis_engine - INFO - ✅ Data fetched: 156 candles
+2025-08-18 18:40:26,730 - Bob.technical_analysis_engine - INFO - 🔍 Analyzing 4h timeframe...
+2025-08-18 18:40:26,730 - Bob.technical_analysis_engine - INFO - 📊 Bob fetching ETH-USD data - 1h interval
+2025-08-18 18:40:26,811 - Bob.technical_analysis_engine - INFO - ✅ Data fetched: 708 candles
+2025-08-18 18:40:26,861 - Bob.technical_analysis_engine - INFO - 🔍 Analyzing 1d timeframe...
+2025-08-18 18:40:26,861 - Bob.technical_analysis_engine - INFO - 📊 Bob fetching ETH-USD data - 1d interval
+2025-08-18 18:40:26,939 - Bob.technical_analysis_engine - INFO - ✅ Data fetched: 366 candles
+2025-08-18 18:40:26,939 - Bob.technical_analysis_engine - INFO - 📊 Adding options analysis...
+2025-08-18 18:40:26,939 - options_analysis_engine - INFO - 📊 Starting comprehensive options analysis...
+2025-08-18 18:40:26,939 - options_analysis_engine - INFO - 📊 Fetching Deribit ETH options data...
+2025-08-18 18:40:27,888 - options_analysis_engine - INFO - ✅ Found 856 ETH options instruments
+2025-08-18 18:40:46,779 - Bob.technical_analysis_engine - INFO - ✅ Options analysis integrated
+2025-08-18 18:40:47,378 - human_email_reporter - INFO - Attached Bob report: Bob/Bob_Professional_Report_20250818_184046.pdf
+2025-08-18 18:40:52,716 - human_email_reporter - INFO - Email sent successfully to chris@thebees.group
+2025-08-18 18:40:52,717 - __main__ - INFO - ✅ Bob's active run completed successfully
+2025-08-18 18:40:52,718 - __main__ - INFO - 📊 Daily cycle completed - Lily: ✅, Bob: ✅
+2025-08-18 19:24:56,057 - human_email_reporter - INFO - Human email reporter initialized for chris@thebees.group
+2025-08-18 19:24:56,058 - __main__ - INFO - 🤖 Active Agents System initialized
+2025-08-18 19:24:56,058 - __main__ - INFO - 🚀 Running agents immediately...
+2025-08-18 19:24:56,059 - __main__ - INFO - 🔄 Starting daily cycle...
+2025-08-18 19:24:56,059 - __main__ - INFO - 🌸 Starting Lily's active analysis...
+2025-08-18 19:24:56,195 - optimized_supabase_integration - INFO - ✅ Connected to Supabase
+2025-08-18 19:24:56,200 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.152:443/TcpFull...
+2025-08-18 19:24:56,247 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.152:443/TcpFull complete!
+2025-08-18 19:24:56,597 - telegram_eth_mention_analyzer - INFO - ✅ Telegram client initialized
+2025-08-18 20:44:14,453 - telethon.network.connection.connection - WARNING - Server closed the connection: [Errno 60] Operation timed out
+2025-08-18 20:44:14,468 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [Errno 60] Operation timed out
+2025-08-18 20:44:14,469 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-08-18 20:44:14,470 - telethon.network.connection.connection - WARNING - Graceful disconnection timed out, forcibly ignoring cleanup
+2025-08-18 20:44:14,474 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.152:443/TcpFull...
+2025-08-18 20:44:14,478 - telethon.network.mtprotosender - WARNING - Attempt 1 at connecting failed: OSError: [Errno 51] Network is unreachable
+2025-08-18 20:44:15,482 - telethon.network.mtprotosender - WARNING - Attempt 2 at connecting failed: OSError: [Errno 51] Network is unreachable
+2025-08-18 20:44:16,484 - telethon.network.mtprotosender - WARNING - Attempt 3 at connecting failed: OSError: [Errno 51] Network is unreachable
+2025-08-18 20:44:17,486 - telethon.network.mtprotosender - WARNING - Attempt 4 at connecting failed: OSError: [Errno 51] Network is unreachable
+2025-08-18 20:44:18,490 - telethon.network.mtprotosender - WARNING - Attempt 5 at connecting failed: OSError: [Errno 51] Network is unreachable
+2025-08-18 20:44:19,493 - telethon.network.mtprotosender - WARNING - Attempt 6 at connecting failed: OSError: [Errno 51] Network is unreachable
+2025-08-18 20:45:10,399 - telethon.network.mtprotosender - INFO - Failed reconnection attempt 1 with ConnectionError
+2025-08-18 20:45:11,400 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.152:443/TcpFull...
+2025-08-18 20:45:11,401 - telethon.network.mtprotosender - WARNING - Attempt 1 at connecting failed: OSError: [Errno 51] Network is unreachable
+2025-08-18 20:45:12,402 - telethon.network.mtprotosender - WARNING - Attempt 2 at connecting failed: OSError: [Errno 51] Network is unreachable
+2025-08-18 20:45:13,405 - telethon.network.mtprotosender - WARNING - Attempt 3 at connecting failed: OSError: [Errno 51] Network is unreachable
+2025-08-18 20:45:14,408 - telethon.network.mtprotosender - WARNING - Attempt 4 at connecting failed: OSError: [Errno 51] Network is unreachable
+2025-08-18 20:45:15,411 - telethon.network.mtprotosender - WARNING - Attempt 5 at connecting failed: OSError: [Errno 51] Network is unreachable
+2025-08-18 20:45:16,414 - telethon.network.mtprotosender - WARNING - Attempt 6 at connecting failed: OSError: [Errno 51] Network is unreachable
+2025-08-18 20:46:07,408 - telethon.network.mtprotosender - INFO - Failed reconnection attempt 2 with ConnectionError
+2025-08-18 20:46:08,410 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.152:443/TcpFull...
+2025-08-18 20:46:08,412 - telethon.network.mtprotosender - WARNING - Attempt 1 at connecting failed: OSError: [Errno 51] Network is unreachable
+2025-08-18 20:46:09,415 - telethon.network.mtprotosender - WARNING - Attempt 2 at connecting failed: OSError: [Errno 51] Network is unreachable
+2025-08-18 20:46:10,418 - telethon.network.mtprotosender - WARNING - Attempt 3 at connecting failed: OSError: [Errno 51] Network is unreachable
+2025-08-18 20:46:11,420 - telethon.network.mtprotosender - WARNING - Attempt 4 at connecting failed: OSError: [Errno 51] Network is unreachable
+2025-08-18 20:46:12,475 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.152:443/TcpFull complete!
+2025-08-18 20:46:12,540 - telethon.network.mtprotostate - WARNING - Server resent the older message 7539921485632689153, ignoring
+2025-08-18 20:52:51,727 - telegram_eth_mention_analyzer - INFO - 🔍 Searching ETH mentions in @cryptocurrency (last 1 days, max 5 messages)
+2025-08-18 20:52:51,925 - telegram_eth_mention_analyzer - INFO - ✅ Found 0 ETH mentions in 5 messages from @cryptocurrency
+2025-08-18 20:52:54,018 - telegram_eth_mention_analyzer - INFO - 🔍 Searching ETH mentions in @bitcoinnews (last 1 days, max 5 messages)
+2025-08-18 20:52:54,117 - telegram_eth_mention_analyzer - INFO - ✅ Found 2 ETH mentions in 5 messages from @bitcoinnews
+2025-08-18 20:52:56,173 - telegram_eth_mention_analyzer - INFO - 🔍 Searching ETH mentions in @ethtrader (last 1 days, max 5 messages)
+2025-08-18 20:52:56,266 - telegram_eth_mention_analyzer - INFO - ✅ Found 0 ETH mentions in 5 messages from @ethtrader
+2025-08-18 20:53:00,130 - httpx - INFO - HTTP Request: POST https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/twitter_posts?columns=%22retweets%22%2C%22final_weight%22%2C%22username%22%2C%22hashtags%22%2C%22likes%22%2C%22confidence%22%2C%22tweet_id%22%2C%22is_retweet%22%2C%22verified_account%22%2C%22mentions%22%2C%22follower_count%22%2C%22replies%22%2C%22tweet_text%22%2C%22sentiment_score%22%2C%22tweet_timestamp%22%2C%22analysis_timestamp%22%2C%22keywords_detected%22%2C%22context_multipliers%22%2C%22engagement_weight%22%2C%22tweet_url%22 "HTTP/2 409 Conflict"
+2025-08-18 20:53:00,143 - optimized_supabase_integration - INFO - Duplicate keys ignored for 12 posts in twitter_posts
+2025-08-18 20:53:00,144 - optimized_supabase_integration - INFO - ✅ Processed 12/12 posts for twitter_posts
+2025-08-18 20:53:00,596 - httpx - INFO - HTTP Request: POST https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/reddit_posts?columns=%22title%22%2C%22num_comments%22%2C%22final_weight%22%2C%22confidence%22%2C%22post_score%22%2C%22author%22%2C%22post_type%22%2C%22post_timestamp%22%2C%22post_url%22%2C%22content%22%2C%22post_id%22%2C%22author_karma%22%2C%22sentiment_score%22%2C%22analysis_timestamp%22%2C%22keywords_detected%22%2C%22awards_count%22%2C%22context_multipliers%22%2C%22engagement_weight%22%2C%22flair_text%22%2C%22upvote_ratio%22%2C%22subreddit%22 "HTTP/2 409 Conflict"
+2025-08-18 20:53:00,601 - optimized_supabase_integration - INFO - Duplicate keys ignored for 12 posts in reddit_posts
+2025-08-18 20:53:00,602 - optimized_supabase_integration - INFO - ✅ Processed 12/12 posts for reddit_posts
+2025-08-18 20:53:00,607 - telethon.network.mtprotosender - INFO - Disconnecting from 91.108.56.152:443/TcpFull...
+2025-08-18 20:53:00,640 - telethon.network.mtprotosender - INFO - Disconnection from 91.108.56.152:443/TcpFull complete!
+2025-08-18 20:53:03,867 - optimized_supabase_integration - INFO - ✅ Connected to Supabase
+2025-08-18 20:53:03,867 - Lily.lily_live_report_generator - INFO - ✅ Database connection established
+2025-08-18 20:53:04,270 - httpx - INFO - HTTP Request: GET https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/twitter_posts?select=%2A&tweet_timestamp=gte.2025-08-18T00%3A00%3A00%2B00%3A00 "HTTP/2 200 OK"
+2025-08-18 20:53:04,296 - Lily.lily_live_report_generator - INFO - 📊 Found 12 Twitter posts from today
+2025-08-18 20:53:04,517 - httpx - INFO - HTTP Request: GET https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/reddit_posts?select=%2A&post_timestamp=gte.2025-08-18T00%3A00%3A00%2B00%3A00 "HTTP/2 200 OK"
+2025-08-18 20:53:04,517 - Lily.lily_live_report_generator - INFO - 📊 Found 12 Reddit posts from today
+2025-08-18 20:53:04,777 - httpx - INFO - HTTP Request: GET https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/telegram_posts?select=%2A&message_timestamp=gte.2025-08-18T00%3A00%3A00%2B00%3A00 "HTTP/2 200 OK"
+2025-08-18 20:53:04,780 - Lily.lily_live_report_generator - INFO - 📊 Found 11 Telegram posts from today
+2025-08-18 20:53:04,982 - httpx - INFO - HTTP Request: GET https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/aggregated_sentiment_reports?select=%2A&analysis_timestamp=gte.2025-08-18T00%3A00%3A00%2B00%3A00 "HTTP/2 400 Bad Request"
+2025-08-18 20:53:04,982 - Lily.lily_live_report_generator - WARNING - ⚠️ Reports data fetch failed: {'message': 'column aggregated_sentiment_reports.analysis_timestamp does not exist', 'code': '42703', 'hint': None, 'details': None}
+2025-08-18 20:53:06,413 - human_email_reporter - INFO - Attached Lily report: Lily/Lily_Live_Report_20250818_205304.pdf
+2025-08-18 20:53:10,801 - human_email_reporter - INFO - Email sent successfully to chris@thebees.group
+2025-08-18 20:53:10,808 - __main__ - INFO - ✅ Lily's active run completed successfully
+2025-08-18 20:53:40,827 - __main__ - INFO - 🤖 Starting Bob's active analysis...
+2025-08-18 20:53:40,836 - options_analysis_engine - INFO - 📊 Bob Options Analysis Engine initialized
+2025-08-18 20:53:40,837 - Bob.technical_analysis_engine - INFO - 📈 Bob Technical Analysis Engine initialized
+2025-08-18 20:53:40,837 - Bob.technical_analysis_engine - INFO - 📈 Bob starting multi-timeframe analysis...
+2025-08-18 20:53:40,837 - Bob.technical_analysis_engine - INFO - 🔍 Analyzing 1h timeframe...
+2025-08-18 20:53:40,840 - Bob.technical_analysis_engine - INFO - 📊 Bob fetching ETH-USD data - 1h interval
+2025-08-18 20:53:41,751 - Bob.technical_analysis_engine - INFO - ✅ Data fetched: 158 candles
+2025-08-18 20:53:41,754 - Bob.technical_analysis_engine - INFO - 🔍 Analyzing 4h timeframe...
+2025-08-18 20:53:41,754 - Bob.technical_analysis_engine - INFO - 📊 Bob fetching ETH-USD data - 1h interval
+2025-08-18 20:53:41,904 - Bob.technical_analysis_engine - INFO - ✅ Data fetched: 710 candles
+2025-08-18 20:53:41,916 - Bob.technical_analysis_engine - INFO - 🔍 Analyzing 1d timeframe...
+2025-08-18 20:53:41,916 - Bob.technical_analysis_engine - INFO - 📊 Bob fetching ETH-USD data - 1d interval
+2025-08-18 20:53:41,997 - Bob.technical_analysis_engine - INFO - ✅ Data fetched: 366 candles
+2025-08-18 20:53:41,997 - Bob.technical_analysis_engine - INFO - 📊 Adding options analysis...
+2025-08-18 20:53:41,997 - options_analysis_engine - INFO - 📊 Starting comprehensive options analysis...
+2025-08-18 20:53:41,998 - options_analysis_engine - INFO - 📊 Fetching Deribit ETH options data...
+2025-08-18 20:53:44,911 - options_analysis_engine - INFO - ✅ Found 862 ETH options instruments
+2025-08-18 20:54:06,923 - Bob.technical_analysis_engine - INFO - ✅ Options analysis integrated
+2025-08-18 20:54:07,826 - human_email_reporter - INFO - Attached Bob report: Bob/Bob_Professional_Report_20250818_205406.pdf
+2025-08-18 20:54:11,983 - human_email_reporter - INFO - Email sent successfully to chris@thebees.group
+2025-08-18 20:54:11,990 - __main__ - INFO - ✅ Bob's active run completed successfully
+2025-08-18 20:54:12,001 - __main__ - INFO - 📊 Daily cycle completed - Lily: ✅, Bob: ✅

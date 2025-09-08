@@ -1,0 +1,372 @@
+2025-08-12 17:57:27,788 - email_reporter - INFO - 📧 Email reporter initialized for chri@thebees.group
+2025-08-12 17:57:27,788 - __main__ - INFO - 🤖 Daily Automation System initialized
+2025-08-12 17:57:31,812 - email_reporter - ERROR - ❌ Failed to send email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-76e16df3a2dsm1029781b3a.33 - gsmtp')
+2025-08-12 18:22:38,138 - email_reporter - INFO - 📧 Email reporter initialized for chri@thebees.group
+2025-08-13 09:22:14,913 - email_reporter - INFO - 📧 Email reporter initialized for chri@thebees.group
+2025-08-13 11:03:38,637 - email_reporter - INFO - 📧 Email reporter initialized for chri@thebees.group
+2025-08-13 11:03:38,637 - __main__ - INFO - 📅 Daily schedule set for 09:00
+2025-08-13 11:03:38,637 - __main__ - INFO - 🤖 Daily Automation System initialized
+2025-08-13 11:03:41,883 - email_reporter - INFO - ✅ Email sent successfully to chri@thebees.group
+2025-08-13 11:04:20,776 - email_reporter - INFO - 📧 Email reporter initialized for chri@thebees.group
+2025-08-13 11:04:20,778 - __main__ - INFO - 📅 Daily schedule set for 09:00
+2025-08-13 11:04:20,778 - __main__ - INFO - 🤖 Daily Automation System initialized
+2025-08-13 11:04:32,183 - email_reporter - INFO - 📧 Email reporter initialized for chri@thebees.group
+2025-08-13 11:04:32,184 - __main__ - INFO - 📅 Daily schedule set for 09:00
+2025-08-13 11:04:32,184 - __main__ - INFO - 🤖 Daily Automation System initialized
+2025-08-13 11:04:32,184 - __main__ - INFO - 🧪 Running single test cycle...
+2025-08-13 11:04:32,184 - __main__ - INFO - 🚀 Starting complete daily analysis cycle...
+2025-08-13 11:04:32,184 - __main__ - INFO - 🌸 Starting Lily's data collection...
+2025-08-13 11:04:32,674 - telethon.crypto.aes - INFO - libssl detected, it will be used for encryption
+2025-08-13 11:04:33,358 - optimized_supabase_integration - INFO - ✅ Connected to Supabase
+2025-08-13 11:04:33,358 - Lily.lily_smart_crawler - INFO - ✅ Connected to Supabase
+2025-08-13 11:04:33,358 - Lily.lily_smart_crawler - INFO - 🌸 Lily Smart Crawler initialized
+2025-08-13 11:04:33,358 - Lily.lily_smart_crawler - INFO - 🤖 Starting Lily smart scheduler for 8 hours
+2025-08-13 11:04:33,358 - Lily.lily_smart_crawler - INFO - 🔄 Starting collection cycle...
+2025-08-13 11:04:33,358 - rate_limit_manager - INFO - 📊 twitter request recorded. Daily: 1
+2025-08-13 11:04:33,358 - Lily.lily_smart_crawler - INFO - 📱 Collecting Twitter ETH mentions...
+2025-08-13 11:04:35,360 - Lily.lily_smart_crawler - INFO - 📱 Twitter: collected 1 posts
+2025-08-13 11:04:35,361 - rate_limit_manager - INFO - 📊 reddit request recorded. Daily: 1
+2025-08-13 11:04:35,361 - Lily.lily_smart_crawler - INFO - 🔴 Collecting Reddit ETH mentions...
+2025-08-13 11:04:36,362 - Lily.lily_smart_crawler - INFO - 🔴 Reddit: collected 1 posts
+2025-08-13 11:04:36,362 - Lily.lily_smart_crawler - WARNING - 📞 Telegram analyzer not available
+2025-08-13 11:04:37,769 - httpx - INFO - HTTP Request: POST https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/twitter_posts?columns=%22sentiment_score%22%2C%22mentions%22%2C%22verified_account%22%2C%22replies%22%2C%22tweet_url%22%2C%22tweet_timestamp%22%2C%22likes%22%2C%22tweet_id%22%2C%22keywords_detected%22%2C%22confidence%22%2C%22hashtags%22%2C%22is_retweet%22%2C%22final_weight%22%2C%22analysis_timestamp%22%2C%22username%22%2C%22retweets%22%2C%22follower_count%22%2C%22tweet_text%22%2C%22context_multipliers%22%2C%22engagement_weight%22 "HTTP/2 400 Bad Request"
+2025-08-13 11:04:37,772 - optimized_supabase_integration - ERROR - ❌ twitter_posts insertion failed: {'message': 'null value in column "tweet_id" of relation "twitter_posts" violates not-null constraint', 'code': '23502', 'hint': None, 'details': 'Failing row contains (162, null, null, f, 0, ETH is looking bullish today! 🚀, 0, 0, 0, {}, {}, null, f, null, 0.800, 0.700, {bullish,ETH}, {}, null, 1.200, 2025-08-13 11:04:35.360133+00, 2025-08-13 04:04:36.3626+00, 2025-08-13 04:04:37.48556+00).'}
+2025-08-13 11:04:37,772 - Lily.lily_smart_crawler - INFO - 💾 Stored 1 Twitter posts
+2025-08-13 11:04:38,315 - httpx - INFO - HTTP Request: POST https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/reddit_posts?columns=%22awards_count%22%2C%22sentiment_score%22%2C%22post_score%22%2C%22num_comments%22%2C%22title%22%2C%22content%22%2C%22subreddit%22%2C%22post_type%22%2C%22upvote_ratio%22%2C%22post_id%22%2C%22author%22%2C%22author_karma%22%2C%22keywords_detected%22%2C%22post_url%22%2C%22confidence%22%2C%22post_timestamp%22%2C%22final_weight%22%2C%22analysis_timestamp%22%2C%22flair_text%22%2C%22context_multipliers%22%2C%22engagement_weight%22 "HTTP/2 400 Bad Request"
+2025-08-13 11:04:38,321 - optimized_supabase_integration - ERROR - ❌ reddit_posts insertion failed: {'message': 'null value in column "post_id" of relation "reddit_posts" violates not-null constraint', 'code': '23502', 'hint': None, 'details': 'Failing row contains (55, null, null, submission, null, ETH analysis shows strong support levels, null, 0, 45, null, 0, 0, f, null, null, 0.600, 0.800, {ETH,support}, {}, null, 1.000, 2025-08-13 11:04:36.362389+00, 2025-08-13 04:04:37.772697+00, 2025-08-13 04:04:37.930461+00).'}
+2025-08-13 11:04:38,321 - Lily.lily_smart_crawler - INFO - 💾 Stored 1 Reddit posts
+2025-08-13 11:04:38,321 - Lily.lily_smart_crawler - INFO - ✅ Collection cycle complete: 2 posts collected
+2025-08-13 11:04:38,322 - Lily.lily_smart_crawler - INFO - 📊 Cycle 1: 2 posts
+2025-08-13 11:04:38,325 - rate_limit_manager - INFO - ⏰ twitter rate limit: wait 235s
+2025-08-13 11:04:38,326 - Lily.lily_smart_crawler - INFO - ⏰ Waiting 30s before next cycle...
+2025-08-13 11:05:08,332 - Lily.lily_smart_crawler - INFO - 🔄 Starting collection cycle...
+2025-08-13 11:05:08,336 - rate_limit_manager - INFO - ⏰ twitter rate limit: wait 205s
+2025-08-13 11:05:08,337 - rate_limit_manager - INFO - ⏰ Waiting 205s for twitter rate limit...
+2025-08-13 11:08:33,366 - rate_limit_manager - INFO - 📊 twitter request recorded. Daily: 2
+2025-08-13 11:08:33,367 - Lily.lily_smart_crawler - INFO - 📱 Collecting Twitter ETH mentions...
+2025-08-13 11:08:35,370 - Lily.lily_smart_crawler - INFO - 📱 Twitter: collected 1 posts
+2025-08-13 11:08:35,371 - rate_limit_manager - INFO - 📊 reddit request recorded. Daily: 2
+2025-08-13 11:08:35,372 - Lily.lily_smart_crawler - INFO - 🔴 Collecting Reddit ETH mentions...
+2025-08-13 11:08:36,373 - Lily.lily_smart_crawler - INFO - 🔴 Reddit: collected 1 posts
+2025-08-13 11:08:36,373 - Lily.lily_smart_crawler - WARNING - 📞 Telegram analyzer not available
+2025-08-13 11:08:36,862 - httpx - INFO - HTTP Request: POST https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/twitter_posts?columns=%22sentiment_score%22%2C%22mentions%22%2C%22verified_account%22%2C%22replies%22%2C%22tweet_url%22%2C%22tweet_timestamp%22%2C%22likes%22%2C%22tweet_id%22%2C%22keywords_detected%22%2C%22confidence%22%2C%22hashtags%22%2C%22is_retweet%22%2C%22final_weight%22%2C%22analysis_timestamp%22%2C%22username%22%2C%22retweets%22%2C%22follower_count%22%2C%22tweet_text%22%2C%22context_multipliers%22%2C%22engagement_weight%22 "HTTP/2 400 Bad Request"
+2025-08-13 11:08:36,871 - optimized_supabase_integration - ERROR - ❌ twitter_posts insertion failed: {'message': 'null value in column "tweet_id" of relation "twitter_posts" violates not-null constraint', 'code': '23502', 'hint': None, 'details': 'Failing row contains (163, null, null, f, 0, ETH is looking bullish today! 🚀, 0, 0, 0, {}, {}, null, f, null, 0.800, 0.700, {bullish,ETH}, {}, null, 1.200, 2025-08-13 11:08:35.370335+00, 2025-08-13 04:08:36.375119+00, 2025-08-13 04:08:36.838856+00).'}
+2025-08-13 11:08:36,871 - Lily.lily_smart_crawler - INFO - 💾 Stored 1 Twitter posts
+2025-08-13 11:08:37,009 - httpx - INFO - HTTP Request: POST https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/reddit_posts?columns=%22awards_count%22%2C%22sentiment_score%22%2C%22post_score%22%2C%22num_comments%22%2C%22title%22%2C%22content%22%2C%22subreddit%22%2C%22post_type%22%2C%22upvote_ratio%22%2C%22post_id%22%2C%22author%22%2C%22author_karma%22%2C%22keywords_detected%22%2C%22post_url%22%2C%22confidence%22%2C%22post_timestamp%22%2C%22final_weight%22%2C%22analysis_timestamp%22%2C%22flair_text%22%2C%22context_multipliers%22%2C%22engagement_weight%22 "HTTP/2 400 Bad Request"
+2025-08-13 11:08:37,010 - optimized_supabase_integration - ERROR - ❌ reddit_posts insertion failed: {'message': 'null value in column "post_id" of relation "reddit_posts" violates not-null constraint', 'code': '23502', 'hint': None, 'details': 'Failing row contains (56, null, null, submission, null, ETH analysis shows strong support levels, null, 0, 45, null, 0, 0, f, null, null, 0.600, 0.800, {ETH,support}, {}, null, 1.000, 2025-08-13 11:08:36.373365+00, 2025-08-13 04:08:36.871993+00, 2025-08-13 04:08:36.986712+00).'}
+2025-08-13 11:08:37,010 - Lily.lily_smart_crawler - INFO - 💾 Stored 1 Reddit posts
+2025-08-13 11:08:37,011 - Lily.lily_smart_crawler - INFO - ✅ Collection cycle complete: 2 posts collected
+2025-08-13 11:08:37,011 - Lily.lily_smart_crawler - INFO - 📊 Cycle 2: 2 posts
+2025-08-13 11:08:37,011 - rate_limit_manager - INFO - ⏰ twitter rate limit: wait 236s
+2025-08-13 11:08:37,011 - rate_limit_manager - INFO - ⏰ reddit rate limit: wait 0s
+2025-08-13 11:08:37,012 - Lily.lily_smart_crawler - INFO - ⏰ Waiting 30s before next cycle...
+2025-08-13 11:09:07,024 - Lily.lily_smart_crawler - INFO - 🔄 Starting collection cycle...
+2025-08-13 11:09:07,030 - rate_limit_manager - INFO - ⏰ twitter rate limit: wait 206s
+2025-08-13 11:09:07,030 - rate_limit_manager - INFO - ⏰ Waiting 206s for twitter rate limit...
+2025-08-13 11:12:33,057 - rate_limit_manager - INFO - 📊 twitter request recorded. Daily: 3
+2025-08-13 11:12:33,059 - Lily.lily_smart_crawler - INFO - 📱 Collecting Twitter ETH mentions...
+2025-08-13 11:12:35,068 - Lily.lily_smart_crawler - INFO - 📱 Twitter: collected 1 posts
+2025-08-13 11:12:35,094 - rate_limit_manager - INFO - 📊 reddit request recorded. Daily: 3
+2025-08-13 11:12:35,099 - Lily.lily_smart_crawler - INFO - 🔴 Collecting Reddit ETH mentions...
+2025-08-13 11:12:36,102 - Lily.lily_smart_crawler - INFO - 🔴 Reddit: collected 1 posts
+2025-08-13 11:12:36,104 - Lily.lily_smart_crawler - WARNING - 📞 Telegram analyzer not available
+2025-08-13 11:12:36,748 - httpx - INFO - HTTP Request: POST https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/twitter_posts?columns=%22sentiment_score%22%2C%22mentions%22%2C%22verified_account%22%2C%22replies%22%2C%22tweet_url%22%2C%22tweet_timestamp%22%2C%22likes%22%2C%22tweet_id%22%2C%22keywords_detected%22%2C%22confidence%22%2C%22hashtags%22%2C%22is_retweet%22%2C%22final_weight%22%2C%22analysis_timestamp%22%2C%22username%22%2C%22retweets%22%2C%22follower_count%22%2C%22tweet_text%22%2C%22context_multipliers%22%2C%22engagement_weight%22 "HTTP/2 400 Bad Request"
+2025-08-13 11:12:36,754 - optimized_supabase_integration - ERROR - ❌ twitter_posts insertion failed: {'message': 'null value in column "tweet_id" of relation "twitter_posts" violates not-null constraint', 'code': '23502', 'hint': None, 'details': 'Failing row contains (164, null, null, f, 0, ETH is looking bullish today! 🚀, 0, 0, 0, {}, {}, null, f, null, 0.800, 0.700, {bullish,ETH}, {}, null, 1.200, 2025-08-13 11:12:35.066583+00, 2025-08-13 04:12:36.105129+00, 2025-08-13 04:12:36.712302+00).'}
+2025-08-13 11:12:36,755 - Lily.lily_smart_crawler - INFO - 💾 Stored 1 Twitter posts
+2025-08-13 11:12:36,859 - httpx - INFO - HTTP Request: POST https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/reddit_posts?columns=%22awards_count%22%2C%22sentiment_score%22%2C%22post_score%22%2C%22num_comments%22%2C%22title%22%2C%22content%22%2C%22subreddit%22%2C%22post_type%22%2C%22upvote_ratio%22%2C%22post_id%22%2C%22author%22%2C%22author_karma%22%2C%22keywords_detected%22%2C%22post_url%22%2C%22confidence%22%2C%22post_timestamp%22%2C%22final_weight%22%2C%22analysis_timestamp%22%2C%22flair_text%22%2C%22context_multipliers%22%2C%22engagement_weight%22 "HTTP/2 400 Bad Request"
+2025-08-13 11:12:36,860 - optimized_supabase_integration - ERROR - ❌ reddit_posts insertion failed: {'message': 'null value in column "post_id" of relation "reddit_posts" violates not-null constraint', 'code': '23502', 'hint': None, 'details': 'Failing row contains (57, null, null, submission, null, ETH analysis shows strong support levels, null, 0, 45, null, 0, 0, f, null, null, 0.600, 0.800, {ETH,support}, {}, null, 1.000, 2025-08-13 11:12:36.101964+00, 2025-08-13 04:12:36.755622+00, 2025-08-13 04:12:36.841195+00).'}
+2025-08-13 11:12:36,860 - Lily.lily_smart_crawler - INFO - 💾 Stored 1 Reddit posts
+2025-08-13 11:12:36,860 - Lily.lily_smart_crawler - INFO - ✅ Collection cycle complete: 2 posts collected
+2025-08-13 11:12:36,861 - Lily.lily_smart_crawler - INFO - 📊 Cycle 3: 2 posts
+2025-08-13 11:12:36,861 - rate_limit_manager - INFO - ⏰ twitter rate limit: wait 236s
+2025-08-13 11:12:36,861 - rate_limit_manager - INFO - ⏰ reddit rate limit: wait 0s
+2025-08-13 11:12:36,861 - Lily.lily_smart_crawler - INFO - ⏰ Waiting 30s before next cycle...
+2025-08-13 11:13:06,870 - Lily.lily_smart_crawler - INFO - 🔄 Starting collection cycle...
+2025-08-13 11:13:06,875 - rate_limit_manager - INFO - ⏰ twitter rate limit: wait 206s
+2025-08-13 11:13:06,875 - rate_limit_manager - INFO - ⏰ Waiting 206s for twitter rate limit...
+2025-08-13 11:16:32,920 - rate_limit_manager - INFO - 📊 twitter request recorded. Daily: 4
+2025-08-13 11:16:32,923 - Lily.lily_smart_crawler - INFO - 📱 Collecting Twitter ETH mentions...
+2025-08-13 11:16:34,926 - Lily.lily_smart_crawler - INFO - 📱 Twitter: collected 1 posts
+2025-08-13 11:16:34,928 - rate_limit_manager - INFO - 📊 reddit request recorded. Daily: 4
+2025-08-13 11:16:34,928 - Lily.lily_smart_crawler - INFO - 🔴 Collecting Reddit ETH mentions...
+2025-08-13 11:16:35,931 - Lily.lily_smart_crawler - INFO - 🔴 Reddit: collected 1 posts
+2025-08-13 11:16:35,931 - Lily.lily_smart_crawler - WARNING - 📞 Telegram analyzer not available
+2025-08-13 11:16:36,417 - httpx - INFO - HTTP Request: POST https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/twitter_posts?columns=%22sentiment_score%22%2C%22mentions%22%2C%22verified_account%22%2C%22replies%22%2C%22tweet_url%22%2C%22tweet_timestamp%22%2C%22likes%22%2C%22tweet_id%22%2C%22keywords_detected%22%2C%22confidence%22%2C%22hashtags%22%2C%22is_retweet%22%2C%22final_weight%22%2C%22analysis_timestamp%22%2C%22username%22%2C%22retweets%22%2C%22follower_count%22%2C%22tweet_text%22%2C%22context_multipliers%22%2C%22engagement_weight%22 "HTTP/2 400 Bad Request"
+2025-08-13 11:16:36,436 - optimized_supabase_integration - ERROR - ❌ twitter_posts insertion failed: {'message': 'null value in column "tweet_id" of relation "twitter_posts" violates not-null constraint', 'code': '23502', 'hint': None, 'details': 'Failing row contains (165, null, null, f, 0, ETH is looking bullish today! 🚀, 0, 0, 0, {}, {}, null, f, null, 0.800, 0.700, {bullish,ETH}, {}, null, 1.200, 2025-08-13 11:16:34.925649+00, 2025-08-13 04:16:35.932138+00, 2025-08-13 04:16:36.389557+00).'}
+2025-08-13 11:16:36,436 - Lily.lily_smart_crawler - INFO - 💾 Stored 1 Twitter posts
+2025-08-13 11:16:36,586 - httpx - INFO - HTTP Request: POST https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/reddit_posts?columns=%22awards_count%22%2C%22sentiment_score%22%2C%22post_score%22%2C%22num_comments%22%2C%22title%22%2C%22content%22%2C%22subreddit%22%2C%22post_type%22%2C%22upvote_ratio%22%2C%22post_id%22%2C%22author%22%2C%22author_karma%22%2C%22keywords_detected%22%2C%22post_url%22%2C%22confidence%22%2C%22post_timestamp%22%2C%22final_weight%22%2C%22analysis_timestamp%22%2C%22flair_text%22%2C%22context_multipliers%22%2C%22engagement_weight%22 "HTTP/2 400 Bad Request"
+2025-08-13 11:16:36,587 - optimized_supabase_integration - ERROR - ❌ reddit_posts insertion failed: {'message': 'null value in column "post_id" of relation "reddit_posts" violates not-null constraint', 'code': '23502', 'hint': None, 'details': 'Failing row contains (58, null, null, submission, null, ETH analysis shows strong support levels, null, 0, 45, null, 0, 0, f, null, null, 0.600, 0.800, {ETH,support}, {}, null, 1.000, 2025-08-13 11:16:35.931021+00, 2025-08-13 04:16:36.436968+00, 2025-08-13 04:16:36.550066+00).'}
+2025-08-13 11:16:36,587 - Lily.lily_smart_crawler - INFO - 💾 Stored 1 Reddit posts
+2025-08-13 11:16:36,587 - Lily.lily_smart_crawler - INFO - ✅ Collection cycle complete: 2 posts collected
+2025-08-13 11:16:36,587 - Lily.lily_smart_crawler - INFO - 📊 Cycle 4: 2 posts
+2025-08-13 11:16:36,588 - rate_limit_manager - INFO - ⏰ twitter rate limit: wait 236s
+2025-08-13 11:16:36,588 - rate_limit_manager - INFO - ⏰ reddit rate limit: wait 0s
+2025-08-13 11:16:36,588 - Lily.lily_smart_crawler - INFO - ⏰ Waiting 30s before next cycle...
+2025-08-13 11:17:06,593 - Lily.lily_smart_crawler - INFO - 🔄 Starting collection cycle...
+2025-08-13 11:17:06,597 - rate_limit_manager - INFO - ⏰ twitter rate limit: wait 206s
+2025-08-13 11:17:06,597 - rate_limit_manager - INFO - ⏰ Waiting 206s for twitter rate limit...
+2025-08-13 11:20:32,598 - rate_limit_manager - INFO - 📊 twitter request recorded. Daily: 5
+2025-08-13 11:20:32,599 - Lily.lily_smart_crawler - INFO - 📱 Collecting Twitter ETH mentions...
+2025-08-13 11:20:34,601 - Lily.lily_smart_crawler - INFO - 📱 Twitter: collected 1 posts
+2025-08-13 11:20:34,604 - rate_limit_manager - INFO - 📊 reddit request recorded. Daily: 5
+2025-08-13 11:20:34,604 - Lily.lily_smart_crawler - INFO - 🔴 Collecting Reddit ETH mentions...
+2025-08-13 11:20:35,605 - Lily.lily_smart_crawler - INFO - 🔴 Reddit: collected 1 posts
+2025-08-13 11:20:35,605 - Lily.lily_smart_crawler - WARNING - 📞 Telegram analyzer not available
+2025-08-13 11:20:36,095 - httpx - INFO - HTTP Request: POST https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/twitter_posts?columns=%22sentiment_score%22%2C%22mentions%22%2C%22verified_account%22%2C%22replies%22%2C%22tweet_url%22%2C%22tweet_timestamp%22%2C%22likes%22%2C%22tweet_id%22%2C%22keywords_detected%22%2C%22confidence%22%2C%22hashtags%22%2C%22is_retweet%22%2C%22final_weight%22%2C%22analysis_timestamp%22%2C%22username%22%2C%22retweets%22%2C%22follower_count%22%2C%22tweet_text%22%2C%22context_multipliers%22%2C%22engagement_weight%22 "HTTP/2 400 Bad Request"
+2025-08-13 11:20:36,100 - optimized_supabase_integration - ERROR - ❌ twitter_posts insertion failed: {'message': 'null value in column "tweet_id" of relation "twitter_posts" violates not-null constraint', 'code': '23502', 'hint': None, 'details': 'Failing row contains (166, null, null, f, 0, ETH is looking bullish today! 🚀, 0, 0, 0, {}, {}, null, f, null, 0.800, 0.700, {bullish,ETH}, {}, null, 1.200, 2025-08-13 11:20:34.601461+00, 2025-08-13 04:20:35.60584+00, 2025-08-13 04:20:36.08508+00).'}
+2025-08-13 11:20:36,101 - Lily.lily_smart_crawler - INFO - 💾 Stored 1 Twitter posts
+2025-08-13 11:20:36,207 - httpx - INFO - HTTP Request: POST https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/reddit_posts?columns=%22awards_count%22%2C%22sentiment_score%22%2C%22post_score%22%2C%22num_comments%22%2C%22title%22%2C%22content%22%2C%22subreddit%22%2C%22post_type%22%2C%22upvote_ratio%22%2C%22post_id%22%2C%22author%22%2C%22author_karma%22%2C%22keywords_detected%22%2C%22post_url%22%2C%22confidence%22%2C%22post_timestamp%22%2C%22final_weight%22%2C%22analysis_timestamp%22%2C%22flair_text%22%2C%22context_multipliers%22%2C%22engagement_weight%22 "HTTP/2 400 Bad Request"
+2025-08-13 11:20:36,207 - optimized_supabase_integration - ERROR - ❌ reddit_posts insertion failed: {'message': 'null value in column "post_id" of relation "reddit_posts" violates not-null constraint', 'code': '23502', 'hint': None, 'details': 'Failing row contains (59, null, null, submission, null, ETH analysis shows strong support levels, null, 0, 45, null, 0, 0, f, null, null, 0.600, 0.800, {ETH,support}, {}, null, 1.000, 2025-08-13 11:20:35.605457+00, 2025-08-13 04:20:36.101284+00, 2025-08-13 04:20:36.197641+00).'}
+2025-08-13 11:20:36,207 - Lily.lily_smart_crawler - INFO - 💾 Stored 1 Reddit posts
+2025-08-13 11:20:36,207 - Lily.lily_smart_crawler - INFO - ✅ Collection cycle complete: 2 posts collected
+2025-08-13 11:20:36,207 - Lily.lily_smart_crawler - INFO - 📊 Cycle 5: 2 posts
+2025-08-13 11:20:36,208 - rate_limit_manager - INFO - ⏰ twitter rate limit: wait 236s
+2025-08-13 11:20:36,208 - rate_limit_manager - INFO - ⏰ reddit rate limit: wait 0s
+2025-08-13 11:20:36,208 - Lily.lily_smart_crawler - INFO - ⏰ Waiting 30s before next cycle...
+2025-08-13 11:21:06,219 - Lily.lily_smart_crawler - INFO - 🔄 Starting collection cycle...
+2025-08-13 11:21:06,225 - rate_limit_manager - INFO - ⏰ twitter rate limit: wait 206s
+2025-08-13 11:21:06,225 - rate_limit_manager - INFO - ⏰ Waiting 206s for twitter rate limit...
+2025-08-13 11:24:32,256 - rate_limit_manager - INFO - 📊 twitter request recorded. Daily: 6
+2025-08-13 11:24:32,258 - Lily.lily_smart_crawler - INFO - 📱 Collecting Twitter ETH mentions...
+2025-08-13 11:24:34,260 - Lily.lily_smart_crawler - INFO - 📱 Twitter: collected 1 posts
+2025-08-13 11:24:34,261 - rate_limit_manager - INFO - 📊 reddit request recorded. Daily: 6
+2025-08-13 11:24:34,261 - Lily.lily_smart_crawler - INFO - 🔴 Collecting Reddit ETH mentions...
+2025-08-13 11:24:35,263 - Lily.lily_smart_crawler - INFO - 🔴 Reddit: collected 1 posts
+2025-08-13 11:24:35,264 - Lily.lily_smart_crawler - WARNING - 📞 Telegram analyzer not available
+2025-08-13 11:24:36,309 - httpx - INFO - HTTP Request: POST https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/twitter_posts?columns=%22sentiment_score%22%2C%22mentions%22%2C%22verified_account%22%2C%22replies%22%2C%22tweet_url%22%2C%22tweet_timestamp%22%2C%22likes%22%2C%22tweet_id%22%2C%22keywords_detected%22%2C%22confidence%22%2C%22hashtags%22%2C%22is_retweet%22%2C%22final_weight%22%2C%22analysis_timestamp%22%2C%22username%22%2C%22retweets%22%2C%22follower_count%22%2C%22tweet_text%22%2C%22context_multipliers%22%2C%22engagement_weight%22 "HTTP/2 400 Bad Request"
+2025-08-13 11:24:36,317 - optimized_supabase_integration - ERROR - ❌ twitter_posts insertion failed: {'message': 'null value in column "tweet_id" of relation "twitter_posts" violates not-null constraint', 'code': '23502', 'hint': None, 'details': 'Failing row contains (167, null, null, f, 0, ETH is looking bullish today! 🚀, 0, 0, 0, {}, {}, null, f, null, 0.800, 0.700, {bullish,ETH}, {}, null, 1.200, 2025-08-13 11:24:34.260065+00, 2025-08-13 04:24:35.265852+00, 2025-08-13 04:24:36.163325+00).'}
+2025-08-13 11:24:36,317 - Lily.lily_smart_crawler - INFO - 💾 Stored 1 Twitter posts
+2025-08-13 11:24:36,521 - httpx - INFO - HTTP Request: POST https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/reddit_posts?columns=%22awards_count%22%2C%22sentiment_score%22%2C%22post_score%22%2C%22num_comments%22%2C%22title%22%2C%22content%22%2C%22subreddit%22%2C%22post_type%22%2C%22upvote_ratio%22%2C%22post_id%22%2C%22author%22%2C%22author_karma%22%2C%22keywords_detected%22%2C%22post_url%22%2C%22confidence%22%2C%22post_timestamp%22%2C%22final_weight%22%2C%22analysis_timestamp%22%2C%22flair_text%22%2C%22context_multipliers%22%2C%22engagement_weight%22 "HTTP/2 400 Bad Request"
+2025-08-13 11:24:36,522 - optimized_supabase_integration - ERROR - ❌ reddit_posts insertion failed: {'message': 'null value in column "post_id" of relation "reddit_posts" violates not-null constraint', 'code': '23502', 'hint': None, 'details': 'Failing row contains (60, null, null, submission, null, ETH analysis shows strong support levels, null, 0, 45, null, 0, 0, f, null, null, 0.600, 0.800, {ETH,support}, {}, null, 1.000, 2025-08-13 11:24:35.262757+00, 2025-08-13 04:24:36.317794+00, 2025-08-13 04:24:36.467719+00).'}
+2025-08-13 11:24:36,522 - Lily.lily_smart_crawler - INFO - 💾 Stored 1 Reddit posts
+2025-08-13 11:24:36,522 - Lily.lily_smart_crawler - INFO - ✅ Collection cycle complete: 2 posts collected
+2025-08-13 11:24:36,522 - Lily.lily_smart_crawler - INFO - 📊 Cycle 6: 2 posts
+2025-08-13 11:24:36,522 - rate_limit_manager - INFO - ⏰ twitter rate limit: wait 235s
+2025-08-13 11:24:36,522 - Lily.lily_smart_crawler - INFO - ⏰ Waiting 30s before next cycle...
+2025-08-13 11:25:06,538 - Lily.lily_smart_crawler - INFO - 🔄 Starting collection cycle...
+2025-08-13 11:25:06,546 - rate_limit_manager - INFO - ⏰ twitter rate limit: wait 205s
+2025-08-13 11:25:06,546 - rate_limit_manager - INFO - ⏰ Waiting 205s for twitter rate limit...
+2025-08-13 11:28:31,565 - rate_limit_manager - INFO - 📊 twitter request recorded. Daily: 7
+2025-08-13 11:28:31,566 - Lily.lily_smart_crawler - INFO - 📱 Collecting Twitter ETH mentions...
+2025-08-13 11:28:33,568 - Lily.lily_smart_crawler - INFO - 📱 Twitter: collected 1 posts
+2025-08-13 11:28:33,569 - rate_limit_manager - INFO - 📊 reddit request recorded. Daily: 7
+2025-08-13 11:28:33,569 - Lily.lily_smart_crawler - INFO - 🔴 Collecting Reddit ETH mentions...
+2025-08-13 11:28:34,571 - Lily.lily_smart_crawler - INFO - 🔴 Reddit: collected 1 posts
+2025-08-13 11:28:34,574 - Lily.lily_smart_crawler - WARNING - 📞 Telegram analyzer not available
+2025-08-13 11:28:35,065 - httpx - INFO - HTTP Request: POST https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/twitter_posts?columns=%22sentiment_score%22%2C%22mentions%22%2C%22verified_account%22%2C%22replies%22%2C%22tweet_url%22%2C%22tweet_timestamp%22%2C%22likes%22%2C%22tweet_id%22%2C%22keywords_detected%22%2C%22confidence%22%2C%22hashtags%22%2C%22is_retweet%22%2C%22final_weight%22%2C%22analysis_timestamp%22%2C%22username%22%2C%22retweets%22%2C%22follower_count%22%2C%22tweet_text%22%2C%22context_multipliers%22%2C%22engagement_weight%22 "HTTP/2 400 Bad Request"
+2025-08-13 11:28:35,080 - optimized_supabase_integration - ERROR - ❌ twitter_posts insertion failed: {'message': 'null value in column "tweet_id" of relation "twitter_posts" violates not-null constraint', 'code': '23502', 'hint': None, 'details': 'Failing row contains (168, null, null, f, 0, ETH is looking bullish today! 🚀, 0, 0, 0, {}, {}, null, f, null, 0.800, 0.700, {bullish,ETH}, {}, null, 1.200, 2025-08-13 11:28:33.568204+00, 2025-08-13 04:28:34.57429+00, 2025-08-13 04:28:34.990023+00).'}
+2025-08-13 11:28:35,080 - Lily.lily_smart_crawler - INFO - 💾 Stored 1 Twitter posts
+2025-08-13 11:28:35,230 - httpx - INFO - HTTP Request: POST https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/reddit_posts?columns=%22awards_count%22%2C%22sentiment_score%22%2C%22post_score%22%2C%22num_comments%22%2C%22title%22%2C%22content%22%2C%22subreddit%22%2C%22post_type%22%2C%22upvote_ratio%22%2C%22post_id%22%2C%22author%22%2C%22author_karma%22%2C%22keywords_detected%22%2C%22post_url%22%2C%22confidence%22%2C%22post_timestamp%22%2C%22final_weight%22%2C%22analysis_timestamp%22%2C%22flair_text%22%2C%22context_multipliers%22%2C%22engagement_weight%22 "HTTP/2 400 Bad Request"
+2025-08-13 11:28:35,231 - optimized_supabase_integration - ERROR - ❌ reddit_posts insertion failed: {'message': 'null value in column "post_id" of relation "reddit_posts" violates not-null constraint', 'code': '23502', 'hint': None, 'details': 'Failing row contains (61, null, null, submission, null, ETH analysis shows strong support levels, null, 0, 45, null, 0, 0, f, null, null, 0.600, 0.800, {ETH,support}, {}, null, 1.000, 2025-08-13 11:28:34.571014+00, 2025-08-13 04:28:35.08086+00, 2025-08-13 04:28:35.180291+00).'}
+2025-08-13 11:28:35,231 - Lily.lily_smart_crawler - INFO - 💾 Stored 1 Reddit posts
+2025-08-13 11:28:35,231 - Lily.lily_smart_crawler - INFO - ✅ Collection cycle complete: 2 posts collected
+2025-08-13 11:28:35,231 - Lily.lily_smart_crawler - INFO - 📊 Cycle 7: 2 posts
+2025-08-13 11:28:35,231 - rate_limit_manager - INFO - ⏰ twitter rate limit: wait 236s
+2025-08-13 11:28:35,231 - rate_limit_manager - INFO - ⏰ reddit rate limit: wait 0s
+2025-08-13 11:28:35,231 - Lily.lily_smart_crawler - INFO - ⏰ Waiting 30s before next cycle...
+2025-08-13 11:29:05,236 - Lily.lily_smart_crawler - INFO - 🔄 Starting collection cycle...
+2025-08-13 11:29:05,238 - rate_limit_manager - INFO - ⏰ twitter rate limit: wait 206s
+2025-08-13 11:29:05,239 - rate_limit_manager - INFO - ⏰ Waiting 206s for twitter rate limit...
+2025-09-05 12:20:24,630 - __main__ - INFO - 📧 Email reporter initialized for mutoryai@gmail.com
+2025-09-05 12:20:27,128 - __main__ - ERROR - ❌ Failed to send email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-327daeec552sm22051219a91.27 - gsmtp')
+2025-09-05 12:33:40,746 - __main__ - INFO - 📧 Email reporter initialized for chris@thebees.group
+2025-09-05 12:33:43,005 - __main__ - ERROR - ❌ Failed to send email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-32b5f94a2a4sm6539703a91.15 - gsmtp')
+2025-09-05 12:34:51,518 - __main__ - INFO - 📧 Email reporter initialized for chris@thebees.group
+2025-09-05 12:34:54,858 - __main__ - INFO - ✅ Email sent successfully to chris@thebees.group
+2025-09-05 12:34:58,275 - __main__ - INFO - 📧 Email reporter initialized for chris@thebees.group
+2025-09-05 12:34:58,275 - __main__ - INFO - 🚀 Starting complete daily analysis cycle...
+2025-09-05 12:34:58,275 - __main__ - INFO - 🚀 Starting complete daily analysis cycle...
+2025-09-05 12:34:58,655 - __main__ - ERROR - ❌ Bob analysis failed: No module named 'yfinance'
+2025-09-05 12:34:58,737 - __main__ - INFO - 🌸 Running Lily's sentiment analysis...
+2025-09-05 12:34:58,737 - __main__ - WARNING - ⚠️ Lily analysis returned no results
+2025-09-05 12:34:59,024 - __main__ - INFO - 🛡️ Running Yasuo's on-chain analysis...
+2025-09-05 12:35:00,185 - yasuo_onchain_analyst - INFO - Found green highlighted row for ETH
+2025-09-05 12:35:00,185 - yasuo_onchain_analyst - INFO - Processing ETH row: ['04 Sep 2025', '148.8', '(216.7)', '(45.7)', '0.0', '(17.2)', '(2.1)', '(1.6)', '(26.4)', '(6.4)', '(167.3)']
+2025-09-05 12:35:00,185 - yasuo_onchain_analyst - INFO - Extracted ETH daily flow: $-167,300,000
+2025-09-05 12:35:00,185 - yasuo_onchain_analyst - INFO - Primary daily flow: $-167,300,000
+2025-09-05 12:35:00,579 - options_tracker - WARNING - Deribit API error: 400
+2025-09-05 12:35:00,856 - corrected_exchange_tracker - INFO - Analyzing 20 exchange wallets for daily flows
+2025-09-05 12:35:40,913 - corrected_exchange_tracker - ERROR - Error getting latest block: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=proxy&action=eth_blockNumber&apikey=83YY4NJW29KN699ITZVHTQGF3M8RC9QTU6 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x120c660d0>, 'Connection to api.etherscan.io timed out. (connect timeout=10)'))
+2025-09-05 12:36:20,949 - etherscan_tracker - ERROR - Error getting latest block: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=proxy&action=eth_blockNumber&apikey=83YY4NJW29KN699ITZVHTQGF3M8RC9QTU6 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x120c65f90>, 'Connection to api.etherscan.io timed out. (connect timeout=10)'))
+2025-09-05 12:36:20,952 - __main__ - INFO - ✅ Yasuo analysis completed
+2025-09-05 12:36:23,979 - __main__ - INFO - ✅ Email sent successfully to chris@thebees.group
+2025-09-05 12:36:23,979 - __main__ - INFO - ✅ Daily cycle completed successfully
+2025-09-05 14:43:50,942 - __main__ - INFO - 📧 Email reporter initialized for chris@thebees.group
+2025-09-05 14:43:50,942 - __main__ - INFO - 🚀 Starting complete daily analysis cycle...
+2025-09-05 14:43:50,942 - __main__ - INFO - 🚀 Starting complete daily analysis cycle...
+2025-09-05 14:43:53,061 - __main__ - INFO - 📈 Running Bob's technical analysis...
+2025-09-05 14:43:53,061 - options_analysis_engine - INFO - 📊 Bob Options Analysis Engine initialized
+2025-09-05 14:43:53,061 - technical_analysis_engine - INFO - 📈 Bob Technical Analysis Engine initialized
+2025-09-05 14:43:53,061 - technical_analysis_engine - INFO - 🔍 Analyzing 1h timeframe...
+2025-09-05 14:43:53,061 - technical_analysis_engine - INFO - 📊 Bob fetching ETH-USD data - 1h interval
+2025-09-05 14:43:53,980 - technical_analysis_engine - INFO - ✅ Data fetched: 152 candles
+2025-09-05 14:43:53,982 - technical_analysis_engine - INFO - ✅ 1H analysis complete: bullish (strength: 0.28)
+2025-09-05 14:43:53,982 - technical_analysis_engine - INFO - 🔍 Analyzing 4h timeframe...
+2025-09-05 14:43:53,982 - technical_analysis_engine - INFO - 📊 Bob fetching ETH-USD data - 1h interval
+2025-09-05 14:43:54,066 - technical_analysis_engine - INFO - ✅ Data fetched: 704 candles
+2025-09-05 14:43:54,067 - technical_analysis_engine - INFO - ✅ 4H analysis complete: bullish (strength: 0.28)
+2025-09-05 14:43:54,067 - technical_analysis_engine - INFO - 🔍 Analyzing 1d timeframe...
+2025-09-05 14:43:54,067 - technical_analysis_engine - INFO - 📊 Bob fetching ETH-USD data - 1d interval
+2025-09-05 14:43:54,131 - technical_analysis_engine - INFO - ✅ Data fetched: 366 candles
+2025-09-05 14:43:54,131 - technical_analysis_engine - INFO - ✅ 1D analysis complete: neutral (strength: 0.02)
+2025-09-05 14:43:54,131 - technical_analysis_engine - INFO - 📊 Adding options analysis...
+2025-09-05 14:43:54,131 - technical_analysis_engine - INFO - ✅ Options analysis integrated
+2025-09-05 14:43:54,132 - __main__ - INFO - ✅ Bob analysis completed
+2025-09-05 14:43:54,136 - __main__ - INFO - 🌸 Running Lily's sentiment analysis...
+2025-09-05 14:43:54,136 - __main__ - WARNING - ⚠️ Lily analysis returned no results
+2025-09-05 14:43:54,157 - __main__ - INFO - 🛡️ Running Yasuo's on-chain analysis...
+2025-09-05 14:43:55,358 - yasuo_onchain_analyst - ERROR - Error scraping ETH ETF data from https://farside.co.uk/eth/: Couldn't find a tree builder with the features you requested: lxml. Do you need to install a parser library?
+2025-09-05 14:43:55,766 - options_tracker - WARNING - Deribit API error: 400
+2025-09-05 14:43:56,027 - corrected_exchange_tracker - INFO - Analyzing 20 exchange wallets for daily flows
+2025-09-05 14:43:57,288 - corrected_exchange_tracker - INFO - Processing batch 1/4
+2025-09-05 14:44:06,473 - corrected_exchange_tracker - INFO - Processing batch 2/4
+2025-09-05 14:44:44,263 - corrected_exchange_tracker - INFO - Processing batch 3/4
+2025-09-05 14:44:49,692 - corrected_exchange_tracker - INFO - Processing batch 4/4
+2025-09-05 14:44:57,385 - corrected_exchange_tracker - INFO - Daily exchange analysis complete: Net flow = -22148.96 ETH
+2025-09-05 14:44:58,560 - etherscan_tracker - INFO - Scanning blocks 23288300 to 23295500 for large transactions
+2025-09-05 14:46:31,304 - etherscan_tracker - INFO - Found 2 large transactions
+2025-09-05 14:46:31,306 - __main__ - INFO - ✅ Yasuo analysis completed
+2025-09-05 14:46:34,565 - __main__ - INFO - ✅ Email sent successfully to chris@thebees.group
+2025-09-05 14:46:34,565 - __main__ - INFO - ✅ Daily cycle completed successfully
+2025-09-05 14:49:00,704 - __main__ - INFO - 📧 Email reporter initialized for chris@thebees.group
+2025-09-05 14:49:00,705 - __main__ - INFO - 🚀 Starting complete daily analysis cycle...
+2025-09-05 14:49:00,705 - __main__ - INFO - 🚀 Starting complete daily analysis cycle...
+2025-09-05 14:49:01,621 - __main__ - INFO - 📈 Running Bob's technical analysis...
+2025-09-05 14:49:01,621 - options_analysis_engine - INFO - 📊 Bob Options Analysis Engine initialized
+2025-09-05 14:49:01,621 - technical_analysis_engine - INFO - 📈 Bob Technical Analysis Engine initialized
+2025-09-05 14:49:01,621 - technical_analysis_engine - INFO - 🔍 Analyzing 1h timeframe...
+2025-09-05 14:49:01,621 - technical_analysis_engine - INFO - 📊 Bob fetching ETH-USD data - 1h interval
+2025-09-05 14:49:02,155 - technical_analysis_engine - INFO - ✅ Data fetched: 152 candles
+2025-09-05 14:49:02,156 - technical_analysis_engine - INFO - ✅ 1H analysis complete: bullish (strength: 0.29)
+2025-09-05 14:49:02,156 - technical_analysis_engine - INFO - 🔍 Analyzing 4h timeframe...
+2025-09-05 14:49:02,156 - technical_analysis_engine - INFO - 📊 Bob fetching ETH-USD data - 1h interval
+2025-09-05 14:49:02,261 - technical_analysis_engine - INFO - ✅ Data fetched: 704 candles
+2025-09-05 14:49:02,262 - technical_analysis_engine - INFO - ✅ 4H analysis complete: bullish (strength: 0.29)
+2025-09-05 14:49:02,262 - technical_analysis_engine - INFO - 🔍 Analyzing 1d timeframe...
+2025-09-05 14:49:02,262 - technical_analysis_engine - INFO - 📊 Bob fetching ETH-USD data - 1d interval
+2025-09-05 14:49:02,324 - technical_analysis_engine - INFO - ✅ Data fetched: 366 candles
+2025-09-05 14:49:02,324 - technical_analysis_engine - INFO - ✅ 1D analysis complete: neutral (strength: 0.02)
+2025-09-05 14:49:02,324 - technical_analysis_engine - INFO - 📊 Adding options analysis...
+2025-09-05 14:49:02,324 - technical_analysis_engine - INFO - ✅ Options analysis integrated
+2025-09-05 14:49:02,324 - __main__ - INFO - ✅ Bob analysis completed
+2025-09-05 14:49:03,062 - __main__ - INFO - 🌸 Running Lily's sentiment analysis...
+2025-09-05 14:49:03,068 - optimized_supabase_integration - INFO - ✅ Connected to Supabase
+2025-09-05 14:49:03,068 - telegram_eth_mention_analyzer - WARNING - Telethon not available; will use fallback sample data
+2025-09-05 14:51:11,089 - telegram_eth_mention_analyzer - INFO - Using fallback Telegram sample data
+2025-09-05 14:51:11,308 - optimized_supabase_integration - WARNING - Insert error for chunk in twitter_posts: illegal request line
+2025-09-05 14:51:11,309 - optimized_supabase_integration - INFO - ✅ Processed 0/28 posts for twitter_posts
+2025-09-05 14:51:11,437 - optimized_supabase_integration - WARNING - Insert error for chunk in reddit_posts: illegal request line
+2025-09-05 14:51:11,438 - optimized_supabase_integration - INFO - ✅ Processed 0/28 posts for reddit_posts
+2025-09-05 14:51:11,597 - optimized_supabase_integration - WARNING - Insert error for chunk in telegram_posts: illegal request line
+2025-09-05 14:51:11,597 - optimized_supabase_integration - INFO - ✅ Processed 0/15 posts for telegram_posts
+2025-09-05 14:51:11,597 - __main__ - INFO - ✅ Lily analysis completed
+2025-09-05 14:51:11,606 - __main__ - INFO - 🛡️ Running Yasuo's on-chain analysis...
+2025-09-05 14:51:12,735 - yasuo_onchain_analyst - ERROR - Error scraping ETH ETF data from https://farside.co.uk/eth/: Couldn't find a tree builder with the features you requested: lxml. Do you need to install a parser library?
+2025-09-05 14:51:13,197 - options_tracker - WARNING - Deribit API error: 400
+2025-09-05 14:51:13,456 - corrected_exchange_tracker - INFO - Analyzing 20 exchange wallets for daily flows
+2025-09-05 14:51:14,563 - corrected_exchange_tracker - INFO - Processing batch 1/4
+2025-09-05 14:51:22,282 - corrected_exchange_tracker - INFO - Processing batch 2/4
+2025-09-05 14:51:29,450 - corrected_exchange_tracker - INFO - Processing batch 3/4
+2025-09-05 14:51:35,028 - corrected_exchange_tracker - INFO - Processing batch 4/4
+2025-09-05 14:51:42,567 - corrected_exchange_tracker - INFO - Daily exchange analysis complete: Net flow = -20407.93 ETH
+2025-09-05 14:51:43,515 - etherscan_tracker - INFO - Scanning blocks 23288332 to 23295532 for large transactions
+2025-09-05 14:53:12,845 - etherscan_tracker - INFO - Found 2 large transactions
+2025-09-05 14:53:12,847 - __main__ - INFO - ✅ Yasuo analysis completed
+2025-09-05 14:53:12,850 - __main__ - ERROR - ❌ Daily cycle failed: 'bool' object has no attribute 'get'
+2025-09-05 14:53:14,382 - __main__ - INFO - 📧 Email reporter initialized for chris@thebees.group
+2025-09-05 14:53:14,382 - __main__ - INFO - 🚀 Starting complete daily analysis cycle...
+2025-09-05 14:53:14,382 - __main__ - INFO - 🚀 Starting complete daily analysis cycle...
+2025-09-05 14:53:16,140 - __main__ - INFO - 📈 Running Bob's technical analysis...
+2025-09-05 14:53:16,140 - options_analysis_engine - INFO - 📊 Bob Options Analysis Engine initialized
+2025-09-05 14:53:16,140 - technical_analysis_engine - INFO - 📈 Bob Technical Analysis Engine initialized
+2025-09-05 14:53:16,140 - technical_analysis_engine - INFO - 🔍 Analyzing 1h timeframe...
+2025-09-05 14:53:16,140 - technical_analysis_engine - INFO - 📊 Bob fetching ETH-USD data - 1h interval
+2025-09-05 14:53:16,675 - technical_analysis_engine - INFO - ✅ Data fetched: 152 candles
+2025-09-05 14:53:16,677 - technical_analysis_engine - INFO - ✅ 1H analysis complete: bullish (strength: 0.29)
+2025-09-05 14:53:16,677 - technical_analysis_engine - INFO - 🔍 Analyzing 4h timeframe...
+2025-09-05 14:53:16,677 - technical_analysis_engine - INFO - 📊 Bob fetching ETH-USD data - 1h interval
+2025-09-05 14:53:16,806 - technical_analysis_engine - INFO - ✅ Data fetched: 704 candles
+2025-09-05 14:53:16,806 - technical_analysis_engine - INFO - ✅ 4H analysis complete: bullish (strength: 0.42)
+2025-09-05 14:53:16,806 - technical_analysis_engine - INFO - 🔍 Analyzing 1d timeframe...
+2025-09-05 14:53:16,807 - technical_analysis_engine - INFO - 📊 Bob fetching ETH-USD data - 1d interval
+2025-09-05 14:53:16,873 - technical_analysis_engine - INFO - ✅ Data fetched: 366 candles
+2025-09-05 14:53:16,874 - technical_analysis_engine - INFO - ✅ 1D analysis complete: neutral (strength: 0.02)
+2025-09-05 14:53:16,874 - technical_analysis_engine - INFO - 📊 Adding options analysis...
+2025-09-05 14:53:16,874 - technical_analysis_engine - INFO - ✅ Options analysis integrated
+2025-09-05 14:53:16,874 - __main__ - INFO - ✅ Bob analysis completed
+2025-09-05 14:53:16,992 - __main__ - INFO - 🌸 Running Lily's sentiment analysis...
+2025-09-05 14:53:17,000 - optimized_supabase_integration - INFO - ✅ Connected to Supabase
+2025-09-05 14:53:17,000 - telegram_eth_mention_analyzer - WARNING - Telethon not available; will use fallback sample data
+2025-09-05 14:55:25,023 - telegram_eth_mention_analyzer - INFO - Using fallback Telegram sample data
+2025-09-05 14:55:25,191 - optimized_supabase_integration - WARNING - Insert error for chunk in twitter_posts: illegal request line
+2025-09-05 14:55:25,191 - optimized_supabase_integration - INFO - ✅ Processed 0/28 posts for twitter_posts
+2025-09-05 14:55:25,341 - optimized_supabase_integration - WARNING - Insert error for chunk in reddit_posts: illegal request line
+2025-09-05 14:55:25,341 - optimized_supabase_integration - INFO - ✅ Processed 0/28 posts for reddit_posts
+2025-09-05 14:55:25,475 - optimized_supabase_integration - WARNING - Insert error for chunk in telegram_posts: illegal request line
+2025-09-05 14:55:25,475 - optimized_supabase_integration - INFO - ✅ Processed 0/15 posts for telegram_posts
+2025-09-05 14:55:25,475 - __main__ - INFO - ✅ Lily analysis completed
+2025-09-05 14:55:25,490 - __main__ - INFO - 🛡️ Running Yasuo's on-chain analysis...
+2025-09-05 14:55:26,604 - yasuo_onchain_analyst - INFO - Found green highlighted row for ETH
+2025-09-05 14:55:26,604 - yasuo_onchain_analyst - INFO - Processing ETH row: ['04 Sep 2025', '148.8', '(216.7)', '(45.7)', '0.0', '(17.2)', '(2.1)', '(1.6)', '(26.4)', '(6.4)', '(167.3)']
+2025-09-05 14:55:26,605 - yasuo_onchain_analyst - INFO - Extracted ETH daily flow: $-167,300,000
+2025-09-05 14:55:26,605 - yasuo_onchain_analyst - INFO - Primary daily flow: $-167,300,000
+2025-09-05 14:55:26,949 - options_tracker - WARNING - Deribit API error: 400
+2025-09-05 14:55:27,260 - corrected_exchange_tracker - INFO - Analyzing 20 exchange wallets for daily flows
+2025-09-05 14:55:28,344 - corrected_exchange_tracker - INFO - Processing batch 1/4
+2025-09-05 14:55:36,301 - corrected_exchange_tracker - INFO - Processing batch 2/4
+2025-09-05 14:55:43,648 - corrected_exchange_tracker - INFO - Processing batch 3/4
+2025-09-05 14:55:48,917 - corrected_exchange_tracker - INFO - Processing batch 4/4
+2025-09-05 14:55:56,451 - corrected_exchange_tracker - INFO - Daily exchange analysis complete: Net flow = -21146.26 ETH
+2025-09-05 14:55:57,545 - etherscan_tracker - INFO - Scanning blocks 23288352 to 23295552 for large transactions
+2025-09-05 14:57:25,427 - etherscan_tracker - INFO - Found 3 large transactions
+2025-09-05 14:57:25,429 - __main__ - INFO - ✅ Yasuo analysis completed
+2025-09-05 14:57:25,431 - __main__ - ERROR - ❌ Daily cycle failed: 'bool' object has no attribute 'get'
+2025-09-05 14:57:25,861 - __main__ - INFO - 📧 Email reporter initialized for chris@thebees.group
+2025-09-05 14:57:25,861 - __main__ - INFO - 🚀 Starting complete daily analysis cycle...
+2025-09-05 14:57:25,862 - __main__ - INFO - 🚀 Starting complete daily analysis cycle...
+2025-09-05 14:57:26,633 - __main__ - INFO - 📈 Running Bob's technical analysis...
+2025-09-05 14:57:26,633 - options_analysis_engine - INFO - 📊 Bob Options Analysis Engine initialized
+2025-09-05 14:57:26,633 - technical_analysis_engine - INFO - 📈 Bob Technical Analysis Engine initialized
+2025-09-05 14:57:26,633 - technical_analysis_engine - INFO - 🔍 Analyzing 1h timeframe...
+2025-09-05 14:57:26,633 - technical_analysis_engine - INFO - 📊 Bob fetching ETH-USD data - 1h interval
+2025-09-05 14:57:27,100 - technical_analysis_engine - INFO - ✅ Data fetched: 152 candles
+2025-09-05 14:57:27,103 - technical_analysis_engine - INFO - ✅ 1H analysis complete: bullish (strength: 0.30)
+2025-09-05 14:57:27,103 - technical_analysis_engine - INFO - 🔍 Analyzing 4h timeframe...
+2025-09-05 14:57:27,103 - technical_analysis_engine - INFO - 📊 Bob fetching ETH-USD data - 1h interval
+2025-09-05 14:57:27,170 - technical_analysis_engine - INFO - ✅ Data fetched: 704 candles
+2025-09-05 14:57:27,170 - technical_analysis_engine - INFO - ✅ 4H analysis complete: bullish (strength: 0.42)
+2025-09-05 14:57:27,170 - technical_analysis_engine - INFO - 🔍 Analyzing 1d timeframe...
+2025-09-05 14:57:27,170 - technical_analysis_engine - INFO - 📊 Bob fetching ETH-USD data - 1d interval
+2025-09-05 14:57:27,226 - technical_analysis_engine - INFO - ✅ Data fetched: 366 candles
+2025-09-05 14:57:27,226 - technical_analysis_engine - INFO - ✅ 1D analysis complete: neutral (strength: 0.02)
+2025-09-05 14:57:27,226 - technical_analysis_engine - INFO - 📊 Adding options analysis...
+2025-09-05 14:57:27,226 - technical_analysis_engine - INFO - ✅ Options analysis integrated
+2025-09-05 14:57:27,226 - __main__ - INFO - ✅ Bob analysis completed
+2025-09-05 14:57:27,330 - __main__ - INFO - 🌸 Running Lily's sentiment analysis...
+2025-09-05 14:57:27,336 - optimized_supabase_integration - INFO - ✅ Connected to Supabase
+2025-09-05 14:57:27,336 - telegram_eth_mention_analyzer - WARNING - Telethon not available; will use fallback sample data
+2025-09-05 14:59:35,361 - telegram_eth_mention_analyzer - INFO - Using fallback Telegram sample data
+2025-09-05 14:59:35,582 - optimized_supabase_integration - WARNING - Insert error for chunk in twitter_posts: illegal request line
+2025-09-05 14:59:35,582 - optimized_supabase_integration - INFO - ✅ Processed 0/28 posts for twitter_posts
+2025-09-05 14:59:35,746 - optimized_supabase_integration - WARNING - Insert error for chunk in reddit_posts: illegal request line
+2025-09-05 14:59:35,746 - optimized_supabase_integration - INFO - ✅ Processed 0/28 posts for reddit_posts
+2025-09-05 14:59:35,904 - optimized_supabase_integration - WARNING - Insert error for chunk in telegram_posts: illegal request line
+2025-09-05 14:59:35,904 - optimized_supabase_integration - INFO - ✅ Processed 0/15 posts for telegram_posts
+2025-09-05 14:59:35,905 - __main__ - INFO - ✅ Lily analysis completed
+2025-09-05 14:59:35,934 - __main__ - INFO - 🛡️ Running Yasuo's on-chain analysis...
+2025-09-05 14:59:37,112 - yasuo_onchain_analyst - INFO - Found green highlighted row for ETH
+2025-09-05 14:59:37,112 - yasuo_onchain_analyst - INFO - Processing ETH row: ['04 Sep 2025', '148.8', '(216.7)', '(45.7)', '0.0', '(17.2)', '(2.1)', '(1.6)', '(26.4)', '(6.4)', '(167.3)']
+2025-09-05 14:59:37,112 - yasuo_onchain_analyst - INFO - Extracted ETH daily flow: $-167,300,000
+2025-09-05 14:59:37,112 - yasuo_onchain_analyst - INFO - Primary daily flow: $-167,300,000
+2025-09-05 14:59:37,538 - options_tracker - WARNING - Deribit API error: 400
+2025-09-05 14:59:37,806 - corrected_exchange_tracker - INFO - Analyzing 20 exchange wallets for daily flows
+2025-09-05 14:59:38,870 - corrected_exchange_tracker - INFO - Processing batch 1/4
+2025-09-05 14:59:47,260 - corrected_exchange_tracker - INFO - Processing batch 2/4
+2025-09-05 14:59:54,879 - corrected_exchange_tracker - INFO - Processing batch 3/4
+2025-09-05 15:00:00,356 - corrected_exchange_tracker - INFO - Processing batch 4/4
+2025-09-05 15:00:07,827 - corrected_exchange_tracker - INFO - Daily exchange analysis complete: Net flow = -19861.97 ETH
+2025-09-05 15:00:08,778 - etherscan_tracker - INFO - Scanning blocks 23288373 to 23295573 for large transactions
+2025-09-05 15:01:38,939 - etherscan_tracker - INFO - Found 7 large transactions
+2025-09-05 15:01:38,942 - __main__ - INFO - ✅ Yasuo analysis completed
+2025-09-05 15:01:42,158 - __main__ - INFO - ✅ Email sent successfully to chris@thebees.group
+2025-09-05 15:01:42,158 - __main__ - INFO - ✅ Daily cycle completed successfully

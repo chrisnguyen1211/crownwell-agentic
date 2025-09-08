@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agent Dashboard - Bob • Lily • Yasuo</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Helvetica Neue', Arial; margin: 0; padding: 0; background: #0f172a; color: #e2e8f0; }
+    .wrap { max-width: 1200px; margin: 0 auto; padding: 24px; }
+    .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
+    .grid { display: grid; gap: 16px; grid-template-columns: 1fr 1fr; }
+    .card { background: #0b1220; border: 1px solid #1e293b; border-radius: 12px; padding: 16px; }
+    .title { font-size: 18px; margin-bottom: 12px; color: #93c5fd; }
+    a { color: #60a5fa; text-decoration: none; }
+  </style>
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://cdnjs.cloudflare.com; connect-src 'self' https://pgjorocqnafmvcsjhulu.supabase.co; img-src 'self' data:; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com;">
+</head>
+<body>
+  <div class="wrap">
+    <div class="header">
+      <h2>Agent Dashboard - Bob • Lily • Yasuo</h2>
+      <div><a href="/">← Back</a></div>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <div class="title">Yasuo: ETF Daily Flow ($) - Last 7 Days</div>
+        <canvas id="etfChart" height="140"></canvas>
+      </div>
+      <div class="card">
+        <div class="title">Yasuo: Exchange Net Flow (ETH) - Last 7 Days</div>
+        <canvas id="exchangeChart" height="140"></canvas>
+      </div>
+      <div class="card">
+        <div class="title">Yasuo: Large Transactions (count) - Last 7 Days</div>
+        <canvas id="largeTxChart" height="140"></canvas>
+      </div>
+      <div class="card">
+        <div class="title">Yasuo: Funding Rate (%) - Last 7 Days</div>
+        <canvas id="fundingChart" height="140"></canvas>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top:16px">
+      <div class="title">Combined Signal Snapshot</div>
+      <pre id="snapshot" style="white-space: pre-wrap"></pre>
+    </div>
+  </div>
+
+  <script>
+    async function fetchYasuo() {
+      const r = await fetch('/api/yasuo/7d');
+      const j = await r.json();
+      if (j.status !== 'ok') throw new Error(j.error || 'Failed');
+      return j.data;
+    }
+
+    function lineConfig(labels, data, label, color) {
+      return {
+        type: 'line',
+        data: { labels, datasets: [{ label, data, borderColor: color, backgroundColor: color+'33', fill: true, tension: 0.25, borderWidth: 2 }] },
+        options: { scales: { x: { grid: { color: '#1e293b' } }, y: { grid: { color: '#1e293b' } } }, plugins: { legend: { labels: { color: '#e2e8f0' } } } }
+      };
+    }
+
+    (async () => {
+      try {
+        const data = await fetchYasuo();
+        const labels = data.map(d => new Date(d.analysis_date).toLocaleDateString());
+        const etf = data.map(d => Number(d.etf_daily_flow || 0));
+        const exchange = data.map(d => Number(d.exchange_net_flow || 0));
+        const largeTx = data.map(d => Number(d.large_transactions_count || 0));
+        const funding = data.map(d => Number(d.funding_rate_percent || 0));
+
+        new Chart(document.getElementById('etfChart'), lineConfig(labels, etf, 'ETF Daily Flow ($)', '#60a5fa'));
+        new Chart(document.getElementById('exchangeChart'), lineConfig(labels, exchange, 'Exchange Net Flow (ETH)', '#34d399'));
+        new Chart(document.getElementById('largeTxChart'), lineConfig(labels, largeTx, 'Large TX Count', '#fbbf24'));
+        new Chart(document.getElementById('fundingChart'), lineConfig(labels, funding, 'Funding Rate (%)', '#f472b6'));
+
+        const last = data[data.length - 1] || {};
+        const snapshot = {
+          date: last.analysis_date,
+          etf_daily_flow_usd: last.etf_daily_flow,
+          exchange_net_flow_eth: last.exchange_net_flow,
+          large_transactions_count: last.large_transactions_count,
+          funding_rate_percent: last.funding_rate_percent,
+          recommendation_action: last.recommendation_action,
+          recommendation_confidence: last.recommendation_confidence
+        };
+        document.getElementById('snapshot').textContent = JSON.stringify(snapshot, null, 2);
+      } catch (e) {
+        document.getElementById('snapshot').textContent = 'Failed to load data: ' + e.message;
+      }
+    })();
+  </script>
+</body>
+</html>
+
+
+
+
+
