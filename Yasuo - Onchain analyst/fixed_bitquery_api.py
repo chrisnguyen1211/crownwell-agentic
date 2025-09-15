@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python3
 """
 Fixed Bitquery API with proper GraphQL syntax and limits
@@ -281,6 +282,74 @@ class FixedBitqueryAPI:
             "net_flow": total_outflow - total_inflow,
             "timestamp": datetime.now().isoformat()
         }
+    
+    def get_liveliness_metrics(self, days_back: int = 7) -> Dict[str, Any]:
+        """
+        Get ETH holder liveliness metrics
+        
+        Args:
+            days_back: Number of days to analyze
+            
+        Returns:
+            Dict with liveliness metrics
+        """
+        try:
+            # Placeholder implementation since we don't have real Bitquery liveliness query
+            # In production, this would query Bitquery for:
+            # - Active addresses over time
+            # - Dormant addresses reactivated
+            # - Coin age distribution
+            # - Transfer patterns
+            
+            self._rate_limit()
+            
+            # Simulate liveliness calculation
+            import random
+            
+            # Simulate some realistic data
+            base_active = 100000
+            base_dormant = 5000
+            
+            # Add some randomness based on market conditions
+            market_factor = random.uniform(0.8, 1.2)
+            
+            active_addresses_24h = int(base_active * market_factor)
+            dormant_reactivated = int(base_dormant * market_factor * 0.1)
+            total_addresses = int(active_addresses_24h * 4)  # 4x multiplier for total
+            
+            # Calculate liveliness score (0-1)
+            liveliness_score = min(1.0, (active_addresses_24h / 150000) * 0.8 + (dormant_reactivated / 1000) * 0.2)
+            
+            # Determine category
+            if liveliness_score > 0.7:
+                category = "high"
+            elif liveliness_score > 0.4:
+                category = "moderate"
+            else:
+                category = "low"
+            
+            return {
+                "liveliness_score": round(liveliness_score, 3),
+                "liveliness_category": category,
+                "active_addresses_24h": active_addresses_24h,
+                "dormant_addresses_reactivated": dormant_reactivated,
+                "total_addresses_analyzed": total_addresses,
+                "total_transfers_analyzed": int(active_addresses_24h * 0.1),
+                "total_volume_eth": int(active_addresses_24h * 0.5),
+                "avg_coin_age_moved_days": random.randint(30, 90),
+                "data_source": "bitquery_liveliness_placeholder",
+                "timestamp": datetime.now().isoformat(),
+                "days_analyzed": days_back
+            }
+            
+        except Exception as e:
+            self.logger.error(f"Error getting liveliness metrics: {e}")
+            return {
+                "error": str(e),
+                "liveliness_score": 0.5,
+                "liveliness_category": "unknown",
+                "data_source": "bitquery_liveliness_error"
+            }
 
 # Test the fixed Bitquery API
 if __name__ == "__main__":

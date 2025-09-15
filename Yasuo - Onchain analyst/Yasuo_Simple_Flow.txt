@@ -1,0 +1,301 @@
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│                        YASUO ONCHAIN ANALYST FLOW DIAGRAM                      │
+└─────────────────────────────────────────────────────────────────────────────────┘
+
+🚀 START
+    │
+    ▼
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│                            INITIALIZATION PHASE                                │
+└─────────────────────────────────────────────────────────────────────────────────┘
+
+📋 Load Configuration
+    │
+    ▼
+🔑 Load API Keys
+    ├─ Dune API Key: vYxFYMWxE0Ph4Y3FdUARt7CPhxVMbko9
+    ├─ Etherscan API Key: 83YY4NJW29KN699ITZVHTQGF3M8RC9QTU6
+    └─ Supabase Credentials
+    │
+    ▼
+🔍 Initialize Data Sources
+    ├─ Dune Analytics Client
+    ├─ Etherscan API Client
+    ├─ ETF Tracker (farside.co.uk)
+    └─ Supabase Client
+    │
+    ▼
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│                        DUNE ANALYTICS INTEGRATION                              │
+└─────────────────────────────────────────────────────────────────────────────────┘
+
+📊 Dune Analytics Integration
+    │
+    ▼
+🐋 Whale Intelligence Analysis
+    │
+    ▼
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│ Query 5199702: Large Transactions (>1000 ETH)                                 │
+│ • Transaction Hash                                                              │
+│ • From Address                                                                  │
+│ • To Address                                                                    │
+│ • ETH Amount                                                                    │
+│ • Timestamp                                                                     │
+│ • Gas Price                                                                     │
+└─────────────────────────────────────────────────────────────────────────────────┘
+    │
+    ▼
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│ Query 5199685: Whale Movements                                                 │
+│ • Whale Address                                                                 │
+│ • Transaction Count                                                             │
+│ • Total ETH Volume                                                              │
+│ • Average Transaction Size                                                      │
+│ • Time Range                                                                    │
+└─────────────────────────────────────────────────────────────────────────────────┘
+    │
+    ▼
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│ Query 5199583: Smart Money Activity                                            │
+│ • Smart Money Addresses                                                        │
+│ • Investment Patterns                                                          │
+│ • Portfolio Changes                                                             │
+│ • Risk Assessment                                                              │
+└─────────────────────────────────────────────────────────────────────────────────┘
+    │
+    ▼
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│ Query 5199720: Institutional Activity                                          │
+│ • Institutional Addresses                                                      │
+│ • Large Transactions                                                           │
+│ • Market Impact Analysis                                                       │
+│ • Trend Analysis                                                               │
+└─────────────────────────────────────────────────────────────────────────────────┘
+    │
+    ▼
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│                            ETF FLOW ANALYSIS                                   │
+└─────────────────────────────────────────────────────────────────────────────────┘
+
+📈 ETF Flow Analysis
+    │
+    ▼
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│ Scrape farside.co.uk                                                           │
+│ • ETH ETF Flows                                                                │
+│ • Real-time Data                                                               │
+│ • Historical Trends                                                            │
+│ • Net Flow Calculation                                                         │
+└─────────────────────────────────────────────────────────────────────────────────┘
+    │
+    ▼
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│ ETF Flow Results:                                                              │
+│ • Total Inflows: $X million                                                    │
+│ • Total Outflows: $Y million                                                   │
+│ • Net Flow: $Z million                                                         │
+│ • Flow Trend: Positive/Negative                                                │
+└─────────────────────────────────────────────────────────────────────────────────┘
+    │
+    ▼
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│                            EXCHANGE FLOW ANALYSIS                              │
+└─────────────────────────────────────────────────────────────────────────────────┘
+
+💱 Exchange Flow Analysis
+    │
+    ▼
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│ Load Exchange Addresses (exchange_addresses.json)                              │
+│ • Binance: 0x3f5CE5FBFe3E9af3971dD833D26bA9b5C936f0bE                         │
+│ • Coinbase: 0xA9D1E08C7793af67e9d92fe308d5697FB81D3E7                        │
+│ • Kraken: 0x2910543Af39abA0Cd09dbb2D50200b3E800A63D2                         │
+│ • Huobi: 0x46705dfff24256421A05d056c29E81Bdc09723B8                          │
+│ • OKEx: 0x6cc5F688a315f3dC91Ae2F6B2F2C1b8E6F66c97c                         │
+│ • And 50+ more exchange addresses...                                           │
+└─────────────────────────────────────────────────────────────────────────────────┘
+    │
+    ▼
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│ Query Etherscan API                                                             │
+│ • Filter: Transactions >50 ETH                                                 │
+│ • Time Range: Last 24 hours                                                    │
+│ • Address Filter: Exchange addresses only                                      │
+│ • Transaction Type: Both incoming and outgoing                                 │
+└─────────────────────────────────────────────────────────────────────────────────┘
+    │
+    ▼
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│ Exchange Flow Results:                                                          │
+│ • Total Inflows: X ETH                                                         │
+│ • Total Outflows: Y ETH                                                        │
+│ • Net Flow: Z ETH (Positive = More to exchanges)                              │
+│ • Top Exchanges: Binance, Coinbase, Kraken                                    │
+└─────────────────────────────────────────────────────────────────────────────────┘
+    │
+    ▼
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│                            ONCHAIN DATA ANALYSIS                               │
+└─────────────────────────────────────────────────────────────────────────────────┘
+
+🔗 Onchain Data Analysis
+    │
+    ▼
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│ Transaction Volume Analysis:                                                    │
+│ • Daily Transaction Count                                                       │
+│ • Transaction Volume (ETH)                                                     │
+│ • Average Transaction Size                                                      │
+│ • Volume Trend (7-day, 30-day)                                                 │
+└─────────────────────────────────────────────────────────────────────────────────┘
+    │
+    ▼
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│ Gas Price Analysis:                                                             │
+│ • Current Gas Price (Gwei)                                                     │
+│ • Gas Price Trend                                                               │
+│ • Network Congestion Level                                                      │
+│ • Transaction Cost Analysis                                                    │
+└─────────────────────────────────────────────────────────────────────────────────┘
+    │
+    ▼
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│ Network Activity Analysis:                                                      │
+│ • Active Addresses Count                                                        │
+│ • New Addresses Created                                                         │
+│ • Network Hash Rate                                                             │
+│ • Block Production Rate                                                         │
+└─────────────────────────────────────────────────────────────────────────────────┘
+    │
+    ▼
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│ Address Analysis:                                                               │
+│ • Top Senders by Volume                                                        │
+│ • Top Receivers by Volume                                                      │
+│ • Address Activity Patterns                                                    │
+│ • Suspicious Activity Detection                                                │
+└─────────────────────────────────────────────────────────────────────────────────┘
+    │
+    ▼
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│                            COMPREHENSIVE REPORT                                │
+└─────────────────────────────────────────────────────────────────────────────────┘
+
+📊 Generate Comprehensive Report
+    │
+    ▼
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│ Report Components:                                                              │
+│ • Executive Summary                                                             │
+│ • Whale Intelligence Summary                                                   │
+│ • ETF Flow Analysis                                                             │
+│ • Exchange Flow Analysis                                                        │
+│ • Onchain Metrics Summary                                                       │
+│ • Market Sentiment Analysis                                                    │
+│ • Risk Assessment                                                               │
+│ • Trading Recommendations                                                       │
+└─────────────────────────────────────────────────────────────────────────────────┘
+    │
+    ▼
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│                            SUPABASE STORAGE                                    │
+└─────────────────────────────────────────────────────────────────────────────────┘
+
+💾 Store in Supabase
+    │
+    ▼
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│ yasuo_full_snapshot Table:                                                     │
+│ • id: UUID primary key                                                         │
+│ • analysis_date: Analysis timestamp                                            │
+│ • whale_intelligence: JSON object with whale data                              │
+│ • etf_flows: JSON object with ETF flow data                                    │
+│ • exchange_flows: JSON object with exchange flow data                          │
+│ • onchain_metrics: JSON object with onchain data                               │
+│ • market_sentiment: JSON object with sentiment analysis                        │
+│ • risk_assessment: JSON object with risk metrics                               │
+│ • trading_recommendations: JSON object with recommendations                     │
+│ • created_at: Creation timestamp                                               │
+└─────────────────────────────────────────────────────────────────────────────────┘
+    │
+    ▼
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│                            VISUALIZATION                                       │
+└─────────────────────────────────────────────────────────────────────────────────┘
+
+📈 Create Visualizations
+    │
+    ▼
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│ Visualization Components:                                                       │
+│ • Whale Intelligence Dashboard                                                  │
+│ • ETF Flow Charts                                                               │
+│ • Exchange Flow Charts                                                          │
+│ • Onchain Metrics Charts                                                       │
+│ • Market Sentiment Charts                                                       │
+│ • Risk Assessment Charts                                                        │
+└─────────────────────────────────────────────────────────────────────────────────┘
+    │
+    ▼
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│                            OUTPUT PHASE                                        │
+└─────────────────────────────────────────────────────────────────────────────────┘
+
+✅ Analysis Complete
+    │
+    ▼
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│ Final Output:                                                                   │
+│ • Console Report with all metrics                                              │
+│ • Supabase data storage                                                        │
+│ • HTML visualization files                                                     │
+│ • JSON summary file                                                             │
+│ • Trading recommendations                                                       │
+└─────────────────────────────────────────────────────────────────────────────────┘
+    │
+    ▼
+🎉 Yasuo Analysis Complete
+
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│                              KEY FEATURES                                      │
+└─────────────────────────────────────────────────────────────────────────────────┘
+
+🐋 Whale Intelligence:
+   • Large Transactions (>1000 ETH)
+   • Whale Movement Patterns
+   • Smart Money Activity
+   • Institutional Activity
+
+📈 ETF Flow Analysis:
+   • Real-time ETF flows from farside.co.uk
+   • Inflow/Outflow calculations
+   • Net flow trends
+   • Market impact assessment
+
+💱 Exchange Flow Analysis:
+   • 50+ exchange addresses monitored
+   • Transactions >50 ETH filtered
+   • Inflow/Outflow calculations
+   • Exchange-specific analysis
+
+🔗 Onchain Metrics:
+   • Transaction volume analysis
+   • Gas price trends
+   • Network activity metrics
+   • Address activity patterns
+
+📊 Data Sources:
+   • Dune Analytics (4 queries)
+   • Etherscan API
+   • farside.co.uk (ETF data)
+   • Supabase (storage)
+
+⚡ Performance:
+   • Real-time data processing
+   • Comprehensive analysis
+   • Automated reporting
+   • Data persistence
+
+
+

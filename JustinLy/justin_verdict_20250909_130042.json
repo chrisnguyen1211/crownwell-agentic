@@ -1,0 +1,15 @@
+{
+  "timestamp": "2025-09-09T13:00:42.269220",
+  "score": {
+    "bullish": 3,
+    "bearish": 0
+  },
+  "verdict": "BUY",
+  "recommendation": {
+    "action": "BUY",
+    "confidence": 0.55,
+    "entries": "Scale into pullbacks near prior value; 3 tranches",
+    "exits": "Scale out into resistance; leave runner on breakout",
+    "risk": "Reduce size if exchange inflows rise; hedge event risk"
+  }
+}

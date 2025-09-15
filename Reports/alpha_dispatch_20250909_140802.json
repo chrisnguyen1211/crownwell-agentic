@@ -1,0 +1,36 @@
+{
+  "timestamp": "2025-09-09T14:05:58.926361",
+  "alpha_file": "/Users/nguyenhuycuong/Crownwell agentic/TradingAgents/AlphaTeam/alpha_debate_20250909_140558.json",
+  "targets": [
+    "bob",
+    "j97",
+    "lily",
+    "yasuo"
+  ],
+  "runs": {
+    "bob": {
+      "ok": false,
+      "code": 1,
+      "stdout": "📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈\n📈 BOB - TECHNICAL ANALYSIS AGENT 📈\n📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈\n\n🎯 Expert Quant Trader from Top Hedge Fund\n📊 Full TA-Lib Integration (100+ Indicators)\n⏰ Multi-Timeframe Analysis (1H, 4H, 1D)\n🧠 Advanced Pattern Recognition\n💹 Professional Trading Signals\n\n🚀 Starting Bob's Analysis...\n============================================================\n🔧 Checking Bob's tools...\n✅ NumPy available\n✅ Pandas available\n❌ TA-Lib not found!\n💡 Run: python3 setup_talib.py\n\n❌ Missing dependencies: yfinance, TA-Lib\n📦 Install with: pip install yfinance TA-Lib\n\n❌ Please install missing dependencies first\n",
+      "stderr": ""
+    },
+    "j97": {
+      "ok": true,
+      "code": 0,
+      "stdout": "\n================================================================================\n🕵️ J97 NEWS ANALYST REPORT\n================================================================================\n📅 Date: 2025-09-09T21:06:14.864177\n📊 Status: success\n📰 Articles Processed: 50\n💹 Trading Signal: HOLD\n😊 Sentiment: bullish\n🎯 Confidence: 0.50\n🔥 High Impact Articles: 30\n\n📈 Categories:\n   market: 17\n   regulation: 9\n   general: 18\n   protocol_upgrade: 1\n   staking: 3\n   defi: 1\n   partnership: 1\n\n🔑 Top Key Phrases:\n   market: 19\n   for: 15\n   over: 11\n   sec: 6\n   institutional: 6\n================================================================================\n",
+      "stderr": "2025-09-09 21:06:00,182 - supabase_integration - INFO - ✅ Connected to Supabase\n2025-09-09 21:06:00,183 - __main__ - INFO - 🕵️ J97 News Analyst initialized\n2025-09-09 21:06:00,183 - __main__ - INFO - 📰 Ready to analyze Ethereum news 24/7\n2025-09-09 21:06:00,184 - __main__ - INFO - 🚀 Starting J97 single analysis...\n2025-09-09 21:06:00,184 - __main__ - INFO - 🔍 Starting J97 analysis cycle...\n2025-09-09 21:06:00,184 - __main__ - INFO - 📡 Crawling news from all sources...\n2025-09-09 21:06:00,184 - news_crawler - INFO - 🔍 J97 starting priority-based news crawl...\n2025-09-09 21:06:00,184 - news_crawler - INFO - 🔍 Testing all APIs...\n2025-09-09 21:06:01,100 - news_crawler - INFO - ✅ GNEWS API test successful\n2025-09-09 21:06:02,628 - news_crawler - INFO - ✅ NEWSAPI API test successful\n2025-09-09 21:06:07,050 - news_crawler - INFO - ✅ NEWSDATA API test successful\n2025-09-09 21:06:09,448 - news_crawler - INFO - ✅ MEDIASTACK API test successful\n2025-09-09 21:06:10,451 - news_crawler - INFO - ✅ 4/4 APIs are working\n2025-09-09 21:06:10,452 - news_crawler - INFO -    ✅ GNEWS: working\n2025-09-09 21:06:10,452 - news_crawler - INFO -    ✅ NEWSAPI: working\n2025-09-09 21:06:10,452 - news_crawler - INFO -    ✅ MEDIASTACK: working\n2025-09-09 21:06:10,452 - news_crawler - INFO -    ✅ NEWSDATA: working\n2025-09-09 21:06:10,453 - news_crawler - INFO - 📡 Using 4 working APIs: gnews, newsapi, newsdata, mediastack\n2025-09-09 21:06:10,453 - news_crawler - INFO - 🔄 Crawling GNEWS...\n2025-09-09 21:06:11,214 - news_crawler - ERROR - GNews API error: 400\n2025-09-09 21:06:11,214 - news_crawler - WARNING - ⚠️ GNEWS: No articles found\n2025-09-09 21:06:13,215 - news_crawler - INFO - 🔄 Crawling NEWSAPI...\n2025-09-09 21:06:13,921 - news_crawler - INFO - ✅ NewsAPI: Found 50 new articles\n2025-09-09 21:06:13,922 - news_crawler - INFO - ✅ NEWSAPI: Found 50 articles\n2025-09-09 21:06:13,922 - news_crawler - INFO - 🎯 Sufficient articles from high-priority sources, stopping crawl\n2025-09-09 21:06:13,922 - news_crawler - INFO - 📰 Total new articles found: 50\n2025-09-09 21:06:13,923 - __main__ - INFO - 📰 Found 50 new articles\n2025-09-09 21:06:13,923 - __main__ - INFO - 🧠 Analyzing articles...\n2025-09-09 21:06:13,987 - __main__ - INFO - 📊 Generating daily report...\n2025-09-09 21:06:14,008 - __main__ - INFO - 💾 Storing data in Supabase...\n2025-09-09 21:06:14,598 - httpx - INFO - HTTP Request: POST https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/j97_news_articles \"HTTP/1.1 409 Conflict\"\n2025-09-09 21:06:14,600 - supabase_integration - ERROR - Error storing articles: {'code': '23505', 'details': 'Key (url)=(https://finance.yahoo.com/news/eightco-embraces-worldcoin-treasury-asset-132311924.html) already exists.', 'hint': None, 'message': 'duplicate key value violates unique constraint \"j97_news_articles_url_key\"'}\n2025-09-09 21:06:14,856 - httpx - INFO - HTTP Request: POST https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/j97_daily_reports \"HTTP/1.1 201 Created\"\n2025-09-09 21:06:14,863 - supabase_integration - INFO - ✅ Stored daily report for 2025-09-09\n2025-09-09 21:06:14,864 - __main__ - WARNING - ⚠️ Some data storage operations failed\n2025-09-09 21:06:14,864 - __main__ - INFO - ✅ J97 analysis cycle completed successfully\n2025-09-09 21:06:14,865 - __main__ - INFO - 💾 Summary saved to j97_analysis_summary_20250909_210614.json\n"
+    },
+    "lily": {
+      "ok": true,
+      "code": 0,
+      "stdout": "🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸\n🌸 LILY - SOCIAL MEDIA SENTIMENT CRAWLER BOT 🌸\n🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸\n\n🎯 ETH Sentiment Analysis Agent\n📱 Multi-Platform Social Media Monitoring\n🧠 Advanced AI-Powered Analysis\n💾 Real-time Database Integration\n\n🚀 Starting Lily...\n============================================================\n🔧 Checking environment...\n✅ Environment configured\n🌸 Importing Lily's modules...\n✅ Loaded Supabase credentials from /Users/nguyenhuycuong/Crownwell agentic/TradingAgents/Lily/../.env.supabase\n\n❌ Error running Lily: No module named 'telethon'\n💡 Check README.md for troubleshooting\n",
+      "stderr": ""
+    },
+    "yasuo": {
+      "ok": true,
+      "code": 0,
+      "stdout": "yasup_full_snapshot insert: 201 \n",
+      "stderr": "/Users/nguyenhuycuong/Crownwell agentic/TradingAgents/Yasuo - Onchain analyst/push_to_supabase.py:78: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\n  'created_at': datetime.utcnow().isoformat(),\n"
+    }
+  }
+}

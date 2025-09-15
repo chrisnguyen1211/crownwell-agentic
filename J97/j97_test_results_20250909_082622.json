@@ -1,0 +1,206 @@
+{
+  "date": "2025-09-09",
+  "total_articles": 5,
+  "trading_signal": {
+    "signal": "BUY",
+    "confidence": 0.7029361632630268,
+    "sentiment": "bullish",
+    "avg_sentiment": 0.4058723265260536,
+    "avg_impact": 10.0,
+    "article_count": 5,
+    "reasoning": "Based on 5 articles with bullish sentiment and 10.0 impact"
+  },
+  "categories": {
+    "protocol_upgrade": 2,
+    "defi": 2,
+    "staking": 1
+  },
+  "sentiment_breakdown": {
+    "bullish": 4,
+    "bearish": 1,
+    "neutral": 0
+  },
+  "top_key_phrases": [
+    [
+      "transactions",
+      2
+    ],
+    [
+      "merge",
+      1
+    ],
+    [
+      "stake",
+      1
+    ],
+    [
+      "proof",
+      1
+    ],
+    [
+      "consensus",
+      1
+    ],
+    [
+      "for",
+      1
+    ],
+    [
+      "upgrade",
+      1
+    ],
+    [
+      "eip",
+      1
+    ],
+    [
+      "gas",
+      1
+    ],
+    [
+      "layer",
+      1
+    ]
+  ],
+  "high_impact_articles": 5,
+  "high_impact_titles": [
+    "Ethereum 2.0 Merge Successfully Completed - Major Milestone Achieved",
+    "Ethereum Gas Fees Drop 90% After Latest Upgrade",
+    "Major DeFi Protocol Launches on Ethereum Layer 2",
+    "Ethereum Price Surges 15% on Institutional Adoption News",
+    "Ethereum Smart Contract Security Audit Reveals Critical Vulnerabilities"
+  ],
+  "analyzed_articles": [
+    {
+      "title": "Ethereum 2.0 Merge Successfully Completed - Major Milestone Achieved",
+      "description": "The long-awaited Ethereum merge has been completed successfully, transitioning from Proof of Work to Proof of Stake consensus mechanism.",
+      "url": "https://example.com/eth-merge-success",
+      "publishedAt": "2025-09-09T08:26:21.976960",
+      "source": "CryptoNews",
+      "api_source": "test",
+      "sentiment": {
+        "compound": 0.70661,
+        "positive": 0.198,
+        "neutral": 0.802,
+        "negative": 0.0,
+        "subjectivity": 0.7999999999999999,
+        "pattern_bullish": 1,
+        "pattern_bearish": 0
+      },
+      "impact_score": 10.0,
+      "key_phrases": [
+        "merge",
+        "stake",
+        "proof",
+        "consensus"
+      ],
+      "category": "protocol_upgrade",
+      "analyzed_at": "2025-09-09T08:26:22.005794"
+    },
+    {
+      "title": "Ethereum Gas Fees Drop 90% After Latest Upgrade",
+      "description": "Ethereum gas fees have significantly decreased following the implementation of EIP-1559, making transactions more affordable for users.",
+      "url": "https://example.com/eth-gas-fees-drop",
+      "publishedAt": "2025-09-09T08:26:21.976971",
+      "source": "DeFiPulse",
+      "api_source": "test",
+      "sentiment": {
+        "compound": -0.11891999999999998,
+        "positive": 0.0,
+        "neutral": 0.92,
+        "negative": 0.08,
+        "subjectivity": 0.55,
+        "pattern_bullish": 0,
+        "pattern_bearish": 0
+      },
+      "impact_score": 10.0,
+      "key_phrases": [
+        "for",
+        "upgrade",
+        "eip",
+        "transactions",
+        "gas"
+      ],
+      "category": "protocol_upgrade",
+      "analyzed_at": "2025-09-09T08:26:22.006361"
+    },
+    {
+      "title": "Major DeFi Protocol Launches on Ethereum Layer 2",
+      "description": "A leading DeFi protocol has successfully launched on Ethereum Layer 2, offering faster and cheaper transactions.",
+      "url": "https://example.com/defi-layer2-launch",
+      "publishedAt": "2025-09-09T08:26:21.976972",
+      "source": "DeFiNews",
+      "api_source": "test",
+      "sentiment": {
+        "compound": 0.46501499999999996,
+        "positive": 0.176,
+        "neutral": 0.824,
+        "negative": 0.0,
+        "subjectivity": 0.725,
+        "pattern_bullish": 0,
+        "pattern_bearish": 0
+      },
+      "impact_score": 10.0,
+      "key_phrases": [
+        "layer",
+        "launched",
+        "defi",
+        "transactions",
+        "launches"
+      ],
+      "category": "defi",
+      "analyzed_at": "2025-09-09T08:26:22.006698"
+    },
+    {
+      "title": "Ethereum Price Surges 15% on Institutional Adoption News",
+      "description": "Ethereum price has surged following news of major institutional adoption and increased staking rewards.",
+      "url": "https://example.com/eth-price-surge",
+      "publishedAt": "2025-09-09T08:26:21.976973",
+      "source": "CryptoMarket",
+      "api_source": "test",
+      "sentiment": {
+        "compound": 0.49151500000000004,
+        "positive": 0.206,
+        "neutral": 0.794,
+        "negative": 0.0,
+        "subjectivity": 0.3,
+        "pattern_bullish": 2,
+        "pattern_bearish": 0
+      },
+      "impact_score": 10.0,
+      "key_phrases": [
+        "price",
+        "adoption",
+        "institutional",
+        "staking"
+      ],
+      "category": "staking",
+      "analyzed_at": "2025-09-09T08:26:22.006970"
+    },
+    {
+      "title": "Ethereum Smart Contract Security Audit Reveals Critical Vulnerabilities",
+      "description": "A recent security audit of popular Ethereum smart contracts has revealed several critical vulnerabilities that need immediate attention.",
+      "url": "https://example.com/eth-security-audit",
+      "publishedAt": "2025-09-09T08:26:21.976974",
+      "source": "SecurityNews",
+      "api_source": "test",
+      "sentiment": {
+        "compound": 0.48514163265306115,
+        "positive": 0.344,
+        "neutral": 0.45,
+        "negative": 0.206,
+        "subjectivity": 0.576530612244898,
+        "pattern_bullish": 0,
+        "pattern_bearish": 0
+      },
+      "impact_score": 10.0,
+      "key_phrases": [
+        "security",
+        "smart",
+        "contract"
+      ],
+      "category": "defi",
+      "analyzed_at": "2025-09-09T08:26:22.007337"
+    }
+  ]
+}

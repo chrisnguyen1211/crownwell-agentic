@@ -1,0 +1,1996 @@
+[
+  {
+    "title": "What Happened In Crypto Today",
+    "description": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, NFTs, Web3 and crypto regulation.",
+    "url": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+    "publishedAt": "2025-09-08T13:13:24Z",
+    "source": "Cointelegraph",
+    "api_source": "gnews",
+    "sentiment": {
+      "compound": 0.075,
+      "positive": 0.0,
+      "neutral": 1.0,
+      "negative": 0.0,
+      "subjectivity": 0.45,
+      "pattern_bullish": 0,
+      "pattern_bearish": 0
+    },
+    "impact_score": 10.0,
+    "key_phrases": [
+      "blockchain",
+      "regulation",
+      "nfts",
+      "defi",
+      "price",
+      "trends"
+    ],
+    "category": "defi",
+    "analyzed_at": "2025-09-09T08:34:58.797926"
+  },
+  {
+    "title": "Bitcoin Taps $112,000 As Ethereum, XRP, Dogecoin Creep Higher",
+    "description": "Cryptocurrency markets are trading higher on Monday morning.",
+    "url": "https://www.benzinga.com/crypto/cryptocurrency/25/09/47543896/bitcoin-taps-112000-as-ethereum-xrp-dogecoin-creep-higher",
+    "publishedAt": "2025-09-08T11:47:29Z",
+    "source": "Benzinga",
+    "api_source": "gnews",
+    "sentiment": {
+      "compound": 0.075,
+      "positive": 0.0,
+      "neutral": 1.0,
+      "negative": 0.0,
+      "subjectivity": 0.5,
+      "pattern_bullish": 0,
+      "pattern_bearish": 0
+    },
+    "impact_score": 10.0,
+    "key_phrases": [
+      "trading",
+      "markets"
+    ],
+    "category": "market",
+    "analyzed_at": "2025-09-09T08:34:58.798391"
+  },
+  {
+    "title": "Ethereum ETFs Shed $788M Over Four Days in Institutional Exodus",
+    "description": "Experts cited staking restrictions and risk-off sentiment driving the institutional retreat amid recession fears and macro anxiety.",
+    "url": "https://decrypt.co/338415/ethereum-etfs-shed-788m-over-four-days-in-institutional-exodus",
+    "publishedAt": "2025-09-08T11:33:08Z",
+    "source": "Decrypt",
+    "api_source": "gnews",
+    "sentiment": {
+      "compound": -0.5023,
+      "positive": 0.056,
+      "neutral": 0.717,
+      "negative": 0.227,
+      "subjectivity": 0.0,
+      "pattern_bullish": 0,
+      "pattern_bearish": 1
+    },
+    "impact_score": 10.0,
+    "key_phrases": [
+      "institutional",
+      "staking",
+      "etfs",
+      "over"
+    ],
+    "category": "staking",
+    "analyzed_at": "2025-09-09T08:34:58.798884"
+  },
+  {
+    "title": "DeFi Vaults Are Headed For Half A Trillion In TVL. What's Behind The Surge?",
+    "description": "Easier blockchain money management is another DeFi on-ramp for investors.",
+    "url": "https://www.benzinga.com/markets/cryptocurrency/25/09/47543444/defi-vaults-are-headed-for-half-a-trillion-in-tvl-whats-behind-the-surge",
+    "publishedAt": "2025-09-08T11:15:52Z",
+    "source": "Benzinga",
+    "api_source": "gnews",
+    "sentiment": {
+      "compound": 0.26789999999999997,
+      "positive": 0.109,
+      "neutral": 0.891,
+      "negative": 0.0,
+      "subjectivity": 0.4333333333333333,
+      "pattern_bullish": 1,
+      "pattern_bearish": 0
+    },
+    "impact_score": 10.0,
+    "key_phrases": [
+      "for",
+      "defi",
+      "blockchain"
+    ],
+    "category": "defi",
+    "analyzed_at": "2025-09-09T08:34:58.799221"
+  },
+  {
+    "title": "DeFi Platform Nemo Protocol Exploited for $2.4 Million in Hack",
+    "description": "The attack on the Sui-based DeFi protocol comes as 2025's crypto thefts outpace last year’s, with more than $2.17 billion stolen this year.",
+    "url": "https://decrypt.co/338412/defi-platform-nemo-protocol-exploited-for-2-4-million-in-hack",
+    "publishedAt": "2025-09-08T10:47:38Z",
+    "source": "Decrypt",
+    "api_source": "gnews",
+    "sentiment": {
+      "compound": -0.53614,
+      "positive": 0.0,
+      "neutral": 0.763,
+      "negative": 0.237,
+      "subjectivity": 0.2833333333333333,
+      "pattern_bullish": 0,
+      "pattern_bearish": 1
+    },
+    "impact_score": 3.0303030303030303,
+    "key_phrases": [
+      "for",
+      "defi"
+    ],
+    "category": "defi",
+    "analyzed_at": "2025-09-09T08:34:58.799696"
+  },
+  {
+    "title": "XRP and Solana (SOL) Signal Bullish Strength While Traders Hedge For Downside in Bitcoin (BTC) and Ether (ETH)",
+    "description": "Options data from Deribit reveals a striking divergence in sentiment for major cryptocurrencies.",
+    "url": "https://www.coindesk.com/markets/2025/09/08/xrp-and-sol-signal-bullish-strength-while-traders-hedge-for-downside-in-bitcoin-and-ether",
+    "publishedAt": "2025-09-08T06:24:49Z",
+    "source": "CoinDesk",
+    "api_source": "gnews",
+    "sentiment": {
+      "compound": 0.36197499999999994,
+      "positive": 0.094,
+      "neutral": 0.848,
+      "negative": 0.058,
+      "subjectivity": 0.75,
+      "pattern_bullish": 1,
+      "pattern_bearish": 0
+    },
+    "impact_score": 4.838709677419355,
+    "key_phrases": [
+      "for",
+      "bullish"
+    ],
+    "category": "market",
+    "analyzed_at": "2025-09-09T08:34:58.800446"
+  },
+  {
+    "title": "Ethereum Stablecoin Supply Hits Record $165B With Daily $1B",
+    "description": "Ethereum stablecoin supply reached an all-time high of $165 billion with $1 billion daily additions, securing 57% market share dominance.",
+    "url": "https://cointelegraph.com/news/ethereum-added-5b-new-stablecoins-every-day-last-week",
+    "publishedAt": "2025-09-08T06:06:50Z",
+    "source": "Cointelegraph",
+    "api_source": "gnews",
+    "sentiment": {
+      "compound": 0.43048,
+      "positive": 0.235,
+      "neutral": 0.765,
+      "negative": 0.0,
+      "subjectivity": 0.18000000000000002,
+      "pattern_bullish": 0,
+      "pattern_bearish": 0
+    },
+    "impact_score": 10.0,
+    "key_phrases": [
+      "securing",
+      "market",
+      "all"
+    ],
+    "category": "regulation",
+    "analyzed_at": "2025-09-09T08:34:58.800969"
+  },
+  {
+    "title": "Beyond the airdrop: A new model to end DeFi’s ‘mercenary capital’ era",
+    "description": "The passing of the project’s founder has united the community around a mission to execute his decade-long vision for the network",
+    "url": "https://cointelegraph.com/news/beyond-the-airdrop-a-new-model-to-end-defi-s-mercenary-capital-era",
+    "publishedAt": "2025-09-08T06:00:00Z",
+    "source": "Cointelegraph",
+    "api_source": "gnews",
+    "sentiment": {
+      "compound": 0.39244909090909086,
+      "positive": 0.134,
+      "neutral": 0.866,
+      "negative": 0.0,
+      "subjectivity": 0.45454545454545453,
+      "pattern_bullish": 0,
+      "pattern_bearish": 0
+    },
+    "impact_score": 3.0303030303030303,
+    "key_phrases": [
+      "for",
+      "defi",
+      "end"
+    ],
+    "category": "defi",
+    "analyzed_at": "2025-09-09T08:34:58.801421"
+  },
+  {
+    "title": "Ethereum Revenue Drops but Analysts Say Network Still Strong",
+    "description": "A research manager at research firm Messari has sparked a debate after declaring Ethereum is dying, pointing to its declining revenue.",
+    "url": "https://cointelegraph.com/news/ethereum-revenue-decline-network-not-dead",
+    "publishedAt": "2025-09-08T05:18:42Z",
+    "source": "Cointelegraph",
+    "api_source": "gnews",
+    "sentiment": {
+      "compound": 0.43411999999999995,
+      "positive": 0.133,
+      "neutral": 0.867,
+      "negative": 0.0,
+      "subjectivity": 0.5666666666666667,
+      "pattern_bullish": 0,
+      "pattern_bearish": 0
+    },
+    "impact_score": 0.0,
+    "key_phrases": [],
+    "category": "general",
+    "analyzed_at": "2025-09-09T08:34:58.801769"
+  },
+  {
+    "title": "Kinto Tanks 81% After Announcing Its Blockchain Will Shut Down",
+    "description": "The team behind the Ethereum layer-2 project Kinto announced it would shut down at the end of September, causing the Kinto token’s price to drop nearly 80%.",
+    "url": "https://cointelegraph.com/news/kinto-plunges-81-as-eth-l2-is-set-to-wind-down-months-after-hack",
+    "publishedAt": "2025-09-08T02:10:53Z",
+    "source": "Cointelegraph",
+    "api_source": "gnews",
+    "sentiment": {
+      "compound": -0.20975333333333332,
+      "positive": 0.0,
+      "neutral": 0.945,
+      "negative": 0.055,
+      "subjectivity": 0.4194444444444445,
+      "pattern_bullish": 0,
+      "pattern_bearish": 0
+    },
+    "impact_score": 10.0,
+    "key_phrases": [
+      "layer",
+      "token",
+      "end",
+      "blockchain",
+      "price",
+      "down"
+    ],
+    "category": "market",
+    "analyzed_at": "2025-09-09T08:34:58.802154"
+  },
+  {
+    "title": "Asia Morning Briefing: BTC Treasury Demand is Weakening, CryptoQuant Cautions",
+    "description": "Despite record bitcoin treasury holdings, the sharp drop in average purchase size shows weakening institutional appetite, even as Taiwan's Sora Ventures prepares a $1 billion BTC Treasury fund.",
+    "url": "https://www.coindesk.com/markets/2025/09/08/asia-morning-briefing-btc-treasury-demand-is-weakening-cryptoquant-cautions",
+    "publishedAt": "2025-09-08T01:10:04Z",
+    "source": "CoinDesk",
+    "api_source": "newsapi",
+    "sentiment": {
+      "compound": -0.42285,
+      "positive": 0.081,
+      "neutral": 0.698,
+      "negative": 0.221,
+      "subjectivity": 0.575,
+      "pattern_bullish": 0,
+      "pattern_bearish": 0
+    },
+    "impact_score": 7.894736842105263,
+    "key_phrases": [
+      "institutional"
+    ],
+    "category": "general",
+    "analyzed_at": "2025-09-09T08:34:58.802589"
+  },
+  {
+    "title": "Mapping PENDLE’s roadmap toward $7 as TVL crosses $11.4B",
+    "description": "The Ethena-Pendle-Aave DeFi engine helped explain the rapid TVL growth for Pendle.",
+    "url": "https://ambcrypto.com/mapping-pendles-roadmap-toward-7-as-tvl-crosses-11-4b/",
+    "publishedAt": "2025-09-08T01:00:05Z",
+    "source": "Ambcrypto.com",
+    "api_source": "newsapi",
+    "sentiment": {
+      "compound": 0.32908,
+      "positive": 0.115,
+      "neutral": 0.885,
+      "negative": 0.0,
+      "subjectivity": 0.0,
+      "pattern_bullish": 1,
+      "pattern_bearish": 0
+    },
+    "impact_score": 4.761904761904762,
+    "key_phrases": [
+      "for",
+      "defi"
+    ],
+    "category": "defi",
+    "analyzed_at": "2025-09-09T08:34:58.802850"
+  },
+  {
+    "title": "Emerges Top Crypto Gainer as Ethereum and Chainlink Prices Stumble",
+    "description": "price consolidated above $602 on Sunday, September 7, posting 10% gains on the weekly range and emerging as the best-performing top 20 cryptocurrency, according to CoinMarketCap data.\nThe rally reflects traders seeking Bitcoin-adjacent upside as BTC price act…",
+    "url": "https://biztoc.com/x/c7b5b6117dd33e37",
+    "publishedAt": "2025-09-07T22:46:40Z",
+    "source": "Biztoc.com",
+    "api_source": "newsapi",
+    "sentiment": {
+      "compound": 0.53869,
+      "positive": 0.118,
+      "neutral": 0.882,
+      "negative": 0.0,
+      "subjectivity": 0.3,
+      "pattern_bullish": 1,
+      "pattern_bearish": 0
+    },
+    "impact_score": 10.0,
+    "key_phrases": [
+      "act",
+      "emerges",
+      "prices",
+      "price",
+      "coinmarketcap",
+      "posting"
+    ],
+    "category": "protocol_upgrade",
+    "analyzed_at": "2025-09-09T08:34:58.803461"
+  },
+  {
+    "title": "Trump family's wealth grew by $1.3B following ABTC and WLFI debuts: Report",
+    "description": "The Trump family saw their collective net worth rise by as much as $1.3 billion this week after American Bitcoin and World Liberty Financial debuted trading.",
+    "url": "https://cointelegraph.com/news/trump-family-wealth-grew-1-3b-abtc-wlfi",
+    "publishedAt": "2025-09-07T22:37:37Z",
+    "source": "Cointelegraph",
+    "api_source": "newsapi",
+    "sentiment": {
+      "compound": 0.61556,
+      "positive": 0.195,
+      "neutral": 0.805,
+      "negative": 0.0,
+      "subjectivity": 0.06666666666666667,
+      "pattern_bullish": 1,
+      "pattern_bearish": 0
+    },
+    "impact_score": 3.9473684210526314,
+    "key_phrases": [
+      "trading",
+      "net"
+    ],
+    "category": "market",
+    "analyzed_at": "2025-09-09T08:34:58.803886"
+  },
+  {
+    "title": "Tokenized assets are already nearing $300 billion led by stablecoins",
+    "description": "According to recent data by Token Terminal, tokenized real-world assets (RWAs) are already nearing $300 billion, a milestone that was projected to be reached in 2030. An additional report by RedStone Finance found that RWAs on-chain could hit as much as $30 t…",
+    "url": "https://cryptoslate.com/tokenized-assets-are-already-nearing-300-billion-led-by-stablecoins/",
+    "publishedAt": "2025-09-07T22:00:21Z",
+    "source": "CryptoSlate",
+    "api_source": "newsapi",
+    "sentiment": {
+      "compound": 0.3828999999999999,
+      "positive": 0.088,
+      "neutral": 0.912,
+      "negative": 0.0,
+      "subjectivity": 0.225,
+      "pattern_bullish": 1,
+      "pattern_bearish": 0
+    },
+    "impact_score": 1.8867924528301887,
+    "key_phrases": [
+      "token",
+      "tokenized",
+      "chain"
+    ],
+    "category": "general",
+    "analyzed_at": "2025-09-09T08:34:58.804629"
+  },
+  {
+    "title": "Ethereum whale moves $254 mln after 6 years: Are buyers taking over ETH?",
+    "description": "Whale exits, but buyers kept pulling Ethereum off exchanges and quietly strengthening conviction.",
+    "url": "https://ambcrypto.com/ethereum-whale-moves-254-mln-after-6-years-are-buyers-taking-over-eth/",
+    "publishedAt": "2025-09-07T22:00:19Z",
+    "source": "Ambcrypto.com",
+    "api_source": "newsapi",
+    "sentiment": {
+      "compound": 0.38915999999999995,
+      "positive": 0.147,
+      "neutral": 0.853,
+      "negative": 0.0,
+      "subjectivity": 0.3333333333333333,
+      "pattern_bullish": 0,
+      "pattern_bearish": 0
+    },
+    "impact_score": 0.0,
+    "key_phrases": [
+      "taking",
+      "over"
+    ],
+    "category": "general",
+    "analyzed_at": "2025-09-09T08:34:58.804982"
+  },
+  {
+    "title": "Ethereum Layer 2 Kinto shuts down in wake of $1.6 million July exploit",
+    "description": "Kinto's founder pledged $55,000 of personal funds to reimburse victims of the hack in Morpho lending pools, he said in the shutdown announcement.",
+    "url": "https://biztoc.com/x/e82f40b646be6121",
+    "publishedAt": "2025-09-07T21:39:31Z",
+    "source": "Biztoc.com",
+    "api_source": "newsapi",
+    "sentiment": {
+      "compound": -0.3644733333333333,
+      "positive": 0.0,
+      "neutral": 0.902,
+      "negative": 0.098,
+      "subjectivity": 0.29444444444444445,
+      "pattern_bullish": 0,
+      "pattern_bearish": 2
+    },
+    "impact_score": 8.333333333333332,
+    "key_phrases": [
+      "layer",
+      "down"
+    ],
+    "category": "scaling",
+    "analyzed_at": "2025-09-09T08:34:58.805338"
+  },
+  {
+    "title": "Bitcoin Cash (BCH) Emerges Top Crypto Gainer as Ethereum and Chainlink Prices Stumble",
+    "description": "Bitcoin Cash (BCH) price consolidated above $602 on Sunday, September 7, posting 10% gains on the weekly range and emerging as the best-performing top 20...",
+    "url": "https://www.coinspeaker.com/bitcoin-cash-bch-emerges-top-crypto-gainer-as-ethereum-and-chainlink-prices-stumble/",
+    "publishedAt": "2025-09-07T21:32:43Z",
+    "source": "Coinspeaker",
+    "api_source": "newsapi",
+    "sentiment": {
+      "compound": 0.43869,
+      "positive": 0.146,
+      "neutral": 0.854,
+      "negative": 0.0,
+      "subjectivity": 0.3,
+      "pattern_bullish": 0,
+      "pattern_bearish": 0
+    },
+    "impact_score": 10.0,
+    "key_phrases": [
+      "posting",
+      "prices",
+      "price",
+      "emerges"
+    ],
+    "category": "protocol_upgrade",
+    "analyzed_at": "2025-09-09T08:34:58.805830"
+  },
+  {
+    "title": "Santiment Highlights Top Tokens: Bitcoin, Ethereum, And Dogecoin Dominate Social Buzz",
+    "description": "Conversations across the crypto space are circling back to blue-chip tokens, with Bitcoin, Ethereum, and Dogecoin taking the spotlight. Data from on-chain analytics platform Santiment shows that top market cap cryptocurrencies are dominating the surge in soci…",
+    "url": "http://www.newsbtc.com/news/bitcoin/santiment-highlights-top-tokens-bitcoin-ethereum-and-dogecoin-dominate-social-buzz/",
+    "publishedAt": "2025-09-07T21:00:10Z",
+    "source": "newsBTC",
+    "api_source": "newsapi",
+    "sentiment": {
+      "compound": 0.16202,
+      "positive": 0.07,
+      "neutral": 0.858,
+      "negative": 0.072,
+      "subjectivity": 0.26666666666666666,
+      "pattern_bullish": 1,
+      "pattern_bearish": 0
+    },
+    "impact_score": 5.208333333333334,
+    "key_phrases": [
+      "market",
+      "taking",
+      "chain",
+      "tokens"
+    ],
+    "category": "market",
+    "analyzed_at": "2025-09-09T08:34:58.806358"
+  },
+  {
+    "title": "Messari Researcher Warns Ethereum Is “Dying” Despite Recently Touching New All-Time Highs — Here’s Why",
+    "description": "Despite the altcoin king’s latest parabolic upsurge, a researcher at the crypto analytics firm Messari has suggested that Ethereum is actually dying.",
+    "url": "https://zycrypto.com/messari-researcher-warns-ethereum-is-dying-despite-recently-touching-new-all-time-highs-heres-why/",
+    "publishedAt": "2025-09-07T20:14:05Z",
+    "source": "ZyCrypto",
+    "api_source": "newsapi",
+    "sentiment": {
+      "compound": -0.005438181818181821,
+      "positive": 0.0,
+      "neutral": 0.963,
+      "negative": 0.037,
+      "subjectivity": 0.4709090909090909,
+      "pattern_bullish": 0,
+      "pattern_bearish": 0
+    },
+    "impact_score": 0.0,
+    "key_phrases": [
+      "king",
+      "all"
+    ],
+    "category": "general",
+    "analyzed_at": "2025-09-09T08:34:58.807235"
+  },
+  {
+    "title": "Crypto market’s weekly winners and losers – PUMP, ZEC, PI, CRO",
+    "description": "It was a dramatic week in the crypto market. Here’s how a few of your selected altcoins held up.",
+    "url": "https://ambcrypto.com/crypto-market-weekly-review-7-september/",
+    "publishedAt": "2025-09-07T19:00:53Z",
+    "source": "Ambcrypto.com",
+    "api_source": "newsapi",
+    "sentiment": {
+      "compound": -0.12965333333333331,
+      "positive": 0.09,
+      "neutral": 0.812,
+      "negative": 0.099,
+      "subjectivity": 0.3,
+      "pattern_bullish": 0,
+      "pattern_bearish": 0
+    },
+    "impact_score": 5.0,
+    "key_phrases": [
+      "market"
+    ],
+    "category": "market",
+    "analyzed_at": "2025-09-09T08:34:58.807923"
+  },
+  {
+    "title": "Ethereum revenue dropped 44% in August amid ETH all-time high",
+    "description": "Ethereum network revenue continues to decline despite ETH all-time highs and heightened institutional interest in the layer-1 smart contract blockchain.",
+    "url": "https://cointelegraph.com/news/ethereum-revenue-drops-44-percent-august-all-time-high",
+    "publishedAt": "2025-09-07T18:22:31Z",
+    "source": "Cointelegraph",
+    "api_source": "newsapi",
+    "sentiment": {
+      "compound": 0.37062285714285714,
+      "positive": 0.169,
+      "neutral": 0.831,
+      "negative": 0.0,
+      "subjectivity": 0.5914285714285714,
+      "pattern_bullish": 0,
+      "pattern_bearish": 1
+    },
+    "impact_score": 10.0,
+    "key_phrases": [
+      "layer",
+      "blockchain",
+      "contract",
+      "smart",
+      "institutional",
+      "all"
+    ],
+    "category": "defi",
+    "analyzed_at": "2025-09-09T08:34:58.808261"
+  },
+  {
+    "title": "You Can Earn Ethereum by Playing These Free Mobile Games",
+    "description": "With Ethereum hovering near all-time highs, there’s an easy way to rack up free ETH—a tiny bit at a time—by playing games.",
+    "url": "https://decrypt.co/338336/you-can-earn-ethereum-playing-free-mobile-games",
+    "publishedAt": "2025-09-07T18:01:03Z",
+    "source": "Decrypt",
+    "api_source": "newsapi",
+    "sentiment": {
+      "compound": 0.6213200000000001,
+      "positive": 0.327,
+      "neutral": 0.673,
+      "negative": 0.0,
+      "subjectivity": 0.6666666666666667,
+      "pattern_bullish": 0,
+      "pattern_bearish": 0
+    },
+    "impact_score": 0.0,
+    "key_phrases": [
+      "bit",
+      "all"
+    ],
+    "category": "general",
+    "analyzed_at": "2025-09-09T08:34:58.808667"
+  },
+  {
+    "title": "Are crypto treasury companies a marvel of financial engineering or a ticking time bomb?",
+    "description": "The following is a guest post and opinion of Robert Schmitt, Founder of Cork Protocol. Many people view crypto treasury strategy companies as a form of leveraged crypto exposure to digital assets. In many ways, this thinking is correct, as these companies see…",
+    "url": "https://cryptoslate.com/are-crypto-treasury-companies-a-marvel-of-financial-engineering-or-a-ticking-time-bomb/",
+    "publishedAt": "2025-09-07T17:00:34Z",
+    "source": "CryptoSlate",
+    "api_source": "newsapi",
+    "sentiment": {
+      "compound": 0.32424,
+      "positive": 0.128,
+      "neutral": 0.821,
+      "negative": 0.051,
+      "subjectivity": 0.22000000000000003,
+      "pattern_bullish": 0,
+      "pattern_bearish": 0
+    },
+    "impact_score": 5.263157894736842,
+    "key_phrases": [
+      "exposure",
+      "post"
+    ],
+    "category": "general",
+    "analyzed_at": "2025-09-09T08:34:58.809213"
+  },
+  {
+    "title": "Ethereum’s exodus: Why whales are pulling ETH from exchanges, fast",
+    "description": "With reserves plunging and longs piling up, is Ethereum building strength getting ready for a sharp reversal?",
+    "url": "https://ambcrypto.com/ethereums-exodus-why-whales-are-pulling-eth-from-exchanges-fast/",
+    "publishedAt": "2025-09-07T17:00:22Z",
+    "source": "Ambcrypto.com",
+    "api_source": "newsapi",
+    "sentiment": {
+      "compound": 0.44198,
+      "positive": 0.186,
+      "neutral": 0.814,
+      "negative": 0.0,
+      "subjectivity": 0.6166666666666667,
+      "pattern_bullish": 0,
+      "pattern_bearish": 0
+    },
+    "impact_score": 0.0,
+    "key_phrases": [
+      "for"
+    ],
+    "category": "general",
+    "analyzed_at": "2025-09-09T08:34:58.809519"
+  },
+  {
+    "title": "Polygon developer calls World Liberty Financial the ‘scam of all scams”",
+    "description": "Polygon developer Bruno Skvorc lashed out at World Liberty Financial (WLF) on Saturday, accusing the company of stealing his funds. In a post on X, Skvorc wrote: “…they stole my money, and because it’s the @POTUS family, I can’t do anything about it.” Skvorc …",
+    "url": "https://cryptoslate.com/polygon-developer-calls-world-liberty-financial-the-scam-of-all-scams/",
+    "publishedAt": "2025-09-07T16:15:54Z",
+    "source": "CryptoSlate",
+    "api_source": "newsapi",
+    "sentiment": {
+      "compound": 0.20400000000000001,
+      "positive": 0.106,
+      "neutral": 0.81,
+      "negative": 0.084,
+      "subjectivity": 0.0,
+      "pattern_bullish": 0,
+      "pattern_bearish": 0
+    },
+    "impact_score": 10.0,
+    "key_phrases": [
+      "out",
+      "post",
+      "all",
+      "polygon"
+    ],
+    "category": "general",
+    "analyzed_at": "2025-09-09T08:34:58.810246"
+  },
+  {
+    "title": "eas-sdk 0.1.3",
+    "description": "Python SDK for Ethereum Attestation Service (EAS)",
+    "url": "https://pypi.org/project/eas-sdk/0.1.3/",
+    "publishedAt": "2025-09-07T16:05:28Z",
+    "source": "Pypi.org",
+    "api_source": "newsapi",
+    "sentiment": {
+      "compound": 0.0,
+      "positive": 0.0,
+      "neutral": 1.0,
+      "negative": 0.0,
+      "subjectivity": 0.0,
+      "pattern_bullish": 0,
+      "pattern_bearish": 0
+    },
+    "impact_score": 0.0,
+    "key_phrases": [
+      "for"
+    ],
+    "category": "general",
+    "analyzed_at": "2025-09-09T08:34:58.810433"
+  },
+  {
+    "title": "Best Crypto to Buy as Banking Giants Now Predict at Least Two Rate Cuts in 2025",
+    "description": "Jerome Powell, the Fed Chair, in his speech at Jackson Hole on August 22, hinted that the Fed might cut interest rates in September. Now, weak U.S. jobs market data has increased the chances of not one, but at least two rate cuts in 2025. For the first time s…",
+    "url": "https://bitcoinist.com/best-crypto-to-buy-bankng-giants-predict-two-rate-cuts-2025/",
+    "publishedAt": "2025-09-07T15:57:58Z",
+    "source": "Bitcoinist",
+    "api_source": "newsapi",
+    "sentiment": {
+      "compound": -0.037500000000000006,
+      "positive": 0.103,
+      "neutral": 0.79,
+      "negative": 0.108,
+      "subjectivity": 0.41166666666666674,
+      "pattern_bullish": 0,
+      "pattern_bearish": 0
+    },
+    "impact_score": 6.8181818181818175,
+    "key_phrases": [
+      "for",
+      "predict",
+      "powell",
+      "market"
+    ],
+    "category": "market",
+    "analyzed_at": "2025-09-09T08:34:58.811097"
+  },
+  {
+    "title": "Best Crypto to Buy as Banking Giants Now Predict at Least Two Rate Cuts in 2025",
+    "description": "Jerome Powell, the Fed Chair, in his speech at Jackson Hole on August 22, hinted that the Fed might cut interest rates in September. Now, weak U.S. jobs market data has increased the chances of not one, but at least two rate cuts in 2025. For the first time s…",
+    "url": "https://bitcoinist.com/best-crypto-to-buy-banking-giants-predict-two-rate-cuts-2025/",
+    "publishedAt": "2025-09-07T15:57:58Z",
+    "source": "Bitcoinist",
+    "api_source": "newsapi",
+    "sentiment": {
+      "compound": -0.037500000000000006,
+      "positive": 0.103,
+      "neutral": 0.79,
+      "negative": 0.108,
+      "subjectivity": 0.41166666666666674,
+      "pattern_bullish": 0,
+      "pattern_bearish": 0
+    },
+    "impact_score": 6.8181818181818175,
+    "key_phrases": [
+      "for",
+      "predict",
+      "powell",
+      "market"
+    ],
+    "category": "market",
+    "analyzed_at": "2025-09-09T08:34:58.811741"
+  },
+  {
+    "title": "Dogenarii coin",
+    "description": " Long ago, before DeFi farms, before NFTs, before your cousin tried to explain “liquidity pools” at Thanksgiving dinner… there was Dogenarii.  Born of Do",
+    "url": "https://knowyourmeme.com/memes/dogenarii-coin",
+    "publishedAt": "2025-09-07T15:20:40Z",
+    "source": "Knowyourmeme.com",
+    "api_source": "newsapi",
+    "sentiment": {
+      "compound": -0.015,
+      "positive": 0.0,
+      "neutral": 1.0,
+      "negative": 0.0,
+      "subjectivity": 0.4,
+      "pattern_bullish": 0,
+      "pattern_bearish": 0
+    },
+    "impact_score": 7.6923076923076925,
+    "key_phrases": [
+      "defi",
+      "nfts"
+    ],
+    "category": "defi",
+    "analyzed_at": "2025-09-09T08:34:58.812016"
+  },
+  {
+    "title": "US Ethereum ETFs Surpass Weekly Record With $787M Outflow — Details",
+    "description": "There is no question as to how impressive the performance of the US-based Ethereum ETFs (exchange-traded funds) has been in the past quarter. However, the crypto-linked investment products have had a nightmare start to the month of September. As seen with the…",
+    "url": "https://bitcoinist.com/ethereum-etfs-surpass-weekly-recrd-with-780-million/",
+    "publishedAt": "2025-09-07T15:00:09Z",
+    "source": "Bitcoinist",
+    "api_source": "newsapi",
+    "sentiment": {
+      "compound": 0.27642,
+      "positive": 0.058,
+      "neutral": 0.903,
+      "negative": 0.039,
+      "subjectivity": 0.625,
+      "pattern_bullish": 0,
+      "pattern_bearish": 0
+    },
+    "impact_score": 5.660377358490567,
+    "key_phrases": [
+      "etfs"
+    ],
+    "category": "general",
+    "analyzed_at": "2025-09-09T08:34:58.812588"
+  },
+  {
+    "title": "Why SharpLink's CEO Thinks Bitcoin Creator Satoshi Nakamoto Will Return",
+    "description": "Joseph Chalom, co-CEO of Ethereum treasury company SharpLink Gaming, has a “wild theory” about why Satoshi Nakamoto could emerge from the shadows.",
+    "url": "https://decrypt.co/338325/why-sharplinks-ceo-thinks-bitcoin-creator-satoshi-nakamoto-return",
+    "publishedAt": "2025-09-07T14:21:35Z",
+    "source": "Decrypt",
+    "api_source": "newsapi",
+    "sentiment": {
+      "compound": 0.15138000000000001,
+      "positive": 0.055,
+      "neutral": 0.945,
+      "negative": 0.0,
+      "subjectivity": 0.4,
+      "pattern_bullish": 0,
+      "pattern_bearish": 0
+    },
+    "impact_score": 9.375,
+    "key_phrases": [
+      "emerge"
+    ],
+    "category": "protocol_upgrade",
+    "analyzed_at": "2025-09-09T08:34:58.812950"
+  },
+  {
+    "title": "‘Ethereum’s long-term scaling’ plans well underway, confirms Vitalik Buterin",
+    "description": "Ethereum is gearing up for something massive - Here's what you should expect?",
+    "url": "https://ambcrypto.com/ethereums-long-term-scaling-plans-well-underway-confirms-vitalik-buterin/",
+    "publishedAt": "2025-09-07T13:15:35Z",
+    "source": "Ambcrypto.com",
+    "api_source": "newsapi",
+    "sentiment": {
+      "compound": 0.16391999999999998,
+      "positive": 0.091,
+      "neutral": 0.909,
+      "negative": 0.0,
+      "subjectivity": 1.0,
+      "pattern_bullish": 0,
+      "pattern_bearish": 0
+    },
+    "impact_score": 0.0,
+    "key_phrases": [
+      "for"
+    ],
+    "category": "general",
+    "analyzed_at": "2025-09-09T08:34:58.813229"
+  },
+  {
+    "title": "Why $50 XRP By December 2025 Isn’t ‘Hopium’ If ETFs Get Greenlight: Analyst",
+    "description": "XRP’s price outlook is in focus as the US Securities and Exchange Commission lines up decisions on multiple spot ETF applications in late October 2025. Analysts say the outcome of that cluster could decide whether billions of dollars in institutional funds fl…",
+    "url": "http://www.newsbtc.com/altcoin/why-50-xrp-by-december-2025-isnt-hopium-if-etfs-get-greenlight-analyst/",
+    "publishedAt": "2025-09-07T13:00:06Z",
+    "source": "newsBTC",
+    "api_source": "newsapi",
+    "sentiment": {
+      "compound": 0.1326,
+      "positive": 0.039,
+      "neutral": 0.961,
+      "negative": 0.0,
+      "subjectivity": 0.3,
+      "pattern_bullish": 0,
+      "pattern_bearish": 0
+    },
+    "impact_score": 10.0,
+    "key_phrases": [
+      "etfs",
+      "get",
+      "securities",
+      "price",
+      "institutional",
+      "etf"
+    ],
+    "category": "regulation",
+    "analyzed_at": "2025-09-09T08:34:58.813801"
+  },
+  {
+    "title": "Stablecoin Retail Transfers Break Records in 2025, Hit $5.8B in August",
+    "description": "Retail transfers under $250 are at all-time highs, with BSC and Ethereum mainnet gaining ground as Tron falls, according to a fresh report by CEX.io.",
+    "url": "https://www.coindesk.com/markets/2025/09/07/stablecoin-retail-transfers-break-records-in-2025-hit-usd5-8b-in-august",
+    "publishedAt": "2025-09-07T12:00:00Z",
+    "source": "CoinDesk",
+    "api_source": "newsapi",
+    "sentiment": {
+      "compound": 0.46494,
+      "positive": 0.13,
+      "neutral": 0.87,
+      "negative": 0.0,
+      "subjectivity": 0.5,
+      "pattern_bullish": 0,
+      "pattern_bearish": 0
+    },
+    "impact_score": 8.333333333333332,
+    "key_phrases": [
+      "mainnet",
+      "break",
+      "all"
+    ],
+    "category": "general",
+    "analyzed_at": "2025-09-09T08:34:58.814177"
+  },
+  {
+    "title": "Paxos Proposes to Issue USDH Stablecoin for Hyperliquid with 95% Revenue Share to HYPE Buyback",
+    "description": "Paxos submitted a proposal to issue USDH, Hyperliquid’s first native stablecoin, promising to allocate 95% of interest earnings from reserves toward HYPE...",
+    "url": "https://cryptonews.com/news/paxos-proposes-to-issue-usdh-stablecoin-for-hyperliquid-with-95-revenue-share-to-hype-buyback/",
+    "publishedAt": "2025-09-07T11:30:00Z",
+    "source": "Cryptonews",
+    "api_source": "newsapi",
+    "sentiment": {
+      "compound": 0.43820000000000003,
+      "positive": 0.189,
+      "neutral": 0.811,
+      "negative": 0.0,
+      "subjectivity": 0.41666666666666663,
+      "pattern_bullish": 0,
+      "pattern_bearish": 2
+    },
+    "impact_score": 8.108108108108109,
+    "key_phrases": [
+      "for",
+      "proposes",
+      "proposal"
+    ],
+    "category": "general",
+    "analyzed_at": "2025-09-09T08:34:58.814582"
+  },
+  {
+    "title": "Ethereum Mirrors Bitcoin Post ATH Movement, As Market Bears Target 20% Correction",
+    "description": "Popular crypto analyst and key opinion leader Ted Pillows has outlined an insightful trend in the Ethereum (ETH) market amidst an ongoing price correction. Since hitting a new all-time high of around $4,900, the prominent altcoin has experienced an extensive …",
+    "url": "http://www.newsbtc.com/news/ethereum/ethereum-mirrors-bitcoin-post-ath-movement-as-market-bears-target-20-correction/",
+    "publishedAt": "2025-09-07T11:00:43Z",
+    "source": "newsBTC",
+    "api_source": "newsapi",
+    "sentiment": {
+      "compound": 0.4690698701298701,
+      "positive": 0.091,
+      "neutral": 0.909,
+      "negative": 0.0,
+      "subjectivity": 0.7325541125541125,
+      "pattern_bullish": 0,
+      "pattern_bearish": 0
+    },
+    "impact_score": 10.0,
+    "key_phrases": [
+      "target",
+      "price",
+      "post",
+      "trend",
+      "market",
+      "all"
+    ],
+    "category": "market",
+    "analyzed_at": "2025-09-09T08:34:58.815077"
+  },
+  {
+    "title": "Solana beats Ethereum in DEX volume, but SOL traders aren’t interested",
+    "description": "Solana’s DEX is a fast casino - 96.6% of addresses cash out in under a day.",
+    "url": "https://ambcrypto.com/solana-beats-ethereum-in-dex-volume-but-traders-arent-interested-in-sol/",
+    "publishedAt": "2025-09-07T11:00:31Z",
+    "source": "Ambcrypto.com",
+    "api_source": "newsapi",
+    "sentiment": {
+      "compound": 0.39744,
+      "positive": 0.12,
+      "neutral": 0.88,
+      "negative": 0.0,
+      "subjectivity": 0.55,
+      "pattern_bullish": 0,
+      "pattern_bearish": 0
+    },
+    "impact_score": 5.555555555555555,
+    "key_phrases": [
+      "volume",
+      "out"
+    ],
+    "category": "general",
+    "analyzed_at": "2025-09-09T08:34:58.815372"
+  },
+  {
+    "title": "Ethereum Holdings On Centralized Exchanges Plummet —  Supply Shock Imminent?",
+    "description": "The price of Ethereum showed a significant level of volatility over the past week, oscillating between about $4,260 and $4,490. This price movement is not merely a result of market volatility but also a host of intriguing underlying factors. Recent on-chain a…",
+    "url": "https://bitcoinist.com/ethereum-holdings-centralized-exchange/",
+    "publishedAt": "2025-09-07T11:00:11Z",
+    "source": "Bitcoinist",
+    "api_source": "newsapi",
+    "sentiment": {
+      "compound": -0.12112,
+      "positive": 0.026,
+      "neutral": 0.94,
+      "negative": 0.034,
+      "subjectivity": 0.45499999999999996,
+      "pattern_bullish": 0,
+      "pattern_bearish": 2
+    },
+    "impact_score": 5.769230769230769,
+    "key_phrases": [
+      "market",
+      "chain",
+      "price",
+      "over"
+    ],
+    "category": "market",
+    "analyzed_at": "2025-09-09T08:34:58.815859"
+  },
+  {
+    "title": "Trump crypto ecosystem in crisis: ‘New age mafia,’ claims trader",
+    "description": "Both TRUMP and the WLFI tokens are a hot topic of discussion right now.",
+    "url": "https://ambcrypto.com/trump-crypto-ecosystem-in-crisis-new-age-mafia-claims-trader/",
+    "publishedAt": "2025-09-07T10:00:58Z",
+    "source": "Ambcrypto.com",
+    "api_source": "newsapi",
+    "sentiment": {
+      "compound": -0.3077322077922078,
+      "positive": 0.0,
+      "neutral": 0.849,
+      "negative": 0.151,
+      "subjectivity": 0.6134199134199134,
+      "pattern_bullish": 0,
+      "pattern_bearish": 0
+    },
+    "impact_score": 4.166666666666666,
+    "key_phrases": [
+      "tokens"
+    ],
+    "category": "general",
+    "analyzed_at": "2025-09-09T08:34:58.816121"
+  },
+  {
+    "title": "Crypto Phishing Attacks Surge In August As Losses Hit $12 Million",
+    "description": "Prominent web3 security outfit Scam Sniffer reports that crypto investors suffered an increased number of phishing scams in August. Notably, total assets lost to these scams during the last month represent an estimated 72% increase from July, representing a c…",
+    "url": "https://bitcoinist.com/crypto-phishing-attacks-surge-august-losses-hit-12/",
+    "publishedAt": "2025-09-07T09:00:02Z",
+    "source": "Bitcoinist",
+    "api_source": "newsapi",
+    "sentiment": {
+      "compound": -0.40374,
+      "positive": 0.17,
+      "neutral": 0.52,
+      "negative": 0.31,
+      "subjectivity": 0.6055555555555555,
+      "pattern_bullish": 2,
+      "pattern_bearish": 0
+    },
+    "impact_score": 5.88235294117647,
+    "key_phrases": [
+      "security"
+    ],
+    "category": "regulation",
+    "analyzed_at": "2025-09-09T08:34:58.816695"
+  },
+  {
+    "title": "One dollar, two worlds: How stablecoin adoption differs across the globe",
+    "description": "Like developed countries, there is growing demand for stablecoin-yield products from emerging markets.",
+    "url": "https://ambcrypto.com/one-dollar-two-worlds-how-stablecoin-adoption-differs-across-the-globe/",
+    "publishedAt": "2025-09-07T08:00:04Z",
+    "source": "Ambcrypto.com",
+    "api_source": "newsapi",
+    "sentiment": {
+      "compound": 0.3711399999999999,
+      "positive": 0.157,
+      "neutral": 0.787,
+      "negative": 0.056,
+      "subjectivity": 0.3,
+      "pattern_bullish": 1,
+      "pattern_bearish": 0
+    },
+    "impact_score": 10.0,
+    "key_phrases": [
+      "for",
+      "adoption",
+      "markets"
+    ],
+    "category": "market",
+    "analyzed_at": "2025-09-09T08:34:58.816962"
+  },
+  {
+    "title": "New Casino Games & Slots for Real Money in USA September 2025",
+    "description": "Casino games surged in Sept 2025, as US online casinos launched new real money slots with transparency, fairness & player-first focus.......",
+    "url": "https://www.globenewswire.com/news-release/2025/09/07/3145712/0/en/New-Casino-Games-Slots-for-Real-Money-in-USA-September-2025.html",
+    "publishedAt": "2025-09-07T07:51:00Z",
+    "source": "GlobeNewswire",
+    "api_source": "newsapi",
+    "sentiment": {
+      "compound": 0.12725454545454545,
+      "positive": 0.045,
+      "neutral": 0.955,
+      "negative": 0.0,
+      "subjectivity": 0.3772727272727273,
+      "pattern_bullish": 0,
+      "pattern_bearish": 0
+    },
+    "impact_score": 9.090909090909092,
+    "key_phrases": [
+      "for",
+      "launched"
+    ],
+    "category": "general",
+    "analyzed_at": "2025-09-09T08:34:58.817344"
+  },
+  {
+    "title": "A Chainlink Pullback To $16 Could Set Up Parabolic Price Rally – Analyst",
+    "description": "Chainlink (LINK) prices have dropped by 5.63% in the past seven days, amid a broader, volatile market movement. Nevertheless, the altcoin maintains a healthy 20.88% on its monthly chart, suggesting that a significant portion of recent market entrants are hold…",
+    "url": "http://www.newsbtc.com/analysis/link/a-chainlink-pullback-to-16-could-set-up-parabolic-price-rally-analyst/",
+    "publishedAt": "2025-09-07T07:00:36Z",
+    "source": "newsBTC",
+    "api_source": "newsapi",
+    "sentiment": {
+      "compound": 0.472255,
+      "positive": 0.081,
+      "neutral": 0.919,
+      "negative": 0.0,
+      "subjectivity": 0.46875,
+      "pattern_bullish": 1,
+      "pattern_bearish": 0
+    },
+    "impact_score": 5.660377358490567,
+    "key_phrases": [
+      "market",
+      "prices",
+      "price"
+    ],
+    "category": "market",
+    "analyzed_at": "2025-09-09T08:34:58.817842"
+  },
+  {
+    "title": "Ethereum stablecoins hit $150B ATH: What it means for ETH’s price",
+    "description": "Ethereum’s stablecoin supply has climbed to a record $150 billion as validator participation also strengthens.",
+    "url": "https://ambcrypto.com/ethereum-stablecoins-hit-150b-ath-what-it-means-for-eths-price/",
+    "publishedAt": "2025-09-07T06:00:49Z",
+    "source": "Ambcrypto.com",
+    "api_source": "newsapi",
+    "sentiment": {
+      "compound": 0.27527999999999997,
+      "positive": 0.107,
+      "neutral": 0.893,
+      "negative": 0.0,
+      "subjectivity": 0.0,
+      "pattern_bullish": 0,
+      "pattern_bearish": 0
+    },
+    "impact_score": 9.615384615384617,
+    "key_phrases": [
+      "for",
+      "validator",
+      "price"
+    ],
+    "category": "staking",
+    "analyzed_at": "2025-09-09T08:34:58.818136"
+  },
+  {
+    "title": "Crypto sentiment moves into Fear as interest wanes on ‘obscure altcoins’",
+    "description": "Crypto sentiment slipped into “Fear” on Sunday as traders rotate out of obscure altcoins and back into major assets like BTC and ETH.",
+    "url": "https://cointelegraph.com/news/crypto-market-sentiment-fear-altcoin-interest-down",
+    "publishedAt": "2025-09-07T05:54:07Z",
+    "source": "Cointelegraph",
+    "api_source": "newsapi",
+    "sentiment": {
+      "compound": 0.341235,
+      "positive": 0.19,
+      "neutral": 0.732,
+      "negative": 0.078,
+      "subjectivity": 0.25,
+      "pattern_bullish": 0,
+      "pattern_bearish": 0
+    },
+    "impact_score": 0.0,
+    "key_phrases": [
+      "out"
+    ],
+    "category": "general",
+    "analyzed_at": "2025-09-09T08:34:58.818542"
+  },
+  {
+    "title": "What is B. Riley’s Forecast for Bit Digital Q1 Earnings?",
+    "description": "Bit Digital, Inc. (NASDAQ:BTBT – Free Report) – Research analysts at B. Riley issued their Q1 2026 earnings estimates for shares of Bit Digital in a note issued to investors on Thursday, September 4th. B. Riley analyst N. Giles anticipates that the company wi…",
+    "url": "https://www.etfdailynews.com/2025/09/07/what-is-b-rileys-forecast-for-bit-digital-q1-earnings/",
+    "publishedAt": "2025-09-07T05:48:48Z",
+    "source": "ETF Daily News",
+    "api_source": "newsapi",
+    "sentiment": {
+      "compound": 0.4323,
+      "positive": 0.096,
+      "neutral": 0.904,
+      "negative": 0.0,
+      "subjectivity": 0.2,
+      "pattern_bullish": 0,
+      "pattern_bearish": 0
+    },
+    "impact_score": 2.7777777777777777,
+    "key_phrases": [
+      "for",
+      "forecast",
+      "bit"
+    ],
+    "category": "general",
+    "analyzed_at": "2025-09-09T08:34:58.819100"
+  },
+  {
+    "title": "eas-sdk 0.1.1",
+    "description": "Python SDK for Ethereum Attestation Service (EAS)",
+    "url": "https://pypi.org/project/eas-sdk/0.1.1/",
+    "publishedAt": "2025-09-07T05:39:11Z",
+    "source": "Pypi.org",
+    "api_source": "newsapi",
+    "sentiment": {
+      "compound": 0.0,
+      "positive": 0.0,
+      "neutral": 1.0,
+      "negative": 0.0,
+      "subjectivity": 0.0,
+      "pattern_bullish": 0,
+      "pattern_bearish": 0
+    },
+    "impact_score": 0.0,
+    "key_phrases": [
+      "for"
+    ],
+    "category": "general",
+    "analyzed_at": "2025-09-09T08:34:58.819235"
+  },
+  {
+    "title": "DeFi Technologies (NASDAQ:DEFT) Rating Lowered to “Sell” at Wall Street Zen",
+    "description": "DeFi Technologies (NASDAQ:DEFT – Get Free Report) was downgraded by equities research analysts at Wall Street Zen from a “hold” rating to a “sell” rating in a research note issued on Friday. Several other brokerages have also commented on DEFT. Maxim Group up…",
+    "url": "https://www.etfdailynews.com/2025/09/07/defi-technologies-nasdaqdeft-rating-lowered-to-sell-at-wall-street-zen/",
+    "publishedAt": "2025-09-07T05:26:43Z",
+    "source": "ETF Daily News",
+    "api_source": "newsapi",
+    "sentiment": {
+      "compound": 0.31852499999999995,
+      "positive": 0.058,
+      "neutral": 0.915,
+      "negative": 0.026,
+      "subjectivity": 0.51875,
+      "pattern_bullish": 0,
+      "pattern_bearish": 0
+    },
+    "impact_score": 1.8518518518518516,
+    "key_phrases": [
+      "get",
+      "defi",
+      "wall"
+    ],
+    "category": "defi",
+    "analyzed_at": "2025-09-09T08:34:58.819775"
+  },
+  {
+    "title": "iShares Ethereum Trust ETF Target of Unusually High Options Trading (NASDAQ:ETHA)",
+    "description": "iShares Ethereum Trust ETF (NASDAQ:ETHA – Get Free Report) saw unusually large options trading on Friday. Stock traders acquired 279,018 call options on the company. Thisisanincreaseof79% compared to the average daily volume of 155,681 call options. iShares E…",
+    "url": "https://www.etfdailynews.com/2025/09/07/ishares-ethereum-trust-etf-target-of-unusually-high-options-trading-nasdaqetha/",
+    "publishedAt": "2025-09-07T05:16:52Z",
+    "source": "ETF Daily News",
+    "api_source": "newsapi",
+    "sentiment": {
+      "compound": 0.5606571428571429,
+      "positive": 0.177,
+      "neutral": 0.823,
+      "negative": 0.0,
+      "subjectivity": 0.4337142857142857,
+      "pattern_bullish": 0,
+      "pattern_bearish": 0
+    },
+    "impact_score": 10.0,
+    "key_phrases": [
+      "trading",
+      "get",
+      "volume",
+      "target",
+      "etf"
+    ],
+    "category": "market",
+    "analyzed_at": "2025-09-09T08:34:58.820232"
+  },
+  {
+    "title": "Euro stablecoins are 0.15% of the market. Here’s how Europe catches up",
+    "description": "The following is a guest post and opinion of Eneko Knörr, CEO and Co-Founder of Stabolut. Months ago, in an op-ed for CryptoSlate, I warned that the EU’s flagship crypto regulation, MiCA, would achieve the opposite of its goals. I argued it would strangle eur…",
+    "url": "https://cryptoslate.com/euro-stablecoins-are-0-15-of-the-market-heres-how-europe-catches-up/",
+    "publishedAt": "2025-09-07T05:00:30Z",
+    "source": "CryptoSlate",
+    "api_source": "newsapi",
+    "sentiment": {
+      "compound": -0.29634,
+      "positive": 0.023,
+      "neutral": 0.9,
+      "negative": 0.077,
+      "subjectivity": 0.05,
+      "pattern_bullish": 0,
+      "pattern_bearish": 0
+    },
+    "impact_score": 10.0,
+    "key_phrases": [
+      "regulation",
+      "post",
+      "for",
+      "opposite",
+      "market"
+    ],
+    "category": "regulation",
+    "analyzed_at": "2025-09-09T08:34:58.820801"
+  },
+  {
+    "title": "Inside Trump’s crypto empire and its impact on international relations",
+    "description": "Donald Trump's shift to cryptocurrency advocacy after accepting crypto donations has sparked ethical and security concerns. His administration's deals through World Liberty Financial (WLF) with countries like Pakistan and UAE raise red flags about conflicts o…",
+    "url": "https://economictimes.indiatimes.com/news/international/global-trends/inside-trumps-crypto-empire-and-its-impact-on-international-relations/articleshow/123742425.cms",
+    "publishedAt": "2025-09-07T03:07:56Z",
+    "source": "The Times of India",
+    "api_source": "newsapi",
+    "sentiment": {
+      "compound": 0.5496,
+      "positive": 0.25,
+      "neutral": 0.704,
+      "negative": 0.046,
+      "subjectivity": 0.15,
+      "pattern_bullish": 0,
+      "pattern_bearish": 0
+    },
+    "impact_score": 6.521739130434782,
+    "key_phrases": [
+      "red",
+      "security"
+    ],
+    "category": "regulation",
+    "analyzed_at": "2025-09-09T08:34:58.821749"
+  },
+  {
+    "title": "Ethereum Exchange Balance Turns Negative For The First Time – Why This Is Bullish For Price",
+    "description": "Ethereum (ETH) has just made history with a development that could reshape its market trajectory. For the first time, the Ethereum exchange balance has turned negative, meaning more tokens are being withdrawn from trading platforms than deposited. This struct…",
+    "url": "http://www.newsbtc.com/news/ethereum/ethereum-exchange-balance-turns-negative-for-the-first-time-why-this-is-bullish-for-price/",
+    "publishedAt": "2025-09-07T02:00:47Z",
+    "source": "newsBTC",
+    "api_source": "newsapi",
+    "sentiment": {
+      "compound": -0.4968933333333333,
+      "positive": 0.0,
+      "neutral": 0.877,
+      "negative": 0.123,
+      "subjectivity": 0.39333333333333337,
+      "pattern_bullish": 1,
+      "pattern_bearish": 2
+    },
+    "impact_score": 10.0,
+    "key_phrases": [
+      "tokens",
+      "trading",
+      "bullish",
+      "price",
+      "deposited",
+      "for",
+      "market"
+    ],
+    "category": "market",
+    "analyzed_at": "2025-09-09T08:34:58.822476"
+  },
+  {
+    "title": "Ethereum Staking In Focus: SharpLink Considers Linea For Treasury Yield – Details",
+    "description": "SharpLink is weighing a bold move that could reshape how corporations manage digital assets. Presently, the company is exploring the option of staking a portion of its Ethereum on the Linea network. What Staking Ethereum Means For SharpLink SharpLink Gaming (…",
+    "url": "https://bitcoinist.com/ethereum-staking-in-focus/",
+    "publishedAt": "2025-09-07T01:30:18Z",
+    "source": "Bitcoinist",
+    "api_source": "newsapi",
+    "sentiment": {
+      "compound": 0.4082733333333333,
+      "positive": 0.109,
+      "neutral": 0.891,
+      "negative": 0.0,
+      "subjectivity": 0.2222222222222222,
+      "pattern_bullish": 0,
+      "pattern_bearish": 0
+    },
+    "impact_score": 5.660377358490567,
+    "key_phrases": [
+      "for",
+      "staking",
+      "option"
+    ],
+    "category": "staking",
+    "analyzed_at": "2025-09-09T08:34:58.822956"
+  },
+  {
+    "title": "Why Bio Protocol’s recovery hinges on the $0.18 price level",
+    "description": "The 4-hour BIO price structure was bullish, and more gains appeared likely over the weekend and the next week.",
+    "url": "https://ambcrypto.com/why-bio-protocols-recovery-hinges-on-the-0-18-price-level/",
+    "publishedAt": "2025-09-07T01:00:52Z",
+    "source": "Ambcrypto.com",
+    "api_source": "newsapi",
+    "sentiment": {
+      "compound": 0.3903,
+      "positive": 0.088,
+      "neutral": 0.912,
+      "negative": 0.0,
+      "subjectivity": 0.5,
+      "pattern_bullish": 1,
+      "pattern_bearish": 0
+    },
+    "impact_score": 10.0,
+    "key_phrases": [
+      "bullish",
+      "price",
+      "over"
+    ],
+    "category": "market",
+    "analyzed_at": "2025-09-09T08:34:58.823297"
+  },
+  {
+    "title": "Bitcoin Treasury Purchases Down Amid Record Holdings – What Does This Mean?",
+    "description": "Bitcoin (BTC) experienced a moderate price rebound last week, rallying to around $113,000 before witnessing a minor setback. The crypto market leader now trades near the $111,000 price level and stands 10.46% away from its all-time high. Meanwhile, recent dat…",
+    "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-treasury-purchases-down-amid-record-holdings-what-does-this-mean/",
+    "publishedAt": "2025-09-07T00:30:54Z",
+    "source": "newsBTC",
+    "api_source": "newsapi",
+    "sentiment": {
+      "compound": 0.13944481481481483,
+      "positive": 0.034,
+      "neutral": 0.966,
+      "negative": 0.0,
+      "subjectivity": 0.44811728395061734,
+      "pattern_bullish": 0,
+      "pattern_bearish": 0
+    },
+    "impact_score": 5.769230769230769,
+    "key_phrases": [
+      "dat",
+      "price",
+      "down",
+      "market",
+      "all"
+    ],
+    "category": "market",
+    "analyzed_at": "2025-09-09T08:34:58.823747"
+  },
+  {
+    "title": "cdklabs.cdk-ethereum-node 0.0.697",
+    "description": "CDK construct to deploy an Ethereum node running on Amazon Managed Blockchain",
+    "url": "https://pypi.org/project/cdklabs-cdk-ethereum-node/0.0.697/",
+    "publishedAt": "2025-09-07T00:30:08Z",
+    "source": "Pypi.org",
+    "api_source": "newsapi",
+    "sentiment": {
+      "compound": 0.10674,
+      "positive": 0.116,
+      "neutral": 0.884,
+      "negative": 0.0,
+      "subjectivity": 0.0,
+      "pattern_bullish": 0,
+      "pattern_bearish": 0
+    },
+    "impact_score": 10.0,
+    "key_phrases": [
+      "node",
+      "blockchain"
+    ],
+    "category": "general",
+    "analyzed_at": "2025-09-09T08:34:58.823954"
+  },
+  {
+    "title": "Ethereum – Is ETH about to mirror Bitcoin’s 2021 bull run?",
+    "description": "Ethereum's price setup certainly feels familiar. But why?",
+    "url": "https://ambcrypto.com/ethereum-is-eth-about-to-mirror-bitcoins-2021-bull-run/",
+    "publishedAt": "2025-09-07T00:00:58Z",
+    "source": "Ambcrypto.com",
+    "api_source": "newsapi",
+    "sentiment": {
+      "compound": 0.24679285714285715,
+      "positive": 0.103,
+      "neutral": 0.897,
+      "negative": 0.0,
+      "subjectivity": 0.5357142857142857,
+      "pattern_bullish": 0,
+      "pattern_bearish": 0
+    },
+    "impact_score": 7.894736842105263,
+    "key_phrases": [
+      "price",
+      "bull"
+    ],
+    "category": "market",
+    "analyzed_at": "2025-09-09T08:34:58.824336"
+  },
+  {
+    "title": "Crypto Expert Shares How To Get To $1 Million With XRP",
+    "description": "The debate over XRP’s potential as both a utility token and a wealth-building asset for long-term investors remains a hot topic in the crypto space. Recently, a crypto expert has added fuel to the discussion, unveiling a detailed step-by-step approach he beli…",
+    "url": "https://bitcoinist.com/how-to-get-to-1-million-with-xrp/",
+    "publishedAt": "2025-09-07T00:00:01Z",
+    "source": "Bitcoinist",
+    "api_source": "newsapi",
+    "sentiment": {
+      "compound": 0.39188999999999996,
+      "positive": 0.084,
+      "neutral": 0.916,
+      "negative": 0.0,
+      "subjectivity": 0.7125,
+      "pattern_bullish": 0,
+      "pattern_bearish": 0
+    },
+    "impact_score": 1.8867924528301887,
+    "key_phrases": [
+      "for",
+      "get",
+      "token",
+      "over"
+    ],
+    "category": "general",
+    "analyzed_at": "2025-09-09T08:34:58.824864"
+  },
+  {
+    "title": "Daily Hacker News for 2025-09-06",
+    "description": "The 10 highest-rated articles on\nHacker News\non September 06, 2025 which have not appeared on any previous\nHacker News Daily\nare:\n<ul>\n<li>\nApertus 70B: Truly Open - Swiss LLM by ETH, EPFL and CSCS\n(comments)\n</li>\n<li>\nThe maths you need to start understandi…",
+    "url": "https://www.daemonology.net/hn-daily/2025-09-06.html",
+    "publishedAt": "2025-09-07T00:00:00Z",
+    "source": "Daemonology.net",
+    "api_source": "newsapi",
+    "sentiment": {
+      "compound": 0.25173999999999996,
+      "positive": 0.055,
+      "neutral": 0.945,
+      "negative": 0.0,
+      "subjectivity": 0.16666666666666666,
+      "pattern_bullish": 0,
+      "pattern_bearish": 0
+    },
+    "impact_score": 0.0,
+    "key_phrases": [
+      "for"
+    ],
+    "category": "general",
+    "analyzed_at": "2025-09-09T08:34:58.825351"
+  },
+  {
+    "title": "Top 5 Crypto Presales to Watch This Month – Lyno AI Gains FOMO Momentum",
+    "description": "Get ahead with Lyno AI, one of the top crypto presales, alongside 99Bitcoins, Base Dawgz, and more for strategic early investment.",
+    "url": "https://www.analyticsinsight.net/cryptocurrency-analytics-insight/top-5-crypto-presales-to-watch-this-month-lyno-ai-gains-fomo-momentum",
+    "publishedAt": "2025-09-08 13:30:00",
+    "source": "analyticsinsight",
+    "api_source": "newsdata",
+    "sentiment": {
+      "compound": 0.41544000000000003,
+      "positive": 0.158,
+      "neutral": 0.842,
+      "negative": 0.0,
+      "subjectivity": 0.5599999999999999,
+      "pattern_bullish": 0,
+      "pattern_bearish": 0
+    },
+    "impact_score": 0.0,
+    "key_phrases": [
+      "for",
+      "get"
+    ],
+    "category": "general",
+    "analyzed_at": "2025-09-09T08:34:58.825732"
+  },
+  {
+    "title": "QCP Capital: BTC And ETH Hold Steady As Investors Await US CPI And PPI Data Ahead Of Federal Reserve’s Rate Cut Decision",
+    "description": "QCP reports that despite weak US jobs data raising rate cut expectations, Bitcoin and Ethereum remain steady, with the crypto market largely consolidating ahead of upcoming CPI releases.The post QCP Capital: BTC And ETH Hold Steady As Investors Await US CPI And PPI Data Ahead Of Federal Reserve’s Rate Cut Decision appeared first on Metaverse Post.",
+    "url": "https://mpost.io/qcp-capital-btc-and-eth-hold-steady-as-investors-await-us-cpi-and-ppi-data-ahead-of-federal-reserves-rate-cut-decision/",
+    "publishedAt": "2025-09-08 13:24:42",
+    "source": "mpost",
+    "api_source": "newsdata",
+    "sentiment": {
+      "compound": -0.13361571428571428,
+      "positive": 0.062,
+      "neutral": 0.862,
+      "negative": 0.075,
+      "subjectivity": 0.48115079365079366,
+      "pattern_bullish": 0,
+      "pattern_bearish": 0
+    },
+    "impact_score": 5.769230769230769,
+    "key_phrases": [
+      "market",
+      "post"
+    ],
+    "category": "market",
+    "analyzed_at": "2025-09-09T08:34:58.826532"
+  },
+  {
+    "title": "Comparing Nexchain and Pepe Dollar: Which Presale Token Could Dominate 2025?",
+    "description": "Nexchain and Pepe Dollar stand out in 2025, blending blockchain innovation with meme coin culture. Discover the top crypto opportunities today.",
+    "url": "https://www.analyticsinsight.net/cryptocurrency-analytics-insight/comparing-nexchain-and-pepe-dollar-which-presale-token-could-dominate-2025",
+    "publishedAt": "2025-09-08 13:19:37",
+    "source": "analyticsinsight",
+    "api_source": "newsdata",
+    "sentiment": {
+      "compound": 0.5523,
+      "positive": 0.192,
+      "neutral": 0.767,
+      "negative": 0.041,
+      "subjectivity": 0.5,
+      "pattern_bullish": 0,
+      "pattern_bearish": 0
+    },
+    "impact_score": 9.375,
+    "key_phrases": [
+      "token",
+      "blockchain",
+      "out"
+    ],
+    "category": "general",
+    "analyzed_at": "2025-09-09T08:34:58.826925"
+  },
+  {
+    "title": "Discover 3 Best Crypto Coins With 100x Potential in September 2025",
+    "description": "Top crypto coins to join in September 2025 include BullZilla, Peanut, and Baby Doge. Explore meme coins with staking rewards and presale potential.",
+    "url": "https://www.analyticsinsight.net/cryptocurrency-analytics-insight/discover-3-best-crypto-coins-with-100x-potential-in-september-2025",
+    "publishedAt": "2025-09-08 13:15:00",
+    "source": "analyticsinsight",
+    "api_source": "newsdata",
+    "sentiment": {
+      "compound": 0.6425399999999999,
+      "positive": 0.274,
+      "neutral": 0.726,
+      "negative": 0.0,
+      "subjectivity": 0.7,
+      "pattern_bullish": 0,
+      "pattern_bearish": 0
+    },
+    "impact_score": 8.823529411764707,
+    "key_phrases": [
+      "staking"
+    ],
+    "category": "staking",
+    "analyzed_at": "2025-09-09T08:34:58.827295"
+  },
+  {
+    "title": "Which Altcoin to Buy in 2025: BlockDAG, Labubull, Brett, Ponke, and the Race for Real Value",
+    "description": "BlockDAG, Ponke, and Labubull headline 2025’s altcoin race. Explore top",
+    "url": "https://www.analyticsinsight.net/cryptocurrency-analytics-insight/which-altcoin-to-buy-in-2025-blockdag-labubull-brett-ponke-and-the-race-for-real-value",
+    "publishedAt": "2025-09-08 13:00:00",
+    "source": "analyticsinsight",
+    "api_source": "newsdata",
+    "sentiment": {
+      "compound": 0.40134,
+      "positive": 0.149,
+      "neutral": 0.851,
+      "negative": 0.0,
+      "subjectivity": 0.4,
+      "pattern_bullish": 0,
+      "pattern_bearish": 0
+    },
+    "impact_score": 3.8461538461538463,
+    "key_phrases": [
+      "for",
+      "blockdag"
+    ],
+    "category": "general",
+    "analyzed_at": "2025-09-09T08:34:58.827603"
+  },
+  {
+    "title": "Bybit TradFi Waives Fees on Stock CFDs and Index Trading",
+    "description": "DUBAI, UAE, Sept. 8, 2025 /PRNewswire/ -- Bybit, the world's second-largest cryptocurrency exchange by trading volume, is pleased to enhance access to opportunities in traditional markets for Bybit TradFi users with a new benefit: between now and October 11, 2025, eligible users can now...",
+    "url": "https://www.prnewswire.co.uk/news-releases/bybit-tradfi-waives-fees-on-stock-cfds-and-index-trading-302549114.html",
+    "publishedAt": "2025-09-08 12:35:00",
+    "source": "prnewswire_co_uk",
+    "api_source": "newsdata",
+    "sentiment": {
+      "compound": 0.5541963636363636,
+      "positive": 0.143,
+      "neutral": 0.857,
+      "negative": 0.0,
+      "subjectivity": 0.7348484848484849,
+      "pattern_bullish": 0,
+      "pattern_bearish": 0
+    },
+    "impact_score": 10.0,
+    "key_phrases": [
+      "trading",
+      "second",
+      "volume",
+      "for",
+      "markets"
+    ],
+    "category": "regulation",
+    "analyzed_at": "2025-09-09T08:34:58.828098"
+  },
+  {
+    "title": "Bybit TradFi Waives Fees on Stock CFDs and Index Trading",
+    "description": "DUBAI, UAE, Sept. 8, 2025 /PRNewswire/ -- Bybit, the world's second-largest cryptocurrency exchange by trading volume, is pleased to enhance access to opportunities in traditional markets for Bybit TradFi users with a new benefit: between now and October 11, 2025, eligible users can now...",
+    "url": "https://www.prnewswire.com/apac/news-releases/bybit-tradfi-waives-fees-on-stock-cfds-and-index-trading-302549102.html",
+    "publishedAt": "2025-09-08 12:30:00",
+    "source": "prnewswire_apac",
+    "api_source": "newsdata",
+    "sentiment": {
+      "compound": 0.5541963636363636,
+      "positive": 0.143,
+      "neutral": 0.857,
+      "negative": 0.0,
+      "subjectivity": 0.7348484848484849,
+      "pattern_bullish": 0,
+      "pattern_bearish": 0
+    },
+    "impact_score": 10.0,
+    "key_phrases": [
+      "trading",
+      "second",
+      "volume",
+      "for",
+      "markets"
+    ],
+    "category": "regulation",
+    "analyzed_at": "2025-09-09T08:34:58.828629"
+  },
+  {
+    "title": "4 Best 50x Meme Coins That Will Outshine Dogecoin (DOGE) and Pepe Coin (PEPE) in 2025",
+    "description": "Top meme coins, Little Pepe, BONK, Dogwifhat, and POPCAT, are projected to deliver 50x gains in 2025, outshining Dogecoin and Pepe Coin.",
+    "url": "https://www.analyticsinsight.net/cryptocurrency-analytics-insight/4-best-50x-meme-coins-that-will-outshine-dogecoin-doge-and-pepe-coin-pepe-in-2025",
+    "publishedAt": "2025-09-08 12:30:00",
+    "source": "analyticsinsight",
+    "api_source": "newsdata",
+    "sentiment": {
+      "compound": 0.61881,
+      "positive": 0.194,
+      "neutral": 0.806,
+      "negative": 0.0,
+      "subjectivity": 0.43333333333333335,
+      "pattern_bullish": 0,
+      "pattern_bearish": 0
+    },
+    "impact_score": 0.0,
+    "key_phrases": [],
+    "category": "general",
+    "analyzed_at": "2025-09-09T08:34:58.829010"
+  },
+  {
+    "title": "SAX Chain Announces October Mainnet Launch, Positions AI Agents as Web3's Next Revenue Model",
+    "description": "DUBAI, United Arab Emirates, Sept. 08, 2025 (GLOBE NEWSWIRE) -- SAX Chain has announced that its Layer-1 Proof of Stake (PoS) blockchain will officially launch on Oct. 1, introducing what it calls \"the blockchain that thinks.\" By combining native AI and decentralized oracles, the project is pitching an ecosystem where developers, enterprises, and everyday users can create intelligent agents that interact with real-world data, execute automated tasks, and generate on-chain revenue — a model the team says could redefine how value is created in Web3 beyond speculative tokens.For years, the dominant narrative in Web3 has revolved around launching tokens that rarely deliver real utility. SAX Chain arrives to completely change that narrative: instead of fueling speculation, it empowers a new economy where any user can create AI agents that think, interact with the real world, and generate automatic revenue for their creators.Built as a Layer-1 Proof of Stake (PoS) blockchain, SAX defines itself as \"the blockchain that thinks.\" From its genesis, ...Full story available on Benzinga.com",
+    "url": "https://www.benzinga.com/pressreleases/25/09/g47544944/sax-chain-announces-october-mainnet-launch-positions-ai-agents-as-web3s-next-revenue-model",
+    "publishedAt": "2025-09-08 12:28:42",
+    "source": "benzinga",
+    "api_source": "newsdata",
+    "sentiment": {
+      "compound": 0.7137254545454546,
+      "positive": 0.084,
+      "neutral": 0.916,
+      "negative": 0.0,
+      "subjectivity": 0.4727272727272728,
+      "pattern_bullish": 2,
+      "pattern_bearish": 0
+    },
+    "impact_score": 10.0,
+    "key_phrases": [
+      "layer",
+      "empowers",
+      "blockchain",
+      "launch",
+      "proof",
+      "stake",
+      "redefine",
+      "positions",
+      "pos",
+      "launching",
+      "chain",
+      "for",
+      "defines",
+      "mainnet",
+      "tokens"
+    ],
+    "category": "defi",
+    "analyzed_at": "2025-09-09T08:34:58.830560"
+  },
+  {
+    "title": "Bybit and Byreal Celebrate bbSOL's First Anniversary with Puzzle Hunt, Liquidity Rewards, and Enhanced DeFi Integration",
+    "description": "DUBAI, UAE, Sept. 8, 2025 /PRNewswire/ -- Bybit, the world's second-largest cryptocurrency exchange by trading volume, is excited to celebrate the first anniversary of bbSOL, marking a significant milestone for the world's first exchange-backed liquid staking token (LST) on the Solana...",
+    "url": "https://www.prnewswire.co.uk/news-releases/bybit-and-byreal-celebrate-bbsols-first-anniversary-with-puzzle-hunt-liquidity-rewards-and-enhanced-defi-integration-302549089.html",
+    "publishedAt": "2025-09-08 12:22:00",
+    "source": "prnewswire_co_uk",
+    "api_source": "newsdata",
+    "sentiment": {
+      "compound": 0.7472199999999999,
+      "positive": 0.22,
+      "neutral": 0.78,
+      "negative": 0.0,
+      "subjectivity": 0.525,
+      "pattern_bullish": 2,
+      "pattern_bearish": 0
+    },
+    "impact_score": 10.0,
+    "key_phrases": [
+      "token",
+      "staking",
+      "trading",
+      "second",
+      "integration",
+      "volume",
+      "defi",
+      "for"
+    ],
+    "category": "staking",
+    "analyzed_at": "2025-09-09T08:34:58.831346"
+  },
+  {
+    "title": "Best Cryptocurrency to invest in before 2026? whales back a $0.035 DeFi coin with 45x ROI potential",
+    "description": "The race for the best cryptocurrency to invest in before 2026 is intensifying. Bitcoin (BTC) remains the flagship, and Ethereum (ETH) continues to dominate decentralized applications, but neither asset offers the asymmetric opportunity now drawing in major investors. Whales are increasingly focused on Mutuum Finance (MUTM), a DeFi project in presale at $0.035, that analysts [&#8230;]",
+    "url": "https://cyprus-mail.com/2025/09/06/best-cryptocurrency-to-invest-in-before-2026-whales-back-a-0-035-defi-coin-with-45x-roi-potential",
+    "publishedAt": "2025-09-06T15:10:00+00:00",
+    "source": "cyprus-mail",
+    "api_source": "mediastack",
+    "sentiment": {
+      "compound": 0.5772128571428571,
+      "positive": 0.145,
+      "neutral": 0.807,
+      "negative": 0.048,
+      "subjectivity": 0.4428571428571429,
+      "pattern_bullish": 0,
+      "pattern_bearish": 0
+    },
+    "impact_score": 1.36986301369863,
+    "key_phrases": [
+      "for",
+      "defi"
+    ],
+    "category": "defi",
+    "analyzed_at": "2025-09-09T08:34:58.832073"
+  },
+  {
+    "title": "Ethereum Built Web3. EDMA is building the Energy Web — And early buyers get in at $0.11",
+    "description": "Ethereum (ETH) proved one truth above all: when you give people a platform, not just a coin, you change the world. From DeFi to NFTs to DAOs, ETH turned a simple blockchain into the backbone of a trillion-dollar industry. But the next trillion in crypto won’t come from apes or JPEGs. It will come from [&#8230;]",
+    "url": "https://cyprus-mail.com/2025/08/21/ethereum-built-web3-edma-is-building-the-energy-web-and-early-buyers-get-in-at-0-11",
+    "publishedAt": "2025-08-21T15:20:00+00:00",
+    "source": "cyprus-mail",
+    "api_source": "mediastack",
+    "sentiment": {
+      "compound": 0.19859999999999997,
+      "positive": 0.043,
+      "neutral": 0.957,
+      "negative": 0.0,
+      "subjectivity": 0.3514285714285714,
+      "pattern_bullish": 0,
+      "pattern_bearish": 0
+    },
+    "impact_score": 6.8493150684931505,
+    "key_phrases": [
+      "blockchain",
+      "all",
+      "nfts",
+      "get",
+      "defi",
+      "daos"
+    ],
+    "category": "defi",
+    "analyzed_at": "2025-09-09T08:34:58.832755"
+  },
+  {
+    "title": "Cardano (ADA)’s governance vote pushes ADA up 12.9%, and one DeFi token is riding the same hype Ethereum (ETH) once had",
+    "description": "The recent governance vote on Cardano (ADA) triggered a sharp 12.9% surge in price, underscoring how strong community involvement and practical utility can ignite market demand. History has shown that when a network blends real-world application with active user participation, growth accelerates — Ethereum (ETH) did it in its early DeFi boom, and ADA is [&#8230;]",
+    "url": "https://cyprus-mail.com/2025/08/11/cardano-adas-governance-vote-pushes-ada-up-12-9-and-one-defi-token-is-riding-the-same-hype-ethereum-eth-once-had",
+    "publishedAt": "2025-08-11T13:30:00+00:00",
+    "source": "cyprus-mail",
+    "api_source": "mediastack",
+    "sentiment": {
+      "compound": 0.60034,
+      "positive": 0.103,
+      "neutral": 0.878,
+      "negative": 0.018,
+      "subjectivity": 0.5369047619047619,
+      "pattern_bullish": 2,
+      "pattern_bearish": 0
+    },
+    "impact_score": 7.792207792207792,
+    "key_phrases": [
+      "token",
+      "governance",
+      "defi",
+      "price",
+      "market"
+    ],
+    "category": "defi",
+    "analyzed_at": "2025-09-09T08:34:58.833477"
+  },
+  {
+    "title": "Mutuum Finance (MUTM) eyes $6 while Ethereum (ETH) wallet snaps up $114M, what are whales planning next?",
+    "description": "Ethereum (ETH) continues to dominate headlines after a single wallet recently absorbed $114 million worth of ETH, but beneath the surface, a quiet rotation is unfolding. Large investors are not just stacking top-tier assets — they’re now spreading risk and capital into low-cap DeFi projects with real utility. One of the most discussed names right [&#8230;]",
+    "url": "https://cyprus-mail.com/2025/08/01/mutuum-finance-mutm-eyes-6-while-ethereum-eth-wallet-snaps-up-114m-what-are-whales-planning-next",
+    "publishedAt": "2025-08-01T15:10:00+00:00",
+    "source": "cyprus-mail",
+    "api_source": "mediastack",
+    "sentiment": {
+      "compound": -0.10226285714285714,
+      "positive": 0.046,
+      "neutral": 0.903,
+      "negative": 0.051,
+      "subjectivity": 0.4311904761904762,
+      "pattern_bullish": 0,
+      "pattern_bearish": 1
+    },
+    "impact_score": 2.73972602739726,
+    "key_phrases": [
+      "wallet",
+      "defi"
+    ],
+    "category": "defi",
+    "analyzed_at": "2025-09-09T08:34:58.834280"
+  },
+  {
+    "title": "Ethereum (ETH) slips below $3.7K, Solana (SOL) dips, but this DeFi Crypto is now on whale watchlists",
+    "description": "As Ethereum (ETH) slides under the $3,700 mark and Solana (SOL) experiences a downward shift, investors and whales are actively repositioning their portfolios. Their sights are now set on high-yield decentralized finance (DeFi) projects that combine innovation with strong growth potential. Among these, Mutuum Finance (MUTM) stands out as a prime candidate poised to capture [&#8230;]",
+    "url": "https://cyprus-mail.com/2025/07/26/ethereum-eth-slips-below-3-7k-solana-sol-dips-but-this-defi-crypto-is-now-on-whale-watchlists",
+    "publishedAt": "2025-07-26T15:10:00+00:00",
+    "source": "cyprus-mail",
+    "api_source": "mediastack",
+    "sentiment": {
+      "compound": 0.61083,
+      "positive": 0.197,
+      "neutral": 0.803,
+      "negative": 0.0,
+      "subjectivity": 0.8333333333333334,
+      "pattern_bullish": 1,
+      "pattern_bearish": 1
+    },
+    "impact_score": 5.47945205479452,
+    "key_phrases": [
+      "defi",
+      "repositioning",
+      "mark",
+      "out"
+    ],
+    "category": "defi",
+    "analyzed_at": "2025-09-09T08:34:58.834946"
+  },
+  {
+    "title": "Crypto’s hidden gem? This DeFi altcoin aims for $1 before Ethereum (ETH) breaks $4800",
+    "description": "Mutuum Finance (MUTM) is surging through its presale, with phase 5 nearly sold out at $0.03. Investors are flocking to this DeFi crypto, drawn by its robust lending model and a projected $1 price in 2025. Having raised $13,400,000 with over 630 million tokens sold to 14,200 holders, Mutuum Finance (MUTM) is gaining traction in [&#8230;]",
+    "url": "https://cyprus-mail.com/2025/07/25/cryptos-hidden-gem-this-defi-altcoin-aims-for-1-before-ethereum-eth-breaks-4800",
+    "publishedAt": "2025-07-25T15:40:00+00:00",
+    "source": "cyprus-mail",
+    "api_source": "mediastack",
+    "sentiment": {
+      "compound": 0.4004733333333333,
+      "positive": 0.071,
+      "neutral": 0.929,
+      "negative": 0.0,
+      "subjectivity": 0.5777777777777778,
+      "pattern_bullish": 0,
+      "pattern_bearish": 0
+    },
+    "impact_score": 5.0,
+    "key_phrases": [
+      "over",
+      "defi",
+      "out",
+      "price",
+      "for",
+      "tokens"
+    ],
+    "category": "defi",
+    "analyzed_at": "2025-09-09T08:34:58.835998"
+  },
+  {
+    "title": "Ethereum (ETH) breaks $2,500, but this under-the-radar DeFi token may see 15x shortly post listing",
+    "description": "Ethereum (ETH) has officially crossed the $2,500 mark again, reigniting market confidence across crypto. But while ETH bulls celebrate, experienced investors are already pivoting—seeking underexposed assets with real utility, strong tokenomics, and higher upside potential. This new wave of smart capital is landing on Mutuum Finance (MUTM), a DeFi lending protocol designed to deliver both [&#8230;]",
+    "url": "https://cyprus-mail.com/2025/07/11/ethereum-eth-breaks-2500-but-this-under-the-radar-defi-token-may-see-15x-shortly-post-listing",
+    "publishedAt": "2025-07-11T13:30:00+00:00",
+    "source": "cyprus-mail",
+    "api_source": "mediastack",
+    "sentiment": {
+      "compound": 0.6559727561327562,
+      "positive": 0.229,
+      "neutral": 0.771,
+      "negative": 0.0,
+      "subjectivity": 0.6478595478595479,
+      "pattern_bullish": 0,
+      "pattern_bearish": 0
+    },
+    "impact_score": 9.15492957746479,
+    "key_phrases": [
+      "token",
+      "defi",
+      "post",
+      "tokenomics",
+      "mark",
+      "market",
+      "underexposed",
+      "smart"
+    ],
+    "category": "defi",
+    "analyzed_at": "2025-09-09T08:34:58.836867"
+  },
+  {
+    "title": "Bitcoin (BTC) ETF outflows turn to $286 M Ethereum (ETH) inflows — Could a DeFi sleeper gain 700% on that rotation?",
+    "description": "This week’s ETF data confirmed a rising shift in sentiment: nearly $286 million in capital exited Bitcoin-focused instruments and re-entered Ethereum, reigniting the smart contract narrative. With Ethereum’s design enabling true financial programmability, investors are clearly looking for assets with functional utility—not just store-of-value potential. But for those who’ve already captured ETH upside, attention is [&#8230;]",
+    "url": "https://cyprus-mail.com/2025/06/26/bitcoin-btc-etf-outflows-turn-to-286-m-ethereum-eth-inflows-could-a-defi-sleeper-gain-700-on-that-rotation",
+    "publishedAt": "2025-06-26T15:10:00+00:00",
+    "source": "cyprus-mail",
+    "api_source": "mediastack",
+    "sentiment": {
+      "compound": 0.4916957142857143,
+      "positive": 0.113,
+      "neutral": 0.887,
+      "negative": 0.0,
+      "subjectivity": 0.6345238095238095,
+      "pattern_bullish": 0,
+      "pattern_bearish": 0
+    },
+    "impact_score": 6.493506493506493,
+    "key_phrases": [
+      "defi",
+      "contract",
+      "for",
+      "smart",
+      "etf"
+    ],
+    "category": "defi",
+    "analyzed_at": "2025-09-09T08:34:58.837673"
+  },
+  {
+    "title": "BTCS Inc. Acquires 1,000 ETH, Expanding Ethereum Holdings to 14,600 ETH",
+    "description": "Silver Spring, Maryland&#8211;(Newsfile Corp. &#8211; June 20, 2025) &#8211; BTCS Inc. (NASDAQ: BTCS) (&#8220;BTCS&#8221; or the &#8220;Company&#8221;), a blockchain technology-focused company short for Blockchain Technology Consensus Solutions, today announced the acquisition of 1,000 Ether (&#8220;ETH&#8221;) for approximately $2.5 million through borrowing on AAVE, the leading decentralized lending (&#8220;DeFi&#8221;) protocol. The purchases were made at an [&#8230;]",
+    "url": "https://www.thewhig.com/newsfile/256204-btcs-inc-acquires-1000-eth-expanding-ethereum-holdings-to-14600-eth",
+    "publishedAt": "2025-06-20T13:00:39+00:00",
+    "source": "thewhig",
+    "api_source": "mediastack",
+    "sentiment": {
+      "compound": 0.13674,
+      "positive": 0.025,
+      "neutral": 0.975,
+      "negative": 0.0,
+      "subjectivity": 0.8166666666666668,
+      "pattern_bullish": 0,
+      "pattern_bearish": 0
+    },
+    "impact_score": 8.955223880597014,
+    "key_phrases": [
+      "for",
+      "defi",
+      "blockchain",
+      "consensus"
+    ],
+    "category": "staking",
+    "analyzed_at": "2025-09-09T08:34:58.838578"
+  }
+]

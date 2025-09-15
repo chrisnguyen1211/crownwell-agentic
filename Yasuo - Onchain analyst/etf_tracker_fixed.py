@@ -62,8 +62,8 @@ class ETHETFFlowTracker:
             # Use latest (real-time) daily flow without aggregation
             daily_flow = eth_data.get("daily_flow", 0)
             if "daily_flows" in eth_data and eth_data["daily_flows"]:
-                # Ensure we pick the first parsed value which represents the latest row
-                daily_flow = eth_data["daily_flows"][0]
+                # Ensure we pick the last parsed value which represents the latest row
+                daily_flow = eth_data["daily_flows"][-1]
                 self.logger.info(f"Real-time daily flow (latest): ${daily_flow:,.0f}")
             
             result = {
@@ -188,10 +188,10 @@ class ETHETFFlowTracker:
             # Store all daily flows for aggregation
             flow_data["daily_flows"] = daily_flows
             
-            # Use the most recent flow as primary daily flow
+            # Use the most recent flow as primary daily flow (last in list = latest date)
             if daily_flows:
-                flow_data["daily_flow"] = daily_flows[0]
-                self.logger.info(f"Primary daily flow: ${daily_flows[0]:,.0f}")
+                flow_data["daily_flow"] = daily_flows[-1]  # Last item = latest date
+                self.logger.info(f"Primary daily flow (latest): ${daily_flows[-1]:,.0f}")
                 if len(daily_flows) > 1:
                     self.logger.info(f"Additional flows for aggregation: {len(daily_flows)-1}")
 

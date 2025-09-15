@@ -1,0 +1,40 @@
+{
+  "status": "success",
+  "timestamp": "2025-09-15T10:29:05.809198",
+  "articles_processed": 68,
+  "trading_signal": "HOLD",
+  "sentiment": "bullish",
+  "confidence": 0.5,
+  "categories": {
+    "general": 21,
+    "staking": 6,
+    "market": 18,
+    "regulation": 8,
+    "scaling": 3,
+    "partnership": 1,
+    "defi": 11
+  },
+  "high_impact_articles": 47,
+  "top_key_phrases": [
+    [
+      "for",
+      23
+    ],
+    [
+      "market",
+      17
+    ],
+    [
+      "defi",
+      10
+    ],
+    [
+      "price",
+      9
+    ],
+    [
+      "etfs",
+      8
+    ]
+  ]
+}

@@ -60,7 +60,8 @@ class EtherscanTransactionTracker:
             large_transactions = []
             
             # Sample blocks to find large transactions
-            block_step = max(1, (latest_block - start_block) // 50)  # Sample 50 blocks
+            # Increase sampling density to improve exchange flow detection
+            block_step = max(1, (latest_block - start_block) // 200)  # Sample ~200 blocks
             
             for block_num in range(start_block, latest_block + 1, block_step):
                 transactions = self._get_block_transactions(block_num)
@@ -156,6 +157,67 @@ class EtherscanTransactionTracker:
         except Exception as e:
             self.logger.error(f"Error formatting transaction: {e}")
             return {}
+
+    def get_exchange_flows(self, hours_back: int = 24) -> Dict[str, Any]:
+        """
+        Get exchange flows using Etherscan API
+        """
+        if not self.api_key:
+            self.logger.warning("No Etherscan API key available")
+            return {"error": "No API key", "net_flow": 0}
+        
+        try:
+            # Known exchange addresses (simplified list)
+            exchange_addresses = {
+                "0x3f5CE5FBFe3E9af3971dD833D26bA9b5C936f0bE": "Binance",
+                "0x28C6c06298d514Db089934071355E5743bf21d60": "Binance 2",
+                "0x21a31Ee1afC51d94C2eFcCAa2092aD1028285549": "Binance 3",
+                "0x56Eddb7aa87536c09CCc2793473599fD21A8b17F": "Binance 4",
+                "0x564286362092D8e7936f0549571a803B203aAceD": "Binance 5"
+            }
+            # Normalize mapping to lowercase for robust matching
+            exchange_addresses = {addr.lower(): name for addr, name in exchange_addresses.items()}
+            
+            # Get large transactions (lower threshold to capture more flows)
+            large_txs = self.get_large_transactions(min_eth=50, hours_back=hours_back)
+            
+            # Calculate exchange flows
+            exchange_flows = {}
+            total_inflow = 0
+            total_outflow = 0
+            
+            for tx in large_txs:
+                from_addr = (tx.get("sender", {}) or {}).get("address", "").lower()
+                to_addr = (tx.get("receiver", {}) or {}).get("address", "").lower()
+                amount = float(tx.get("amount", 0))
+                
+                # Check if from exchange
+                if from_addr in exchange_addresses:
+                    if from_addr not in exchange_flows:
+                        exchange_flows[from_addr] = {"inflow": 0, "outflow": 0, "name": exchange_addresses[from_addr]}
+                    exchange_flows[from_addr]["outflow"] += amount
+                    total_outflow += amount
+                
+                # Check if to exchange
+                if to_addr in exchange_addresses:
+                    if to_addr not in exchange_flows:
+                        exchange_flows[to_addr] = {"inflow": 0, "outflow": 0, "name": exchange_addresses[to_addr]}
+                    exchange_flows[to_addr]["inflow"] += amount
+                    total_inflow += amount
+            
+            return {
+                "exchange_addresses": exchange_flows,
+                "total_exchanges": len(exchange_flows),
+                "inflow": total_inflow,
+                "outflow": total_outflow,
+                "net_flow": total_outflow - total_inflow,
+                "data_source": "etherscan_exchange_flows",
+                "timestamp": datetime.now().isoformat()
+            }
+            
+        except Exception as e:
+            self.logger.error(f"Error getting exchange flows: {e}")
+            return {"error": str(e), "net_flow": 0}
 
 # Test the new tracker
 if __name__ == "__main__":

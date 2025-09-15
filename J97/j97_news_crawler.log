@@ -1,0 +1,590 @@
+2025-09-09 08:25:57,189 - supabase_integration - ERROR - Failed to connect to Supabase: Client.__init__() got an unexpected keyword argument 'proxy'
+2025-09-09 08:25:57,189 - __main__ - INFO - 🕵️ J97 News Analyst initialized
+2025-09-09 08:25:57,189 - __main__ - INFO - 📰 Ready to analyze Ethereum news 24/7
+2025-09-09 08:25:57,189 - __main__ - INFO - 🚀 Starting J97 single analysis...
+2025-09-09 08:25:57,189 - __main__ - INFO - 🔍 Starting J97 analysis cycle...
+2025-09-09 08:25:57,189 - __main__ - INFO - 📡 Crawling news from all sources...
+2025-09-09 08:25:57,190 - news_crawler - INFO - 🔍 J97 starting news crawl...
+2025-09-09 08:25:57,190 - news_crawler - WARNING - GNews API key not available or rate limit exceeded
+2025-09-09 08:25:57,190 - news_crawler - WARNING - NewsAPI key not available or rate limit exceeded
+2025-09-09 08:25:57,190 - news_crawler - WARNING - Mediastack API key not available or rate limit exceeded
+2025-09-09 08:25:57,190 - news_crawler - WARNING - NewsData API key not available or rate limit exceeded
+2025-09-09 08:25:57,190 - news_crawler - INFO - 📰 Total new articles found: 0
+2025-09-09 08:25:57,190 - __main__ - WARNING - ⚠️ No new articles found
+2025-09-09 08:25:57,190 - __main__ - INFO - 💾 Summary saved to j97_analysis_summary_20250909_082557.json
+2025-09-09 08:30:01,716 - news_crawler - INFO - 🔍 Testing all APIs...
+2025-09-09 08:30:02,571 - news_crawler - WARNING - ⚠️ GNEWS API test failed: 403
+2025-09-09 08:30:04,005 - news_crawler - INFO - ✅ NEWSAPI API test successful
+2025-09-09 08:30:08,316 - news_crawler - INFO - ✅ NEWSDATA API test successful
+2025-09-09 08:30:10,921 - news_crawler - INFO - ✅ MEDIASTACK API test successful
+2025-09-09 08:30:11,927 - news_crawler - INFO - ✅ 3/4 APIs are working
+2025-09-09 08:30:11,928 - news_crawler - INFO -    ⚠️ GNEWS: error_403
+2025-09-09 08:30:11,928 - news_crawler - INFO -    ✅ NEWSAPI: working
+2025-09-09 08:30:11,928 - news_crawler - INFO -    ✅ MEDIASTACK: working
+2025-09-09 08:30:11,928 - news_crawler - INFO -    ✅ NEWSDATA: working
+2025-09-09 08:30:11,929 - news_crawler - INFO - 🔍 J97 starting priority-based news crawl...
+2025-09-09 08:30:11,929 - news_crawler - INFO - 🔍 Testing all APIs...
+2025-09-09 08:30:12,671 - news_crawler - WARNING - ⚠️ GNEWS API test failed: 403
+2025-09-09 08:30:13,940 - news_crawler - INFO - ✅ NEWSAPI API test successful
+2025-09-09 08:30:16,493 - news_crawler - INFO - ✅ NEWSDATA API test successful
+2025-09-09 08:30:18,171 - news_crawler - INFO - ✅ MEDIASTACK API test successful
+2025-09-09 08:30:19,173 - news_crawler - INFO - ✅ 3/4 APIs are working
+2025-09-09 08:30:19,173 - news_crawler - INFO -    ⚠️ GNEWS: error_403
+2025-09-09 08:30:19,174 - news_crawler - INFO -    ✅ NEWSAPI: working
+2025-09-09 08:30:19,174 - news_crawler - INFO -    ✅ MEDIASTACK: working
+2025-09-09 08:30:19,174 - news_crawler - INFO -    ✅ NEWSDATA: working
+2025-09-09 08:30:19,174 - news_crawler - INFO - 📡 Using 3 working APIs: newsapi, newsdata, mediastack
+2025-09-09 08:30:19,174 - news_crawler - INFO - 🔄 Crawling NEWSAPI...
+2025-09-09 08:30:19,568 - news_crawler - INFO - ✅ NewsAPI: Found 50 new articles
+2025-09-09 08:30:19,569 - news_crawler - INFO - ✅ NEWSAPI: Found 50 articles
+2025-09-09 08:30:19,569 - news_crawler - INFO - 🎯 Sufficient articles from high-priority sources, stopping crawl
+2025-09-09 08:30:19,569 - news_crawler - INFO - 📰 Total new articles found: 50
+2025-09-09 08:30:20,441 - news_crawler - WARNING - ⚠️ GNEWS API test failed: 403
+2025-09-09 08:30:21,833 - news_crawler - INFO - ✅ NEWSAPI API test successful
+2025-09-09 08:30:22,136 - news_crawler - INFO - ✅ NewsAPI: Found 50 new articles
+2025-09-09 08:30:24,272 - news_crawler - INFO - ✅ MEDIASTACK API test successful
+2025-09-09 08:30:25,148 - news_crawler - INFO - ✅ Mediastack: Found 9 new articles
+2025-09-09 08:30:26,937 - news_crawler - INFO - ✅ NEWSDATA API test successful
+2025-09-09 08:30:27,264 - news_crawler - INFO - ✅ NewsData: Found 10 new articles
+2025-09-09 08:30:35,692 - supabase_integration - ERROR - Failed to connect to Supabase: Client.__init__() got an unexpected keyword argument 'proxy'
+2025-09-09 08:30:35,692 - __main__ - INFO - 🕵️ J97 News Analyst initialized
+2025-09-09 08:30:35,692 - __main__ - INFO - 📰 Ready to analyze Ethereum news 24/7
+2025-09-09 08:30:35,693 - __main__ - INFO - 🚀 Starting J97 single analysis...
+2025-09-09 08:30:35,693 - __main__ - INFO - 🔍 Starting J97 analysis cycle...
+2025-09-09 08:30:35,693 - __main__ - INFO - 📡 Crawling news from all sources...
+2025-09-09 08:30:35,693 - news_crawler - INFO - 🔍 J97 starting priority-based news crawl...
+2025-09-09 08:30:35,693 - news_crawler - INFO - 🔍 Testing all APIs...
+2025-09-09 08:30:36,474 - news_crawler - WARNING - ⚠️ GNEWS API test failed: 403
+2025-09-09 08:30:37,887 - news_crawler - INFO - ✅ NEWSAPI API test successful
+2025-09-09 08:30:41,354 - news_crawler - INFO - ✅ NEWSDATA API test successful
+2025-09-09 08:30:43,685 - news_crawler - INFO - ✅ MEDIASTACK API test successful
+2025-09-09 08:30:44,794 - news_crawler - INFO - ✅ 3/4 APIs are working
+2025-09-09 08:30:44,811 - news_crawler - INFO -    ⚠️ GNEWS: error_403
+2025-09-09 08:30:44,816 - news_crawler - INFO -    ✅ NEWSAPI: working
+2025-09-09 08:30:44,817 - news_crawler - INFO -    ✅ MEDIASTACK: working
+2025-09-09 08:30:44,817 - news_crawler - INFO -    ✅ NEWSDATA: working
+2025-09-09 08:30:44,817 - news_crawler - INFO - 📡 Using 3 working APIs: newsapi, newsdata, mediastack
+2025-09-09 08:30:44,818 - news_crawler - INFO - 🔄 Crawling NEWSAPI...
+2025-09-09 08:30:45,155 - news_crawler - INFO - ✅ NewsAPI: Found 50 new articles
+2025-09-09 08:30:45,155 - news_crawler - INFO - ✅ NEWSAPI: Found 50 articles
+2025-09-09 08:30:45,155 - news_crawler - INFO - 🎯 Sufficient articles from high-priority sources, stopping crawl
+2025-09-09 08:30:45,155 - news_crawler - INFO - 📰 Total new articles found: 50
+2025-09-09 08:30:45,157 - __main__ - INFO - 📰 Found 50 new articles
+2025-09-09 08:30:45,157 - __main__ - INFO - 🧠 Analyzing articles...
+2025-09-09 08:30:45,261 - __main__ - INFO - 📊 Generating daily report...
+2025-09-09 08:30:45,292 - __main__ - WARNING - ⚠️ Supabase not available, skipping storage
+2025-09-09 08:30:45,292 - __main__ - INFO - ✅ J97 analysis cycle completed successfully
+2025-09-09 08:30:45,293 - __main__ - INFO - 💾 Summary saved to j97_analysis_summary_20250909_083045.json
+2025-09-09 08:31:54,299 - supabase_integration - INFO - ✅ Connected to Supabase
+2025-09-09 08:31:54,300 - __main__ - INFO - 🕵️ J97 News Analyst initialized
+2025-09-09 08:31:54,300 - __main__ - INFO - 📰 Ready to analyze Ethereum news 24/7
+2025-09-09 08:31:54,304 - __main__ - INFO - 🚀 Starting J97 single analysis...
+2025-09-09 08:31:54,304 - __main__ - INFO - 🔍 Starting J97 analysis cycle...
+2025-09-09 08:31:54,305 - __main__ - INFO - 📡 Crawling news from all sources...
+2025-09-09 08:31:54,305 - news_crawler - INFO - 🔍 J97 starting priority-based news crawl...
+2025-09-09 08:31:54,306 - news_crawler - INFO - 🔍 Testing all APIs...
+2025-09-09 08:31:55,201 - news_crawler - INFO - ✅ GNEWS API test successful
+2025-09-09 08:31:56,608 - news_crawler - INFO - ✅ NEWSAPI API test successful
+2025-09-09 08:31:58,474 - news_crawler - INFO - ✅ NEWSDATA API test successful
+2025-09-09 08:32:00,381 - news_crawler - INFO - ✅ MEDIASTACK API test successful
+2025-09-09 08:32:01,384 - news_crawler - INFO - ✅ 4/4 APIs are working
+2025-09-09 08:32:01,385 - news_crawler - INFO -    ✅ GNEWS: working
+2025-09-09 08:32:01,385 - news_crawler - INFO -    ✅ NEWSAPI: working
+2025-09-09 08:32:01,385 - news_crawler - INFO -    ✅ MEDIASTACK: working
+2025-09-09 08:32:01,385 - news_crawler - INFO -    ✅ NEWSDATA: working
+2025-09-09 08:32:01,385 - news_crawler - INFO - 📡 Using 4 working APIs: gnews, newsapi, newsdata, mediastack
+2025-09-09 08:32:01,385 - news_crawler - INFO - 🔄 Crawling GNEWS...
+2025-09-09 08:32:02,393 - news_crawler - INFO - ✅ GNews: Found 10 new articles
+2025-09-09 08:32:02,393 - news_crawler - INFO - ✅ GNEWS: Found 10 articles
+2025-09-09 08:32:04,399 - news_crawler - INFO - 🔄 Crawling NEWSAPI...
+2025-09-09 08:32:04,728 - news_crawler - INFO - ✅ NewsAPI: Found 50 new articles
+2025-09-09 08:32:04,728 - news_crawler - INFO - ✅ NEWSAPI: Found 50 articles
+2025-09-09 08:32:04,728 - news_crawler - INFO - 🎯 Sufficient articles from high-priority sources, stopping crawl
+2025-09-09 08:32:04,728 - news_crawler - INFO - 📰 Total new articles found: 60
+2025-09-09 08:32:04,730 - __main__ - INFO - 📰 Found 60 new articles
+2025-09-09 08:32:04,730 - __main__ - INFO - 🧠 Analyzing articles...
+2025-09-09 08:32:04,804 - __main__ - INFO - 📊 Generating daily report...
+2025-09-09 08:32:04,848 - __main__ - INFO - 💾 Storing data in Supabase...
+2025-09-09 08:32:05,613 - httpx - INFO - HTTP Request: POST https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/j97_news_articles "HTTP/1.1 404 Not Found"
+2025-09-09 08:32:05,617 - supabase_integration - ERROR - Error storing articles: {'code': 'PGRST205', 'details': None, 'hint': None, 'message': "Could not find the table 'public.j97_news_articles' in the schema cache"}
+2025-09-09 08:32:05,802 - httpx - INFO - HTTP Request: POST https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/j97_daily_reports "HTTP/1.1 404 Not Found"
+2025-09-09 08:32:05,802 - supabase_integration - ERROR - Error storing daily report: {'code': 'PGRST205', 'details': None, 'hint': "Perhaps you meant the table 'public.reddit_posts'", 'message': "Could not find the table 'public.j97_daily_reports' in the schema cache"}
+2025-09-09 08:32:05,802 - __main__ - WARNING - ⚠️ Some data storage operations failed
+2025-09-09 08:32:05,802 - __main__ - INFO - ✅ J97 analysis cycle completed successfully
+2025-09-09 08:32:05,803 - __main__ - INFO - 💾 Summary saved to j97_analysis_summary_20250909_083205.json
+2025-09-09 08:33:24,726 - news_crawler - INFO - 🔍 Testing all APIs...
+2025-09-09 08:33:25,556 - news_crawler - INFO - ✅ GNEWS API test successful
+2025-09-09 08:33:26,919 - news_crawler - INFO - ✅ NEWSAPI API test successful
+2025-09-09 08:33:28,946 - news_crawler - INFO - ✅ NEWSDATA API test successful
+2025-09-09 08:33:31,054 - news_crawler - INFO - ✅ MEDIASTACK API test successful
+2025-09-09 08:33:32,056 - news_crawler - INFO - ✅ 4/4 APIs are working
+2025-09-09 08:33:32,056 - news_crawler - INFO -    ✅ GNEWS: working
+2025-09-09 08:33:32,056 - news_crawler - INFO -    ✅ NEWSAPI: working
+2025-09-09 08:33:32,056 - news_crawler - INFO -    ✅ MEDIASTACK: working
+2025-09-09 08:33:32,056 - news_crawler - INFO -    ✅ NEWSDATA: working
+2025-09-09 08:33:32,057 - news_crawler - INFO - 🔍 J97 starting priority-based news crawl...
+2025-09-09 08:33:32,057 - news_crawler - INFO - 🔍 Testing all APIs...
+2025-09-09 08:33:32,859 - news_crawler - INFO - ✅ GNEWS API test successful
+2025-09-09 08:33:34,161 - news_crawler - INFO - ✅ NEWSAPI API test successful
+2025-09-09 08:33:35,935 - news_crawler - INFO - ✅ NEWSDATA API test successful
+2025-09-09 08:33:37,792 - news_crawler - INFO - ✅ MEDIASTACK API test successful
+2025-09-09 08:33:38,793 - news_crawler - INFO - ✅ 4/4 APIs are working
+2025-09-09 08:33:38,794 - news_crawler - INFO -    ✅ GNEWS: working
+2025-09-09 08:33:38,794 - news_crawler - INFO -    ✅ NEWSAPI: working
+2025-09-09 08:33:38,794 - news_crawler - INFO -    ✅ MEDIASTACK: working
+2025-09-09 08:33:38,794 - news_crawler - INFO -    ✅ NEWSDATA: working
+2025-09-09 08:33:38,794 - news_crawler - INFO - 📡 Using 4 working APIs: gnews, newsapi, newsdata, mediastack
+2025-09-09 08:33:38,794 - news_crawler - INFO - 🔄 Crawling GNEWS...
+2025-09-09 08:33:39,800 - news_crawler - INFO - ✅ GNews: Found 10 new articles
+2025-09-09 08:33:39,800 - news_crawler - INFO - ✅ GNEWS: Found 10 articles
+2025-09-09 08:33:41,801 - news_crawler - INFO - 🔄 Crawling NEWSAPI...
+2025-09-09 08:33:42,070 - news_crawler - INFO - ✅ NewsAPI: Found 50 new articles
+2025-09-09 08:33:42,070 - news_crawler - INFO - ✅ NEWSAPI: Found 50 articles
+2025-09-09 08:33:42,070 - news_crawler - INFO - 🎯 Sufficient articles from high-priority sources, stopping crawl
+2025-09-09 08:33:42,070 - news_crawler - INFO - 📰 Total new articles found: 60
+2025-09-09 08:33:42,901 - news_crawler - INFO - ✅ GNEWS API test successful
+2025-09-09 08:33:43,212 - news_crawler - INFO - ✅ GNews: Found 10 new articles
+2025-09-09 08:33:44,627 - news_crawler - INFO - ✅ NEWSAPI API test successful
+2025-09-09 08:33:44,918 - news_crawler - INFO - ✅ NewsAPI: Found 50 new articles
+2025-09-09 08:33:46,629 - news_crawler - INFO - ✅ MEDIASTACK API test successful
+2025-09-09 08:33:47,327 - news_crawler - INFO - ✅ Mediastack: Found 9 new articles
+2025-09-09 08:33:49,101 - news_crawler - INFO - ✅ NEWSDATA API test successful
+2025-09-09 08:33:49,461 - news_crawler - INFO - ✅ NewsData: Found 10 new articles
+2025-09-09 08:34:44,591 - news_crawler - INFO - 🔍 Testing all APIs...
+2025-09-09 08:34:45,416 - news_crawler - INFO - ✅ GNEWS API test successful
+2025-09-09 08:34:46,786 - news_crawler - INFO - ✅ NEWSAPI API test successful
+2025-09-09 08:34:48,663 - news_crawler - INFO - ✅ NEWSDATA API test successful
+2025-09-09 08:34:50,389 - news_crawler - INFO - ✅ MEDIASTACK API test successful
+2025-09-09 08:34:51,391 - news_crawler - INFO - ✅ 4/4 APIs are working
+2025-09-09 08:34:51,392 - news_crawler - INFO -    ✅ GNEWS: working
+2025-09-09 08:34:51,392 - news_crawler - INFO -    ✅ NEWSAPI: working
+2025-09-09 08:34:51,392 - news_crawler - INFO -    ✅ MEDIASTACK: working
+2025-09-09 08:34:51,392 - news_crawler - INFO -    ✅ NEWSDATA: working
+2025-09-09 08:34:52,383 - news_crawler - INFO - ✅ GNews: Found 10 new articles
+2025-09-09 08:34:54,180 - news_crawler - INFO - ✅ NewsAPI: Found 50 new articles
+2025-09-09 08:34:56,011 - news_crawler - INFO - ✅ NewsData: Found 10 new articles
+2025-09-09 08:34:57,727 - news_crawler - INFO - ✅ Mediastack: Found 9 new articles
+2025-09-09 08:39:55,543 - supabase_integration - INFO - ✅ Connected to Supabase
+2025-09-09 08:39:55,543 - __main__ - INFO - 🕵️ J97 News Analyst initialized
+2025-09-09 08:39:55,543 - __main__ - INFO - 📰 Ready to analyze Ethereum news 24/7
+2025-09-09 08:39:55,544 - __main__ - INFO - 🚀 Starting J97 single analysis...
+2025-09-09 08:39:55,544 - __main__ - INFO - 🔍 Starting J97 analysis cycle...
+2025-09-09 08:39:55,544 - __main__ - INFO - 📡 Crawling news from all sources...
+2025-09-09 08:39:55,544 - news_crawler - INFO - 🔍 J97 starting priority-based news crawl...
+2025-09-09 08:39:55,544 - news_crawler - INFO - 🔍 Testing all APIs...
+2025-09-09 08:39:56,422 - news_crawler - INFO - ✅ GNEWS API test successful
+2025-09-09 08:39:57,873 - news_crawler - INFO - ✅ NEWSAPI API test successful
+2025-09-09 08:40:00,039 - news_crawler - INFO - ✅ NEWSDATA API test successful
+2025-09-09 08:40:02,308 - news_crawler - INFO - ✅ MEDIASTACK API test successful
+2025-09-09 08:40:03,310 - news_crawler - INFO - ✅ 4/4 APIs are working
+2025-09-09 08:40:03,311 - news_crawler - INFO -    ✅ GNEWS: working
+2025-09-09 08:40:03,311 - news_crawler - INFO -    ✅ NEWSAPI: working
+2025-09-09 08:40:03,311 - news_crawler - INFO -    ✅ MEDIASTACK: working
+2025-09-09 08:40:03,311 - news_crawler - INFO -    ✅ NEWSDATA: working
+2025-09-09 08:40:03,311 - news_crawler - INFO - 📡 Using 4 working APIs: gnews, newsapi, newsdata, mediastack
+2025-09-09 08:40:03,311 - news_crawler - INFO - 🔄 Crawling GNEWS...
+2025-09-09 08:40:04,147 - news_crawler - ERROR - GNews API error: 400
+2025-09-09 08:40:04,147 - news_crawler - WARNING - ⚠️ GNEWS: No articles found
+2025-09-09 08:40:06,154 - news_crawler - INFO - 🔄 Crawling NEWSAPI...
+2025-09-09 08:40:06,612 - news_crawler - INFO - ✅ NewsAPI: Found 50 new articles
+2025-09-09 08:40:06,612 - news_crawler - INFO - ✅ NEWSAPI: Found 50 articles
+2025-09-09 08:40:06,612 - news_crawler - INFO - 🎯 Sufficient articles from high-priority sources, stopping crawl
+2025-09-09 08:40:06,612 - news_crawler - INFO - 📰 Total new articles found: 50
+2025-09-09 08:40:06,613 - __main__ - INFO - 📰 Found 50 new articles
+2025-09-09 08:40:06,613 - __main__ - INFO - 🧠 Analyzing articles...
+2025-09-09 08:40:06,679 - __main__ - INFO - 📊 Generating daily report...
+2025-09-09 08:40:06,700 - __main__ - INFO - 💾 Storing data in Supabase...
+2025-09-09 08:40:07,438 - httpx - INFO - HTTP Request: POST https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/j97_news_articles "HTTP/1.1 201 Created"
+2025-09-09 08:40:07,443 - supabase_integration - INFO - ✅ Stored 50 articles in Supabase
+2025-09-09 08:40:07,545 - httpx - INFO - HTTP Request: POST https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/j97_daily_reports "HTTP/1.1 201 Created"
+2025-09-09 08:40:07,546 - supabase_integration - INFO - ✅ Stored daily report for 2025-09-09
+2025-09-09 08:40:07,546 - __main__ - INFO - ✅ Data successfully stored in Supabase
+2025-09-09 08:40:07,547 - __main__ - INFO - ✅ J97 analysis cycle completed successfully
+2025-09-09 08:40:07,547 - __main__ - INFO - 💾 Summary saved to j97_analysis_summary_20250909_084007.json
+2025-09-09 08:43:04,309 - supabase_integration - INFO - ✅ Connected to Supabase
+2025-09-09 08:43:04,309 - __main__ - INFO - 🕵️ J97 News Analyst initialized
+2025-09-09 08:43:04,309 - __main__ - INFO - 📰 Ready to analyze Ethereum news 24/7
+2025-09-09 08:43:04,310 - __main__ - INFO - 🚀 Starting J97 single analysis...
+2025-09-09 08:43:04,310 - __main__ - INFO - 🔍 Starting J97 analysis cycle...
+2025-09-09 08:43:04,310 - __main__ - INFO - 📡 Crawling news from all sources...
+2025-09-09 08:43:04,310 - news_crawler - INFO - 🔍 J97 starting priority-based news crawl...
+2025-09-09 08:43:04,310 - news_crawler - INFO - 🔍 Testing all APIs...
+2025-09-09 08:43:05,152 - news_crawler - INFO - ✅ GNEWS API test successful
+2025-09-09 08:43:06,542 - news_crawler - INFO - ✅ NEWSAPI API test successful
+2025-09-09 08:43:09,724 - news_crawler - INFO - ✅ NEWSDATA API test successful
+2025-09-09 08:43:11,657 - news_crawler - INFO - ✅ MEDIASTACK API test successful
+2025-09-09 08:43:12,659 - news_crawler - INFO - ✅ 4/4 APIs are working
+2025-09-09 08:43:12,660 - news_crawler - INFO -    ✅ GNEWS: working
+2025-09-09 08:43:12,660 - news_crawler - INFO -    ✅ NEWSAPI: working
+2025-09-09 08:43:12,660 - news_crawler - INFO -    ✅ MEDIASTACK: working
+2025-09-09 08:43:12,660 - news_crawler - INFO -    ✅ NEWSDATA: working
+2025-09-09 08:43:12,660 - news_crawler - INFO - 📡 Using 4 working APIs: gnews, newsapi, newsdata, mediastack
+2025-09-09 08:43:12,661 - news_crawler - INFO - 🔄 Crawling GNEWS...
+2025-09-09 08:43:13,405 - news_crawler - ERROR - GNews API error: 400
+2025-09-09 08:43:13,405 - news_crawler - WARNING - ⚠️ GNEWS: No articles found
+2025-09-09 08:43:15,406 - news_crawler - INFO - 🔄 Crawling NEWSAPI...
+2025-09-09 08:43:15,787 - news_crawler - INFO - ✅ NewsAPI: Found 50 new articles
+2025-09-09 08:43:15,787 - news_crawler - INFO - ✅ NEWSAPI: Found 50 articles
+2025-09-09 08:43:15,787 - news_crawler - INFO - 🎯 Sufficient articles from high-priority sources, stopping crawl
+2025-09-09 08:43:15,787 - news_crawler - INFO - 📰 Total new articles found: 50
+2025-09-09 08:43:15,787 - __main__ - INFO - 📰 Found 50 new articles
+2025-09-09 08:43:15,787 - __main__ - INFO - 🧠 Analyzing articles...
+2025-09-09 08:43:15,847 - __main__ - INFO - 📊 Generating daily report...
+2025-09-09 08:43:15,869 - __main__ - INFO - 💾 Storing data in Supabase...
+2025-09-09 08:43:16,894 - httpx - INFO - HTTP Request: POST https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/j97_news_articles "HTTP/1.1 409 Conflict"
+2025-09-09 08:43:16,895 - supabase_integration - ERROR - Error storing articles: {'code': '23505', 'details': 'Key (url)=(https://www.coindesk.com/markets/2025/09/08/asia-morning-briefing-btc-treasury-demand-is-weakening-cryptoquant-cautions) already exists.', 'hint': None, 'message': 'duplicate key value violates unique constraint "j97_news_articles_url_key"'}
+2025-09-09 08:43:17,214 - httpx - INFO - HTTP Request: POST https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/j97_daily_reports "HTTP/1.1 201 Created"
+2025-09-09 08:43:17,217 - supabase_integration - INFO - ✅ Stored daily report for 2025-09-09
+2025-09-09 08:43:17,217 - __main__ - WARNING - ⚠️ Some data storage operations failed
+2025-09-09 08:43:17,217 - __main__ - INFO - ✅ J97 analysis cycle completed successfully
+2025-09-09 08:43:17,218 - __main__ - INFO - 💾 Summary saved to j97_analysis_summary_20250909_084317.json
+2025-09-09 20:23:28,735 - supabase_integration - INFO - ✅ Connected to Supabase
+2025-09-09 20:23:28,735 - __main__ - INFO - 🕵️ J97 News Analyst initialized
+2025-09-09 20:23:28,735 - __main__ - INFO - 📰 Ready to analyze Ethereum news 24/7
+2025-09-09 20:23:28,735 - __main__ - INFO - 🚀 Starting J97 single analysis...
+2025-09-09 20:23:28,735 - __main__ - INFO - 🔍 Starting J97 analysis cycle...
+2025-09-09 20:23:28,735 - __main__ - INFO - 📡 Crawling news from all sources...
+2025-09-09 20:23:28,735 - news_crawler - INFO - 🔍 J97 starting priority-based news crawl...
+2025-09-09 20:23:28,735 - news_crawler - INFO - 🔍 Testing all APIs...
+2025-09-09 20:23:29,612 - news_crawler - INFO - ✅ GNEWS API test successful
+2025-09-09 20:23:31,035 - news_crawler - INFO - ✅ NEWSAPI API test successful
+2025-09-09 20:23:34,139 - news_crawler - INFO - ✅ NEWSDATA API test successful
+2025-09-09 20:23:36,164 - news_crawler - INFO - ✅ MEDIASTACK API test successful
+2025-09-09 20:23:37,167 - news_crawler - INFO - ✅ 4/4 APIs are working
+2025-09-09 20:23:37,168 - news_crawler - INFO -    ✅ GNEWS: working
+2025-09-09 20:23:37,168 - news_crawler - INFO -    ✅ NEWSAPI: working
+2025-09-09 20:23:37,168 - news_crawler - INFO -    ✅ MEDIASTACK: working
+2025-09-09 20:23:37,168 - news_crawler - INFO -    ✅ NEWSDATA: working
+2025-09-09 20:23:37,168 - news_crawler - INFO - 📡 Using 4 working APIs: gnews, newsapi, newsdata, mediastack
+2025-09-09 20:23:37,168 - news_crawler - INFO - 🔄 Crawling GNEWS...
+2025-09-09 20:23:37,905 - news_crawler - ERROR - GNews API error: 400
+2025-09-09 20:23:37,905 - news_crawler - WARNING - ⚠️ GNEWS: No articles found
+2025-09-09 20:23:39,907 - news_crawler - INFO - 🔄 Crawling NEWSAPI...
+2025-09-09 20:23:40,404 - news_crawler - INFO - ✅ NewsAPI: Found 50 new articles
+2025-09-09 20:23:40,404 - news_crawler - INFO - ✅ NEWSAPI: Found 50 articles
+2025-09-09 20:23:40,404 - news_crawler - INFO - 🎯 Sufficient articles from high-priority sources, stopping crawl
+2025-09-09 20:23:40,404 - news_crawler - INFO - 📰 Total new articles found: 50
+2025-09-09 20:23:40,405 - __main__ - INFO - 📰 Found 50 new articles
+2025-09-09 20:23:40,405 - __main__ - INFO - 🧠 Analyzing articles...
+2025-09-09 20:23:40,470 - __main__ - INFO - 📊 Generating daily report...
+2025-09-09 20:23:40,492 - __main__ - INFO - 💾 Storing data in Supabase...
+2025-09-09 20:23:41,686 - httpx - INFO - HTTP Request: POST https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/j97_news_articles "HTTP/1.1 201 Created"
+2025-09-09 20:23:41,689 - supabase_integration - INFO - ✅ Stored 50 articles in Supabase
+2025-09-09 20:23:41,880 - httpx - INFO - HTTP Request: POST https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/j97_daily_reports "HTTP/1.1 201 Created"
+2025-09-09 20:23:41,881 - supabase_integration - INFO - ✅ Stored daily report for 2025-09-09
+2025-09-09 20:23:41,881 - __main__ - INFO - ✅ Data successfully stored in Supabase
+2025-09-09 20:23:41,881 - __main__ - INFO - ✅ J97 analysis cycle completed successfully
+2025-09-09 20:23:41,882 - __main__ - INFO - 💾 Summary saved to j97_analysis_summary_20250909_202341.json
+2025-09-09 20:27:43,071 - supabase_integration - INFO - ✅ Connected to Supabase
+2025-09-09 20:27:43,071 - __main__ - INFO - 🕵️ J97 News Analyst initialized
+2025-09-09 20:27:43,071 - __main__ - INFO - 📰 Ready to analyze Ethereum news 24/7
+2025-09-09 20:27:43,072 - __main__ - INFO - 🚀 Starting J97 single analysis...
+2025-09-09 20:27:43,072 - __main__ - INFO - 🔍 Starting J97 analysis cycle...
+2025-09-09 20:27:43,072 - __main__ - INFO - 📡 Crawling news from all sources...
+2025-09-09 20:27:43,072 - news_crawler - INFO - 🔍 J97 starting priority-based news crawl...
+2025-09-09 20:27:43,072 - news_crawler - INFO - 🔍 Testing all APIs...
+2025-09-09 20:27:43,939 - news_crawler - INFO - ✅ GNEWS API test successful
+2025-09-09 20:27:45,344 - news_crawler - INFO - ✅ NEWSAPI API test successful
+2025-09-09 20:27:47,145 - news_crawler - INFO - ✅ NEWSDATA API test successful
+2025-09-09 20:27:48,937 - news_crawler - INFO - ✅ MEDIASTACK API test successful
+2025-09-09 20:27:49,938 - news_crawler - INFO - ✅ 4/4 APIs are working
+2025-09-09 20:27:49,938 - news_crawler - INFO -    ✅ GNEWS: working
+2025-09-09 20:27:49,939 - news_crawler - INFO -    ✅ NEWSAPI: working
+2025-09-09 20:27:49,939 - news_crawler - INFO -    ✅ MEDIASTACK: working
+2025-09-09 20:27:49,939 - news_crawler - INFO -    ✅ NEWSDATA: working
+2025-09-09 20:27:49,939 - news_crawler - INFO - 📡 Using 4 working APIs: gnews, newsapi, newsdata, mediastack
+2025-09-09 20:27:49,939 - news_crawler - INFO - 🔄 Crawling GNEWS...
+2025-09-09 20:27:50,847 - news_crawler - ERROR - GNews API error: 400
+2025-09-09 20:27:50,850 - news_crawler - WARNING - ⚠️ GNEWS: No articles found
+2025-09-09 20:27:52,852 - news_crawler - INFO - 🔄 Crawling NEWSAPI...
+2025-09-09 20:27:53,134 - news_crawler - INFO - ✅ NewsAPI: Found 50 new articles
+2025-09-09 20:27:53,134 - news_crawler - INFO - ✅ NEWSAPI: Found 50 articles
+2025-09-09 20:27:53,135 - news_crawler - INFO - 🎯 Sufficient articles from high-priority sources, stopping crawl
+2025-09-09 20:27:53,135 - news_crawler - INFO - 📰 Total new articles found: 50
+2025-09-09 20:27:53,139 - __main__ - INFO - 📰 Found 50 new articles
+2025-09-09 20:27:53,139 - __main__ - INFO - 🧠 Analyzing articles...
+2025-09-09 20:27:53,214 - __main__ - INFO - 📊 Generating daily report...
+2025-09-09 20:27:53,237 - __main__ - INFO - 💾 Storing data in Supabase...
+2025-09-09 20:27:54,169 - httpx - INFO - HTTP Request: POST https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/j97_news_articles "HTTP/1.1 409 Conflict"
+2025-09-09 20:27:54,176 - supabase_integration - ERROR - Error storing articles: {'code': '23505', 'details': 'Key (url)=(https://finance.yahoo.com/news/eightco-embraces-worldcoin-treasury-asset-132311924.html) already exists.', 'hint': None, 'message': 'duplicate key value violates unique constraint "j97_news_articles_url_key"'}
+2025-09-09 20:27:54,377 - httpx - INFO - HTTP Request: POST https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/j97_daily_reports "HTTP/1.1 201 Created"
+2025-09-09 20:27:54,380 - supabase_integration - INFO - ✅ Stored daily report for 2025-09-09
+2025-09-09 20:27:54,380 - __main__ - WARNING - ⚠️ Some data storage operations failed
+2025-09-09 20:27:54,380 - __main__ - INFO - ✅ J97 analysis cycle completed successfully
+2025-09-09 20:27:54,381 - __main__ - INFO - 💾 Summary saved to j97_analysis_summary_20250909_202754.json
+2025-09-09 20:34:38,966 - supabase_integration - INFO - ✅ Connected to Supabase
+2025-09-09 20:34:38,968 - __main__ - INFO - 🕵️ J97 News Analyst initialized
+2025-09-09 20:34:38,968 - __main__ - INFO - 📰 Ready to analyze Ethereum news 24/7
+2025-09-09 20:34:38,969 - __main__ - INFO - 🚀 Starting J97 single analysis...
+2025-09-09 20:34:38,969 - __main__ - INFO - 🔍 Starting J97 analysis cycle...
+2025-09-09 20:34:38,969 - __main__ - INFO - 📡 Crawling news from all sources...
+2025-09-09 20:34:38,969 - news_crawler - INFO - 🔍 J97 starting priority-based news crawl...
+2025-09-09 20:34:38,969 - news_crawler - INFO - 🔍 Testing all APIs...
+2025-09-09 20:34:39,837 - news_crawler - INFO - ✅ GNEWS API test successful
+2025-09-09 20:34:41,290 - news_crawler - INFO - ✅ NEWSAPI API test successful
+2025-09-09 20:34:43,107 - news_crawler - INFO - ✅ NEWSDATA API test successful
+2025-09-09 20:34:45,051 - news_crawler - INFO - ✅ MEDIASTACK API test successful
+2025-09-09 20:34:46,052 - news_crawler - INFO - ✅ 4/4 APIs are working
+2025-09-09 20:34:46,052 - news_crawler - INFO -    ✅ GNEWS: working
+2025-09-09 20:34:46,052 - news_crawler - INFO -    ✅ NEWSAPI: working
+2025-09-09 20:34:46,052 - news_crawler - INFO -    ✅ MEDIASTACK: working
+2025-09-09 20:34:46,052 - news_crawler - INFO -    ✅ NEWSDATA: working
+2025-09-09 20:34:46,052 - news_crawler - INFO - 📡 Using 4 working APIs: gnews, newsapi, newsdata, mediastack
+2025-09-09 20:34:46,052 - news_crawler - INFO - 🔄 Crawling GNEWS...
+2025-09-09 20:34:46,785 - news_crawler - ERROR - GNews API error: 400
+2025-09-09 20:34:46,785 - news_crawler - WARNING - ⚠️ GNEWS: No articles found
+2025-09-09 20:34:48,786 - news_crawler - INFO - 🔄 Crawling NEWSAPI...
+2025-09-09 20:34:49,238 - news_crawler - INFO - ✅ NewsAPI: Found 50 new articles
+2025-09-09 20:34:49,238 - news_crawler - INFO - ✅ NEWSAPI: Found 50 articles
+2025-09-09 20:34:49,239 - news_crawler - INFO - 🎯 Sufficient articles from high-priority sources, stopping crawl
+2025-09-09 20:34:49,239 - news_crawler - INFO - 📰 Total new articles found: 50
+2025-09-09 20:34:49,239 - __main__ - INFO - 📰 Found 50 new articles
+2025-09-09 20:34:49,239 - __main__ - INFO - 🧠 Analyzing articles...
+2025-09-09 20:34:49,300 - __main__ - INFO - 📊 Generating daily report...
+2025-09-09 20:34:49,321 - __main__ - INFO - 💾 Storing data in Supabase...
+2025-09-09 20:34:49,712 - httpx - INFO - HTTP Request: POST https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/j97_news_articles "HTTP/1.1 409 Conflict"
+2025-09-09 20:34:49,713 - supabase_integration - ERROR - Error storing articles: {'code': '23505', 'details': 'Key (url)=(https://finance.yahoo.com/news/eightco-embraces-worldcoin-treasury-asset-132311924.html) already exists.', 'hint': None, 'message': 'duplicate key value violates unique constraint "j97_news_articles_url_key"'}
+2025-09-09 20:34:49,907 - httpx - INFO - HTTP Request: POST https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/j97_daily_reports "HTTP/1.1 201 Created"
+2025-09-09 20:34:49,910 - supabase_integration - INFO - ✅ Stored daily report for 2025-09-09
+2025-09-09 20:34:49,910 - __main__ - WARNING - ⚠️ Some data storage operations failed
+2025-09-09 20:34:49,910 - __main__ - INFO - ✅ J97 analysis cycle completed successfully
+2025-09-09 20:34:49,911 - __main__ - INFO - 💾 Summary saved to j97_analysis_summary_20250909_203449.json
+2025-09-09 21:06:00,182 - supabase_integration - INFO - ✅ Connected to Supabase
+2025-09-09 21:06:00,183 - __main__ - INFO - 🕵️ J97 News Analyst initialized
+2025-09-09 21:06:00,183 - __main__ - INFO - 📰 Ready to analyze Ethereum news 24/7
+2025-09-09 21:06:00,184 - __main__ - INFO - 🚀 Starting J97 single analysis...
+2025-09-09 21:06:00,184 - __main__ - INFO - 🔍 Starting J97 analysis cycle...
+2025-09-09 21:06:00,184 - __main__ - INFO - 📡 Crawling news from all sources...
+2025-09-09 21:06:00,184 - news_crawler - INFO - 🔍 J97 starting priority-based news crawl...
+2025-09-09 21:06:00,184 - news_crawler - INFO - 🔍 Testing all APIs...
+2025-09-09 21:06:01,100 - news_crawler - INFO - ✅ GNEWS API test successful
+2025-09-09 21:06:02,628 - news_crawler - INFO - ✅ NEWSAPI API test successful
+2025-09-09 21:06:07,050 - news_crawler - INFO - ✅ NEWSDATA API test successful
+2025-09-09 21:06:09,448 - news_crawler - INFO - ✅ MEDIASTACK API test successful
+2025-09-09 21:06:10,451 - news_crawler - INFO - ✅ 4/4 APIs are working
+2025-09-09 21:06:10,452 - news_crawler - INFO -    ✅ GNEWS: working
+2025-09-09 21:06:10,452 - news_crawler - INFO -    ✅ NEWSAPI: working
+2025-09-09 21:06:10,452 - news_crawler - INFO -    ✅ MEDIASTACK: working
+2025-09-09 21:06:10,452 - news_crawler - INFO -    ✅ NEWSDATA: working
+2025-09-09 21:06:10,453 - news_crawler - INFO - 📡 Using 4 working APIs: gnews, newsapi, newsdata, mediastack
+2025-09-09 21:06:10,453 - news_crawler - INFO - 🔄 Crawling GNEWS...
+2025-09-09 21:06:11,214 - news_crawler - ERROR - GNews API error: 400
+2025-09-09 21:06:11,214 - news_crawler - WARNING - ⚠️ GNEWS: No articles found
+2025-09-09 21:06:13,215 - news_crawler - INFO - 🔄 Crawling NEWSAPI...
+2025-09-09 21:06:13,921 - news_crawler - INFO - ✅ NewsAPI: Found 50 new articles
+2025-09-09 21:06:13,922 - news_crawler - INFO - ✅ NEWSAPI: Found 50 articles
+2025-09-09 21:06:13,922 - news_crawler - INFO - 🎯 Sufficient articles from high-priority sources, stopping crawl
+2025-09-09 21:06:13,922 - news_crawler - INFO - 📰 Total new articles found: 50
+2025-09-09 21:06:13,923 - __main__ - INFO - 📰 Found 50 new articles
+2025-09-09 21:06:13,923 - __main__ - INFO - 🧠 Analyzing articles...
+2025-09-09 21:06:13,987 - __main__ - INFO - 📊 Generating daily report...
+2025-09-09 21:06:14,008 - __main__ - INFO - 💾 Storing data in Supabase...
+2025-09-09 21:06:14,598 - httpx - INFO - HTTP Request: POST https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/j97_news_articles "HTTP/1.1 409 Conflict"
+2025-09-09 21:06:14,600 - supabase_integration - ERROR - Error storing articles: {'code': '23505', 'details': 'Key (url)=(https://finance.yahoo.com/news/eightco-embraces-worldcoin-treasury-asset-132311924.html) already exists.', 'hint': None, 'message': 'duplicate key value violates unique constraint "j97_news_articles_url_key"'}
+2025-09-09 21:06:14,856 - httpx - INFO - HTTP Request: POST https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/j97_daily_reports "HTTP/1.1 201 Created"
+2025-09-09 21:06:14,863 - supabase_integration - INFO - ✅ Stored daily report for 2025-09-09
+2025-09-09 21:06:14,864 - __main__ - WARNING - ⚠️ Some data storage operations failed
+2025-09-09 21:06:14,864 - __main__ - INFO - ✅ J97 analysis cycle completed successfully
+2025-09-09 21:06:14,865 - __main__ - INFO - 💾 Summary saved to j97_analysis_summary_20250909_210614.json
+2025-09-09 21:39:15,854 - supabase_integration - INFO - ✅ Connected to Supabase
+2025-09-09 21:39:15,854 - __main__ - INFO - 🕵️ J97 News Analyst initialized
+2025-09-09 21:39:15,854 - __main__ - INFO - 📰 Ready to analyze Ethereum news 24/7
+2025-09-09 21:39:15,855 - __main__ - INFO - 🚀 Starting J97 single analysis...
+2025-09-09 21:39:15,855 - __main__ - INFO - 🔍 Starting J97 analysis cycle...
+2025-09-09 21:39:15,855 - __main__ - INFO - 📡 Crawling news from all sources...
+2025-09-09 21:39:15,855 - news_crawler - INFO - 🔍 J97 starting priority-based news crawl...
+2025-09-09 21:39:15,855 - news_crawler - INFO - 🔍 Testing all APIs...
+2025-09-09 21:39:16,710 - news_crawler - INFO - ✅ GNEWS API test successful
+2025-09-09 21:39:18,188 - news_crawler - INFO - ✅ NEWSAPI API test successful
+2025-09-09 21:39:20,809 - news_crawler - INFO - ✅ NEWSDATA API test successful
+2025-09-09 21:39:23,277 - news_crawler - INFO - ✅ MEDIASTACK API test successful
+2025-09-09 21:39:24,278 - news_crawler - INFO - ✅ 4/4 APIs are working
+2025-09-09 21:39:24,278 - news_crawler - INFO -    ✅ GNEWS: working
+2025-09-09 21:39:24,278 - news_crawler - INFO -    ✅ NEWSAPI: working
+2025-09-09 21:39:24,278 - news_crawler - INFO -    ✅ MEDIASTACK: working
+2025-09-09 21:39:24,278 - news_crawler - INFO -    ✅ NEWSDATA: working
+2025-09-09 21:39:24,278 - news_crawler - INFO - 📡 Using 4 working APIs: gnews, newsapi, newsdata, mediastack
+2025-09-09 21:39:24,278 - news_crawler - INFO - 🔄 Crawling GNEWS...
+2025-09-09 21:39:25,043 - news_crawler - ERROR - GNews API error: 400
+2025-09-09 21:39:25,044 - news_crawler - WARNING - ⚠️ GNEWS: No articles found
+2025-09-09 21:39:27,045 - news_crawler - INFO - 🔄 Crawling NEWSAPI...
+2025-09-09 21:39:27,501 - news_crawler - INFO - ✅ NewsAPI: Found 50 new articles
+2025-09-09 21:39:27,501 - news_crawler - INFO - ✅ NEWSAPI: Found 50 articles
+2025-09-09 21:39:27,501 - news_crawler - INFO - 🎯 Sufficient articles from high-priority sources, stopping crawl
+2025-09-09 21:39:27,501 - news_crawler - INFO - 📰 Total new articles found: 50
+2025-09-09 21:39:27,502 - __main__ - INFO - 📰 Found 50 new articles
+2025-09-09 21:39:27,502 - __main__ - INFO - 🧠 Analyzing articles...
+2025-09-09 21:39:27,573 - __main__ - INFO - 📊 Generating daily report...
+2025-09-09 21:39:27,595 - __main__ - INFO - 💾 Storing data in Supabase...
+2025-09-09 21:39:28,235 - httpx - INFO - HTTP Request: POST https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/j97_news_articles "HTTP/1.1 409 Conflict"
+2025-09-09 21:39:28,235 - supabase_integration - ERROR - Error storing articles: {'code': '23505', 'details': 'Key (url)=(https://finance.yahoo.com/news/eightco-embraces-worldcoin-treasury-asset-132311924.html) already exists.', 'hint': None, 'message': 'duplicate key value violates unique constraint "j97_news_articles_url_key"'}
+2025-09-09 21:39:28,444 - httpx - INFO - HTTP Request: POST https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/j97_daily_reports "HTTP/1.1 201 Created"
+2025-09-09 21:39:28,446 - supabase_integration - INFO - ✅ Stored daily report for 2025-09-09
+2025-09-09 21:39:28,446 - __main__ - WARNING - ⚠️ Some data storage operations failed
+2025-09-09 21:39:28,446 - __main__ - INFO - ✅ J97 analysis cycle completed successfully
+2025-09-09 21:39:28,447 - __main__ - INFO - 💾 Summary saved to j97_analysis_summary_20250909_213928.json
+2025-09-15 10:28:17,379 - supabase_integration - INFO - ✅ Connected to Supabase
+2025-09-15 10:28:17,380 - __main__ - INFO - 🕵️ J97 News Analyst initialized
+2025-09-15 10:28:17,380 - __main__ - INFO - 📰 Ready to analyze Ethereum news 24/7
+2025-09-15 10:28:17,381 - __main__ - INFO - 🚀 Starting J97 single analysis...
+2025-09-15 10:28:17,381 - __main__ - INFO - 🔍 Starting J97 analysis cycle...
+2025-09-15 10:28:17,381 - __main__ - INFO - 📡 Crawling news from all sources...
+2025-09-15 10:28:17,381 - news_crawler - INFO - 🔍 J97 starting priority-based news crawl...
+2025-09-15 10:28:17,381 - news_crawler - INFO - 🔍 Testing all APIs...
+2025-09-15 10:28:18,283 - news_crawler - INFO - ✅ GNEWS API test successful
+2025-09-15 10:28:19,726 - news_crawler - INFO - ✅ NEWSAPI API test successful
+2025-09-15 10:28:21,628 - news_crawler - INFO - ✅ NEWSDATA API test successful
+2025-09-15 10:28:23,865 - news_crawler - INFO - ✅ MEDIASTACK API test successful
+2025-09-15 10:28:24,867 - news_crawler - INFO - ✅ 4/4 APIs are working
+2025-09-15 10:28:24,867 - news_crawler - INFO -    ✅ GNEWS: working
+2025-09-15 10:28:24,868 - news_crawler - INFO -    ✅ NEWSAPI: working
+2025-09-15 10:28:24,868 - news_crawler - INFO -    ✅ MEDIASTACK: working
+2025-09-15 10:28:24,868 - news_crawler - INFO -    ✅ NEWSDATA: working
+2025-09-15 10:28:24,868 - news_crawler - INFO - 📡 Using 4 working APIs: gnews, newsapi, newsdata, mediastack
+2025-09-15 10:28:24,868 - news_crawler - INFO - 🔄 Crawling GNEWS...
+2025-09-15 10:28:25,769 - news_crawler - ERROR - GNews API error: 400
+2025-09-15 10:28:25,770 - news_crawler - WARNING - ⚠️ GNEWS: No articles found
+2025-09-15 10:28:27,771 - news_crawler - INFO - 🔄 Crawling NEWSAPI...
+2025-09-15 10:28:28,381 - news_crawler - INFO - ✅ NewsAPI: Found 49 new articles
+2025-09-15 10:28:28,382 - news_crawler - INFO - ✅ NEWSAPI: Found 49 articles
+2025-09-15 10:28:30,382 - news_crawler - INFO - 🔄 Crawling NEWSDATA...
+2025-09-15 10:28:31,756 - news_crawler - INFO - ✅ NewsData: Found 10 new articles
+2025-09-15 10:28:31,757 - news_crawler - INFO - ✅ NEWSDATA: Found 10 articles
+2025-09-15 10:28:33,758 - news_crawler - INFO - 🔄 Crawling MEDIASTACK...
+2025-09-15 10:28:34,326 - news_crawler - INFO - ✅ Mediastack: Found 9 new articles
+2025-09-15 10:28:34,326 - news_crawler - INFO - ✅ MEDIASTACK: Found 9 articles
+2025-09-15 10:28:36,327 - news_crawler - INFO - 📰 Total new articles found: 68
+2025-09-15 10:28:36,329 - __main__ - INFO - 📰 Found 68 new articles
+2025-09-15 10:28:36,329 - __main__ - INFO - 🧠 Analyzing articles...
+2025-09-15 10:28:36,388 - __main__ - INFO - 📊 Generating daily report...
+2025-09-15 10:28:36,431 - __main__ - INFO - 💾 Storing data in Supabase...
+2025-09-15 10:28:37,227 - httpx - INFO - HTTP Request: POST https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/j97_news_articles?columns=%22source%22%2C%22created_at%22%2C%22title%22%2C%22published_at%22%2C%22impact_score%22%2C%22key_phrases%22%2C%22category%22%2C%22analyzed_at%22%2C%22description%22%2C%22api_source%22%2C%22url%22%2C%22sentiment%22 "HTTP/2 201 Created"
+2025-09-15 10:28:37,237 - supabase_integration - INFO - ✅ Stored 68 articles in Supabase
+2025-09-15 10:28:37,411 - httpx - INFO - HTTP Request: POST https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/j97_daily_reports?columns=%22date%22%2C%22created_at%22%2C%22categories%22%2C%22trading_signal%22%2C%22top_key_phrases%22%2C%22sentiment_breakdown%22%2C%22high_impact_articles%22%2C%22total_articles%22%2C%22high_impact_titles%22 "HTTP/2 201 Created"
+2025-09-15 10:28:37,412 - supabase_integration - INFO - ✅ Stored daily report for 2025-09-15
+2025-09-15 10:28:37,412 - __main__ - INFO - ✅ Data successfully stored in Supabase
+2025-09-15 10:28:37,412 - __main__ - INFO - ✅ J97 analysis cycle completed successfully
+2025-09-15 10:28:37,414 - __main__ - INFO - 💾 Summary saved to j97_analysis_summary_20250915_102837.json
+2025-09-15 10:28:46,100 - supabase_integration - INFO - ✅ Connected to Supabase
+2025-09-15 10:28:46,101 - __main__ - INFO - 🕵️ J97 News Analyst initialized
+2025-09-15 10:28:46,101 - __main__ - INFO - 📰 Ready to analyze Ethereum news 24/7
+2025-09-15 10:28:46,101 - __main__ - INFO - 🚀 Starting J97 single analysis...
+2025-09-15 10:28:46,101 - __main__ - INFO - 🔍 Starting J97 analysis cycle...
+2025-09-15 10:28:46,101 - __main__ - INFO - 📡 Crawling news from all sources...
+2025-09-15 10:28:46,101 - news_crawler - INFO - 🔍 J97 starting priority-based news crawl...
+2025-09-15 10:28:46,101 - news_crawler - INFO - 🔍 Testing all APIs...
+2025-09-15 10:28:46,965 - news_crawler - INFO - ✅ GNEWS API test successful
+2025-09-15 10:28:48,331 - news_crawler - INFO - ✅ NEWSAPI API test successful
+2025-09-15 10:28:51,255 - news_crawler - INFO - ✅ NEWSDATA API test successful
+2025-09-15 10:28:53,272 - news_crawler - INFO - ✅ MEDIASTACK API test successful
+2025-09-15 10:28:54,273 - news_crawler - INFO - ✅ 4/4 APIs are working
+2025-09-15 10:28:54,274 - news_crawler - INFO -    ✅ GNEWS: working
+2025-09-15 10:28:54,274 - news_crawler - INFO -    ✅ NEWSAPI: working
+2025-09-15 10:28:54,274 - news_crawler - INFO -    ✅ MEDIASTACK: working
+2025-09-15 10:28:54,274 - news_crawler - INFO -    ✅ NEWSDATA: working
+2025-09-15 10:28:54,274 - news_crawler - INFO - 📡 Using 4 working APIs: gnews, newsapi, newsdata, mediastack
+2025-09-15 10:28:54,274 - news_crawler - INFO - 🔄 Crawling GNEWS...
+2025-09-15 10:28:55,047 - news_crawler - ERROR - GNews API error: 400
+2025-09-15 10:28:55,047 - news_crawler - WARNING - ⚠️ GNEWS: No articles found
+2025-09-15 10:28:57,048 - news_crawler - INFO - 🔄 Crawling NEWSAPI...
+2025-09-15 10:28:57,334 - news_crawler - INFO - ✅ NewsAPI: Found 49 new articles
+2025-09-15 10:28:57,335 - news_crawler - INFO - ✅ NEWSAPI: Found 49 articles
+2025-09-15 10:28:59,336 - news_crawler - INFO - 🔄 Crawling NEWSDATA...
+2025-09-15 10:29:00,560 - news_crawler - INFO - ✅ NewsData: Found 10 new articles
+2025-09-15 10:29:00,561 - news_crawler - INFO - ✅ NEWSDATA: Found 10 articles
+2025-09-15 10:29:02,562 - news_crawler - INFO - 🔄 Crawling MEDIASTACK...
+2025-09-15 10:29:03,338 - news_crawler - INFO - ✅ Mediastack: Found 9 new articles
+2025-09-15 10:29:03,338 - news_crawler - INFO - ✅ MEDIASTACK: Found 9 articles
+2025-09-15 10:29:05,339 - news_crawler - INFO - 📰 Total new articles found: 68
+2025-09-15 10:29:05,341 - __main__ - INFO - 📰 Found 68 new articles
+2025-09-15 10:29:05,341 - __main__ - INFO - 🧠 Analyzing articles...
+2025-09-15 10:29:05,409 - __main__ - INFO - 📊 Generating daily report...
+2025-09-15 10:29:05,439 - __main__ - INFO - 💾 Storing data in Supabase...
+2025-09-15 10:29:05,723 - httpx - INFO - HTTP Request: POST https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/j97_news_articles "HTTP/1.1 409 Conflict"
+2025-09-15 10:29:05,724 - supabase_integration - ERROR - Error storing articles: {'code': '23505', 'details': None, 'hint': None, 'message': 'duplicate key value violates unique constraint "j97_news_articles_url_key"'}
+2025-09-15 10:29:05,805 - httpx - INFO - HTTP Request: POST https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/j97_daily_reports "HTTP/1.1 201 Created"
+2025-09-15 10:29:05,808 - supabase_integration - INFO - ✅ Stored daily report for 2025-09-15
+2025-09-15 10:29:05,809 - __main__ - WARNING - ⚠️ Some data storage operations failed
+2025-09-15 10:29:05,809 - __main__ - INFO - ✅ J97 analysis cycle completed successfully
+2025-09-15 10:29:05,810 - __main__ - INFO - 💾 Summary saved to j97_analysis_summary_20250915_102905.json
+2025-09-15 11:31:53,105 - supabase_integration - INFO - ✅ Connected to Supabase
+2025-09-15 11:31:53,106 - __main__ - INFO - 🕵️ J97 News Analyst initialized
+2025-09-15 11:31:53,106 - __main__ - INFO - 📰 Ready to analyze Ethereum news 24/7
+2025-09-15 11:31:53,106 - __main__ - INFO - 🚀 Starting J97 single analysis...
+2025-09-15 11:31:53,106 - __main__ - INFO - 🔍 Starting J97 analysis cycle...
+2025-09-15 11:31:53,106 - __main__ - INFO - 📡 Crawling news from all sources...
+2025-09-15 11:31:53,106 - news_crawler - INFO - 🔍 J97 starting priority-based news crawl...
+2025-09-15 11:31:53,106 - news_crawler - INFO - 🔍 Testing all APIs...
+2025-09-15 11:31:54,038 - news_crawler - INFO - ✅ GNEWS API test successful
+2025-09-15 11:31:56,896 - news_crawler - INFO - ✅ NEWSAPI API test successful
+2025-09-15 11:31:58,912 - news_crawler - INFO - ✅ NEWSDATA API test successful
+2025-09-15 11:32:01,266 - news_crawler - INFO - ✅ MEDIASTACK API test successful
+2025-09-15 11:32:02,267 - news_crawler - INFO - ✅ 4/4 APIs are working
+2025-09-15 11:32:02,268 - news_crawler - INFO -    ✅ GNEWS: working
+2025-09-15 11:32:02,268 - news_crawler - INFO -    ✅ NEWSAPI: working
+2025-09-15 11:32:02,268 - news_crawler - INFO -    ✅ MEDIASTACK: working
+2025-09-15 11:32:02,268 - news_crawler - INFO -    ✅ NEWSDATA: working
+2025-09-15 11:32:02,268 - news_crawler - INFO - 📡 Using 4 working APIs: gnews, newsapi, newsdata, mediastack
+2025-09-15 11:32:02,268 - news_crawler - INFO - 🔄 Crawling GNEWS...
+2025-09-15 11:32:03,108 - news_crawler - ERROR - GNews API error: 400
+2025-09-15 11:32:03,109 - news_crawler - WARNING - ⚠️ GNEWS: No articles found
+2025-09-15 11:32:05,110 - news_crawler - INFO - 🔄 Crawling NEWSAPI...
+2025-09-15 11:32:05,543 - news_crawler - INFO - ✅ NewsAPI: Found 49 new articles
+2025-09-15 11:32:05,543 - news_crawler - INFO - ✅ NEWSAPI: Found 49 articles
+2025-09-15 11:32:07,552 - news_crawler - INFO - 🔄 Crawling NEWSDATA...
+2025-09-15 11:32:08,499 - news_crawler - INFO - ✅ NewsData: Found 10 new articles
+2025-09-15 11:32:08,500 - news_crawler - INFO - ✅ NEWSDATA: Found 10 articles
+2025-09-15 11:32:10,501 - news_crawler - INFO - 🔄 Crawling MEDIASTACK...
+2025-09-15 11:32:11,216 - news_crawler - INFO - ✅ Mediastack: Found 9 new articles
+2025-09-15 11:32:11,217 - news_crawler - INFO - ✅ MEDIASTACK: Found 9 articles
+2025-09-15 11:32:13,218 - news_crawler - INFO - 📰 Total new articles found: 68
+2025-09-15 11:32:13,220 - __main__ - INFO - 📰 Found 68 new articles
+2025-09-15 11:32:13,220 - __main__ - INFO - 🧠 Analyzing articles...
+2025-09-15 11:32:13,302 - __main__ - INFO - 📊 Generating daily report...
+2025-09-15 11:32:13,333 - __main__ - INFO - 💾 Storing data in Supabase...
+2025-09-15 11:32:14,370 - httpx - INFO - HTTP Request: POST https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/j97_news_articles "HTTP/1.1 409 Conflict"
+2025-09-15 11:32:14,372 - supabase_integration - ERROR - Error storing articles: {'code': '23505', 'details': None, 'hint': None, 'message': 'duplicate key value violates unique constraint "j97_news_articles_url_key"'}
+2025-09-15 11:32:14,507 - httpx - INFO - HTTP Request: POST https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/j97_daily_reports "HTTP/1.1 201 Created"
+2025-09-15 11:32:14,522 - supabase_integration - INFO - ✅ Stored daily report for 2025-09-15
+2025-09-15 11:32:14,522 - __main__ - WARNING - ⚠️ Some data storage operations failed
+2025-09-15 11:32:14,522 - __main__ - INFO - ✅ J97 analysis cycle completed successfully
+2025-09-15 11:32:14,523 - __main__ - INFO - 💾 Summary saved to j97_analysis_summary_20250915_113214.json
+2025-09-15 12:25:12,240 - supabase_integration - INFO - ✅ Connected to Supabase
+2025-09-15 12:25:12,240 - __main__ - INFO - 🕵️ J97 News Analyst initialized
+2025-09-15 12:25:12,240 - __main__ - INFO - 📰 Ready to analyze Ethereum news 24/7
+2025-09-15 12:25:12,241 - __main__ - INFO - 🚀 Starting J97 single analysis...
+2025-09-15 12:25:12,241 - __main__ - INFO - 🔍 Starting J97 analysis cycle...
+2025-09-15 12:25:12,241 - __main__ - INFO - 📡 Crawling news from all sources...
+2025-09-15 12:25:12,241 - news_crawler - INFO - 🔍 J97 starting priority-based news crawl...
+2025-09-15 12:25:12,241 - news_crawler - INFO - 🔍 Testing all APIs...
+2025-09-15 12:25:13,301 - news_crawler - INFO - ✅ GNEWS API test successful
+2025-09-15 12:25:14,737 - news_crawler - INFO - ✅ NEWSAPI API test successful
+2025-09-15 12:25:16,058 - news_crawler - ERROR - ❌ NEWSDATA API test error: Cannot connect to host newsdata.io:443 ssl:default [Connect call failed ('157.245.122.35', 443)]
+2025-09-15 12:25:19,187 - news_crawler - INFO - ✅ MEDIASTACK API test successful
+2025-09-15 12:25:20,189 - news_crawler - INFO - ✅ 3/4 APIs are working
+2025-09-15 12:25:20,189 - news_crawler - INFO -    ✅ GNEWS: working
+2025-09-15 12:25:20,189 - news_crawler - INFO -    ✅ NEWSAPI: working
+2025-09-15 12:25:20,189 - news_crawler - INFO -    ✅ MEDIASTACK: working
+2025-09-15 12:25:20,189 - news_crawler - INFO -    ⚠️ NEWSDATA: error
+2025-09-15 12:25:20,189 - news_crawler - INFO - 📡 Using 3 working APIs: gnews, newsapi, mediastack
+2025-09-15 12:25:20,189 - news_crawler - INFO - 🔄 Crawling GNEWS...
+2025-09-15 12:25:21,071 - news_crawler - ERROR - GNews API error: 400
+2025-09-15 12:25:21,072 - news_crawler - WARNING - ⚠️ GNEWS: No articles found
+2025-09-15 12:25:23,073 - news_crawler - INFO - 🔄 Crawling NEWSAPI...
+2025-09-15 12:25:23,945 - news_crawler - INFO - ✅ NewsAPI: Found 49 new articles
+2025-09-15 12:25:23,945 - news_crawler - INFO - ✅ NEWSAPI: Found 49 articles
+2025-09-15 12:25:25,946 - news_crawler - INFO - 🔄 Crawling MEDIASTACK...
+2025-09-15 12:25:27,064 - news_crawler - INFO - ✅ Mediastack: Found 9 new articles
+2025-09-15 12:25:27,064 - news_crawler - INFO - ✅ MEDIASTACK: Found 9 articles
+2025-09-15 12:25:29,066 - news_crawler - INFO - 📰 Total new articles found: 58
+2025-09-15 12:25:29,069 - __main__ - INFO - 📰 Found 58 new articles
+2025-09-15 12:25:29,070 - __main__ - INFO - 🧠 Analyzing articles...
+2025-09-15 12:25:29,136 - __main__ - INFO - 📊 Generating daily report...
+2025-09-15 12:25:29,165 - __main__ - INFO - 💾 Storing data in Supabase...
+2025-09-15 12:25:29,528 - httpx - INFO - HTTP Request: POST https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/j97_news_articles "HTTP/1.1 409 Conflict"
+2025-09-15 12:25:29,530 - supabase_integration - ERROR - Error storing articles: {'code': '23505', 'details': None, 'hint': None, 'message': 'duplicate key value violates unique constraint "j97_news_articles_url_key"'}
+2025-09-15 12:25:29,609 - httpx - INFO - HTTP Request: POST https://pgjorocqnafmvcsjhulu.supabase.co/rest/v1/j97_daily_reports "HTTP/1.1 201 Created"
+2025-09-15 12:25:29,612 - supabase_integration - INFO - ✅ Stored daily report for 2025-09-15
+2025-09-15 12:25:29,612 - __main__ - WARNING - ⚠️ Some data storage operations failed
+2025-09-15 12:25:29,612 - __main__ - INFO - ✅ J97 analysis cycle completed successfully
+2025-09-15 12:25:29,613 - __main__ - INFO - 💾 Summary saved to j97_analysis_summary_20250915_122529.json

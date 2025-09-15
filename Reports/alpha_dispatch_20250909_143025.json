@@ -1,0 +1,36 @@
+{
+  "timestamp": "2025-09-09T14:25:24.331454",
+  "alpha_file": "/Users/nguyenhuycuong/Crownwell agentic/TradingAgents/AlphaTeam/alpha_debate_20250909_142524.json",
+  "targets": [
+    "bob",
+    "j97",
+    "lily",
+    "yasuo"
+  ],
+  "runs": {
+    "bob": {
+      "ok": false,
+      "code": 1,
+      "stdout": "📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈\n📈 BOB - TECHNICAL ANALYSIS AGENT 📈\n📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈📈\n\n🎯 Expert Quant Trader from Top Hedge Fund\n📊 Full TA-Lib Integration (100+ Indicators)\n⏰ Multi-Timeframe Analysis (1H, 4H, 1D)\n🧠 Advanced Pattern Recognition\n💹 Professional Trading Signals\n\n🚀 Starting Bob's Analysis...\n============================================================\n🔧 Checking Bob's tools...\n✅ NumPy available\n✅ Pandas available\n❌ TA-Lib not found!\n💡 Run: python3 setup_talib.py\n\n❌ Missing dependencies: yfinance, TA-Lib\n📦 Install with: pip install yfinance TA-Lib\n\n❌ Please install missing dependencies first\n",
+      "stderr": ""
+    },
+    "j97": {
+      "ok": false,
+      "code": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/Users/nguyenhuycuong/Crownwell agentic/TradingAgents/J97/run_j97.py\", line 18, in <module>\n    from news_crawler import NewsCrawler\n  File \"/Users/nguyenhuycuong/Crownwell agentic/TradingAgents/J97/news_crawler.py\", line 16, in <module>\n    import schedule\nModuleNotFoundError: No module named 'schedule'\n"
+    },
+    "lily": {
+      "ok": false,
+      "code": -1,
+      "stdout": "",
+      "stderr": "timeout after 300s"
+    },
+    "yasuo": {
+      "ok": false,
+      "code": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/Users/nguyenhuycuong/Crownwell agentic/TradingAgents/Yasuo - Onchain analyst/push_to_supabase.py\", line 7, in <module>\n    from etf_tracker_fixed import ETHETFFlowTracker\n  File \"/Users/nguyenhuycuong/Crownwell agentic/TradingAgents/Yasuo - Onchain analyst/etf_tracker_fixed.py\", line 22, in <module>\n    from bs4 import BeautifulSoup\nModuleNotFoundError: No module named 'bs4'\n"
+    }
+  }
+}

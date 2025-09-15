@@ -1,0 +1,39 @@
+{
+  "status": "success",
+  "timestamp": "2025-09-09T20:23:41.881467",
+  "articles_processed": 50,
+  "trading_signal": "HOLD",
+  "sentiment": "bullish",
+  "confidence": 0.5,
+  "categories": {
+    "market": 18,
+    "general": 20,
+    "staking": 2,
+    "partnership": 1,
+    "regulation": 8,
+    "protocol_upgrade": 1
+  },
+  "high_impact_articles": 27,
+  "top_key_phrases": [
+    [
+      "for",
+      17
+    ],
+    [
+      "market",
+      14
+    ],
+    [
+      "over",
+      12
+    ],
+    [
+      "institutional",
+      6
+    ],
+    [
+      "securities",
+      5
+    ]
+  ]
+}

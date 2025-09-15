@@ -1061,3 +1061,17 @@
 2025-09-08 19:11:54,389 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $0
 2025-09-08 19:11:54,390 - etf_tracker_fixed - INFO - Primary daily flow: $0
 2025-09-08 19:11:54,391 - etf_tracker_fixed - INFO - Real-time daily flow (latest): $0
+2025-09-09 08:13:48,926 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-09 08:13:49,627 - dune_whale_tracker - INFO - Successfully retrieved 31 rows from query 5199702
+2025-09-09 08:13:50,260 - dune_whale_tracker - INFO - Successfully retrieved 31 rows from query 5199685
+2025-09-09 08:13:50,889 - dune_whale_tracker - INFO - Successfully retrieved 50 rows from query 5199583
+2025-09-09 08:13:51,536 - dune_whale_tracker - INFO - Successfully retrieved 168 rows from query 5199720
+2025-09-09 08:13:52,818 - etf_tracker_fixed - INFO - Found green highlighted row for ETH
+2025-09-09 08:13:52,818 - etf_tracker_fixed - INFO - Processing ETH row: ['08 Sep 2025', '-', '75.2', '0.0', '0.0', '0.0', '-', '0.0', '9.5', '11.3', '96.0']
+2025-09-09 08:13:52,818 - etf_tracker_fixed - INFO - Extracted ETH daily flow: $96,000,000
+2025-09-09 08:13:52,818 - etf_tracker_fixed - INFO - Primary daily flow: $96,000,000
+2025-09-09 08:13:52,820 - etf_tracker_fixed - INFO - Real-time daily flow (latest): $96,000,000
+2025-09-15 10:27:58,590 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-15 12:25:04,048 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-15 12:26:42,305 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized
+2025-09-15 12:27:44,115 - yasuo_onchain_analyst - INFO - 🛡️ Yasuo On-Chain Analyst initialized

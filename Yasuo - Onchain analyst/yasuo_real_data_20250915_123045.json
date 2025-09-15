@@ -1,0 +1,42 @@
+{
+  "timestamp": "2025-09-15T12:30:44.015791",
+  "data_sources": {
+    "dune_whales": {
+      "error": "'DuneWhaleTracker' object has no attribute 'get_whale_transactions'"
+    },
+    "etf_flows": {
+      "daily_flow": -465100000.0,
+      "flow_value": -465100000.0,
+      "weekly_flow": 0,
+      "monthly_flow": 0,
+      "aum": 0,
+      "timestamp": "2025-09-15T12:30:44.899006",
+      "etf_count": 10,
+      "data_source": "farside.co.uk_eth_daily_aggregated",
+      "flow_direction": "outflows",
+      "latest_day_only": true,
+      "noise_reduction": "daily_aggregation",
+      "cache_hit": false
+    },
+    "exchange_flows": {
+      "error": "name 'xem' is not defined"
+    },
+    "liveliness": {
+      "error": "name 'xem' is not defined"
+    }
+  },
+  "status": "success",
+  "analysis": {
+    "market_sentiment": "bearish",
+    "trading_signal": "SELL",
+    "confidence": 0.6,
+    "key_insights": [
+      "ETF daily flow: $-465,100,000"
+    ],
+    "risk_factors": [],
+    "bullish_signals": [],
+    "bearish_signals": [
+      "Strong ETF outflows - institutional selling"
+    ]
+  }
+}

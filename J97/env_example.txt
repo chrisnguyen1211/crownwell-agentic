@@ -1,0 +1,27 @@
+# J97 News Analyst API Keys
+# Get your free API keys from these sources:
+
+# GNews API (100 requests/day, 1 request/second)
+# https://gnews.io/
+GNEWS_API_KEY=your_gnews_api_key_here
+
+# NewsAPI (1000 requests/month)
+# https://newsapi.org/
+NEWSAPI_KEY=your_newsapi_key_here
+
+# Mediastack (100 requests/month)
+# https://mediastack.com/
+MEDIASTACK_API_KEY=your_mediastack_key_here
+
+# NewsData.io (200 requests/day)
+# https://newsdata.io/
+NEWSDATA_API_KEY=your_newsdata_key_here
+
+# Supabase (for storing news data)
+SUPABASE_URL=your_supabase_url
+SUPABASE_KEY=your_supabase_key
+
+# J97 Configuration
+J97_SLEEP_INTERVAL=3600  # 1 hour between crawls
+J97_MAX_ARTICLES_PER_SOURCE=50
+J97_KEYWORDS=ethereum,eth,ethereum 2.0,eth2,defi,smart contracts,gas fees

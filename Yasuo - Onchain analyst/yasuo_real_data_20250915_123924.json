@@ -1,0 +1,62 @@
+{
+  "timestamp": "2025-09-15T12:39:21.370239",
+  "data_sources": {
+    "dune_whales": {
+      "transactions": [],
+      "count": 0,
+      "data_source": "dune_whale_tracker"
+    },
+    "etf_flows": {
+      "daily_flow": 405500000.0,
+      "flow_value": 405500000.0,
+      "weekly_flow": 0,
+      "monthly_flow": 0,
+      "aum": 0,
+      "timestamp": "2025-09-15T12:39:22.566248",
+      "etf_count": 10,
+      "data_source": "farside.co.uk_eth_daily_aggregated",
+      "flow_direction": "inflows",
+      "latest_day_only": true,
+      "noise_reduction": "daily_aggregation",
+      "cache_hit": false
+    },
+    "exchange_flows": {
+      "exchange_addresses": {},
+      "total_exchanges": 0,
+      "inflow": 0,
+      "outflow": 0,
+      "net_flow": 0,
+      "data_source": "etherscan_exchange_flows",
+      "timestamp": "2025-09-15T12:39:24.902857"
+    },
+    "liveliness": {
+      "liveliness_score": 0.569,
+      "liveliness_category": "moderate",
+      "active_addresses_24h": 89822,
+      "dormant_addresses_reactivated": 449,
+      "total_addresses_analyzed": 359288,
+      "total_transfers_analyzed": 8982,
+      "total_volume_eth": 44911,
+      "avg_coin_age_moved_days": 38,
+      "data_source": "bitquery_liveliness_placeholder",
+      "timestamp": "2025-09-15T12:39:24.905650",
+      "days_analyzed": 7
+    }
+  },
+  "status": "success",
+  "analysis": {
+    "market_sentiment": "bullish",
+    "trading_signal": "BUY",
+    "confidence": 0.6,
+    "key_insights": [
+      "ETF daily flow: $405,500,000",
+      "Exchange net flow: 0 ETH (neutral)",
+      "Liveliness score: 0.57 (moderate)"
+    ],
+    "risk_factors": [],
+    "bullish_signals": [
+      "Strong ETF inflows - institutional buying"
+    ],
+    "bearish_signals": []
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "timestamp": "2025-09-15T12:32:09.694100",
+  "data_sources": {
+    "dune_whales": {
+      "transactions": [],
+      "count": 0,
+      "data_source": "dune_whale_tracker"
+    },
+    "etf_flows": {
+      "daily_flow": -465100000.0,
+      "flow_value": -465100000.0,
+      "weekly_flow": 0,
+      "monthly_flow": 0,
+      "aum": 0,
+      "timestamp": "2025-09-15T12:32:10.809608",
+      "etf_count": 10,
+      "data_source": "farside.co.uk_eth_daily_aggregated",
+      "flow_direction": "outflows",
+      "latest_day_only": true,
+      "noise_reduction": "daily_aggregation",
+      "cache_hit": false
+    },
+    "exchange_flows": {},
+    "liveliness": {
+      "liveliness_score": 0.598,
+      "liveliness_category": "moderate",
+      "active_addresses_24h": 94480,
+      "dormant_addresses_reactivated": 472,
+      "total_addresses_analyzed": 377920,
+      "total_transfers_analyzed": 9448,
+      "total_volume_eth": 47240,
+      "avg_coin_age_moved_days": 66,
+      "data_source": "bitquery_liveliness_placeholder",
+      "timestamp": "2025-09-15T12:32:11.917992",
+      "days_analyzed": 7
+    }
+  },
+  "status": "success",
+  "analysis": {
+    "market_sentiment": "bearish",
+    "trading_signal": "SELL",
+    "confidence": 0.6,
+    "key_insights": [
+      "ETF daily flow: $-465,100,000",
+      "Exchange net flow: 0 ETH (neutral)",
+      "Liveliness score: 0.60 (moderate)"
+    ],
+    "risk_factors": [],
+    "bullish_signals": [],
+    "bearish_signals": [
+      "Strong ETF outflows - institutional selling"
+    ]
+  }
+}
