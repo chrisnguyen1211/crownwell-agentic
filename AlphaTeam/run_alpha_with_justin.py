@@ -15,7 +15,8 @@ from datetime import datetime
 
 BASE = "/Users/nguyenhuycuong/Crownwell agentic/TradingAgents"
 ALPHA_DIR = os.path.join(BASE, 'AlphaTeam')
-JUSTIN_DIR = os.path.join(BASE, 'JustinLy')
+JUSTIN_DIR = os.path.join(BASE, 'Justin')
+RISK_DIR = os.path.join(BASE, 'RiskTeam')
 REPORTS_DIR = os.path.join(BASE, 'Reports')
 
 def run_alpha_debate():
@@ -48,6 +49,16 @@ def run_justin_judge():
         print("Justin stderr:", res.stderr)
     return res.returncode == 0
 
+def run_risk_team(mode: str = 'neutral'):
+    """Run Risk team assessment to adjust Justin's proposal"""
+    print(f"🛡️ Running Risk Team Assessment ({mode})...")
+    risk_script = os.path.join(RISK_DIR, 'risk_team.py')
+    res = subprocess.run([sys.executable, risk_script, mode], cwd=RISK_DIR, capture_output=True, text=True)
+    print(res.stdout)
+    if res.stderr:
+        print("Risk stderr:", res.stderr)
+    return res.returncode == 0
+
 def get_latest_files():
     """Get the latest generated files"""
     files = {}
@@ -69,6 +80,31 @@ def get_latest_files():
         files['justin_verdict'] = os.path.join(JUSTIN_DIR, justin_files[-1])
     
     return files
+
+def alpha_requests_more_data(alpha_path: str) -> bool:
+    """Heuristically detect if Alpha debate asked for more data/redispatch."""
+    try:
+        with open(alpha_path, 'r') as f:
+            data = json.load(f)
+        text_blobs = []
+        for k in ('bullish', 'bearish'):
+            if isinstance(data.get(k), dict):
+                text_blobs.append(json.dumps(data[k], ensure_ascii=False))
+        if isinstance(data.get('debate_rounds'), list):
+            text_blobs.append(json.dumps(data['debate_rounds'], ensure_ascii=False))
+        blob = '\n'.join(text_blobs).lower()
+        signals = ['need more data', 'need more info', 'dispatcher', 'crawl more', 'fetch more']
+        return any(s in blob for s in signals)
+    except Exception:
+        return False
+
+def read_latest_risk_report():
+    risk_files = sorted([f for f in os.listdir(REPORTS_DIR) if f.startswith('risk_assessment_') and f.endswith('.json')])
+    if not risk_files:
+        return None
+    path = os.path.join(REPORTS_DIR, risk_files[-1])
+    with open(path, 'r') as f:
+        return json.load(f)
 
 def generate_comprehensive_report(files):
     """Generate comprehensive report combining all results"""
@@ -136,17 +172,9 @@ def main():
     print("=" * 70)
     
     success_count = 0
-    total_steps = 3
+    total_steps = 4
     
-    # Step 1: Run Alpha debate
-    if run_alpha_debate():
-        success_count += 1
-        print("✅ Alpha debate completed")
-    else:
-        print("❌ Alpha debate failed")
-        return
-    
-    # Step 2: Run dispatch
+    # Step 1: Run dispatch (Crawl Team first to gather data)
     if run_dispatch():
         success_count += 1
         print("✅ Dispatch completed")
@@ -154,6 +182,24 @@ def main():
         print("❌ Dispatch failed")
         return
     
+    # Step 2: Run Alpha debate (after fresh data)
+    if run_alpha_debate():
+        success_count += 1
+        print("✅ Alpha debate completed")
+    else:
+        print("❌ Alpha debate failed")
+        return
+
+    # Check if Alpha requests more data → re-dispatch before Justin
+    files = get_latest_files()
+    alpha_path = files.get('alpha_debate')
+    if alpha_path and alpha_requests_more_data(alpha_path):
+        print("🔁 Alpha requested more data – dispatching crawl agents again...")
+        if run_dispatch():
+            print("✅ Additional dispatch completed")
+        else:
+            print("❌ Additional dispatch failed")
+
     # Step 3: Run Justin judge
     if run_justin_judge():
         success_count += 1
@@ -161,6 +207,23 @@ def main():
     else:
         print("❌ Justin analysis failed")
         return
+
+    # Step 4: Run Risk team (neutral by default; can be aggressive/conservative)
+    if run_risk_team('neutral'):
+        success_count += 1
+        print("✅ Risk assessment completed")
+    else:
+        print("❌ Risk assessment failed")
+        return
+
+    # Optional redispatch if risk is HIGH
+    risk_report = read_latest_risk_report()
+    if risk_report and risk_report.get('need_redispatch'):
+        print("🔁 Risk is HIGH – re-dispatching crawl agents for fresh data...")
+        if run_dispatch():
+            print("✅ Redispatch completed")
+        else:
+            print("❌ Redispatch failed")
     
     print(f"\n📊 WORKFLOW SUMMARY: {success_count}/{total_steps} steps completed")
     

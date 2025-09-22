@@ -1,0 +1,91 @@
+{
+  "timestamp": "2025-09-18T12:21:53.301166",
+  "judge": "Justin Ly",
+  "experience_years": 15,
+  "analysis_style": "Deep, methodical, and skeptical",
+  "scores": {
+    "bullish": 3,
+    "bearish": 1,
+    "neutral": 1
+  },
+  "verdict": "BUY",
+  "confidence": 0.7,
+  "detailed_analysis": {
+    "news_manipulation_risk": {
+      "risk_level": "MINIMAL",
+      "manipulation_signals": [],
+      "risk_factors": [],
+      "analysis": "News data shows minimal manipulation risk with 0 warning signals"
+    },
+    "social_reliability": {
+      "reliability": "HIGH",
+      "bot_indicators": [],
+      "reliability_factors": [],
+      "analysis": "Social sentiment shows high reliability with 0 bot indicators"
+    },
+    "onchain_authenticity": {
+      "authenticity": "HIGH",
+      "manipulation_indicators": [],
+      "authenticity_factors": [],
+      "analysis": "Onchain data shows high authenticity with 0 manipulation indicators"
+    },
+    "technical_reliability": {
+      "reliability": "MEDIUM",
+      "reliability_factors": [
+        "Low confidence in technical analysis"
+      ],
+      "market_context": [
+        "Technical signals lack conviction"
+      ],
+      "analysis": "Technical analysis shows medium reliability with 1 concerns"
+    },
+    "fundamental_value": {
+      "fundamental_strength": "WEAK",
+      "fundamental_score": 0,
+      "value_factors": [],
+      "analysis": "ETH shows weak fundamental value with 0 positive factors"
+    }
+  },
+  "recommendation": {
+    "action": "BUY",
+    "confidence": 0.7,
+    "position_sizing": "Conservative",
+    "risk_management": "High",
+    "time_horizon": "Medium-term",
+    "entry_strategy": "Scale in on pullbacks - 3 tranches",
+    "exit_strategy": "Scale out at resistance levels",
+    "stop_loss": "Below key support levels",
+    "take_profit": "At major resistance or 2:1 R/R",
+    "risk_factors": "Monitor for manipulation signals",
+    "justin_advice": "Only buy if fundamental value is strong and manipulation risk is low"
+  },
+  "proposal": {
+    "portfolio": {
+      "decision": "BUY",
+      "style": "DCA buy",
+      "confidence": 0.7,
+      "horizon": "long-term"
+    },
+    "trading": {
+      "mode": "short-term",
+      "entry": {
+        "type": "scaled",
+        "tranches": 3,
+        "risk_profile": "neutral"
+      },
+      "risk": {
+        "stop_loss_pct": 0.02,
+        "take_profit_pct": 0.05,
+        "rr_min": 1.5
+      }
+    }
+  },
+  "justin_notes": [
+    "After 15 years in this market, I've seen every trick in the book.",
+    "ETH is inherently manipulatable - that's both its strength and weakness.",
+    "Real value comes from utility, not price speculation.",
+    "The data looks relatively clean - but stay vigilant.",
+    "Even clean data can be misleading in this market.",
+    "I'm reasonably confident in this call - but never bet the farm."
+  ]
+}

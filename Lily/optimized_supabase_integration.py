@@ -68,6 +68,25 @@ class OptimizedSupabaseManager:
         
         if not self.supabase_url or not self.supabase_key:
             raise ValueError("Supabase URL and Key required")
+        
+        # Define conservative safe columns that are likely to exist on remote DB
+        # This prevents 400 errors when DB schema lacks some optional columns
+        self.safe_columns = {
+            'twitter_posts': {
+                'tweet_id', 'username', 'tweet_text', 'tweet_url',
+                'sentiment_score', 'confidence', 'tweet_timestamp', 'analysis_timestamp'
+            },
+            'reddit_posts': {
+                'post_id', 'subreddit', 'post_type', 'title', 'content', 'author',
+                'post_score', 'num_comments', 'post_url', 'sentiment_score', 'confidence',
+                'post_timestamp', 'analysis_timestamp'
+            },
+            'telegram_posts': {
+                'message_id', 'channel_id', 'channel_username', 'channel_title',
+                'message_text', 'message_views', 'message_url', 'sentiment_score',
+                'confidence', 'message_timestamp', 'analysis_timestamp'
+            }
+        }
     
     def setup_logging(self):
         """Setup logging"""
@@ -269,7 +288,21 @@ class OptimizedSupabaseManager:
         
         try:
             # Prepare data
-            prepared_data = [data_prep_func(post) for post in posts]
+            prepared_data_raw = [data_prep_func(post) for post in posts]
+            
+            # Filter to safe columns and drop None to avoid NOT NULL violations
+            allowed = self.safe_columns.get(table_name, set())
+            prepared_data = []
+            for row in prepared_data_raw:
+                filtered = {k: v for k, v in row.items() if k in allowed and v is not None}
+                # Hardening for NOT NULL text fields
+                if table_name == 'twitter_posts':
+                    filtered['tweet_text'] = (filtered.get('tweet_text') or '').strip() or '[empty]'
+                if table_name == 'reddit_posts':
+                    filtered['content'] = (filtered.get('content') or '').strip() or '[empty]'
+                if table_name == 'telegram_posts':
+                    filtered['message_text'] = (filtered.get('message_text') or '').strip() or '[empty]'
+                prepared_data.append(filtered)
             
             # Insert with chunking to respect rate limits
             chunk_size = 50  # Insert 50 posts at a time

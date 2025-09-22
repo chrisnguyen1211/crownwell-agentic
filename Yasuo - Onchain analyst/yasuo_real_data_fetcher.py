@@ -13,9 +13,28 @@ import sys
 import os
 from datetime import datetime
 from typing import Dict, Any
+from dotenv import load_dotenv
+
+# Load environment variables (project-root .env.supabase)
+load_dotenv()
+try:
+    project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+    supabase_env_path = os.path.join(project_root, '.env.supabase')
+    load_dotenv(supabase_env_path)
+except Exception:
+    # Fallback to relative path if needed
+    load_dotenv('.env.supabase')
 
 # Add current directory to path
 sys.path.insert(0, '.')
+
+# Supabase integration
+try:
+    from yasuo_supabase_integration import YasuoSupabaseManager
+    SUPABASE_AVAILABLE = True
+except ImportError:
+    SUPABASE_AVAILABLE = False
+    print("⚠️ Supabase integration not available for Yasuo")
 
 async def fetch_real_data():
     """Fetch real data from all sources"""
@@ -134,6 +153,21 @@ async def fetch_real_data():
         
         print(f"\n✅ Real data saved to: {filename}")
         
+        # Store in Supabase
+        if SUPABASE_AVAILABLE:
+            try:
+                print("💾 Storing data in Supabase...")
+                supabase_manager = YasuoSupabaseManager()
+                success = supabase_manager.store_daily_analysis(results)
+                if success:
+                    print("✅ Data stored in Supabase successfully")
+                else:
+                    print("⚠️ Failed to store data in Supabase")
+            except Exception as e:
+                print(f"❌ Error storing data in Supabase: {e}")
+        else:
+            print("⚠️ Supabase not available, skipping database storage")
+        
     except Exception as e:
         print(f"\n❌ Error in main process: {e}")
         results["status"] = "error"
@@ -228,6 +262,27 @@ async def main():
     """Main function"""
     print("🚀 Starting Yasuo Real Data Fetcher...")
     results = await fetch_real_data()
+    
+    # Supabase integration
+    try:
+        from yasuo_supabase_integration import YasuoSupabaseManager
+        SUPABASE_AVAILABLE = True
+    except ImportError:
+        SUPABASE_AVAILABLE = False
+        print("⚠️ Supabase integration not available for Yasuo")
+    
+    # Store in Supabase
+    if SUPABASE_AVAILABLE and results["status"] == "success":
+        try:
+            print("💾 Storing data in Supabase...")
+            supabase_manager = YasuoSupabaseManager()
+            success = supabase_manager.store_daily_analysis(results)
+            if success:
+                print("✅ Data stored in Supabase successfully")
+            else:
+                print("⚠️ Failed to store data in Supabase")
+        except Exception as e:
+            print(f"❌ Error storing data in Supabase: {e}")
     
     if results["status"] == "success":
         print("\n🎉 Yasuo real data fetching completed successfully!")

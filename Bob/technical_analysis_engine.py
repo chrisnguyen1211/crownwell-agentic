@@ -16,6 +16,14 @@ from typing import Dict, List, Tuple, Optional
 import warnings
 warnings.filterwarnings('ignore')
 
+# Supabase integration
+try:
+    from supabase_integration import BobSupabaseManager
+    SUPABASE_AVAILABLE = True
+except ImportError:
+    SUPABASE_AVAILABLE = False
+    print("⚠️ Supabase integration not available for Bob")
+
 # Import Bob's options analysis
 try:
     from options_analysis_engine import BobOptionsAnalysisEngine
@@ -44,6 +52,12 @@ class BobTechnicalAnalysisEngine:
         self.symbol = 'ETH-USD'
         if self.symbol.startswith('$'):
             self.symbol = self.symbol[1:]
+        
+        # Initialize Supabase manager
+        if SUPABASE_AVAILABLE:
+            self.supabase_manager = BobSupabaseManager()
+        else:
+            self.supabase_manager = None
         
         # Initialize options analysis engine
         if OPTIONS_AVAILABLE:
@@ -448,6 +462,18 @@ class BobTechnicalAnalysisEngine:
         # Add options analysis if successful
         if options_analysis and 'error' not in options_analysis:
             analysis_result['options_analysis'] = options_analysis
+        
+        # Store analysis in Supabase
+        if self.supabase_manager:
+            try:
+                self.logger.info("💾 Storing analysis in Supabase...")
+                success = self.supabase_manager.store_technical_analysis(analysis_result)
+                if success:
+                    self.logger.info("✅ Analysis stored in Supabase successfully")
+                else:
+                    self.logger.warning("⚠️ Failed to store analysis in Supabase")
+            except Exception as e:
+                self.logger.error(f"❌ Error storing analysis in Supabase: {e}")
         
         return analysis_result
     
@@ -1190,4 +1216,7 @@ async def run_bob_analysis():
         return None
 
 if __name__ == "__main__":
-    analysis = run_bob_analysis()
+    try:
+        asyncio.run(run_bob_analysis())
+    except Exception as e:
+        logging.getLogger(__name__).error(f"❌ Failed to run Bob analysis: {e}")

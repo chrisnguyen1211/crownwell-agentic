@@ -81,48 +81,48 @@ class EtherscanTransactionTracker:
             return []
     
     def _get_latest_block(self) -> Optional[int]:
-        """Get latest block number"""
-        try:
-            params = {
-                "module": "proxy",
-                "action": "eth_blockNumber",
-                "apikey": self.api_key
-            }
-            
-            response = requests.get(self.base_url, params=params, timeout=10)
-            if response.status_code == 200:
-                data = response.json()
-                if data.get("result"):
-                    return int(data["result"], 16)
-            
-            return None
-            
-        except Exception as e:
-            self.logger.error(f"Error getting latest block: {e}")
-            return None
+        """Get latest block number with retries"""
+        params = {
+            "module": "proxy",
+            "action": "eth_blockNumber",
+            "apikey": self.api_key
+        }
+        for attempt in range(3):
+            try:
+                response = requests.get(self.base_url, params=params, timeout=20)
+                if response.status_code == 200:
+                    data = response.json()
+                    if data.get("result"):
+                        return int(data["result"], 16)
+            except Exception as e:
+                self.logger.warning(f"Attempt {attempt+1}/3 failed to get latest block: {e}")
+                self._rate_limit()
+                continue
+        self.logger.error("Failed to get latest block after retries")
+        return None
     
     def _get_block_transactions(self, block_num: int) -> List[Dict[str, Any]]:
-        """Get transactions from a specific block"""
-        try:
-            params = {
-                "module": "proxy",
-                "action": "eth_getBlockByNumber",
-                "tag": hex(block_num),
-                "boolean": "true",
-                "apikey": self.api_key
-            }
-            
-            response = requests.get(self.base_url, params=params, timeout=10)
-            if response.status_code == 200:
-                data = response.json()
-                if data.get("result") and data["result"].get("transactions"):
-                    return data["result"]["transactions"]
-            
-            return []
-            
-        except Exception as e:
-            self.logger.error(f"Error getting block {block_num} transactions: {e}")
-            return []
+        """Get transactions from a specific block with retries"""
+        params = {
+            "module": "proxy",
+            "action": "eth_getBlockByNumber",
+            "tag": hex(block_num),
+            "boolean": "true",
+            "apikey": self.api_key
+        }
+        for attempt in range(3):
+            try:
+                response = requests.get(self.base_url, params=params, timeout=20)
+                if response.status_code == 200:
+                    data = response.json()
+                    if data.get("result") and data["result"].get("transactions"):
+                        return data["result"]["transactions"]
+            except Exception as e:
+                self.logger.warning(f"Attempt {attempt+1}/3 block {block_num} failed: {e}")
+                self._rate_limit()
+                continue
+        self.logger.error(f"Failed to get transactions for block {block_num} after retries")
+        return []
     
     def _is_large_transaction(self, tx: Dict[str, Any], min_eth: float) -> bool:
         """Check if transaction is large enough"""

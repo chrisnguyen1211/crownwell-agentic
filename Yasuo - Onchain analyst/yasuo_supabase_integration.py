@@ -63,33 +63,33 @@ class YasuoSupabaseManager:
             return False
         
         try:
-            # Prepare data for storage
+            # Extract analysis from the data
+            analysis = analysis_data.get('analysis', {})
+            data_sources = analysis_data.get('data_sources', {})
+            
+            # Prepare data for storage matching the table structure
             daily_record = {
-                "analysis_date": datetime.now().isoformat(),
-                "etf_daily_flow": analysis_data.get("etf_flows", {}).get("daily_flow", 0),
-                "etf_weekly_flow": analysis_data.get("etf_flows", {}).get("weekly_flow", 0),
-                "etf_data_source": analysis_data.get("etf_flows", {}).get("data_source", "unknown"),
-                "exchange_net_flow": analysis_data.get("exchange_flows", {}).get("net_flow", 0),
-                "exchange_total_outflow": analysis_data.get("exchange_flows", {}).get("total_outflow", 0),
-                "exchange_total_inflow": analysis_data.get("exchange_flows", {}).get("total_inflow", 0),
-                "exchange_count": len(analysis_data.get("exchange_flows", {}).get("exchanges", {})),
-                "large_transactions_count": len(analysis_data.get("large_transactions", [])),
-                "options_instruments": analysis_data.get("options_data", {}).get("options_instruments", 0),
-                "put_call_ratio": analysis_data.get("options_data", {}).get("options_analysis", {}).get("put_call_ratio", 0),
-                "funding_rate_percent": analysis_data.get("futures_data", {}).get("funding_rate_percent", 0),
-                "contango_backwardation": analysis_data.get("futures_data", {}).get("contango_backwardation", "unknown"),
-                "mark_price": analysis_data.get("futures_data", {}).get("mark_price", 0),
-                "recommendation_action": analysis_data.get("recommendation", {}).get("action", "UNKNOWN"),
-                "recommendation_confidence": analysis_data.get("recommendation", {}).get("confidence", 0),
-                "bullish_signals": analysis_data.get("recommendation", {}).get("score", {}).get("bullish", 0),
-                "bearish_signals": analysis_data.get("recommendation", {}).get("score", {}).get("bearish", 0),
-                "neutral_signals": analysis_data.get("recommendation", {}).get("score", {}).get("neutral", 0),
-                "raw_data": json.dumps(analysis_data),
-                "created_at": datetime.now().isoformat()
+                "overall_sentiment": analysis.get('market_sentiment', 'neutral'),
+                "primary_signal": analysis.get('trading_signal', 'HOLD'),
+                "confidence": analysis.get('confidence', 0.0),
+                "etf_daily_flow": data_sources.get('etf_flows', {}).get('daily_flow', 0),
+                "exchange_inflow_eth": data_sources.get('exchange_flows', {}).get('inflow', 0),
+                "exchange_outflow_eth": data_sources.get('exchange_flows', {}).get('outflow', 0),
+                "exchange_net_flow_eth": data_sources.get('exchange_flows', {}).get('net_flow', 0),
+                "whale_intelligence": data_sources.get('dune_whales', {}),
+                "etf_flows": data_sources.get('etf_flows', {}),
+                "exchange_flows": data_sources.get('exchange_flows', {}),
+                "large_transactions": data_sources.get('dune_whales', {}),
+                "market_context": {
+                    "liveliness_score": data_sources.get('liveliness', {}).get('score', 0),
+                    "timestamp": analysis_data.get('timestamp', datetime.now().isoformat())
+                },
+                "summary": analysis,
+                "raw_run": analysis_data
             }
             
             # Insert into Supabase
-            result = self.client.table('yasuo_daily_analysis').insert(daily_record).execute()
+            result = self.client.table('yasuo_full_snapshot').insert(daily_record).execute()
             
             if result.data:
                 self.logger.info("✅ Daily analysis stored in Supabase")
@@ -114,7 +114,7 @@ class YasuoSupabaseManager:
             # Get exactly the latest 7 snapshots by analysis_date
             result = (
                 self.client
-                .table('yasuo_daily_analysis')
+                .table('yasuo_full_snapshot')
                 .select('*')
                 .order('analysis_date', desc=True)
                 .limit(7)

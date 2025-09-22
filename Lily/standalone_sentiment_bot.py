@@ -121,7 +121,7 @@ class LilySentimentBot:
             print(f"❌ Database initialization error: {e}")
             return False
         
-        # Initialize Telegram
+        # Initialize Telegram with timeout
         print("📱 Initializing Telegram client...")
         self.telegram_searcher = TelegramETHMentionSearcher(
             self.TELEGRAM_API_ID, 
@@ -130,11 +130,20 @@ class LilySentimentBot:
         )
         
         try:
-            await self.telegram_searcher.initialize()
+            # Add timeout for Telegram initialization
+            await asyncio.wait_for(
+                self.telegram_searcher.initialize(), 
+                timeout=30.0  # 30 second timeout
+            )
             print("✅ Telegram client initialized")
+        except asyncio.TimeoutError:
+            print("⚠️ Telegram initialization timed out after 30 seconds")
+            print("📱 Continuing without Telegram")
+            self.telegram_searcher = None
         except Exception as e:
             print(f"⚠️ Telegram initialization warning: {e}")
             print("📱 Continuing without Telegram")
+            self.telegram_searcher = None
         
         return True
     
