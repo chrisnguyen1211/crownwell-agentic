@@ -19,9 +19,20 @@ st.markdown(
     .err {background:#FFECEC;color:#9F1A1A;border:1px solid #F4B7B7}
     .pill {background:#EEF2FF;color:#243B83;border:1px solid #C7D2FE}
     .rationale {background:#FAFAFA;border-left:4px solid #cbd5e1;padding:8px 10px;margin:6px 0;border-radius:6px;color:#000}
-    .chat-scroll {height:380px;overflow-y:auto;padding:8px;background:#FAFAFA;border:1px solid #e5e7eb;border-radius:8px}
-    .bubble-user {background:#e6f4ff;border:1px solid #bfdbfe;color:#0f172a;padding:8px 10px;border-radius:10px;margin:6px 0}
-    .bubble-assistant {background:#f1f5f9;border:1px solid #e2e8f0;color:#0f172a;padding:8px 10px;border-radius:10px;margin:6px 0}
+    .chat-scroll {height:380px;overflow-y:auto;padding:12px;background:#F2F2F7;border:1px solid #e5e7eb;border-radius:16px}
+    .row {display:flex;margin:6px 0}
+    .row.user {justify-content:flex-end}
+    .row.assistant {justify-content:flex-start}
+    .bubble {max-width:80%;padding:10px 12px;border-radius:18px;line-height:1.35}
+    .bubble-user {background:#0A84FF;color:#fff;border:1px solid #0A84FF;border-top-right-radius:6px}
+    .bubble-assistant {background:#E9ECEF;color:#0f172a;border:1px solid #e2e8f0;border-top-left-radius:6px}
+    .meta {font-size:11px;color:#64748b;margin-top:2px}
+    .meta.right {text-align:right}
+    .typing {display:inline-flex;gap:4px;align-items:center}
+    .dot {width:6px;height:6px;background:#94a3b8;border-radius:50%;display:inline-block;animation:blink 1.2s infinite ease-in-out}
+    .dot:nth-child(2){animation-delay:0.2s}
+    .dot:nth-child(3){animation-delay:0.4s}
+    @keyframes blink {0%,80%,100%{opacity:0.2} 40%{opacity:1}}
     </style>
     """,
     unsafe_allow_html=True,
@@ -372,7 +383,7 @@ with top_right:
         st.session_state.eth_chat = []  # list of {role, content}
 
     # Upper: chat history (messages) in a fixed-height scroll area
-    def render_chat_html(messages, trailing_assistant: str | None = None) -> str:
+    def render_chat_html(messages, trailing_assistant: str | None = None, trailing_typing: bool = False) -> str:
         parts = [
             """
 <div id=\"chatScroll\" class=\"chat-scroll\">
@@ -381,10 +392,16 @@ with top_right:
         for msg in messages[-200:]:
             role = msg.get("role", "assistant")
             content = msg.get("content", "")
-            css = 'bubble-user' if role == 'user' else 'bubble-assistant'
-            parts.append(f"<div class='{css}'>{content}</div>")
+            ts = msg.get("ts", "")
+            is_user = role == 'user'
+            row_cls = 'row user' if is_user else 'row assistant'
+            bub_cls = 'bubble bubble-user' if is_user else 'bubble bubble-assistant'
+            meta_cls = 'meta right' if is_user else 'meta'
+            parts.append(f"<div class='{row_cls}'><div><div class='{bub_cls}'>{content}</div><div class='{meta_cls}'>{ts}</div></div></div>")
         if trailing_assistant is not None:
-            parts.append(f"<div class='bubble-assistant'>{trailing_assistant}</div>")
+            parts.append("<div class='row assistant'><div><div class='bubble bubble-assistant'>" + trailing_assistant + "</div></div></div>")
+        elif trailing_typing:
+            parts.append("<div class='row assistant'><div><div class='bubble bubble-assistant'><span class='typing'><span class='dot'></span><span class='dot'></span><span class='dot'></span></span></div></div></div>")
         parts.append("""
 </div>
 <script>
@@ -432,11 +449,11 @@ with top_right:
     if not GEMINI_API_KEY:
         st.info("Gemini chat is local-only. Please run locally with your gemini_config.env or GEMINI_API_KEY in env.")
     elif user_q:
-        # Add user message
-        st.session_state.eth_chat.append({"role": "user", "content": user_q})
-        # Immediately show user's message pushed into chat pane
-        scroll_box.markdown(render_chat_html(st.session_state.eth_chat), unsafe_allow_html=True)
-
+        from datetime import datetime
+        # Add user message with timestamp
+        st.session_state.eth_chat.append({"role": "user", "content": user_q, "ts": datetime.now().strftime('%H:%M')})
+        # Show typing indicator immediately
+        scroll_box.markdown(render_chat_html(st.session_state.eth_chat, trailing_typing=True), unsafe_allow_html=True)
         # Generate assistant reply
         answer_full = run_gemini(user_q)
         # Typing effect: progressively reveal within fixed scroll box
@@ -445,8 +462,8 @@ with top_right:
             revealed += ch
             scroll_box.markdown(render_chat_html(st.session_state.eth_chat, trailing_assistant=revealed), unsafe_allow_html=True)
             time.sleep(0.01)
-        # Save final assistant message and reset input box
-        st.session_state.eth_chat.append({"role": "assistant", "content": answer_full})
+        # Save final assistant message with timestamp
+        st.session_state.eth_chat.append({"role": "assistant", "content": answer_full, "ts": datetime.now().strftime('%H:%M')})
         st.rerun()
 
 st.markdown("---")
