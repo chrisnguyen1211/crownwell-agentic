@@ -364,17 +364,21 @@ with top_right:
         except Exception:
             pass
 
-    user_q = st.text_input("Ask me anything about ETH", key="eth_chat_input", placeholder="Ask me anything about ETH")
+    # Chat history + input (two-box layout)
     if "eth_chat" not in st.session_state:
         st.session_state.eth_chat = []  # list of {role, content}
 
-    # Show chat history
-    if st.session_state.eth_chat:
-        for msg in st.session_state.eth_chat[-6:]:
-            if msg.get("role") == "user":
-                st.markdown(f"**You:** {msg.get('content','')}")
-            else:
-                st.markdown(f"**Gemini:** {msg.get('content','')}")
+    # Upper: chat history (messages)
+    chat_area = st.container()
+    with chat_area:
+        for msg in st.session_state.eth_chat[-50:]:
+            role = msg.get("role", "assistant")
+            content = msg.get("content", "")
+            with st.chat_message("user" if role == "user" else "assistant"):
+                st.markdown(content)
+
+    # Lower: input box
+    user_q = st.chat_input("Ask me anything about ETH")
 
     def run_gemini(prompt: str) -> str:
         try:
@@ -411,7 +415,7 @@ with top_right:
         st.session_state.eth_chat.append({"role": "user", "content": user_q})
         answer = run_gemini(user_q)
         st.session_state.eth_chat.append({"role": "assistant", "content": answer})
-        st.experimental_rerun()
+        st.rerun()
 
 st.markdown("---")
 
