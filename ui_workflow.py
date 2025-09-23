@@ -373,7 +373,11 @@ with top_right:
 
     # Upper: chat history (messages) in a fixed-height scroll area
     def render_chat_html(messages, trailing_assistant: str | None = None) -> str:
-        parts = ["<div class='chat-scroll'>"]
+        parts = [
+            """
+<div id=\"chatScroll\" class=\"chat-scroll\">
+"""
+        ]
         for msg in messages[-200:]:
             role = msg.get("role", "assistant")
             content = msg.get("content", "")
@@ -381,11 +385,29 @@ with top_right:
             parts.append(f"<div class='{css}'>{content}</div>")
         if trailing_assistant is not None:
             parts.append(f"<div class='bubble-assistant'>{trailing_assistant}</div>")
-        parts.append("</div>")
+        parts.append("""
+</div>
+<script>
+  const box = document.getElementById('chatScroll');
+  if (box) { box.scrollTop = box.scrollHeight; }
+</script>
+""")
         return "".join(parts)
 
     scroll_box = st.empty()
-    scroll_box.markdown(render_chat_html(st.session_state.eth_chat), unsafe_allow_html=True)
+    # Use components to allow JS autoscroll effect
+    import streamlit.components.v1 as components
+    components.html(
+        f"""
+<style>
+.chat-scroll {{height:380px;overflow-y:auto;padding:8px;background:#FAFAFA;border:1px solid #e5e7eb;border-radius:8px}}
+.bubble-user {{background:#e6f4ff;border:1px solid #bfdbfe;color:#0f172a;padding:8px 10px;border-radius:10px;margin:6px 0}}
+.bubble-assistant {{background:#f1f5f9;border:1px solid #e2e8f0;color:#0f172a;padding:8px 10px;border-radius:10px;margin:6px 0}}
+</style>
+{render_chat_html(st.session_state.eth_chat)}
+        """,
+        height=420,
+    )
 
     # Lower: input box
     user_q = st.chat_input("Ask me anything about ETH")
@@ -424,13 +446,36 @@ with top_right:
     elif user_q:
         # Add user message
         st.session_state.eth_chat.append({"role": "user", "content": user_q})
+        # Immediately show user's message pushed into chat pane
+        components.html(
+            f"""
+<style>
+.chat-scroll {{height:380px;overflow-y:auto;padding:8px;background:#FAFAFA;border:1px solid #e5e7eb;border-radius:8px}}
+.bubble-user {{background:#e6f4ff;border:1px solid #bfdbfe;color:#0f172a;padding:8px 10px;border-radius:10px;margin:6px 0}}
+.bubble-assistant {{background:#f1f5f9;border:1px solid #e2e8f0;color:#0f172a;padding:8px 10px;border-radius:10px;margin:6px 0}}
+</style>
+{render_chat_html(st.session_state.eth_chat)}
+            """,
+            height=420,
+        )
+
         # Generate assistant reply
         answer_full = run_gemini(user_q)
         # Typing effect: progressively reveal within fixed scroll box
         revealed = ""
         for ch in answer_full or "":
             revealed += ch
-            scroll_box.markdown(render_chat_html(st.session_state.eth_chat, trailing_assistant=revealed), unsafe_allow_html=True)
+            components.html(
+                f"""
+<style>
+.chat-scroll {{height:380px;overflow-y:auto;padding:8px;background:#FAFAFA;border:1px solid #e5e7eb;border-radius:8px}}
+.bubble-user {{background:#e6f4ff;border:1px solid #bfdbfe;color:#0f172a;padding:8px 10px;border-radius:10px;margin:6px 0}}
+.bubble-assistant {{background:#f1f5f9;border:1px solid #e2e8f0;color:#0f172a;padding:8px 10px;border-radius:10px;margin:6px 0}}
+</style>
+{render_chat_html(st.session_state.eth_chat, trailing_assistant=revealed)}
+                """,
+                height=420,
+            )
             time.sleep(0.01)
         # Save final assistant message
         st.session_state.eth_chat.append({"role": "assistant", "content": answer_full})
