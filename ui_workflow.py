@@ -13,13 +13,16 @@ st.set_page_config(page_title="Trading Agents Workflow", layout="wide")
 st.markdown(
     """
     <style>
+    :root { --bg:#F5F5F7; --card:#FFFFFF; --text:#0F172A; --muted:#64748B; --border:#E5E7EB; --shadow:0 8px 24px rgba(0,0,0,0.06); --radius:16px; }
+    html, body [data-testid="stAppViewContainer"] { background: var(--bg) !important; }
+    .card { background: var(--card); border:1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow); padding: 16px; }
     .badge {display:inline-block;padding:4px 10px;border-radius:12px;font-size:12px;font-weight:600;margin-right:6px}
     .ok {background:#E6FFEC;color:#067D2B;border:1px solid #B7F0C2}
     .warn {background:#FFF6E6;color:#A15A00;border:1px solid #F7D7A5}
     .err {background:#FFECEC;color:#9F1A1A;border:1px solid #F4B7B7}
     .pill {background:#EEF2FF;color:#243B83;border:1px solid #C7D2FE}
     .rationale {background:#FAFAFA;border-left:4px solid #cbd5e1;padding:8px 10px;margin:6px 0;border-radius:6px;color:#000}
-    .chat-scroll {height:380px;overflow-y:auto;padding:12px;background:#F2F2F7;border:1px solid #e5e7eb;border-radius:16px}
+    .chat-scroll {height:380px;overflow-y:auto;padding:12px;background:#F2F2F7;border:1px solid var(--border);border-radius:16px}
     .row {display:flex;margin:6px 0}
     .row.user {justify-content:flex-end}
     .row.assistant {justify-content:flex-start}
@@ -342,12 +345,13 @@ def render_latest_proposal(report: dict):
         st.write("• No additional rationales parsed from logs")
 
 st.title("📈 ETH Analysis Dashboard")
-st.markdown("**Smart trading decisions powered by multiple AI agents**")
+st.markdown("<span style='color:#64748B'>Smart trading decisions powered by multiple AI agents</span>", unsafe_allow_html=True)
 
 # Move "How it works" to the top for first-time viewers with an ETH chat box beside it
 st.markdown("---")
 top_left, top_right = st.columns(2)
 with top_left:
+    st.markdown("<div class='card'>", unsafe_allow_html=True)
     st.markdown("### 📈 How it works")
     st.markdown(
         """
@@ -360,7 +364,9 @@ with top_left:
         - ⚖️ Justin + Risk: Final decision & risk adjustments
         """
     )
+    st.markdown("</div>", unsafe_allow_html=True)
 with top_right:
+    st.markdown("<div class='card'>", unsafe_allow_html=True)
     st.markdown("### 🤖 Ask about ETH")
     # Gemini chat focused on ETH (local only, reads from env or gemini_config.env)
     GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
@@ -465,11 +471,13 @@ with top_right:
         # Save final assistant message with timestamp
         st.session_state.eth_chat.append({"role": "assistant", "content": answer_full, "ts": datetime.now().strftime('%H:%M')})
         st.rerun()
+    st.markdown("</div>", unsafe_allow_html=True)
 
 st.markdown("---")
 
 colA, colB = st.columns([3, 2])
 with colA:
+    st.markdown("<div class='card'>", unsafe_allow_html=True)
     st.markdown("### 🚀 Run Analysis")
     run_now = st.button("🔄 Run Full Analysis", type="primary", use_container_width=True)
     
@@ -590,8 +598,10 @@ with colA:
                 st.session_state.selected_report = selected
         except Exception as e:
             st.error(f"Error running workflow: {e}")
+    st.markdown("</div>", unsafe_allow_html=True)
 
 with colB:
+    st.markdown("<div class='card'>", unsafe_allow_html=True)
     st.markdown("### 💡 Trading Decision")
     if selected:
         report = load_report(selected)
@@ -623,9 +633,11 @@ with colB:
 
     else:
         st.info("👆 Run analysis to see trading recommendations")
+    st.markdown("</div>", unsafe_allow_html=True)
 
 st.divider()
 if selected:
+    st.markdown("<div class='card'>", unsafe_allow_html=True)
     report = load_report(selected)
     tabs = st.tabs(["📄 Simple Report", "🔍 Technical Details", "📊 Workflow Graph", "📝 Raw Logs"])
     with tabs[0]:
@@ -650,4 +662,5 @@ if selected:
             st.info(f"Graph render unavailable: {e}")
     with tabs[3]:
         render_logs(report)
+    st.markdown("</div>", unsafe_allow_html=True)
 
