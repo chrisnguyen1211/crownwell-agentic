@@ -19,6 +19,9 @@ st.markdown(
     .err {background:#FFECEC;color:#9F1A1A;border:1px solid #F4B7B7}
     .pill {background:#EEF2FF;color:#243B83;border:1px solid #C7D2FE}
     .rationale {background:#FAFAFA;border-left:4px solid #cbd5e1;padding:8px 10px;margin:6px 0;border-radius:6px;color:#000}
+    .chat-scroll {max-height:380px;overflow-y:auto;padding:8px;background:#FAFAFA;border:1px solid #e5e7eb;border-radius:8px}
+    .bubble-user {background:#e6f4ff;border:1px solid #bfdbfe;color:#0f172a;padding:8px 10px;border-radius:10px;margin:6px 0}
+    .bubble-assistant {background:#f1f5f9;border:1px solid #e2e8f0;color:#0f172a;padding:8px 10px;border-radius:10px;margin:6px 0}
     </style>
     """,
     unsafe_allow_html=True,
@@ -368,14 +371,16 @@ with top_right:
     if "eth_chat" not in st.session_state:
         st.session_state.eth_chat = []  # list of {role, content}
 
-    # Upper: chat history (messages)
+    # Upper: chat history (messages) in a fixed-height scroll area
     chat_area = st.container()
     with chat_area:
-        for msg in st.session_state.eth_chat[-50:]:
+        st.markdown("<div class='chat-scroll'>", unsafe_allow_html=True)
+        for msg in st.session_state.eth_chat[-200:]:
             role = msg.get("role", "assistant")
             content = msg.get("content", "")
-            with st.chat_message("user" if role == "user" else "assistant"):
-                st.markdown(content)
+            css = 'bubble-user' if role == 'user' else 'bubble-assistant'
+            st.markdown(f"<div class='{css}'>{content}</div>", unsafe_allow_html=True)
+        st.markdown("</div>", unsafe_allow_html=True)
 
     # Lower: input box
     user_q = st.chat_input("Ask me anything about ETH")
@@ -412,9 +417,30 @@ with top_right:
     if not GEMINI_API_KEY:
         st.info("Gemini chat is local-only. Please run locally with your gemini_config.env or GEMINI_API_KEY in env.")
     elif user_q:
+        # Add user message
         st.session_state.eth_chat.append({"role": "user", "content": user_q})
-        answer = run_gemini(user_q)
-        st.session_state.eth_chat.append({"role": "assistant", "content": answer})
+        # Generate assistant reply
+        answer_full = run_gemini(user_q)
+        # Typing effect: progressively reveal
+        revealed = ""
+        # Render within chat area below existing messages
+        with chat_area:
+            st.markdown("<div class='chat-scroll'>", unsafe_allow_html=True)
+            # re-render history except last user message (already in state)
+            for msg in st.session_state.eth_chat[-200:]:
+                if msg.get("role") == "assistant":
+                    st.markdown(f"<div class='bubble-assistant'>{msg.get('content','')}</div>", unsafe_allow_html=True)
+                else:
+                    st.markdown(f"<div class='bubble-user'>{msg.get('content','')}</div>", unsafe_allow_html=True)
+            placeholder = st.empty()
+            st.markdown("</div>", unsafe_allow_html=True)
+        for ch in answer_full or "":
+            revealed += ch
+            # update assistant bubble
+            placeholder.markdown(f"<div class='bubble-assistant'>{revealed}</div>", unsafe_allow_html=True)
+            time.sleep(0.01)
+        # Save final assistant message
+        st.session_state.eth_chat.append({"role": "assistant", "content": answer_full})
         st.rerun()
 
 st.markdown("---")
