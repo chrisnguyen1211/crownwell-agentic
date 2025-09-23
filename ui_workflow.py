@@ -330,20 +330,84 @@ def render_latest_proposal(report: dict):
 st.title("📈 ETH Analysis Dashboard")
 st.markdown("**Smart trading decisions powered by multiple AI agents**")
 
-# Move "How it works" to the top for first-time viewers
+# Move "How it works" to the top for first-time viewers with an ETH chat box beside it
 st.markdown("---")
-st.markdown("### 📈 How it works")
-st.markdown(
-    """
-    **Our AI agents work together:**
-    - 🌸 Lily: Social sentiment (Twitter, Reddit, Telegram)
-    - 📊 Bob: Technical indicators & signals
-    - ⛓️ Yasuo: On-chain metrics & whale activity
-    - 🎯 J97: Market manipulation/news signals
-    - 🧠 Alpha Team: Bull vs Bear debate on 10-day data
-    - ⚖️ Justin + Risk: Final decision & risk adjustments
-    """
-)
+top_left, top_right = st.columns(2)
+with top_left:
+    st.markdown("### 📈 How it works")
+    st.markdown(
+        """
+        **Our AI agents work together:**
+        - 🌸 Lily: Social sentiment (Twitter, Reddit, Telegram)
+        - 📊 Bob: Technical indicators & signals
+        - ⛓️ Yasuo: On-chain metrics & whale activity
+        - 🎯 J97: Market manipulation/news signals
+        - 🧠 Alpha Team: Bull vs Bear debate on 10-day data
+        - ⚖️ Justin + Risk: Final decision & risk adjustments
+        """
+    )
+with top_right:
+    st.markdown("### 🤖 Ask about ETH")
+    # Gemini chat focused on ETH
+    GEMINI_API_KEY = None
+    GEMINI_MODEL = None
+    try:
+        GEMINI_API_KEY = st.secrets.get("GEMINI_API_KEY")
+        GEMINI_MODEL = st.secrets.get("GEMINI_MODEL") or "gemini-2.5-flash"
+    except Exception:
+        pass
+    if not GEMINI_API_KEY:
+        GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
+    if not GEMINI_MODEL:
+        GEMINI_MODEL = os.environ.get("GEMINI_MODEL") or "gemini-2.5-flash"
+
+    user_q = st.text_input("Ask me anything about ETH", key="eth_chat_input", placeholder="Ask me anything about ETH")
+    if "eth_chat" not in st.session_state:
+        st.session_state.eth_chat = []  # list of {role, content}
+
+    # Show chat history
+    if st.session_state.eth_chat:
+        for msg in st.session_state.eth_chat[-6:]:
+            if msg.get("role") == "user":
+                st.markdown(f"**You:** {msg.get('content','')}")
+            else:
+                st.markdown(f"**Gemini:** {msg.get('content','')}")
+
+    def run_gemini(prompt: str) -> str:
+        try:
+            import google.generativeai as genai
+        except Exception as e:
+            return f"Gemini SDK not installed: {e}"
+        if not GEMINI_API_KEY:
+            return "GEMINI_API_KEY is missing. Add it to Streamlit secrets or env."
+        try:
+            genai.configure(api_key=GEMINI_API_KEY)
+            system_preamble = (
+                "You are an assistant specialized in Ethereum (ETH). "
+                "Answer concisely with facts. If the question is off-topic, steer back to ETH. "
+                "Prefer recent market context and risk considerations."
+            )
+            from google.generativeai import GenerativeModel
+            model = GenerativeModel(GEMINI_MODEL)
+            history = []
+            for m in st.session_state.eth_chat:
+                role = "user" if m.get("role") == "user" else "model"
+                history.append({"role": role, "parts": [m.get("content", "")]})
+            chat = model.start_chat(history=history)
+            resp = chat.send_message(system_preamble + "\n\nUser: " + prompt)
+            text = getattr(resp, "text", None)
+            if callable(text):
+                text = resp.text()
+            return text or "(no response)"
+        except Exception as e:
+            return f"Gemini error: {e}"
+
+    if user_q:
+        st.session_state.eth_chat.append({"role": "user", "content": user_q})
+        answer = run_gemini(user_q)
+        st.session_state.eth_chat.append({"role": "assistant", "content": answer})
+        st.experimental_rerun()
+
 st.markdown("---")
 
 colA, colB = st.columns([3, 2])
