@@ -348,18 +348,21 @@ with top_left:
     )
 with top_right:
     st.markdown("### 🤖 Ask about ETH")
-    # Gemini chat focused on ETH
-    GEMINI_API_KEY = None
-    GEMINI_MODEL = None
-    try:
-        GEMINI_API_KEY = st.secrets.get("GEMINI_API_KEY")
-        GEMINI_MODEL = st.secrets.get("GEMINI_MODEL") or "gemini-2.5-flash"
-    except Exception:
-        pass
+    # Gemini chat focused on ETH (local only, reads from env or gemini_config.env)
+    GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
+    GEMINI_MODEL = os.environ.get("GEMINI_MODEL") or "gemini-2.5-flash"
+    # Try to load from local gemini_config.env if not set
     if not GEMINI_API_KEY:
-        GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
-    if not GEMINI_MODEL:
-        GEMINI_MODEL = os.environ.get("GEMINI_MODEL") or "gemini-2.5-flash"
+        try:
+            cfg_path = Path(__file__).parent / "gemini_config.env"
+            if cfg_path.exists():
+                for line in cfg_path.read_text(encoding="utf-8").splitlines():
+                    if line.startswith("GEMINI_API_KEY="):
+                        GEMINI_API_KEY = line.split("=",1)[1].strip().strip('"')
+                    elif line.startswith("GEMINI_MODEL=") and not os.environ.get("GEMINI_MODEL"):
+                        GEMINI_MODEL = line.split("=",1)[1].strip().strip('"') or GEMINI_MODEL
+        except Exception:
+            pass
 
     user_q = st.text_input("Ask me anything about ETH", key="eth_chat_input", placeholder="Ask me anything about ETH")
     if "eth_chat" not in st.session_state:
@@ -379,7 +382,7 @@ with top_right:
         except Exception as e:
             return f"Gemini SDK not installed: {e}"
         if not GEMINI_API_KEY:
-            return "GEMINI_API_KEY is missing. Add it to Streamlit secrets or env."
+            return "Gemini chat is available locally only. No API key found."
         try:
             genai.configure(api_key=GEMINI_API_KEY)
             system_preamble = (
@@ -402,7 +405,9 @@ with top_right:
         except Exception as e:
             return f"Gemini error: {e}"
 
-    if user_q:
+    if not GEMINI_API_KEY:
+        st.info("Gemini chat is local-only. Please run locally with your gemini_config.env or GEMINI_API_KEY in env.")
+    elif user_q:
         st.session_state.eth_chat.append({"role": "user", "content": user_q})
         answer = run_gemini(user_q)
         st.session_state.eth_chat.append({"role": "assistant", "content": answer})
