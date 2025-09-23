@@ -2,7 +2,6 @@
 import os
 import json
 from pathlib import Path
-from graphviz import Digraph
 import subprocess
 import time
 import streamlit as st
@@ -485,15 +484,18 @@ if selected:
         render_proposal(report)
     with tabs[2]:
         try:
-            g = Digraph('workflow', format='svg')
-            g.attr(rankdir='LR')
-            g.node('C', 'Crawl Team\n(Lily, Bob, Yasuo, J97)', shape='box')
-            g.node('A', 'Alpha Team\n(Bull vs Bear)', shape='box')
-            g.node('J', 'Justin + Risk', shape='box')
-            g.edge('C', 'A', label='crawl data (10d)')
-            g.edge('A', 'J', label='debate summary + signals')
-            g.edge('C', 'J', label='context (10d)')
-            st.graphviz_chart(g)
+            dot = """
+            digraph workflow {
+              rankdir=LR;
+              C [label="Crawl Team\n(Lily, Bob, Yasuo, J97)" shape=box];
+              A [label="Alpha Team\n(Bull vs Bear)" shape=box];
+              J [label="Justin + Risk" shape=box];
+              C -> A [label="crawl data (10d)"];
+              A -> J [label="debate summary + signals"];
+              C -> J [label="context (10d)"];
+            }
+            """
+            st.graphviz_chart(dot)
         except Exception as e:
             st.info(f"Graph render unavailable: {e}")
     with tabs[3]:
