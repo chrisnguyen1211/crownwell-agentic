@@ -4,4 +4,3 @@ python-dotenv==1.0.0
 python-socketio==5.10.0
 eventlet==0.33.3
 streamlit==1.37.0
-graphviz==0.20.3
