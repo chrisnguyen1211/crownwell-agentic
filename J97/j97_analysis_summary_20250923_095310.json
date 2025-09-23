@@ -1,0 +1,38 @@
+{
+  "status": "success",
+  "timestamp": "2025-09-23T09:53:10.144832",
+  "articles_processed": 59,
+  "trading_signal": "HOLD",
+  "sentiment": "bullish",
+  "confidence": 0.5,
+  "categories": {
+    "general": 33,
+    "market": 14,
+    "regulation": 3,
+    "defi": 7,
+    "partnership": 2
+  },
+  "high_impact_articles": 26,
+  "top_key_phrases": [
+    [
+      "for",
+      14
+    ],
+    [
+      "price",
+      8
+    ],
+    [
+      "over",
+      8
+    ],
+    [
+      "market",
+      8
+    ],
+    [
+      "defi",
+      7
+    ]
+  ]
+}

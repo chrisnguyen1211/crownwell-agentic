@@ -159,7 +159,12 @@ class JustinRiskAnalysisEngine:
             self.logger.info("✅ Analysis data fetched successfully")
             
         except Exception as e:
-            self.logger.error(f"❌ Error fetching analysis data: {e}")
+            # Handle statement timeout from Supabase
+            msg = str(e)
+            if 'statement timeout' in msg or '57014' in msg:
+                self.logger.error(f"❌ Error fetching analysis data due to timeout; proceeding with partial data: {e}")
+            else:
+                self.logger.error(f"❌ Error fetching analysis data: {e}")
         
         return analysis_data
     
@@ -596,7 +601,8 @@ For each proposal (Long-term and Short-term):
             return True
             
         except Exception as e:
-            self.logger.error(f"❌ Error saving analysis: {e}")
+            # Do not drop fields; require schema to be fixed
+            self.logger.error(f"❌ Error saving analysis (schema likely missing required columns). Please apply DB migration to add columns. Details: {e}")
             return False
     
     def run_full_analysis(self, risk_profile: str = 'NEUTRAL') -> Dict:
@@ -648,7 +654,11 @@ def main():
     print("")
     print("👨‍💼 Justin: 15-year Trading Manager")
     print("🛡️ Risk Team: Risk Assessment & Mitigation")
-    print("🧠 Powered by Gemini 1.5 Pro")
+    try:
+        model_name = os.getenv('GEMINI_MODEL', 'gemini-2.5-flash')
+    except Exception:
+        model_name = 'gemini-2.5-flash'
+    print(f"🧠 Powered by {model_name}")
     print("💾 Data stored in Supabase")
     print("")
     print("🚀 Starting analysis...")

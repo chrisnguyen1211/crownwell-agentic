@@ -57,3 +57,5 @@ CREATE POLICY "Allow public insert access" ON j97_daily_reports FOR INSERT WITH 
 
 
 
+
+

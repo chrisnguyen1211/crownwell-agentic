@@ -103,20 +103,96 @@ class TradingAgentsOrchestrator:
             
             # Special timeout handling for Lily and Yasuo (15 minutes timeout)
             if agent_name in ['lily', 'yasuo']:
-                # Lily and Yasuo get 15 minutes timeout, but we'll use partial results if timeout
+                # Use Popen to capture real-time output with proper timeout
                 try:
-                    result = subprocess.run(
+                    process = subprocess.Popen(
                         cmd,
-                        capture_output=True,
+                        stdout=subprocess.PIPE,
+                        stderr=subprocess.PIPE,
                         text=True,
-                        timeout=900,  # 15 minute timeout for Lily and Yasuo
                         cwd=os.path.dirname(agent_path),
-                        env=self.subprocess_env
+                        env=self.subprocess_env,
+                        bufsize=1,
+                        universal_newlines=True
                     )
-                except subprocess.TimeoutExpired:
-                    self.logger.warning(f"⚠️ {agent_name.upper()} timed out after 15 minutes, but continuing with partial results...")
-                    # Return True to continue with partial results instead of failing
-                    return True, {'partial_results': True, 'timeout': True}
+                    
+                    # Collect output in real-time
+                    stdout_lines = []
+                    stderr_lines = []
+                    
+                    import time
+                    start_time = time.time()
+                    timeout_seconds = 900  # 15 minutes
+                    
+                    # Read output with timeout
+                    while time.time() - start_time < timeout_seconds:
+                        # Check if process is still running
+                        if process.poll() is not None:
+                            # Process finished, get remaining output
+                            remaining_stdout, remaining_stderr = process.communicate()
+                            stdout_lines.append(remaining_stdout)
+                            stderr_lines.append(remaining_stderr)
+                            break
+                        
+                        # Try to read available output
+                        try:
+                            # Non-blocking read
+                            import select
+                            if hasattr(select, 'select'):
+                                ready, _, _ = select.select([process.stdout, process.stderr], [], [], 0.1)
+                                for stream in ready:
+                                    if stream == process.stdout:
+                                        line = process.stdout.readline()
+                                        if line:
+                                            stdout_lines.append(line)
+                                    elif stream == process.stderr:
+                                        line = process.stderr.readline()
+                                        if line:
+                                            stderr_lines.append(line)
+                            else:
+                                # Fallback for Windows
+                                time.sleep(0.1)
+                        except:
+                            time.sleep(0.1)
+                    
+                    # Check if process is still running after timeout
+                    if process.poll() is None:
+                        self.logger.warning(f"⚠️ {agent_name.upper()} timed out after 15 minutes, but continuing with partial results...")
+                        process.terminate()
+                        try:
+                            process.wait(timeout=5)
+                        except subprocess.TimeoutExpired:
+                            process.kill()
+                        
+                        return True, {
+                            'partial_results': True, 
+                            'timeout': True,
+                            'stdout': ''.join(stdout_lines),
+                            'stderr': ''.join(stderr_lines),
+                            'returncode': -1
+                        }
+                    else:
+                        # Process completed normally - get final output
+                        final_stdout, final_stderr = process.communicate()
+                        if final_stdout:
+                            stdout_lines.append(final_stdout)
+                        if final_stderr:
+                            stderr_lines.append(final_stderr)
+                        
+                        self.logger.info(f"✅ {agent_name.upper()} completed successfully")
+                        return True, {
+                            'stdout': ''.join(stdout_lines),
+                            'stderr': ''.join(stderr_lines),
+                            'returncode': process.returncode
+                        }
+                        
+                except Exception as e:
+                    self.logger.error(f"❌ Error running {agent_name.upper()}: {e}")
+                    return False, {
+                        'stdout': '',
+                        'stderr': str(e),
+                        'returncode': -1
+                    }
             else:
                 result = subprocess.run(
                     cmd,

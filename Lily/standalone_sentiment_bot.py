@@ -130,14 +130,14 @@ class LilySentimentBot:
         )
         
         try:
-            # Add timeout for Telegram initialization
+            # Try to initialize Telegram with existing session
             await asyncio.wait_for(
                 self.telegram_searcher.initialize(), 
-                timeout=30.0  # 30 second timeout
+                timeout=10.0  # 10 second timeout
             )
             print("✅ Telegram client initialized")
-        except asyncio.TimeoutError:
-            print("⚠️ Telegram initialization timed out after 30 seconds")
+        except (asyncio.TimeoutError, EOFError, KeyboardInterrupt):
+            print("⚠️ Telegram initialization skipped (no interactive input available)")
             print("📱 Continuing without Telegram")
             self.telegram_searcher = None
         except Exception as e:
@@ -514,7 +514,12 @@ class LilySentimentBot:
 async def main():
     """Main function"""
     lily = LilySentimentBot()
-    await lily.run_complete_analysis()
+    success = await lily.run_complete_analysis()
+    if not success:
+        print("❌ Lily analysis failed")
+        sys.exit(1)
+    else:
+        print("✅ Lily analysis completed successfully")
 
 if __name__ == "__main__":
     asyncio.run(main())

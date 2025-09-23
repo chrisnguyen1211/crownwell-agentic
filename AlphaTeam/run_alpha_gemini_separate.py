@@ -476,7 +476,11 @@ def main():
     print("🏛️" * 50)
     print("")
     print("🎯 Bullish vs Bearish Agent Debate")
-    print("🧠 Powered by Gemini 1.5 Pro")
+    try:
+        model_name = os.getenv('GEMINI_MODEL', 'gemini-2.5-flash')
+    except Exception:
+        model_name = 'gemini-2.5-flash'
+    print(f"🧠 Powered by {model_name}")
     print("💾 Data stored in Supabase")
     print("")
     print("🚀 Starting debate session...")

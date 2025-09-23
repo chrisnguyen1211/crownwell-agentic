@@ -1,0 +1,40 @@
+{
+  "status": "success",
+  "timestamp": "2025-09-23T00:16:47.588043",
+  "articles_processed": 59,
+  "trading_signal": "BUY",
+  "sentiment": "bullish",
+  "confidence": 0.579399006711028,
+  "categories": {
+    "general": 32,
+    "market": 14,
+    "regulation": 4,
+    "defi": 5,
+    "partnership": 2,
+    "staking": 1,
+    "scaling": 1
+  },
+  "high_impact_articles": 34,
+  "top_key_phrases": [
+    [
+      "for",
+      13
+    ],
+    [
+      "market",
+      9
+    ],
+    [
+      "over",
+      8
+    ],
+    [
+      "launches",
+      7
+    ],
+    [
+      "blockchain",
+      7
+    ]
+  ]
+}
