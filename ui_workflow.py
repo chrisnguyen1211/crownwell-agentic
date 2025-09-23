@@ -447,7 +447,6 @@ with top_right:
             time.sleep(0.01)
         # Save final assistant message and reset input box
         st.session_state.eth_chat.append({"role": "assistant", "content": answer_full})
-        st.session_state.eth_chat_input_box = ""
         st.rerun()
 
 st.markdown("---")
