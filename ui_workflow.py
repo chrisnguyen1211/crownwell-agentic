@@ -134,17 +134,45 @@ def render_text_report(report: dict):
     s2 = steps.get('step_2_alpha_team', {})
     if s2:
         lines.append(f"2) Alpha Team: {s2.get('status', 'N/A')}")
-        # Try to surface winner/confidence if present in stdout
+        # Human-readable summary (prefer embedded session JSON if available)
         res = s2.get('results', {})
-        stdout = res.get('stdout_full', '')
-        if stdout:
-            # Simple extraction hints
-            for marker in ["Winner:", "Confidence:", "Data Sufficient:"]:
-                if marker in stdout:
-                    # take line containing marker
-                    for ln in stdout.splitlines():
-                        if marker in ln:
-                            lines.append(f"   - {ln.strip()}")
+        session = res.get('alpha_debate_session', {}) if isinstance(res.get('alpha_debate_session', {}), dict) else {}
+        if session:
+            winner = session.get('debate_winner', 'N/A')
+            conf = session.get('confidence_level', 'N/A')
+            data_sufficient = session.get('data_sufficient', None)
+            if winner is not None:
+                lines.append(f"   - Winner: {winner}")
+            if conf is not None:
+                lines.append(f"   - Confidence: {conf}")
+            if data_sufficient is not None:
+                lines.append(f"   - Data sufficient: {data_sufficient}")
+            # Key arguments (concise bullets)
+            key_args = session.get('key_arguments', {}) or {}
+            bull_pts = key_args.get('bullish_key_points', []) or []
+            bear_pts = key_args.get('bearish_key_points', []) or []
+            for p in bull_pts[:3]:
+                if isinstance(p, str) and p.strip():
+                    lines.append(f"     · Bullish: {p.strip()}")
+            for p in bear_pts[:3]:
+                if isinstance(p, str) and p.strip():
+                    lines.append(f"     · Bearish: {p.strip()}")
+        else:
+            # Fallback: parse from stdout markers (strip code blocks)
+            stdout = (res.get('stdout_full', '') or '')
+            if stdout:
+                in_code = False
+                for ln in stdout.splitlines():
+                    s = ln.strip()
+                    if s.startswith('```'):
+                        in_code = not in_code
+                        continue
+                    if in_code:
+                        continue
+                    for marker in ["Winner:", "Confidence:", "Data Sufficient:"]:
+                        if s.startswith(marker):
+                            lines.append(f"   - {s}")
+                            break
     # Justin details
     s3 = steps.get('step_3_justin_risk', {})
     if s3:
