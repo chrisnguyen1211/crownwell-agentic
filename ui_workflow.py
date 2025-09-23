@@ -350,9 +350,18 @@ colA, colB = st.columns([3, 2])
 with colA:
     st.markdown("### 🚀 Run Analysis")
     run_now = st.button("🔄 Run Full Analysis", type="primary", use_container_width=True)
+    # Detect Streamlit Cloud by presence of secrets (commonly set there)
+    IS_CLOUD = False
+    try:
+        IS_CLOUD = bool(st.secrets)
+    except Exception:
+        IS_CLOUD = False
     
     if run_now:
-        st.info("🔄 Starting AI analysis... This may take 15-20 minutes")
+        if IS_CLOUD:
+            st.warning("Live run is disabled on Streamlit Cloud to prevent the app from freezing. Please run locally, or use the latest saved report below.")
+        else:
+            st.info("🔄 Starting AI analysis... This may take 15-20 minutes")
     
     st.markdown("### 📊 Latest Results")
     report_files = list_reports()
@@ -363,8 +372,8 @@ with colA:
     if st.session_state.selected_report not in report_files:
         st.session_state.selected_report = report_files[0] if report_files else None
     selected = st.session_state.selected_report
-    if run_now:
-        # Streaming run with live step progress + ETA
+    if run_now and not IS_CLOUD:
+        # Streaming run with live step progress + ETA (local only)
         try:
             cmd = ["python3", str((Path(__file__).parent / "run_complete_workflow.py")) , "--team", "all", "--risk-profile", "NEUTRAL"]
             proc = subprocess.Popen(cmd, cwd=str(Path(__file__).parent), stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, bufsize=1, universal_newlines=True)
