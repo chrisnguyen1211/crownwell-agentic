@@ -359,7 +359,14 @@ with colA:
     
     if run_now:
         if IS_CLOUD:
-            st.warning("Live run is disabled on Streamlit Cloud to prevent the app from freezing. Please run locally, or use the latest saved report below.")
+            st.warning("Live run is disabled on Streamlit Cloud to prevent freezing. Loading the latest saved report instead.")
+            # Refresh latest selection instantly
+            report_files = list_reports()
+            if report_files:
+                st.session_state.selected_report = report_files[0]
+                st.success("Loaded the latest report.")
+            else:
+                st.info("No reports found yet. Generate a report locally and push it to the repo.")
         else:
             st.info("🔄 Starting AI analysis... This may take 15-20 minutes")
     
