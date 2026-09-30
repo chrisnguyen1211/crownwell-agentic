@@ -1,0 +1,8 @@
+.venv-events/
+data/
+demo/
+report.html
+summary.xlsx
+events_candidates.csv
+__pycache__/
+.pytest_cache/

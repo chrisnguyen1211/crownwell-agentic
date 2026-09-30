@@ -1,0 +1,9 @@
+requests>=2.31
+pandas>=2.2
+pyarrow>=15
+yfinance>=0.2.60
+lxml>=5          # yfinance get_earnings_dates parses an HTML table
+plotly>=5.20
+openpyxl>=3.1
+pyyaml>=6
+pytest>=8

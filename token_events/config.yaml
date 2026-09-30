@@ -1,0 +1,16 @@
+# Parameters (override any key of events/config.py DEFAULTS here).
+params:
+  gap_threshold: 0.03          # |Open(T+1)/Close(T) - 1| >= 3%
+  lookback_days: 60
+  cap_large: 10.0e+9           # large >= 10 bn USD, mid 2-10 bn, small < 2 bn
+  cap_mid: 2.0e+9
+  window_before_hours: 12      # window = [t_evt - 12h, 09:30 ET next session + 2h]
+  window_after_open_hours: 2
+  arb_threshold: 0.005         # cost threshold for arb windows (0.5%)
+  fx_threshold_bps: 5          # convert USDT/USDC -> USD when the peg deviates more than 5 bps
+  k_warn: 0.02                 # warn when |k - 1| > 2%
+  hold_minutes: 30             # t50 / t90 must hold >= 30 min
+  leadlag_max_lag: 6
+  n_events: 6
+  per_cap_group: 2
+  probe_top: 20                # discover fetches the windows of the 20 best candidates to count issuers with data
